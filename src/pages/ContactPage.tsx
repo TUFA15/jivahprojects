@@ -2,8 +2,9 @@ import React from 'react';
 import { SectionHeading } from '../components/SectionHeading';
 import { BrandMotif } from '../components/BrandMotif';
 import { PageTransition } from '../components/PageTransition';
+import { FAQSection } from '../components/FAQSection';
 import { SEO } from '../components/SEO';
-import { LOCAL_BUSINESS_SCHEMA, SERVICES_SCHEMA } from '../data/schemas';
+import { LOCAL_BUSINESS_SCHEMA, SERVICES_SCHEMA, FAQ_SCHEMA } from '../data/schemas';
 
 // Easily editable configuration object for client/developer updates
 export const CONTACT_CONFIG = {
@@ -35,11 +36,11 @@ export const ContactPage: React.FC = () => {
         title="Contact JIVAH Projects | Interior Designer in Pune"
         description="Get in touch with JIVAH Projects, interior design studio in Hadapsar, Pune. Contact us via email or phone for residential interior and modular kitchen inquiries."
         canonicalUrl="https://jivahprojects.com/contact"
-        jsonLd={[LOCAL_BUSINESS_SCHEMA, SERVICES_SCHEMA]}
+        jsonLd={[LOCAL_BUSINESS_SCHEMA, SERVICES_SCHEMA, FAQ_SCHEMA]}
       />
 
-      <div className="pt-36 pb-32 bg-[#F7F3EC] text-[#11181C]">
-        <div className="max-w-7xl mx-auto px-6 md:px-12 space-y-20">
+      <div className="pt-36 bg-[#F7F3EC] text-[#11181C]">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 space-y-20 pb-24">
           {/* Header */}
           <div className="space-y-6 max-w-4xl">
             <div className="flex items-center gap-3 text-[11px] font-mono tracking-[0.3em] uppercase text-[#2F7B93]">
@@ -190,6 +191,9 @@ export const ContactPage: React.FC = () => {
             </div>
           </div>
         </div>
+
+        {/* FAQs Moved to Contact Page */}
+        <FAQSection />
       </div>
     </PageTransition>
   );

@@ -44,7 +44,7 @@ export const AboutPage: React.FC = () => {
     <PageTransition>
       <SEO
         title="About JIVAH Projects | Interior Design Studio in Pune"
-        description="Learn about JIVAH Projects, an interior design studio based in Hadapsar, Pune dedicated to thoughtful spatial flow, authentic materials, and home interior sanctuaries."
+        description="Learn about JIVAH Projects and Founder Ananya Roy. An interior design studio based in Hadapsar, Pune dedicated to thoughtful spatial flow, authentic materials, and home interior sanctuaries."
         canonicalUrl="https://jivahprojects.com/about"
         jsonLd={[LOCAL_BUSINESS_SCHEMA, SERVICES_SCHEMA]}
       />
@@ -117,6 +117,84 @@ export const AboutPage: React.FC = () => {
                   <span className="text-[#11181C] block font-sans font-medium mt-1">
                     Residential Interiors · Modular Kitchens · Custom Furniture
                   </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ---------------- DEDICATED ABOUT THE FOUNDER SECTION ---------------- */}
+        <section className="py-24 px-6 md:px-12 bg-[#EDE5D9]/70 border-y border-[#2F7B93]/15 mb-28">
+          <div className="max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+              {/* Founder Editorial Portrait Container */}
+              <div className="lg:col-span-5 relative">
+                <div className="overflow-hidden bg-[#16465A] aspect-[4/5] shadow-2xl rounded-3xl border border-[#2F7B93]/30 relative group">
+                  <img
+                    src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1200&auto=format&fit=crop"
+                    alt="Ananya Roy - Founder and Creative Director of JIVAH Projects Interior Design Studio Pune"
+                    className="w-full h-full object-cover grayscale contrast-105 group-hover:grayscale-0 transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"
+                  />
+                  <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-[#16465A] via-[#16465A]/50 to-transparent p-8 text-white space-y-1">
+                    <span className="text-[10px] font-mono tracking-[0.25em] text-[#8FD3DC] uppercase block font-semibold">
+                      FOUNDER & CREATIVE DIRECTOR
+                    </span>
+                    <h3 className="font-serif text-3xl uppercase tracking-wide text-white">
+                      ANANYA ROY
+                    </h3>
+                  </div>
+                </div>
+
+                {/* Decorative Motif Accent */}
+                <div className="absolute -bottom-6 -right-6 pointer-events-none opacity-20 hidden sm:block">
+                  <BrandMotif size={140} color="#2F7B93" />
+                </div>
+              </div>
+
+              {/* Founder Narrative & Vision */}
+              <div className="lg:col-span-7 space-y-8">
+                <div className="space-y-3">
+                  <div className="flex items-center gap-3">
+                    <span className="w-8 h-[1px] bg-[#2F7B93]" />
+                    <span className="text-[11px] font-mono tracking-[0.25em] text-[#2F7B93] uppercase font-semibold">
+                      CREATIVE LEADERSHIP
+                    </span>
+                  </div>
+
+                  <h2 className="font-serif text-4xl sm:text-5xl lg:text-6xl uppercase text-[#11181C] tracking-tight leading-[1.05]">
+                    ABOUT THE FOUNDER
+                  </h2>
+                </div>
+
+                <blockquote className="font-serif text-2xl sm:text-3xl italic text-[#16465A] leading-snug border-l-3 border-[#2F7B93] pl-6 py-2">
+                  "An interior is not a static backdrop; it is an intimate physical sanctuary where material authenticity, soft light, and quiet acoustics elevate the rhythm of daily living."
+                </blockquote>
+
+                <div className="space-y-4 text-base sm:text-lg text-[#61747C] font-light leading-relaxed">
+                  <p>
+                    Ananya Roy established JIVAH Projects with a singular objective: to liberate home interior design from superficial, synthetic trends and restore tactile intimacy, living comfort, and spatial flow to contemporary residences.
+                  </p>
+                  <p>
+                    Based in Hadapsar, Pune, her approach combines rigorous material selection—such as honed natural stone, warm timber joinery, and concealed lighting schematics—with a deep, intuitive understanding of daily human family rituals.
+                  </p>
+                </div>
+
+                <div className="pt-4 grid grid-cols-1 sm:grid-cols-3 gap-6 border-t border-[#2F7B93]/20 text-xs font-mono">
+                  <div className="bg-white/70 p-4 rounded-xl border border-[#2F7B93]/15">
+                    <span className="text-[#2F7B93] uppercase text-[10px] tracking-wider block font-semibold">FOUNDER</span>
+                    <span className="text-[#11181C] font-sans font-medium text-sm block mt-1">Ananya Roy</span>
+                    <span className="text-[#61747C] text-[10px]">Creative Director</span>
+                  </div>
+                  <div className="bg-white/70 p-4 rounded-xl border border-[#2F7B93]/15">
+                    <span className="text-[#2F7B93] uppercase text-[10px] tracking-wider block font-semibold">DISCIPLINE</span>
+                    <span className="text-[#11181C] font-sans font-medium text-sm block mt-1">Interior Architecture</span>
+                    <span className="text-[#61747C] text-[10px]">Furniture & Styling</span>
+                  </div>
+                  <div className="bg-white/70 p-4 rounded-xl border border-[#2F7B93]/15">
+                    <span className="text-[#2F7B93] uppercase text-[10px] tracking-wider block font-semibold">STUDIO HUB</span>
+                    <span className="text-[#11181C] font-sans font-medium text-sm block mt-1">Hadapsar, Pune</span>
+                    <span className="text-[#61747C] text-[10px]">Maharashtra, India</span>
+                  </div>
                 </div>
               </div>
             </div>
