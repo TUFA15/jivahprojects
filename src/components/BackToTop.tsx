@@ -5,11 +5,16 @@ export const BackToTop: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
+    let ticking = false;
+
     const handleScroll = () => {
-      if (window.scrollY > 350) {
-        setIsVisible(true);
-      } else {
-        setIsVisible(false);
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          const visible = window.scrollY > 350;
+          setIsVisible((prev) => (prev !== visible ? visible : prev));
+          ticking = false;
+        });
+        ticking = true;
       }
     };
 
@@ -18,7 +23,12 @@ export const BackToTop: React.FC = () => {
   }, []);
 
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    const lenis = (window as any).__lenis;
+    if (lenis) {
+      lenis.scrollTo(0, { duration: 1.2 });
+    } else {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
   };
 
   return (

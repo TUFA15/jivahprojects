@@ -51,6 +51,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
               src={project.thumbnail}
               alt={project.heroAlt || `${project.title} - ${project.location} interior design by JIVAH Projects Pune`}
               loading="lazy"
+              decoding="async"
               className="w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:scale-[1.04]"
             />
           </div>
