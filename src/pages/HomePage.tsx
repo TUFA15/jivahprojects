@@ -227,9 +227,10 @@ export const HomePage: React.FC = () => {
             <div className="lg:col-span-5 relative">
               <div className="relative overflow-hidden bg-[#EEF5F6] aspect-[4/5] rounded-3xl shadow-xl border border-[#2F7B93]/20">
                 <img
-                  src="/images/interiors/IMG_20250313_131005.jpg"
+                  src="/images/interiors/IMG_20250105_112832 - Copy.jpg"
                   alt="Contemporary home interior designed by JIVAH Projects in Hadapsar Pune"
                   loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"
                 />
                 <div className="absolute bottom-6 left-6 right-6 bg-[#16465A]/95 backdrop-blur-md text-white p-6 rounded-2xl border-l-2 border-[#2F7B93]">
