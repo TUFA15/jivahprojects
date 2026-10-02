@@ -490,3 +490,353 @@ export const PROJECTS_DATA: Project[] = [
     featured: false
   }
 ];
+
+export interface PortfolioImageItem {
+  id: string;
+  url: string;
+  category: 'Hospitality' | 'Commercial' | 'Residential';
+  title: string;
+  location: string;
+  caption: string;
+  alt: string;
+  folder: 'banqueat' | 'offices' | 'interiors';
+}
+
+export const ALL_PORTFOLIO_IMAGES: PortfolioImageItem[] = [
+  // --- HOSPITALITY (All 6 images from banqueat) ---
+  {
+    id: 'banquet-01',
+    url: '/images/banqueat/DSC08587.JPG',
+    category: 'Hospitality',
+    title: 'Grand Banquet Hall Vista',
+    location: 'Hadapsar · Pune',
+    caption: 'Main banquet hall expanse featuring custom ambient chandelier lighting grid and carpeted floors.',
+    alt: 'Grand banquet hall interior designed by JIVAH Projects in Hadapsar Pune',
+    folder: 'banqueat'
+  },
+  {
+    id: 'banquet-02',
+    url: '/images/banqueat/DSC08576.JPG',
+    category: 'Hospitality',
+    title: 'Grand Entrance Foyer',
+    location: 'Hadapsar · Pune',
+    caption: 'Architectural entrance foyer with illuminated arches and ambient warm illumination.',
+    alt: 'Grand banquet entrance archways in Hadapsar Pune',
+    folder: 'banqueat'
+  },
+  {
+    id: 'banquet-03',
+    url: '/images/banqueat/DSC08588.JPG',
+    category: 'Hospitality',
+    title: 'Dining Setup & Acoustic Panelling',
+    location: 'Hadapsar · Pune',
+    caption: 'Bespoke banquet dining tables framed by gold-threaded acoustic wall panels.',
+    alt: 'Banquet dining arrangement with acoustic wall treatment Pune',
+    folder: 'banqueat'
+  },
+  {
+    id: 'banquet-04',
+    url: '/images/banqueat/DSC08589.JPG',
+    category: 'Hospitality',
+    title: 'Chandelier Grid System',
+    location: 'Hadapsar · Pune',
+    caption: 'Custom overhead chandelier matrix illuminating the main hospitality hall.',
+    alt: 'Chandelier lighting installation in Pune banquet hall',
+    folder: 'banqueat'
+  },
+  {
+    id: 'banquet-05',
+    url: '/images/banqueat/DSC08675.JPG',
+    category: 'Hospitality',
+    title: 'VIP Lounge Seating',
+    location: 'Hadapsar · Pune',
+    caption: 'Plush velvet banquette seating for VIP guests within the venue.',
+    alt: 'VIP banquet lounge seating interior in Hadapsar Pune',
+    folder: 'banqueat'
+  },
+  {
+    id: 'banquet-06',
+    url: '/images/banqueat/DSC08871.JPG',
+    category: 'Hospitality',
+    title: 'Stage & Architectural Columns',
+    location: 'Hadapsar · Pune',
+    caption: 'Central event stage framed by custom warm lighting columns.',
+    alt: 'Event stage architectural interior in Pune banquet hall',
+    folder: 'banqueat'
+  },
+
+  // --- COMMERCIAL (All 3 images from offices) ---
+  {
+    id: 'office-01',
+    url: '/images/offices/IMG_20260318_121652.jpg',
+    category: 'Commercial',
+    title: 'Open Workstation & Acoustic Ceiling',
+    location: 'Hadapsar · Pune',
+    caption: 'Luminous commercial office layout with ergonomic workstations and acoustic ceiling bays.',
+    alt: 'Corporate office open workstation interior in Hadapsar Pune',
+    folder: 'offices'
+  },
+  {
+    id: 'office-02',
+    url: '/images/offices/IMG_20260218_155838.jpg',
+    category: 'Commercial',
+    title: 'Executive Glass Conference Suite',
+    location: 'Hadapsar · Pune',
+    caption: 'Double-glazed glass partition conference room for private executive deliberations.',
+    alt: 'Executive glass conference room interior in Hadapsar Pune office',
+    folder: 'offices'
+  },
+  {
+    id: 'office-03',
+    url: '/images/offices/IMG_20260218_161037.jpg',
+    category: 'Commercial',
+    title: 'Client Reception Lounge',
+    location: 'Hadapsar · Pune',
+    caption: 'Welcoming corporate reception seating with warm timber accents.',
+    alt: 'Corporate reception lounge interior design Pune office',
+    folder: 'offices'
+  },
+
+  // --- RESIDENTIAL (All 24 images from interiors) ---
+  {
+    id: 'res-01',
+    url: '/images/interiors/IMG_20250118_125129.jpg',
+    category: 'Residential',
+    title: 'Hadapsar Living Lounge',
+    location: 'Hadapsar · Pune',
+    caption: 'Spacious 3 BHK living room with honed travertine flooring and custom bouclé sofa.',
+    alt: 'Contemporary living room interior with travertine flooring in Hadapsar Pune',
+    folder: 'interiors'
+  },
+  {
+    id: 'res-02',
+    url: '/images/interiors/IMG_20250105_112813 - Copy.jpg',
+    category: 'Residential',
+    title: 'Bespoke Entry Foyer',
+    location: 'Hadapsar · Pune',
+    caption: 'Custom entry foyer with smoked oak wall paneling and warm LED channel lighting.',
+    alt: 'Bespoke entry foyer joinery in Hadapsar home',
+    folder: 'interiors'
+  },
+  {
+    id: 'res-03',
+    url: '/images/interiors/IMG_20250105_112832 - Copy.jpg',
+    category: 'Residential',
+    title: 'Modular Kitchen Island',
+    location: 'Hadapsar · Pune',
+    caption: 'Tactile kitchen island combining quartz surfaces with concealed soft-close storage.',
+    alt: 'Modular kitchen island interior design Pune',
+    folder: 'interiors'
+  },
+  {
+    id: 'res-04',
+    url: '/images/interiors/IMG_20250105_113101 - Copy.jpg',
+    category: 'Residential',
+    title: 'Smoked Oak Study Alcove',
+    location: 'Hadapsar · Pune',
+    caption: 'Integrated home study nook with custom timber shelving and desk.',
+    alt: 'Oak paneled home office study alcove Pune',
+    folder: 'interiors'
+  },
+  {
+    id: 'res-05',
+    url: '/images/interiors/IMG_20250105_113240 - Copy.jpg',
+    category: 'Residential',
+    title: 'Dining Room Credenza',
+    location: 'Hadapsar · Pune',
+    caption: 'Tailored dining sideboard with integrated LED display niche.',
+    alt: 'Dining room credenza joinery Pune',
+    folder: 'interiors'
+  },
+  {
+    id: 'res-06',
+    url: '/images/interiors/IMG_20250105_113541 - Copy.jpg',
+    category: 'Residential',
+    title: 'Master Bedroom Suite',
+    location: 'Hadapsar · Pune',
+    caption: 'Master bedroom suite with upholstered headboard wall and oak wardrobes.',
+    alt: 'Master bedroom suite interior design Hadapsar Pune',
+    folder: 'interiors'
+  },
+  {
+    id: 'res-07',
+    url: '/images/interiors/IMG_20250118_125501 - Copy.jpg',
+    category: 'Residential',
+    title: 'Fluted Timber & Stone Detail',
+    location: 'Hadapsar · Pune',
+    caption: 'Detail view of custom fluted timber wall paneling and stone niche.',
+    alt: 'Fluted timber wall paneling detail Pune home',
+    folder: 'interiors'
+  },
+  {
+    id: 'res-08',
+    url: '/images/interiors/IMG_20250118_125532 - Copy.jpg',
+    category: 'Residential',
+    title: 'Balcony Lounge Transition',
+    location: 'Hadapsar · Pune',
+    caption: 'Indoor-outdoor balcony lounge seamlessly extending the internal living room.',
+    alt: 'Indoor outdoor balcony lounge transition Hadapsar',
+    folder: 'interiors'
+  },
+  {
+    id: 'res-09',
+    url: '/images/interiors/IMG_20250313_131005.jpg',
+    category: 'Residential',
+    title: 'Koregaon Park Living Sanctuary',
+    location: 'Koregaon Park · Pune',
+    caption: 'Open-plan living and dining area in a Koregaon Park residence.',
+    alt: 'Living room interior in Koregaon Park Pune home',
+    folder: 'interiors'
+  },
+  {
+    id: 'res-10',
+    url: '/images/interiors/IMG_20250313_131134.jpg',
+    category: 'Residential',
+    title: 'Modular Kitchen Task Lighting',
+    location: 'Koregaon Park · Pune',
+    caption: 'Modular kitchen featuring handleless cabinetry and LED task lighting.',
+    alt: 'Modular kitchen interior in Koregaon Park Pune',
+    folder: 'interiors'
+  },
+  {
+    id: 'res-11',
+    url: '/images/interiors/IMG_20250313_131230.jpg',
+    category: 'Residential',
+    title: 'Kitchen Counter & Splashback',
+    location: 'Koregaon Park · Pune',
+    caption: 'Stain-resistant quartz counter paired with seamless marble splashback.',
+    alt: 'Quartz kitchen counter and splashback Pune',
+    folder: 'interiors'
+  },
+  {
+    id: 'res-12',
+    url: '/images/interiors/IMG_20250313_131420.jpg',
+    category: 'Residential',
+    title: 'Bedroom Wardrobe Joinery',
+    location: 'Koregaon Park · Pune',
+    caption: 'Full-height bedroom wardrobes with integrated wardrobe lighting.',
+    alt: 'Full-height bedroom wardrobe joinery Pune',
+    folder: 'interiors'
+  },
+  {
+    id: 'res-13',
+    url: '/images/interiors/IMG_20250313_131743.jpg',
+    category: 'Residential',
+    title: 'Floating Bedside Nightstand',
+    location: 'Koregaon Park · Pune',
+    caption: 'Wall-mounted timber nightstand with brass reading sconce.',
+    alt: 'Floating bedside nightstand interior detail Pune',
+    folder: 'interiors'
+  },
+  {
+    id: 'res-14',
+    url: '/images/interiors/IMG_20250313_131752.jpg',
+    category: 'Residential',
+    title: 'Bedroom Vanity Mirror',
+    location: 'Koregaon Park · Pune',
+    caption: 'Custom vanity desk with arched backlit mirror.',
+    alt: 'Bedroom vanity desk and arched mirror Pune',
+    folder: 'interiors'
+  },
+  {
+    id: 'res-15',
+    url: '/images/interiors/IMG_20250313_132914.jpg',
+    category: 'Residential',
+    title: 'Guest Bedroom Sanctuary',
+    location: 'Koregaon Park · Pune',
+    caption: 'Serene guest bedroom with organic linen bedding and textured rug.',
+    alt: 'Guest bedroom sanctuary interior Koregaon Park Pune',
+    folder: 'interiors'
+  },
+  {
+    id: 'res-16',
+    url: '/images/interiors/IMG_20250313_133637.jpg',
+    category: 'Residential',
+    title: 'Micro-cement Luxury Bathroom',
+    location: 'Koregaon Park · Pune',
+    caption: 'Minimalist bathroom with micro-cement walls and matte black fixtures.',
+    alt: 'Micro-cement luxury bathroom interior design Pune',
+    folder: 'interiors'
+  },
+  {
+    id: 'res-17',
+    url: '/images/interiors/IMG_20250118_125548.jpg',
+    category: 'Residential',
+    title: 'Penthouse Skyline Living',
+    location: 'Amanora Park Town · Pune',
+    caption: 'High-floor penthouse living room framing panoramic Pune skyline vistas.',
+    alt: 'Penthouse living room interior in Amanora Town Pune',
+    folder: 'interiors'
+  },
+  {
+    id: 'res-18',
+    url: '/images/interiors/IMG_20250118_132127 - Copy.jpg',
+    category: 'Residential',
+    title: 'Penthouse Formal Dining',
+    location: 'Amanora Park Town · Pune',
+    caption: 'Formal dining area with statement brass chandelier overhang.',
+    alt: 'Penthouse formal dining interior Pune',
+    folder: 'interiors'
+  },
+  {
+    id: 'res-19',
+    url: '/images/interiors/IMG_20250118_132150.jpg',
+    category: 'Residential',
+    title: 'Penthouse Lounge & Stone Table',
+    location: 'Amanora Park Town · Pune',
+    caption: 'Low-profile lounge seating surrounding a carved natural stone table.',
+    alt: 'Penthouse lounge seating with stone table Pune',
+    folder: 'interiors'
+  },
+  {
+    id: 'res-20',
+    url: '/images/interiors/IMG_20250118_132208 - Copy.jpg',
+    category: 'Residential',
+    title: 'Private Bar Nook',
+    location: 'Amanora Park Town · Pune',
+    caption: 'Custom home bar nook featuring backlit onyx counter and brass shelves.',
+    alt: 'Private home bar nook interior detail Amanora Pune',
+    folder: 'interiors'
+  },
+  {
+    id: 'res-21',
+    url: '/images/interiors/IMG_20250105_113619.jpg',
+    category: 'Residential',
+    title: 'Dressing Room Glass Doors',
+    location: 'Amanora Park Town · Pune',
+    caption: 'Dressing room featuring tinted glass wardrobe doors and warm interior lighting.',
+    alt: 'Dressing room tinted glass wardrobe doors Pune',
+    folder: 'interiors'
+  },
+  {
+    id: 'res-22',
+    url: '/images/interiors/IMG_20260913_171640 (1).jpg',
+    category: 'Residential',
+    title: 'Courtyard Villa Lounge',
+    location: 'Magarpatta City · Pune',
+    caption: 'Multi-level villa lounge with exposed timber ceiling beams facing green garden courtyard.',
+    alt: 'Courtyard villa lounge interior in Magarpatta Pune',
+    folder: 'interiors'
+  },
+  {
+    id: 'res-23',
+    url: '/images/interiors/IMG_20260913_171649 (1).jpg',
+    category: 'Residential',
+    title: 'Staircase Lobby & Floating Treads',
+    location: 'Magarpatta City · Pune',
+    caption: 'Bespoke staircase lobby with floating wood treads and architectural wall sconces.',
+    alt: 'Villa staircase lobby with floating treads Magarpatta Pune',
+    folder: 'interiors'
+  },
+  {
+    id: 'res-24',
+    url: '/images/interiors/IMG_20260913_172536 (1).jpg',
+    category: 'Residential',
+    title: 'Family Living Media Wall',
+    location: 'Magarpatta City · Pune',
+    caption: 'Sunlit family room centered around a full-height timber media wall.',
+    alt: 'Villa family room timber media wall interior Magarpatta Pune',
+    folder: 'interiors'
+  }
+];
+
