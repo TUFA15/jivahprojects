@@ -28,7 +28,7 @@ export const HomePage: React.FC = () => {
         {/* Main Background Image with Gradient Overlay */}
         <div className="absolute inset-0 z-0 overflow-hidden">
           <motion.img
-            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2400&auto=format&fit=crop"
+            src="/images/interiors/IMG_20250118_125129.jpg"
             alt="JIVAH Projects Interior Atmosphere & Light in Pune"
             initial={{ scale: 1.06 }}
             animate={{ scale: 1.0 }}
@@ -105,7 +105,7 @@ export const HomePage: React.FC = () => {
                 {/* Large Main Frame */}
                 <div className="aspect-[4/5] w-[88%] ml-auto rounded-3xl overflow-hidden border-2 border-[#2F7B93]/40 shadow-2xl relative group">
                   <img
-                    src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop"
+                    src="/images/interiors/IMG_20250118_125129.jpg"
                     alt="Contemporary residential living room interior designed by JIVAH Projects in Hadapsar Pune"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"
                   />
@@ -121,7 +121,7 @@ export const HomePage: React.FC = () => {
                 {/* Offset Small Overlapping Frame */}
                 <div className="absolute bottom-[-5%] left-0 w-[55%] aspect-square rounded-3xl overflow-hidden border-2 border-[#8FD3DC]/50 shadow-2xl group/sub relative z-20 bg-[#16465A]">
                   <img
-                    src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?q=80&w=800&auto=format&fit=crop"
+                    src="/images/interiors/IMG_20250105_112813 - Copy.jpg"
                     alt="Tactile stone kitchen island interior detail by JIVAH Projects Pune"
                     className="w-full h-full object-cover group-hover/sub:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"
                   />
@@ -227,7 +227,7 @@ export const HomePage: React.FC = () => {
             <div className="lg:col-span-5 relative">
               <div className="relative overflow-hidden bg-[#EEF5F6] aspect-[4/5] rounded-3xl shadow-xl border border-[#2F7B93]/20">
                 <img
-                  src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?q=80&w=1200&auto=format&fit=crop"
+                  src="/images/interiors/IMG_20250313_131005.jpg"
                   alt="Contemporary home interior designed by JIVAH Projects in Hadapsar Pune"
                   loading="lazy"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"

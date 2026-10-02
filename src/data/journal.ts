@@ -28,7 +28,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     date: 'October 01, 2026',
     readTime: '6 min read',
     excerpt: 'Key considerations for optimizing floor space, natural light, concealed storage, and material durability in contemporary 2 BHK homes across Pune.',
-    coverImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1600&auto=format&fit=crop',
+    coverImage: '/images/interiors/IMG_20250118_125129.jpg',
     author: {
       name: 'JIVAH Studio',
       role: 'Interior Design Team'
@@ -60,7 +60,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
       },
       {
         type: 'image',
-        imageUrl: 'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?q=80&w=1400&auto=format&fit=crop',
+        imageUrl: '/images/interiors/IMG_20250105_112813 - Copy.jpg',
         caption: 'Concealed kitchen joinery and natural light mapping in a modern Pune residential interior.'
       },
       {
@@ -81,7 +81,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     date: 'September 24, 2026',
     readTime: '5 min read',
     excerpt: 'Essential advice for evaluating design studio portfolios, material transparency, local Hadapsar experience, and spatial planning standards.',
-    coverImage: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1600&auto=format&fit=crop',
+    coverImage: '/images/interiors/IMG_20250105_112832 - Copy.jpg',
     author: {
       name: 'JIVAH Studio',
       role: 'Interior Design Team'
@@ -121,7 +121,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     date: 'September 12, 2026',
     readTime: '4 min read',
     excerpt: 'Exploring ergonomic work triangles, quartz countertops, ambient cove illumination, and durable cabinetry finishes for Indian cooking environments.',
-    coverImage: 'https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?q=80&w=1600&auto=format&fit=crop',
+    coverImage: '/images/interiors/IMG_20250313_131005.jpg',
     author: {
       name: 'JIVAH Studio',
       role: 'Kitchen Design Specialist'
@@ -157,7 +157,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     date: 'August 28, 2026',
     readTime: '5 min read',
     excerpt: 'A practical roadmap covering ergonomic heights, soft-close hardware, chimney ventilation, and moisture-resistant carcass materials.',
-    coverImage: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1600&auto=format&fit=crop',
+    coverImage: '/images/offices/IMG_20260318_121652.jpg',
     author: {
       name: 'JIVAH Studio',
       role: 'Modular Kitchen Team'
@@ -193,7 +193,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     date: 'August 14, 2026',
     readTime: '5 min read',
     excerpt: 'Layering ambient, accent, and task illumination to transform residential room atmospheres from bright morning clarity to evening calm.',
-    coverImage: 'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?q=80&w=1600&auto=format&fit=crop',
+    coverImage: '/images/banqueat/DSC08587.JPG',
     author: {
       name: 'JIVAH Studio',
       role: 'Lighting & Atmosphere Specialist'

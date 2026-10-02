@@ -63,10 +63,10 @@ export const PROJECTS_DATA: Project[] = [
     year: '2026',
     area: '2,800 sq. ft.',
     scope: 'Complete Home Interior Design, Modular Kitchen & Furniture Curation',
-    heroImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2000&auto=format&fit=crop',
+    heroImage: '/images/interiors/IMG_20250118_125129.jpg',
     heroAlt: 'Contemporary living room interior designed by JIVAH Projects in Hadapsar Pune',
-    portraitImage: 'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?q=80&w=1200&auto=format&fit=crop',
-    thumbnail: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop',
+    portraitImage: '/images/interiors/IMG_20250105_112813 - Copy.jpg',
+    thumbnail: '/images/interiors/IMG_20250118_125129.jpg',
     excerpt: 'Thoughtfully planned residential interior balancing raw honed stone, custom smoked oak millwork, tactile bouclé upholstery, and indirect solar lighting.',
     conceptStatement: 'A home in Hadapsar designed around peaceful daily rhythms, tactile material honesty, and cocooning interior warmth.',
     spatialFeeling: 'Calm, grounding, luxurious, absorbing urban energy into quiet domestic serenity.',
@@ -94,158 +94,202 @@ export const PROJECTS_DATA: Project[] = [
       { name: 'Soft Sand', hex: '#EDE5D9' }
     ],
     beforeAfter: {
-      beforeImage: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1600&auto=format&fit=crop',
-      afterImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1600&auto=format&fit=crop',
+      beforeImage: '/images/interiors/IMG_20250105_113619.jpg',
+      afterImage: '/images/interiors/IMG_20250118_132150.jpg',
       caption: 'Transformation of a raw concrete shell in Hadapsar into a warm travertine & oak living sanctuary.'
     },
     gallery: [
       {
-        url: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1600&auto=format&fit=crop',
-        caption: 'The primary living lounge facing the garden balcony in Hadapsar, Pune.',
+        url: '/images/interiors/IMG_20250118_125129.jpg',
+        caption: 'The primary living lounge facing the balcony in Hadapsar, Pune.',
         alt: 'Primary living lounge interior with custom sofa and travertine flooring in Hadapsar Pune',
         aspectRatio: 'wide'
       },
       {
-        url: 'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?q=80&w=1200&auto=format&fit=crop',
+        url: '/images/interiors/IMG_20250105_112832 - Copy.jpg',
         caption: 'Tactile kitchen island combining quartz surfaces with brushed bronze hardware.',
         alt: 'Modern modular kitchen interior with stone island in Pune home',
         aspectRatio: 'portrait'
       },
       {
-        url: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1400&auto=format&fit=crop',
+        url: '/images/interiors/IMG_20250105_113101 - Copy.jpg',
         caption: 'Custom smoked oak study alcove with warm LED channel illumination.',
         alt: 'Wood paneled home office study interior designed by JIVAH Projects Pune',
         aspectRatio: 'landscape'
+      },
+      {
+        url: '/images/interiors/IMG_20250105_113541 - Copy.jpg',
+        caption: 'Master bedroom suite featuring bespoke joinery wall.',
+        alt: 'Master bedroom suite interior in Pune residence',
+        aspectRatio: 'portrait'
       }
     ],
     featured: true,
     featuredLayout: 'large'
   },
   {
-    id: 'koregaon-park-penthouse',
-    slug: 'koregaon-park-penthouse',
-    title: 'KOREGAON PARK PENTHOUSE',
-    subtitle: 'Explorations in spatial height, velvet textures, and bespoke lighting in Koregaon Park, Pune.',
-    location: 'Koregaon Park · Pune',
-    category: 'Residential',
-    year: '2025',
-    area: '4,500 sq. ft.',
-    scope: 'Interior Design, Modular Kitchen & Soft Furnishings',
-    heroImage: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2000&auto=format&fit=crop',
-    heroAlt: 'High-ceiling penthouse living room interior designed in Koregaon Park Pune',
-    portraitImage: 'https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?q=80&w=1200&auto=format&fit=crop',
-    thumbnail: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop',
-    excerpt: 'Double-height residential penthouse interior incorporating grey marble flooring, velvet seating, and sheer drapery.',
-    conceptStatement: 'Interior atmosphere is born when raw natural surfaces meet soft, inviting human furniture.',
-    spatialFeeling: 'Expansive yet intimate; an art lover’s sanctuary bathed in soft, diffused daylight.',
+    id: 'the-banquet-hall-lounge',
+    slug: 'the-banquet-hall-lounge',
+    title: 'THE BANQUET HALL LOUNGE',
+    subtitle: 'Grand hospitality banquet interior featuring custom chandeliers, acoustic wall panels, and bespoke dining layout.',
+    location: 'Hadapsar · Pune',
+    category: 'Hospitality',
+    year: '2026',
+    area: '6,500 sq. ft.',
+    scope: 'Hospitality Interior Design, Custom Lighting & Acoustic Wall Panelling',
+    heroImage: '/images/banqueat/DSC08587.JPG',
+    heroAlt: 'Grand banquet hall hospitality interior designed by JIVAH Projects in Pune',
+    portraitImage: '/images/banqueat/DSC08576.JPG',
+    thumbnail: '/images/banqueat/DSC08587.JPG',
+    excerpt: 'Luxe hospitality venue in Hadapsar Pune featuring warm ambient chandeliers, custom banquette seating, and gold-hued acoustic wall treatments.',
+    conceptStatement: 'A banquet venue crafted for memorable gatherings, combining opulent warmth with acoustic clarity.',
+    spatialFeeling: 'Regal, welcoming, acoustically balanced with warm ambient illumination.',
     fullDescription: [
-      'Designed in Koregaon Park, Pune, this duplex penthouse reorganizes 4,500 square feet around curated furniture compositions.',
-      'A microcement feature wall acts as an acoustic backdrop for contemporary paintings, softened by sheer linen drapes and deep velvet seating.',
-      'Custom floating storage conceals everyday clutter, maintaining visual tranquility at all times.'
+      'Designed in Hadapsar, Pune, The Banquet Hall Lounge accommodates large celebratory gatherings and corporate galas.',
+      'Custom chandelier installation casts a golden glow across carpeted floors, while acoustic wall panels absorb excess reverberation for crisp speech and music clarity.'
     ],
     materials: [
-      { name: 'Pietra Grey Marble', description: 'Honed grey stone with subtle quartz veining' },
-      { name: 'Belgian Sheer Linen', description: 'Custom woven drapery for light control' }
+      { name: 'Acoustic Fabric Panelling', description: 'Gold-threaded acoustic sound absorbent wall covers' },
+      { name: 'Polished Brass Trims', description: 'Custom metal trims framing interior archways' }
     ],
     furnitureCuration: [
-      { piece: 'Curved Velvet Conversation Sofa', designerOrMaker: 'JIVAH Edition', notes: 'Mineral green velvet with brass accent base' }
+      { piece: 'Custom Curved Banquet Seating', designerOrMaker: 'JIVAH Bespoke', notes: 'Upholstered in rich velvet with brass base trims' }
     ],
     colorPalette: [
-      { name: 'Pietra Slate', hex: '#3B3F43' },
-      { name: 'Off-White Linen', hex: '#F2EFE9' },
-      { name: 'Deep Teal Accent', hex: '#2F7B93' }
+      { name: 'Warm Gold', hex: '#D4AF37' },
+      { name: 'Deep Burgundy', hex: '#4A0E17' },
+      { name: 'Teal Accent', hex: '#2F7B93' }
     ],
     gallery: [
       {
-        url: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1600&auto=format&fit=crop',
-        caption: 'Double-height living lounge with custom sheer drapery in Pune.',
-        alt: 'Double height luxury living room interior with sheer drapes in Pune penthouse',
+        url: '/images/banqueat/DSC08587.JPG',
+        caption: 'Main banquet hall hall with custom lighting setup.',
+        alt: 'Main banquet hall interior with chandeliers in Pune',
         aspectRatio: 'wide'
+      },
+      {
+        url: '/images/banqueat/DSC08588.JPG',
+        caption: 'Dining tables arrangement with acoustic wall panelling.',
+        alt: 'Banquet dining arrangement interior Pune',
+        aspectRatio: 'portrait'
+      },
+      {
+        url: '/images/banqueat/DSC08675.JPG',
+        caption: 'VIP lounge seating section in banquet hall.',
+        alt: 'VIP lounge seating section in banquet hall Pune',
+        aspectRatio: 'landscape'
       }
     ],
     featured: true,
     featuredLayout: 'tall'
   },
   {
-    id: 'baner-villa-interior',
-    slug: 'baner-villa-interior',
-    title: 'BANER VILLA INTERIOR',
-    subtitle: 'Seamless indoor-outdoor tropical harmony with natural teakwood furniture and soft water courtyard accents.',
-    location: 'Baner · Pune',
-    category: 'Residential',
-    year: '2025',
-    area: '5,200 sq. ft.',
-    scope: 'Interior Spatial Design, Furniture & Styling',
-    heroImage: 'https://images.unsplash.com/photo-1613977257363-707ba9348227?q=80&w=2000&auto=format&fit=crop',
-    heroAlt: 'Residential villa interior with teakwood furniture and courtyard views in Baner Pune',
-    portraitImage: 'https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=1200&auto=format&fit=crop',
-    thumbnail: 'https://images.unsplash.com/photo-1613977257363-707ba9348227?q=80&w=1200&auto=format&fit=crop',
-    excerpt: 'Contemporary villa interior celebrating reclaimed teakwood furniture, lime wash walls, and cross-ventilated living verandas.',
-    conceptStatement: 'When interior spaces embrace surrounding gardens, daily life acquires a calm, meditative rhythm.',
-    spatialFeeling: 'Breezy, grounded, organic, filled with natural sunlight and teakwood warmth.',
+    id: 'hadapsar-corporate-office',
+    slug: 'hadapsar-corporate-office',
+    title: 'HADAPSAR CORPORATE OFFICE',
+    subtitle: 'Modern commercial office interior with acoustic glass partitions, executive suites, and ergonomic workstations in Pune.',
+    location: 'Hadapsar · Pune',
+    category: 'Commercial',
+    year: '2026',
+    area: '4,200 sq. ft.',
+    scope: 'Commercial Interior Design, Space Planning & Executive Joinery',
+    heroImage: '/images/offices/IMG_20260318_121652.jpg',
+    heroAlt: 'Modern corporate office workspace interior designed by JIVAH Projects in Hadapsar Pune',
+    portraitImage: '/images/offices/IMG_20260218_155838.jpg',
+    thumbnail: '/images/offices/IMG_20260318_121652.jpg',
+    excerpt: 'Clean, productive corporate office environment featuring glass partitions, warm timber accents, acoustic ceiling panels, and task lighting.',
+    conceptStatement: 'A workplace designed around focus, collaboration, and executive elegance.',
+    spatialFeeling: 'Professional, uncluttered, luminous, encouraging creative energy.',
     fullDescription: [
-      'Situated in Baner, Pune, this villa interior was furnished with handcrafted teakwood pieces, terracotta accents, and soft linen fabrics.',
-      'Deep roof overhangs cast horizontal shadow patterns across polished floors, inviting gentle cross ventilation through slatted timber doors.'
+      'Situated in Hadapsar, Pune, this corporate office interior balances open collaborative zones with quiet private executive suites.',
+      'Double-glazed acoustic partitions maintain quiet workspace acoustics while allowing natural daylight to illuminate central work desks.'
     ],
     materials: [
-      { name: 'Reclaimed Teakwood', description: 'Restored teak timber for custom louvers and daybeds' }
+      { name: 'Double Glazed Glass', description: 'Acoustic glass partition walls with aluminum framing' },
+      { name: 'Matte Oak Veneer', description: 'Executive desk surfaces and storage Credenzas' }
     ],
     furnitureCuration: [
-      { piece: 'Teak Daybed', designerOrMaker: 'JIVAH Studio', notes: 'Strung with natural woven jute straps' }
+      { piece: 'Executive Suite Desk', designerOrMaker: 'JIVAH Edition', notes: 'Custom oak desk with integrated cable management' }
     ],
     colorPalette: [
-      { name: 'Warm Terracotta', hex: '#D27D56' },
-      { name: 'Teak Amber', hex: '#9C6644' },
+      { name: 'Corporate Grey', hex: '#4A5568' },
+      { name: 'Warm Ivory', hex: '#F7F3EC' },
       { name: 'Teal Blue', hex: '#2F7B93' }
     ],
     gallery: [
       {
-        url: 'https://images.unsplash.com/photo-1613977257363-707ba9348227?q=80&w=1600&auto=format&fit=crop',
-        caption: 'Living veranda lounge furnished with custom teakwood seating.',
-        alt: 'Tropical villa interior living veranda with wooden seating in Baner Pune',
+        url: '/images/offices/IMG_20260318_121652.jpg',
+        caption: 'Main open workstation layout with acoustic ceiling bays.',
+        alt: 'Corporate office workstation layout interior in Hadapsar Pune',
         aspectRatio: 'wide'
+      },
+      {
+        url: '/images/offices/IMG_20260218_155838.jpg',
+        caption: 'Executive conference room with glass partition walls.',
+        alt: 'Executive office conference room interior Pune',
+        aspectRatio: 'portrait'
+      },
+      {
+        url: '/images/offices/IMG_20260218_161037.jpg',
+        caption: 'Reception lounge seating for visiting clients.',
+        alt: 'Office reception lounge interior Pune',
+        aspectRatio: 'landscape'
       }
     ],
     featured: true,
     featuredLayout: 'standard'
   },
   {
-    id: 'design-gallery-lounge',
-    slug: 'design-gallery-lounge',
-    title: 'DESIGN GALLERY LOUNGE',
-    subtitle: 'A quiet commercial interior gallery space defined by soft plaster arches and warm lighting in Pune.',
-    location: 'Kharadi · Pune',
-    category: 'Commercial',
-    year: '2026',
-    area: '3,800 sq. ft.',
-    scope: 'Commercial Interior Design & Lighting Design',
-    heroImage: 'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?q=80&w=2000&auto=format&fit=crop',
-    heroAlt: 'Commercial interior design showroom gallery with arched walls in Pune',
-    portraitImage: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200&auto=format&fit=crop',
-    thumbnail: 'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?q=80&w=1200&auto=format&fit=crop',
-    excerpt: 'Boutique design showroom interior featuring sculpted plaster archways and seamless limestone display pedestals.',
-    conceptStatement: 'An interior designed for clarity transforms physical objects into works of art.',
-    spatialFeeling: 'Serene, acoustic, gallery-like with warm indirect lighting.',
+    id: 'koregaon-park-residence',
+    slug: 'koregaon-park-residence',
+    title: 'KOREGAON PARK RESIDENCE',
+    subtitle: 'Contemporary 2 BHK home interior featuring custom kitchen joinery, master suite wardrobes, and warm ambient lighting in Koregaon Park, Pune.',
+    location: 'Koregaon Park · Pune',
+    category: 'Residential',
+    year: '2025',
+    area: '2,200 sq. ft.',
+    scope: 'Interior Design, Modular Kitchen & Soft Styling',
+    heroImage: '/images/interiors/IMG_20250313_131005.jpg',
+    heroAlt: 'Contemporary living room interior in Koregaon Park Pune home',
+    portraitImage: '/images/interiors/IMG_20250313_131134.jpg',
+    thumbnail: '/images/interiors/IMG_20250313_131005.jpg',
+    excerpt: 'Elegantly proportioned residential interior in Koregaon Park incorporating custom kitchen storage, warm neutral palette, and soft ambient lighting.',
+    conceptStatement: 'Crafted for modern urban living, where smart spatial planning creates maximum functional comfort.',
+    spatialFeeling: 'Luminous, cozy, uncluttered, reflecting personal home style.',
     fullDescription: [
-      'Conceived as a boutique showroom lounge in Kharadi, Pune, visitors move through sculpted plaster arches illuminated by perimeter cove lighting.'
+      'Designed in Koregaon Park, Pune, this home interior reorganizes 2,200 square feet into seamless living, dining, and sleeping environments.',
+      'Custom modular kitchen storage and full-height bedroom wardrobes eliminate visual clutter while maintaining warm, welcoming interior tones.'
     ],
     materials: [
-      { name: 'Sandblasted Limestone', description: 'Monolithic display pedestals and low tables' }
+      { name: 'Quartz Worktops', description: 'Stain-resistant quartz surfaces for kitchen countertops' },
+      { name: 'Warm Timber Laminate', description: 'Durable cabinetry laminate in matte natural finish' }
     ],
     furnitureCuration: [
-      { piece: 'Limestone Plinth Display', designerOrMaker: 'JIVAH Custom', notes: 'Integrated micro-spot illumination' }
+      { piece: 'Custom Dining Table & Chairs', designerOrMaker: 'JIVAH Studio', notes: '4-seater dining set with soft linen upholstery' }
     ],
     colorPalette: [
-      { name: 'Off-White Plaster', hex: '#F8F9F8' },
-      { name: 'Sandstone Grey', hex: '#C5C1B8' },
-      { name: 'Teal Accent', hex: '#2F7B93' }
+      { name: 'Warm Beige', hex: '#E5DDCB' },
+      { name: 'Off-White', hex: '#F8F9F8' },
+      { name: 'Teal Blue', hex: '#2F7B93' }
     ],
     gallery: [
       {
-        url: 'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?q=80&w=1600&auto=format&fit=crop',
-        caption: 'Exhibition corridor featuring recessed lighting troughs in Pune commercial space.',
-        alt: 'Commercial interior showroom gallery with archway lighting in Pune',
+        url: '/images/interiors/IMG_20250313_131005.jpg',
+        caption: 'Living and dining interior transition in Koregaon Park home.',
+        alt: 'Living room interior in Koregaon Park Pune apartment',
         aspectRatio: 'wide'
+      },
+      {
+        url: '/images/interiors/IMG_20250313_131134.jpg',
+        caption: 'Modular kitchen layout with under-cabinet task lighting.',
+        alt: 'Modular kitchen interior in Koregaon Park home',
+        aspectRatio: 'portrait'
+      },
+      {
+        url: '/images/interiors/IMG_20250313_131420.jpg',
+        caption: 'Master bedroom wardrobe joinery and soft drapery.',
+        alt: 'Bedroom wardrobe interior joinery Pune',
+        aspectRatio: 'landscape'
       }
     ],
     featured: true,

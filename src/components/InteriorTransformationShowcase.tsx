@@ -16,7 +16,7 @@ const TRANSFORMATION_SLIDES: TransformationSlide[] = [
     stage: '01 / RAW SHELL',
     title: 'THE INITIAL VOLUME',
     subtitle: 'Raw spatial concrete shell prior to interior spatial layout planning.',
-    image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1800&auto=format&fit=crop',
+    image: '/images/interiors/IMG_20250105_113619.jpg',
     caption: 'Phase 1 — Initial spatial audit & natural light orientation mapping.',
   },
   {
@@ -24,7 +24,7 @@ const TRANSFORMATION_SLIDES: TransformationSlide[] = [
     stage: '02 / MATERIAL DEVELOPMENT',
     title: 'TACTILE FRAMEWORK',
     subtitle: 'Honed travertine floor installation & bespoke smoked oak millwork framing.',
-    image: 'https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?q=80&w=1800&auto=format&fit=crop',
+    image: '/images/interiors/IMG_20250118_125501 - Copy.jpg',
     caption: 'Phase 2 — Materiality pairing, acoustic wall paneling & cove lighting troughs.',
   },
   {
@@ -32,15 +32,15 @@ const TRANSFORMATION_SLIDES: TransformationSlide[] = [
     stage: '03 / LIVING SANCTUARY',
     title: 'FINISHED INTERIOR',
     subtitle: 'Complete residence featuring low bouclé seating, warm linen drapes, and indirect evening glow.',
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1800&auto=format&fit=crop',
-    caption: 'Phase 3 — Finished living pavilion facing the Malabar Hill terrace.',
+    image: '/images/interiors/IMG_20250118_125129.jpg',
+    caption: 'Phase 3 — Finished living pavilion facing the Hadapsar Pune garden balcony.',
   },
   {
     id: 'stage-4',
     stage: '04 / DETAILED ATMOSPHERE',
     title: 'TACTILE CRAFT DETAILS',
     subtitle: 'Bespoke marble island, hand-patinated bronze fixtures, and soft mood lighting.',
-    image: 'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?q=80&w=1800&auto=format&fit=crop',
+    image: '/images/interiors/IMG_20250313_131420.jpg',
     caption: 'Phase 4 — Bespoke furniture curation & interior styling details.',
   },
 ];
