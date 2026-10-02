@@ -176,34 +176,37 @@ export const HomePage: React.FC = () => {
       </section>
 
       {/* ---------------- 3. STUDIO INTRODUCTION ---------------- */}
-      <section className="py-20 md:py-32 px-6 md:px-12 bg-[#F8F9F8] text-[#11181C]">
+      <section className="py-24 md:py-36 px-6 md:px-12 bg-[#F8F9F8] text-[#11181C]">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center">
             <div className="lg:col-span-7 space-y-8">
-              <SectionHeading
-                label="CREATIVE PHILOSOPHY"
-                title="THE ART OF SPATIAL ATMOSPHERE"
-              />
-
-              <p className="text-xl sm:text-2xl font-serif italic text-[#16465A] leading-relaxed max-w-2xl">
-                "We do not design spaces to be looked at in pictures. We design spaces to be felt—through quiet acoustics, morning sunbeams, authentic stone, and cocooning furniture."
-              </p>
-
-              <div className="space-y-4 text-sm text-[#61747C] font-light leading-relaxed max-w-xl">
-                <p>
-                  JIVAH Projects approaches interior design from the inside out—focusing on human touchpoints, tactile textures, furniture curation, and evening glow.
-                </p>
-                <p>
-                  Whether shaping a private residence in Malabar Hill, a tropical sanctuary in Goa, or a boutique hospitality lounge in Delhi, our work translates personal lifestyle into serene, enduring environments.
-                </p>
+              <div className="flex items-center gap-3">
+                <span className="w-8 h-[1px] bg-[#2F7B93]" />
+                <span className="text-[11px] font-mono text-[#2F7B93] tracking-[0.25em] uppercase font-semibold">
+                  STUDIO PHILOSOPHY
+                </span>
               </div>
 
-              <div className="pt-4">
+              <h2 className="font-serif text-4xl sm:text-6xl lg:text-7xl uppercase text-[#11181C] leading-[1.05] tracking-tight">
+                SPACES
+                <br />
+                DESIGNED WITH
+                <br />
+                <span className="italic font-normal text-[#2F7B93]">INTENTION.</span>
+              </h2>
+
+              <div className="w-16 h-[1px] bg-[#2F7B93]/30" />
+
+              <p className="text-lg sm:text-xl font-light text-[#61747C] leading-relaxed max-w-xl">
+                JIVAH Projects approaches interior design from the inside out—focusing on human touchpoints, tactile textures, bespoke joinery, soft illumination, and living rituals.
+              </p>
+
+              <div className="pt-2 flex items-center gap-6">
                 <Link
                   to="/about"
                   className="group inline-flex items-center gap-3 text-xs tracking-[0.25em] font-medium uppercase text-[#2F7B93] hover:text-[#16465A] transition-colors"
                 >
-                  <span>READ OUR CREATIVE PROCESS</span>
+                  <span>DISCOVER THE STUDIO</span>
                   <span className="w-8 h-[1px] bg-[#2F7B93] group-hover:w-12 transition-all duration-300" />
                   <span>→</span>
                 </Link>
@@ -211,15 +214,15 @@ export const HomePage: React.FC = () => {
             </div>
 
             <div className="lg:col-span-5 relative">
-              <div className="relative overflow-hidden bg-[#EEF5F6] aspect-[4/5] rounded-3xl shadow-lg border border-[#2F7B93]/20">
+              <div className="relative overflow-hidden bg-[#EEF5F6] aspect-[4/5] rounded-3xl shadow-xl border border-[#2F7B93]/20">
                 <img
                   src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?q=80&w=1200&auto=format&fit=crop"
-                  alt="JIVAH Studio Interior Detail & Tactile Warmth"
+                  alt="JIVAH Studio Interior Atmosphere"
                   loading="lazy"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"
                 />
                 <div className="absolute bottom-6 left-6 right-6 bg-[#16465A]/95 backdrop-blur-md text-white p-6 rounded-2xl border-l-2 border-[#2F7B93]">
-                  <p className="font-serif text-lg leading-snug">
+                  <p className="font-serif text-base sm:text-lg leading-snug">
                     "True luxury is the quiet rhythm of a beautifully lived-in home."
                   </p>
                   <p className="text-[10px] tracking-[0.2em] font-mono text-[#8FD3DC] mt-2 uppercase">
@@ -317,9 +320,11 @@ export const HomePage: React.FC = () => {
           </div>
 
           <h2 className="font-serif text-4xl sm:text-6xl text-[#11181C] uppercase tracking-tight leading-tight">
-            LET'S SHAPE
+            LET'S CREATE
             <br />
-            YOUR INTERIOR SANCTUARY.
+            A SPACE THAT
+            <br />
+            <span className="italic font-normal text-[#2F7B93]">FEELS LIKE YOU.</span>
           </h2>
 
           <p className="text-base text-[#61747C] font-light max-w-xl mx-auto">

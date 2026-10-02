@@ -45,13 +45,13 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
         className="group block overflow-hidden focus:outline-none"
       >
         <div className="relative overflow-hidden bg-[#EEF5F6]">
-          {/* Image Container with GES2 smooth scale */}
+          {/* Image Container with Restrained Scale (1.04) */}
           <div className={`w-full ${getAspectClass()} overflow-hidden`}>
             <img
               src={project.thumbnail}
               alt={`${project.title} - ${project.location}`}
               loading="lazy"
-              className="w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:scale-[1.06] group-hover:brightness-105"
+              className="w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:scale-[1.04]"
             />
           </div>
 
@@ -76,8 +76,11 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
         {/* Metadata Info */}
         <div className="pt-4 pb-2 space-y-1.5">
           <div className="flex items-center justify-between">
-            <h3 className="font-serif text-xl md:text-2xl text-[#11181C] group-hover:text-[#2F7B93] transition-colors duration-300 tracking-tight uppercase">
-              {project.title}
+            <h3 className="font-serif text-xl md:text-2xl text-[#11181C] group-hover:text-[#2F7B93] transition-colors duration-300 tracking-tight uppercase flex items-center gap-2">
+              <span>{project.title}</span>
+              <span className="text-xs font-mono text-[#2F7B93] opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300">
+                →
+              </span>
             </h3>
             <span className="text-xs font-mono text-[#2F7B93] font-medium ml-4">
               {project.year}
@@ -86,14 +89,14 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
 
           <div className="flex items-center justify-between text-xs text-[#61747C]">
             <span className="tracking-wider uppercase font-light">
-              {project.location}
+              {project.location} · {project.category}
             </span>
             <span className="text-[10px] tracking-widest text-[#61747C]/80 font-mono">
               {project.area}
             </span>
           </div>
 
-          {/* Underline line animation detail */}
+          {/* Thin Teal Underline Line Animation */}
           <div className="relative pt-1">
             <div className="w-full h-[1px] bg-[#EEF5F6]" />
             <span className="absolute top-1 left-0 h-[1.5px] bg-[#2F7B93] w-0 group-hover:w-full transition-all duration-400 ease-[cubic-bezier(0.25,1,0.5,1)]" />
