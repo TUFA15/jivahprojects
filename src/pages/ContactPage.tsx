@@ -8,9 +8,9 @@ import { LOCAL_BUSINESS_SCHEMA, SERVICES_SCHEMA, FAQ_SCHEMA } from '../data/sche
 
 // Easily editable configuration object for client/developer updates
 export const CONTACT_CONFIG = {
-  email: 'enquiries@jivahprojects.com',
-  phone: '+91 (0) 22 4980 3200',
-  phoneRaw: '+912249803200',
+  email: 'jivahprojects@gmail.com',
+  phone: '+91 89797 19955',
+  phoneRaw: '+918979719955',
   locationUrl: 'https://maps.google.com/?q=Hadapsar,+Pune,+Maharashtra',
   primaryLocation: {
     city: 'PUNE',

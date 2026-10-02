@@ -8,10 +8,9 @@ import { BlogCard } from '../components/BlogCard';
 import { SectionHeading } from '../components/SectionHeading';
 import { BrandMotif } from '../components/BrandMotif';
 import { InteriorTransformationShowcase } from '../components/InteriorTransformationShowcase';
-import { FAQSection } from '../components/FAQSection';
 import { PageTransition } from '../components/PageTransition';
 import { SEO } from '../components/SEO';
-import { LOCAL_BUSINESS_SCHEMA, SERVICES_SCHEMA, FAQ_SCHEMA } from '../data/schemas';
+import { LOCAL_BUSINESS_SCHEMA, SERVICES_SCHEMA } from '../data/schemas';
 
 export const HomePage: React.FC = () => {
   return (
@@ -21,7 +20,7 @@ export const HomePage: React.FC = () => {
         title="JIVAH Projects | Interior Designer in Pune"
         description="JIVAH Projects is a premier interior design studio in Hadapsar, Pune specializing in residential interior design, modular kitchen design, and bespoke living sanctuaries."
         canonicalUrl="https://jivahprojects.com"
-        jsonLd={[LOCAL_BUSINESS_SCHEMA, SERVICES_SCHEMA, FAQ_SCHEMA]}
+        jsonLd={[LOCAL_BUSINESS_SCHEMA, SERVICES_SCHEMA]}
       />
 
       {/* ---------------- 1. HERO BANNER SECTION (Approved Visual Design) ---------------- */}
@@ -342,10 +341,7 @@ export const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* ---------------- 7. FAQ SECTION (AEO & LOCAL SEO) ---------------- */}
-      <FAQSection />
-
-      {/* ---------------- 8. CONTACT CTA ---------------- */}
+      {/* ---------------- 7. CONTACT CTA ---------------- */}
       <section className="py-28 px-6 md:px-12 bg-[#F7F3EC] border-t border-[#2F7B93]/15 text-center relative">
         <div className="max-w-3xl mx-auto space-y-8">
           <div className="inline-flex items-center justify-center p-3 bg-white rounded-full shadow-xs border border-[#2F7B93]/20">

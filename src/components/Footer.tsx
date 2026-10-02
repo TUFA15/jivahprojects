@@ -5,8 +5,8 @@ import { Logo } from './Logo';
 
 // Configurable URLs for footer credits
 export const FOOTER_CREDITS_CONFIG = {
-  brbMediaaUrl: undefined as string | undefined, // e.g., 'https://brbmediaa.com'
-  arccenaSolutionsUrl: undefined as string | undefined, // e.g., 'https://arccenasolutions.com'
+  brbMediaaUrl: 'https://brbmediaa-stack.github.io/BRB/',
+  arccenaSolutionsUrl: 'https://arccena.in',
 };
 
 export const Footer: React.FC = () => {
@@ -71,13 +71,17 @@ export const Footer: React.FC = () => {
               <p className="font-serif text-base text-white">Interior Design Commissions</p>
               <p>
                 <a
-                  href="mailto:enquiries@jivahprojects.com"
-                  className="hover:text-[#8FD3DC] underline decoration-[#2F7B93] underline-offset-4 transition-colors"
+                  href="mailto:jivahprojects@gmail.com"
+                  className="hover:text-[#8FD3DC] underline decoration-[#2F7B93] underline-offset-4 transition-colors font-mono text-sm text-white"
                 >
-                  enquiries@jivahprojects.com
+                  jivahprojects@gmail.com
                 </a>
               </p>
-              <p className="text-[#8FD3DC]/70 pt-1">+91 (0) 22 4980 3200</p>
+              <p className="text-[#8FD3DC] font-mono text-sm pt-1">
+                <a href="tel:+918979719955" className="hover:text-white transition-colors">
+                  +91 89797 19955
+                </a>
+              </p>
             </div>
 
             <div className="pt-4 flex gap-6 text-[11px] tracking-[0.2em] uppercase text-[#8FD3DC]">
@@ -110,35 +114,27 @@ export const Footer: React.FC = () => {
             <span>© {new Date().getFullYear()} JIVAH PROJECTS. ALL RIGHTS RESERVED.</span>
           </div>
 
-          {/* Exact Credit Line: Powered by BRB Mediaa · Built by Arccena Solutions */}
+          {/* Credit Line: Powered by BRB Mediaa · Built by Arccena Solutions */}
           <div className="flex items-center gap-2 text-[10px] font-mono tracking-wider text-[#8FD3DC]/70">
             <span>Powered by</span>
-            {FOOTER_CREDITS_CONFIG.brbMediaaUrl ? (
-              <a
-                href={FOOTER_CREDITS_CONFIG.brbMediaaUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-white transition-colors underline decoration-[#2F7B93]"
-              >
-                BRB Mediaa
-              </a>
-            ) : (
-              <span className="text-white/90 font-medium">BRB Mediaa</span>
-            )}
+            <a
+              href={FOOTER_CREDITS_CONFIG.brbMediaaUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors underline decoration-[#2F7B93] text-white font-medium"
+            >
+              BRB Mediaa
+            </a>
             <span className="text-[#2F7B93]">·</span>
             <span>Built by</span>
-            {FOOTER_CREDITS_CONFIG.arccenaSolutionsUrl ? (
-              <a
-                href={FOOTER_CREDITS_CONFIG.arccenaSolutionsUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-white transition-colors underline decoration-[#2F7B93]"
-              >
-                Arccena Solutions
-              </a>
-            ) : (
-              <span className="text-white/90 font-medium">Arccena Solutions</span>
-            )}
+            <a
+              href={FOOTER_CREDITS_CONFIG.arccenaSolutionsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#8FD3DC] transition-colors underline decoration-[#2F7B93] text-white font-medium"
+            >
+              Arccena Solutions
+            </a>
           </div>
         </div>
       </div>

@@ -9,8 +9,8 @@ export const LOCAL_BUSINESS_SCHEMA = {
   url: 'https://jivahprojects.com',
   logo: 'https://jivahprojects.com/favicon.svg',
   image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop',
-  telephone: '+91 (0) 22 4980 3200',
-  email: 'enquiries@jivahprojects.com',
+  telephone: '+91 89797 19955',
+  email: 'jivahprojects@gmail.com',
   description:
     'JIVAH Projects is a premier interior design studio in Hadapsar, Pune, specializing in residential interior design, modular kitchen design, and bespoke living spaces across Pune, Maharashtra.',
   address: {
@@ -134,7 +134,7 @@ export const FAQ_ITEMS = [
   {
     question: 'How can I contact JIVAH Projects for an interior project?',
     answer:
-      'You can reach our interior design studio directly via email at enquiries@jivahprojects.com or phone at +91 (0) 22 4980 3200.',
+      'You can reach our interior design studio directly via email at jivahprojects@gmail.com or phone at +91 89797 19955.',
   },
 ];
 

@@ -97,7 +97,7 @@ export const FAQSection: React.FC = () => {
 
             <div className="pt-2">
               <a
-                href="mailto:enquiries@jivahprojects.com"
+                href="mailto:jivahprojects@gmail.com"
                 className="inline-flex items-center gap-3 text-xs tracking-[0.2em] font-mono text-[#8FD3DC] hover:text-white uppercase transition-colors"
               >
                 <span>EMAIL OUR STUDIO</span>
