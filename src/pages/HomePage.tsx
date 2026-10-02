@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { PROJECTS_DATA } from '../data/projects';
 import { JOURNAL_ARTICLES } from '../data/journal';
 import { ProjectCard } from '../components/ProjectCard';
+import { OptimizedImage } from '../components/OptimizedImage';
 import { BlogCard } from '../components/BlogCard';
 import { SectionHeading } from '../components/SectionHeading';
 import { BrandMotif } from '../components/BrandMotif';
@@ -27,12 +28,12 @@ export const HomePage: React.FC = () => {
       <section className="relative min-h-[92vh] lg:min-h-[96vh] flex items-center pt-32 pb-24 bg-[#16465A] text-white overflow-hidden">
         {/* Main Background Image with Gradient Overlay */}
         <div className="absolute inset-0 z-0 overflow-hidden">
-          <motion.img
+          <OptimizedImage
             src="/images/interiors/IMG_20250118_125129.jpg"
             alt="JIVAH Projects Interior Atmosphere & Light in Pune"
-            initial={{ scale: 1.06 }}
-            animate={{ scale: 1.0 }}
-            transition={{ duration: 2.8, ease: 'easeOut' }}
+            priority={true}
+            sizes="100vw"
+            containerClassName="w-full h-full"
             className="w-full h-full object-cover opacity-35 brightness-90 contrast-105"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#16465A] via-[#16465A]/90 to-[#16465A]/40" />
@@ -104,13 +105,15 @@ export const HomePage: React.FC = () => {
               <div className="relative w-full max-w-[400px]">
                 {/* Large Main Frame */}
                 <div className="aspect-[4/5] w-[88%] ml-auto rounded-3xl overflow-hidden border-2 border-[#2F7B93]/40 shadow-2xl relative group">
-                  <img
+                  <OptimizedImage
                     src="/images/interiors/IMG_20250118_125129.jpg"
                     alt="Contemporary residential living room interior designed by JIVAH Projects in Hadapsar Pune"
+                    priority={true}
+                    sizes="(max-width: 640px) 100vw, 400px"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#16465A]/90 via-transparent" />
-                  <div className="absolute bottom-6 left-6 right-6 text-white space-y-1">
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#16465A]/90 via-transparent pointer-events-none" />
+                  <div className="absolute bottom-6 left-6 right-6 text-white space-y-1 z-10">
                     <span className="text-[9px] font-mono uppercase tracking-wider text-[#8FD3DC]">
                       RESIDENTIAL SANCTUARY
                     </span>
@@ -120,13 +123,14 @@ export const HomePage: React.FC = () => {
 
                 {/* Offset Small Overlapping Frame */}
                 <div className="absolute bottom-[-5%] left-0 w-[55%] aspect-square rounded-3xl overflow-hidden border-2 border-[#8FD3DC]/50 shadow-2xl group/sub relative z-20 bg-[#16465A]">
-                  <img
+                  <OptimizedImage
                     src="/images/interiors/IMG_20250105_112813 - Copy.jpg"
                     alt="Tactile stone kitchen island interior detail by JIVAH Projects Pune"
+                    sizes="250px"
                     className="w-full h-full object-cover group-hover/sub:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#16465A]/90 via-transparent" />
-                  <div className="absolute bottom-4 left-4 right-4 text-white">
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#16465A]/90 via-transparent pointer-events-none" />
+                  <div className="absolute bottom-4 left-4 right-4 text-white z-10">
                     <h4 className="font-serif text-sm uppercase text-[#8FD3DC]">Tactile Detail</h4>
                   </div>
                 </div>
@@ -226,14 +230,13 @@ export const HomePage: React.FC = () => {
 
             <div className="lg:col-span-5 relative">
               <div className="relative overflow-hidden bg-[#EEF5F6] aspect-[4/5] rounded-3xl shadow-xl border border-[#2F7B93]/20">
-                <img
+                <OptimizedImage
                   src="/images/interiors/IMG_20250105_112832 - Copy.jpg"
                   alt="Contemporary home interior designed by JIVAH Projects in Hadapsar Pune"
-                  loading="lazy"
-                  decoding="async"
+                  sizes="(max-width: 1024px) 100vw, 500px"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"
                 />
-                <div className="absolute bottom-6 left-6 right-6 bg-[#16465A]/95 backdrop-blur-md text-white p-6 rounded-2xl border-l-2 border-[#2F7B93]">
+                <div className="absolute bottom-6 left-6 right-6 bg-[#16465A]/95 backdrop-blur-md text-white p-6 rounded-2xl border-l-2 border-[#2F7B93] z-10">
                   <p className="font-serif text-base sm:text-lg leading-snug">
                     "True luxury is the quiet rhythm of a beautifully lived-in home."
                   </p>

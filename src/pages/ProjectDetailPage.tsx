@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { PROJECTS_DATA } from '../data/projects';
 import { ProjectCard } from '../components/ProjectCard';
+import { OptimizedImage } from '../components/OptimizedImage';
 import { BrandMotif } from '../components/BrandMotif';
 import { BeforeAfterSlider } from '../components/BeforeAfterSlider';
 import { PageTransition } from '../components/PageTransition';
@@ -101,9 +102,12 @@ export const ProjectDetailPage: React.FC = () => {
         {/* Hero Image */}
         <section className="max-w-7xl mx-auto px-6 md:px-12 mb-20">
           <div className="overflow-hidden aspect-[16/9] bg-[#EEF5F6] shadow-xl rounded-2xl border border-[#2F7B93]/15">
-            <img
+            <OptimizedImage
               src={project.heroImage}
               alt={project.heroAlt || `${project.title} interior design in ${project.location}`}
+              priority={true}
+              sizes="(max-width: 1200px) 100vw, 1200px"
+              aspectRatio="16/9"
               className="w-full h-full object-cover"
             />
           </div>
@@ -273,10 +277,10 @@ export const ProjectDetailPage: React.FC = () => {
               {project.gallery.map((imgItem, idx) => (
                 <div key={idx} className="space-y-4">
                   <div className="overflow-hidden bg-[#EEF5F6] shadow-md rounded-2xl border border-[#2F7B93]/15">
-                    <img
+                    <OptimizedImage
                       src={imgItem.url}
                       alt={imgItem.alt || imgItem.caption}
-                      loading="lazy"
+                      sizes="(max-width: 1200px) 100vw, 1200px"
                       className="w-full max-h-[85vh] object-cover"
                     />
                   </div>

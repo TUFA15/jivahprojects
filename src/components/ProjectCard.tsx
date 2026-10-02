@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Project } from '../data/projects';
+import { OptimizedImage } from './OptimizedImage';
 
 interface ProjectCardProps {
   project: Project;
@@ -47,11 +48,10 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
         <div className="relative overflow-hidden bg-[#EEF5F6]">
           {/* Image Container with Restrained Scale (1.04) */}
           <div className={`w-full ${getAspectClass()} overflow-hidden`}>
-            <img
+            <OptimizedImage
               src={project.thumbnail}
               alt={project.heroAlt || `${project.title} - ${project.location} interior design by JIVAH Projects Pune`}
-              loading="lazy"
-              decoding="async"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 40vw"
               className="w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:scale-[1.04]"
             />
           </div>

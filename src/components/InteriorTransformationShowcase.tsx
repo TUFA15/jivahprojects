@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { OptimizedImage } from './OptimizedImage';
 
 export interface TransformationSlide {
   id: string;
@@ -61,7 +62,15 @@ export const InteriorTransformationShowcase: React.FC = () => {
     return () => mediaQuery.removeEventListener('change', handleChange);
   }, []);
 
-  // Automatic Rotation every 3.5 seconds (paused on hover or reduced motion)
+  // Progressive Preload Next Slide Image
+  useEffect(() => {
+    const nextIndex = (currentIndex + 1) % TRANSFORMATION_SLIDES.length;
+    const nextSlideImg = TRANSFORMATION_SLIDES[nextIndex].image;
+    const img = new Image();
+    img.src = nextSlideImg;
+  }, [currentIndex]);
+
+  // Automatic Rotation every 4 seconds (paused on hover or reduced motion)
   useEffect(() => {
     if (prefersReducedMotion || isPaused) {
       if (timerRef.current) clearInterval(timerRef.current);
@@ -70,7 +79,7 @@ export const InteriorTransformationShowcase: React.FC = () => {
 
     timerRef.current = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % TRANSFORMATION_SLIDES.length);
-    }, 3500);
+    }, 4000);
 
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
@@ -113,14 +122,14 @@ export const InteriorTransformationShowcase: React.FC = () => {
             <button
               onClick={handlePrev}
               aria-label="Previous Slide"
-              className="p-2 border border-[#2F7B93]/20 hover:border-[#2F7B93] text-[#11181C] hover:text-[#2F7B93] transition-colors focus:outline-none"
+              className="p-2 border border-[#2F7B93]/20 hover:border-[#2F7B93] text-[#11181C] hover:text-[#2F7B93] transition-colors focus:outline-none cursor-pointer"
             >
               ←
             </button>
             <button
               onClick={handleNext}
               aria-label="Next Slide"
-              className="p-2 border border-[#2F7B93]/20 hover:border-[#2F7B93] text-[#11181C] hover:text-[#2F7B93] transition-colors focus:outline-none"
+              className="p-2 border border-[#2F7B93]/20 hover:border-[#2F7B93] text-[#11181C] hover:text-[#2F7B93] transition-colors focus:outline-none cursor-pointer"
             >
               →
             </button>
@@ -135,23 +144,29 @@ export const InteriorTransformationShowcase: React.FC = () => {
         onMouseLeave={() => setIsPaused(false)}
       >
         <AnimatePresence mode="wait">
-          <motion.img
+          <motion.div
             key={currentSlide.id}
-            src={currentSlide.image}
-            alt={`${currentSlide.title} - ${currentSlide.subtitle}`}
-            initial={prefersReducedMotion ? { opacity: 0 } : { opacity: 0, scale: 1.03 }}
-            animate={prefersReducedMotion ? { opacity: 1 } : { opacity: 1, scale: 1.0 }}
+            initial={prefersReducedMotion ? { opacity: 0 } : { opacity: 0, scale: 1.02 }}
+            animate={{ opacity: 1, scale: 1.0 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: prefersReducedMotion ? 0.2 : 1.1, ease: [0.25, 1, 0.5, 1] }}
-            className="w-full h-full object-cover"
-          />
+            transition={{ duration: prefersReducedMotion ? 0.2 : 0.8, ease: [0.25, 1, 0.5, 1] }}
+            className="w-full h-full"
+          >
+            <OptimizedImage
+              src={currentSlide.image}
+              alt={`${currentSlide.title} - ${currentSlide.subtitle}`}
+              priority={currentIndex === 0}
+              sizes="(max-width: 1200px) 100vw, 1200px"
+              className="w-full h-full object-cover"
+            />
+          </motion.div>
         </AnimatePresence>
 
         {/* Gradient Overlay for Editorial Readability */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#16465A]/85 via-[#16465A]/20 to-transparent pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#16465A]/85 via-[#16465A]/20 to-transparent pointer-events-none z-10" />
 
         {/* Top Overlay Badge */}
-        <div className="absolute top-6 left-6 z-10">
+        <div className="absolute top-6 left-6 z-20">
           <span className="text-[10px] font-mono tracking-[0.25em] uppercase px-3 py-1.5 bg-[#16465A]/90 text-[#8FD3DC] backdrop-blur-md border border-[#2F7B93]/40">
             {currentSlide.stage}
           </span>
@@ -159,7 +174,7 @@ export const InteriorTransformationShowcase: React.FC = () => {
 
         {/* Pause Indicator on Hover */}
         {isPaused && !prefersReducedMotion && (
-          <div className="absolute top-6 right-6 z-10 hidden md:block">
+          <div className="absolute top-6 right-6 z-20 hidden md:block">
             <span className="text-[9px] font-mono tracking-widest uppercase px-2.5 py-1 bg-black/50 text-[#8FD3DC] backdrop-blur-xs">
               PAUSED ON HOVER
             </span>
@@ -167,7 +182,7 @@ export const InteriorTransformationShowcase: React.FC = () => {
         )}
 
         {/* Bottom Slide Info Overlay */}
-        <div className="absolute bottom-6 left-6 right-6 z-10 text-white flex flex-col md:flex-row md:items-end justify-between gap-4">
+        <div className="absolute bottom-6 left-6 right-6 z-20 text-white flex flex-col md:flex-row md:items-end justify-between gap-4">
           <div className="space-y-1 max-w-xl">
             <h3 className="font-serif text-2xl md:text-3xl uppercase tracking-wide text-white">
               {currentSlide.title}
@@ -192,7 +207,7 @@ export const InteriorTransformationShowcase: React.FC = () => {
               <button
                 key={slide.id}
                 onClick={() => setCurrentIndex(idx)}
-                className={`flex items-center gap-2 group focus:outline-none transition-all duration-300 ${
+                className={`flex items-center gap-2 group focus:outline-none transition-all duration-300 cursor-pointer ${
                   isActive ? 'text-[#2F7B93]' : 'text-[#61747C] hover:text-[#11181C]'
                 }`}
                 aria-label={`Jump to ${slide.stage}`}
@@ -209,7 +224,7 @@ export const InteriorTransformationShowcase: React.FC = () => {
         </div>
 
         <span className="text-[10px] text-[#61747C] tracking-widest uppercase hidden md:inline">
-          AUTOMATIC ROTATION EVERY 3.5S
+          AUTOMATIC ROTATION
         </span>
       </div>
     </div>
