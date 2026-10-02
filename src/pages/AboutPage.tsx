@@ -3,49 +3,58 @@ import { Link } from 'react-router-dom';
 import { SectionHeading } from '../components/SectionHeading';
 import { BrandMotif } from '../components/BrandMotif';
 import { PageTransition } from '../components/PageTransition';
+import { SEO } from '../components/SEO';
+import { LOCAL_BUSINESS_SCHEMA, SERVICES_SCHEMA } from '../data/schemas';
 
 export const AboutPage: React.FC = () => {
   const SENSORY_PROCESS_STEPS = [
     {
       num: '01',
       name: 'FEEL & OBSERVE',
-      subtitle: 'Living Ritual Audit & Natural Solar Mapping',
-      text: 'We begin by observing how you live, rest, and entertain. We map how daylight enters your space from sunrise to dusk, establishing the emotional foundation of the interior.',
+      subtitle: 'Living Ritual Audit & Solar Orientation',
+      text: 'We begin by observing how your family lives, rests, and entertains in your Pune home. We map natural solar light angles from morning sunrise to evening dusk.',
     },
     {
       num: '02',
       name: 'MATERIAL & PALETTE',
-      subtitle: 'Tactile Texture Swatches & Color Curation',
+      subtitle: 'Tactile Swatches & Surface Curation',
       text: 'We curate authentic stone slabs, open-grain wood veneers, bouclé wools, and mineral plaster samples. Every material is paired under real site lighting conditions.',
     },
     {
       num: '03',
       name: 'FURNITURE & LIGHT',
-      subtitle: 'Bespoke Joinery & Ambient Lighting Schematics',
-      text: 'Proportioning custom sofas, credenzas, and integrated joinery. We design recessed lighting troughs and indirect cove glow to eliminate glare and create cozy evening warmth.',
+      subtitle: 'Bespoke Joinery & Ambient Lighting',
+      text: 'Proportioning custom sofas, credenzas, and integrated joinery. We design recessed LED troughs and indirect cove glow to eliminate glare and create warm evening comfort.',
     },
     {
       num: '04',
       name: 'CRAFT & TAILOR',
-      subtitle: 'Artisan Collaboration & Guild Procurement',
-      text: 'Working hand-in-hand with master stonemasons, wood turners, bronze smiths, and textile weavers. We prototype key furniture pieces to ensure exceptional comfort.',
+      subtitle: 'Artisan Guild Collaboration',
+      text: 'Working hand-in-hand with skilled stonemasons, wood turners, metal fabricators, and textile weavers to build key furniture pieces and custom modular kitchens.',
     },
     {
       num: '05',
       name: 'ELEVATE ATMOSPHERE',
       subtitle: 'Interior Styling & Acoustic Tuning',
-      text: 'Hands-on spatial commissioning on site. Tuning acoustic drapes, position of artwork, scent notes, and lighting scenes so your home feels like a calm, cocooning sanctuary.',
+      text: 'Hands-on spatial commissioning on site. Tuning acoustic drapes, placement of artwork, and lighting scenes so your interior feels like a calm sanctuary.',
     },
   ];
 
   return (
     <PageTransition>
-      <div className="pt-36 pb-24 bg-[#F8F9F8] text-[#11181C]">
-        {/* Hero Banner */}
+      <SEO
+        title="About JIVAH Projects | Interior Design Studio in Pune"
+        description="Learn about JIVAH Projects, an interior design studio based in Hadapsar, Pune dedicated to thoughtful spatial flow, authentic materials, and home interior sanctuaries."
+        canonicalUrl="https://jivahprojects.com/about"
+        jsonLd={[LOCAL_BUSINESS_SCHEMA, SERVICES_SCHEMA]}
+      />
+
+      <div className="pt-36 pb-24 bg-[#F7F3EC] text-[#11181C]">
+        {/* Header Hero */}
         <section className="max-w-7xl mx-auto px-6 md:px-12 mb-20 space-y-8">
           <div className="flex items-center gap-3 text-[11px] font-mono tracking-[0.3em] uppercase text-[#2F7B93]">
             <BrandMotif size={16} color="#2F7B93" />
-            <span>JIVAH PROJECTS · CREATIVE PHILOSOPHY</span>
+            <span>JIVAH PROJECTS · PUNE INTERIOR DESIGN STUDIO</span>
           </div>
 
           <h1 className="font-serif text-5xl sm:text-7xl md:text-8xl lg:text-9xl uppercase tracking-tight leading-[0.92] max-w-5xl">
@@ -57,16 +66,16 @@ export const AboutPage: React.FC = () => {
           </h1>
 
           <p className="text-xl sm:text-2xl font-light text-[#61747C] max-w-3xl leading-relaxed">
-            An interior design studio focused on how spaces feel, how light moves, and how authentic materials enrich daily living.
+            An interior design studio based in Hadapsar, Pune, focused on how spaces feel, how light moves, and how authentic materials enrich residential living.
           </p>
         </section>
 
         {/* Large Interior Visual */}
         <section className="max-w-7xl mx-auto px-6 md:px-12 mb-24">
-          <div className="overflow-hidden aspect-[21/9] bg-[#EEF5F6] shadow-lg">
+          <div className="overflow-hidden aspect-[21/9] bg-[#EEF5F6] shadow-lg rounded-2xl border border-[#2F7B93]/15">
             <img
               src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2000&auto=format&fit=crop"
-              alt="JIVAH Studio Interior Atmosphere"
+              alt="Contemporary living room interior design by JIVAH Projects in Pune"
               className="w-full h-full object-cover"
             />
           </div>
@@ -76,10 +85,14 @@ export const AboutPage: React.FC = () => {
         <section className="max-w-7xl mx-auto px-6 md:px-12 mb-28">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-5 space-y-6">
-              <SectionHeading
-                label="PHILOSOPHY"
-                title="THE PSYCHOLOGY OF INTERIOR CALM"
-              />
+              <div className="space-y-3">
+                <span className="text-[10px] font-mono tracking-[0.3em] uppercase text-[#2F7B93]">
+                  [ STUDIO PHILOSOPHY ]
+                </span>
+                <h2 className="font-serif text-3xl sm:text-4xl uppercase text-[#11181C] tracking-tight leading-[1.05]">
+                  THE PSYCHOLOGY OF INTERIOR CALM
+                </h2>
+              </div>
               <p className="text-base font-light text-[#61747C] leading-relaxed">
                 Founded on the principle that your interior environment shapes your emotional state, JIVAH Projects creates spaces that offer acoustic peace, visual harmony, and tactile delight.
               </p>
@@ -87,97 +100,23 @@ export const AboutPage: React.FC = () => {
 
             <div className="lg:col-span-7 space-y-6 text-base md:text-lg font-light leading-relaxed text-[#11181C]/90">
               <p>
-                We avoid artificial trends, superficial decorations, or sterile minimalist setups. Instead, our design language emerges from natural stone, warm timber, soft textiles, and custom lighting.
+                We avoid artificial trends, superficial decorations, or sterile minimalist setups. Instead, our interior design language emerges from natural stone, warm timber, soft textiles, and custom lighting.
               </p>
               <p>
-                From private coastal villas in Goa to high-rise penthouses in Mumbai and Delhi, we craft interior environments that feel personal, timeless, and deeply lived-in.
+                Serving Hadapsar and greater Pune, we craft home interiors, 2 BHK & 3 BHK layouts, modular kitchens, and residential sanctuaries that feel personal, timeless, and deeply lived-in.
               </p>
               <div className="pt-4 grid grid-cols-2 gap-6 border-t border-[#2F7B93]/20 text-xs font-mono">
                 <div>
-                  <span className="text-[#2F7B93] block">STUDIO LOCATIONS</span>
+                  <span className="text-[#2F7B93] block">STUDIO LOCATION</span>
                   <span className="text-[#11181C] block font-sans font-medium mt-1">
-                    Mumbai · New Delhi · Goa
+                    Hadapsar, Pune, Maharashtra
                   </span>
                 </div>
                 <div>
-                  <span className="text-[#2F7B93] block">STUDIO EXPERTISE</span>
+                  <span className="text-[#2F7B93] block">INTERIOR SERVICES</span>
                   <span className="text-[#11181C] block font-sans font-medium mt-1">
-                    Residential Interiors · Hospitality Lounges · Bespoke Furniture
+                    Residential Interiors · Modular Kitchens · Custom Furniture
                   </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* ---------------- FOUNDER & CREATIVE LEADERSHIP SECTION ---------------- */}
-        <section className="py-24 px-6 md:px-12 bg-[#EEF5F6]/60 border-y border-[#2F7B93]/15 mb-28">
-          <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-              {/* Founder Editorial Portrait Image */}
-              <div className="lg:col-span-5 relative">
-                <div className="overflow-hidden bg-[#16465A] aspect-[4/5] shadow-xl border border-[#2F7B93]/20 relative">
-                  <img
-                    src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1200&auto=format&fit=crop"
-                    alt="JIVAH Projects Founder & Creative Director"
-                    className="w-full h-full object-cover grayscale contrast-105 hover:grayscale-0 transition-all duration-700"
-                  />
-                  <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-[#16465A] via-[#16465A]/40 to-transparent p-6 text-white">
-                    <span className="text-[9px] font-mono tracking-[0.25em] text-[#8FD3DC] uppercase block">
-                      FOUNDER & CREATIVE DIRECTOR
-                    </span>
-                    <h3 className="font-serif text-2xl uppercase tracking-wide text-white mt-1">
-                      ANANYA ROY
-                    </h3>
-                  </div>
-                </div>
-
-                {/* Decorative Emblem Accent */}
-                <div className="absolute -bottom-6 -right-6 pointer-events-none opacity-25 hidden sm:block">
-                  <BrandMotif size={140} color="#2F7B93" />
-                </div>
-              </div>
-
-              {/* Founder Bio & Creative Vision */}
-              <div className="lg:col-span-7 space-y-8">
-                <div className="space-y-3">
-                  <span className="text-[10px] font-mono tracking-[0.3em] uppercase text-[#2F7B93]">
-                    [ CREATIVE LEADERSHIP ]
-                  </span>
-                  <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl uppercase text-[#11181C] tracking-tight leading-[1.05]">
-                    FROM THE FOUNDER
-                  </h2>
-                </div>
-
-                <blockquote className="font-serif text-2xl md:text-3xl italic text-[#16465A] leading-snug border-l-3 border-[#2F7B93] pl-6 py-1">
-                  "An interior is not a static backdrop; it is an intimate physical sanctuary where material authenticity, soft light, and quiet acoustics elevate the rhythm of human life."
-                </blockquote>
-
-                <div className="space-y-4 text-sm text-[#61747C] font-light leading-relaxed">
-                  <p>
-                    With over twelve years of spatial design practice across India and Europe, Ananya Roy established JIVAH Projects with a singular vision: to liberate luxury interior design from superficial ornamentation and restore tactile, living intimacy.
-                  </p>
-                  <p>
-                    Her approach combines deep research into regional natural stone quarries, bespoke timber joinery, and custom lighting schematics with a personal, intuitive understanding of human daily rituals.
-                  </p>
-                </div>
-
-                <div className="pt-4 grid grid-cols-2 sm:grid-cols-3 gap-6 border-t border-[#2F7B93]/20 text-xs font-mono">
-                  <div>
-                    <span className="text-[#2F7B93] uppercase text-[10px] tracking-wider block">LEADERSHIP</span>
-                    <span className="text-[#11181C] font-sans font-medium text-sm block mt-1">Ananya Roy</span>
-                    <span className="text-[#61747C] text-[10px]">Creative Director</span>
-                  </div>
-                  <div>
-                    <span className="text-[#2F7B93] uppercase text-[10px] tracking-wider block">DISCIPLINE</span>
-                    <span className="text-[#11181C] font-sans font-medium text-sm block mt-1">Interior Architecture</span>
-                    <span className="text-[#61747C] text-[10px]">Furniture & Styling</span>
-                  </div>
-                  <div>
-                    <span className="text-[#2F7B93] uppercase text-[10px] tracking-wider block">PRACTICE</span>
-                    <span className="text-[#11181C] font-sans font-medium text-sm block mt-1">Bespoke Curation</span>
-                    <span className="text-[#61747C] text-[10px]">12+ Years Experience</span>
-                  </div>
                 </div>
               </div>
             </div>
@@ -191,12 +130,17 @@ export const AboutPage: React.FC = () => {
           </div>
 
           <div className="max-w-7xl mx-auto px-6 md:px-12 space-y-20 relative z-10">
-            <SectionHeading
-              label="OUR METHODOLOGY"
-              title="THE INTERIOR CREATIVE PROCESS"
-              subtitle="A 5-phase spatial journey centered around atmosphere, materiality, and human comfort."
-              dark={true}
-            />
+            <div className="space-y-4 max-w-3xl">
+              <span className="text-[10px] font-mono tracking-[0.3em] uppercase text-[#8FD3DC]">
+                [ OUR METHODOLOGY ]
+              </span>
+              <h2 className="font-serif text-4xl sm:text-5xl uppercase text-white tracking-tight">
+                THE INTERIOR CREATIVE PROCESS
+              </h2>
+              <p className="text-base font-light text-[#8FD3DC]/80 leading-relaxed">
+                A 5-phase spatial journey centered around atmosphere, materiality, and residential comfort in Pune.
+              </p>
+            </div>
 
             <div className="space-y-12">
               {SENSORY_PROCESS_STEPS.map((step) => (
@@ -230,30 +174,34 @@ export const AboutPage: React.FC = () => {
           </div>
         </section>
 
-        {/* Master Artisans Collaboration */}
+        {/* Master Artisans & Execution */}
         <section className="max-w-7xl mx-auto px-6 md:px-12 mb-24">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            <div className="lg:col-span-6 overflow-hidden bg-[#EEF5F6] aspect-[4/5] shadow-lg">
+            <div className="lg:col-span-6 overflow-hidden bg-[#EEF5F6] aspect-[4/5] shadow-lg rounded-2xl border border-[#2F7B93]/15">
               <img
                 src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1400&auto=format&fit=crop"
-                alt="JIVAH Studio Furniture & Craftsmanship"
+                alt="Custom furniture curation and interior styling by JIVAH Projects Pune"
                 className="w-full h-full object-cover"
               />
             </div>
 
             <div className="lg:col-span-6 space-y-6">
-              <SectionHeading
-                label="CRAFT & STYLING"
-                title="BESPOKE FURNITURE & ARTISAN GUILDS"
-              />
-              <p className="text-base font-light text-[#61747C] leading-relaxed">
-                We collaborate directly with master wood turners, stone masons, bronze smiths, and textile artisans. Every piece of furniture, headboard wall, or lighting accent is prototyped and custom-built specifically for your space.
-              </p>
+              <div className="space-y-3">
+                <span className="text-[10px] font-mono tracking-[0.3em] uppercase text-[#2F7B93]">
+                  [ CRAFT & STYLING ]
+                </span>
+                <h2 className="font-serif text-3xl sm:text-4xl uppercase text-[#11181C] tracking-tight">
+                  BESPOKE FURNITURE & MODULAR KITCHEN EXECUTION
+                </h2>
+                <p className="text-base font-light text-[#61747C] leading-relaxed">
+                  We work closely with skilled craftsmen, stone fabricators, and hardware specialists. Every piece of furniture, headboard wall, modular kitchen unit, or lighting accent is prototyped and custom-built specifically for your space.
+                </p>
+              </div>
 
               <div className="pt-6">
                 <Link
                   to="/contact"
-                  className="inline-flex items-center gap-4 bg-[#2F7B93] text-white hover:bg-[#16465A] px-8 py-4 text-xs tracking-[0.25em] font-medium uppercase transition-colors"
+                  className="inline-flex items-center gap-4 bg-[#2F7B93] text-white hover:bg-[#16465A] px-8 py-4 text-xs tracking-[0.25em] font-medium uppercase transition-colors rounded-xl"
                 >
                   <span>START AN INTERIOR PROJECT</span>
                   <span>→</span>

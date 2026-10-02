@@ -21,143 +21,195 @@ export interface JournalArticle {
 
 export const JOURNAL_ARTICLES: JournalArticle[] = [
   {
-    id: 'designing-with-natural-light',
-    slug: 'designing-with-natural-light',
-    title: 'Designing With Natural Light',
-    category: 'Spatial Theory',
-    date: 'September 18, 2026',
-    readTime: '5 min read',
-    excerpt: 'Light is not merely illumination—it is the dynamic material that shapes volume, shadow, and emotional cadence within interior architecture.',
+    id: 'how-to-plan-a-2-bhk-interior-in-pune',
+    slug: 'how-to-plan-a-2-bhk-interior-in-pune',
+    title: 'How to Plan a 2 BHK Interior in Pune',
+    category: 'Home Interior Guide',
+    date: 'October 01, 2026',
+    readTime: '6 min read',
+    excerpt: 'Key considerations for optimizing floor space, natural light, concealed storage, and material durability in contemporary 2 BHK homes across Pune.',
     coverImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1600&auto=format&fit=crop',
     author: {
-      name: 'JIVAH Editorial',
-      role: 'Spatial Research & Architecture'
+      name: 'JIVAH Studio',
+      role: 'Interior Design Team'
     },
     content: [
       {
         type: 'paragraph',
-        text: 'In contemporary interior architecture, light is frequently treated as a secondary technical layer—a grid of recessed downlights installed after spatial decisions are finalized. At JIVAH Projects, we approach natural light as an active, primary building material equal in weight to stone, timber, or concrete.'
+        text: 'Planning a 2 BHK interior in Pune requires a thoughtful balance between spatial fluidity and practical daily storage. Whether your home is located in Hadapsar, Baner, or Kharadi, modern apartment layouts benefit significantly from tailored joinery and cohesive color schemes.'
       },
       {
         type: 'heading',
-        text: 'The Geometry of Diurnal Shift'
+        text: '1. Prioritize Multi-Functional Living Room Zones'
       },
       {
         type: 'paragraph',
-        text: 'A space designed with intention changes character continuously throughout the day. Early morning sun casting long diagonal shadows across a lime-washed wall creates a quiet moment of contemplation. By midday, indirect skylight brings out the subtle grain of honed travertine without harsh glare.'
+        text: 'In a 2 BHK apartment, the living area serves multiple functions—relaxing, dining, and working. Utilizing low-profile seating, floating media consoles, and warm neutral wall finishes creates an expansive feeling without crowding walkways.'
       },
       {
         type: 'quote',
-        text: 'Architecture is the learned game, correct and magnificent, of forms assembled in the light.'
+        text: 'Thoughtful spatial layout in a 2 BHK interior transforms compact square footage into a serene living environment.'
+      },
+      {
+        type: 'heading',
+        text: '2. Maximize Vertical Storage & Concealed Joinery'
       },
       {
         type: 'paragraph',
-        text: 'To harness this shift, we carefully map solar trajectories during early concept phases. We calculate window reveal depths, overhang projections, and screen densities to sculpt how daylight enters and moves through each room.'
+        text: 'Full-height wardrobes, floor-to-ceiling kitchen pantries, and bed storage options eliminate visual clutter. Using oak veneers or matte neutral laminates ensures heavy storage units blend seamlessly into surrounding walls.'
       },
       {
         type: 'image',
         imageUrl: 'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?q=80&w=1400&auto=format&fit=crop',
-        caption: 'Reflected morning light across raw travertine at JIVAH Residence.'
+        caption: 'Concealed kitchen joinery and natural light mapping in a modern Pune residential interior.'
       },
       {
         type: 'heading',
-        text: 'Indirect Illumination & Shadow Gap Discipline'
+        text: '3. Solar Mapping & Sheer Window Treatments'
       },
       {
         type: 'paragraph',
-        text: 'Controlling shadow is as critical as capturing light. By integrating architectural shadow gaps along ceiling perimeters and recessing LED channels behind wall panels, artificial lighting at night inherits the soft, indirect quality of natural dusk.'
+        text: 'Pune receives generous natural sunshine throughout the year. Installing sheer Belgian linen or light-diffusing curtains softens harsh afternoon rays while illuminating natural stone floors.'
       }
     ]
   },
   {
-    id: 'why-materiality-matters',
-    slug: 'why-materiality-matters',
-    title: 'Why Materiality Matters',
-    category: 'Material Science',
-    date: 'August 24, 2026',
-    readTime: '6 min read',
-    excerpt: 'Examining the tactile resonance of authentic raw materials and why genuine surfaces age with grace and quiet dignity.',
+    id: 'how-to-choose-the-right-interior-designer-in-pune',
+    slug: 'how-to-choose-the-right-interior-designer-in-pune',
+    title: 'How to Choose the Right Interior Designer in Pune',
+    category: 'Design Guidance',
+    date: 'September 24, 2026',
+    readTime: '5 min read',
+    excerpt: 'Essential advice for evaluating design studio portfolios, material transparency, local Hadapsar experience, and spatial planning standards.',
     coverImage: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1600&auto=format&fit=crop',
     author: {
-      name: 'JIVAH Editorial',
-      role: 'Materiality & Craft'
+      name: 'JIVAH Studio',
+      role: 'Interior Design Team'
     },
     content: [
       {
         type: 'paragraph',
-        text: 'In an era dominated by synthetic imitations and rapid surface finishes, authentic materiality stands as an anchor of honesty. When a hand rests on honed limestone or smoked oak, the body immediately registers authenticity.'
+        text: 'Selecting the ideal home interior designer in Pune is one of the most critical decisions when building your home. Beyond aesthetic preferences, your interior partner must possess deep technical knowledge of materials, lighting, and local execution standards.'
       },
       {
         type: 'heading',
-        text: 'The Intelligence of Wabi Sabi & Patina'
+        text: 'Review Authentic Completed Interior Work'
       },
       {
         type: 'paragraph',
-        text: 'Raw materials possess a living quality. Unsealed travertine absorbs the history of a home; unlacquered brass oxidizes gracefully under human touch; solid teak deepens into rich amber tones over decades.'
+        text: 'Look for actual photography of built interiors rather than 3D renders. High-quality craftsmanship is evidenced by clean shadow gaps, precise stone joinery, and durable kitchen hardware.'
       },
       {
         type: 'quote',
-        text: 'Materials carry memories. Synthetics conceal time; raw stone and wood honor it.'
+        text: 'A great interior studio listens to your daily habits and designs around how you actually live.'
+      },
+      {
+        type: 'heading',
+        text: 'Demand Material & Pricing Transparency'
       },
       {
         type: 'paragraph',
-        text: 'We select materials not only for their initial visual impact, but for how they will look twenty years into their lifecycle. This long-term material discipline ensures our spaces grow more soulful with age.'
+        text: 'Understand the grade of plywood, stone, hardware brands (such as Blum or Hafele), and finishing lacquers being specified. Clear documentation prevents unexpected budget adjustments during project execution.'
       }
     ]
   },
   {
-    id: 'the-architecture-of-everyday-living',
-    slug: 'the-architecture-of-everyday-living',
-    title: 'The Architecture of Everyday Living',
-    category: 'Design Philosophy',
-    date: 'July 15, 2026',
+    id: 'kitchen-interior-design-ideas-for-pune-homes',
+    slug: 'kitchen-interior-design-ideas-for-pune-homes',
+    title: 'Kitchen Interior Design Ideas for Pune Homes',
+    category: 'Kitchen Interiors',
+    date: 'September 12, 2026',
     readTime: '4 min read',
-    excerpt: 'How spatial flow, acoustic balance, and intuitive ergonomics elevate daily rituals from routine to art.',
+    excerpt: 'Exploring ergonomic work triangles, quartz countertops, ambient cove illumination, and durable cabinetry finishes for Indian cooking environments.',
     coverImage: 'https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?q=80&w=1600&auto=format&fit=crop',
     author: {
-      name: 'JIVAH Editorial',
-      role: 'Interior Architecture'
+      name: 'JIVAH Studio',
+      role: 'Kitchen Design Specialist'
     },
     content: [
       {
         type: 'paragraph',
-        text: 'Great interior design is often judged by photographs, yet true luxury is experienced in motion—the sequence of walking through an entryway, the weight of a custom door handle, or the acoustic calm of a wood-paneled study.'
+        text: 'The kitchen is the functional hearth of every home in Pune. Designing a kitchen interior requires balancing heavy-duty daily usage with refined aesthetic elegance.'
       },
       {
         type: 'heading',
-        text: 'Designing for Ritual Rather Than Display'
+        text: 'Quartz & Granite Countertop Selection'
       },
       {
         type: 'paragraph',
-        text: 'We design around human rituals: the morning cup of tea taken by a garden view, the seamless transition from entertaining guests to quiet evening solitude, the intuitive storage that eliminates visual clutter.'
+        text: 'High-density quartz and matte black granite offer stain resistance against spices while providing a smooth, hygienic surface for daily meal preparation.'
       },
       {
-        type: 'quote',
-        text: 'A home should feel like a sanctuary tailored precisely to your rhythm of life.'
+        type: 'heading',
+        text: 'Under-Cabinet Task Lighting'
+      },
+      {
+        type: 'paragraph',
+        text: 'Integrating 3000K warm LED channels under wall cabinets ensures clear visibility on work surfaces without casting overhead shadows.'
       }
     ]
   },
   {
-    id: 'creating-timeless-interiors',
-    slug: 'creating-timeless-interiors',
-    title: 'Creating Timeless Interiors',
-    category: 'Editorial',
-    date: 'June 02, 2026',
+    id: 'what-to-consider-before-designing-a-modular-kitchen',
+    slug: 'what-to-consider-before-designing-a-modular-kitchen',
+    title: 'What to Consider Before Designing a Modular Kitchen',
+    category: 'Modular Kitchens',
+    date: 'August 28, 2026',
     readTime: '5 min read',
-    excerpt: 'Resisting fleeting micro-trends in favor of classical proportion, architectural discipline, and restrained elegance.',
+    excerpt: 'A practical roadmap covering ergonomic heights, soft-close hardware, chimney ventilation, and moisture-resistant carcass materials.',
     coverImage: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1600&auto=format&fit=crop',
     author: {
-      name: 'JIVAH Editorial',
-      role: 'Design Criticism'
+      name: 'JIVAH Studio',
+      role: 'Modular Kitchen Team'
     },
     content: [
       {
         type: 'paragraph',
-        text: 'Trends come and go with seasonal speed. Design that relies on viral aesthetics quickly feels dated. Timelessness, however, is rooted in classical proportions, spatial clarity, and understated execution.'
+        text: 'Before commencing a modular kitchen installation in Pune, understanding the core technical components ensures your investment remains trouble-free for decades.'
+      },
+      {
+        type: 'heading',
+        text: '1. Carcass Material Selection (BWP Marine Plywood)'
       },
       {
         type: 'paragraph',
-        text: 'By focusing on spatial purity, architectural alignment, and organic textures, JIVAH Projects creates environments that remain as captivating ten years from now as they are on the day of completion.'
+        text: 'Always insist on Boiling Water Proof (BWP) IS:710 grade plywood for wet sink modules to protect against humidity and water exposure.'
+      },
+      {
+        type: 'heading',
+        text: '2. Soft-Close Drawer Systems & Corner Units'
+      },
+      {
+        type: 'paragraph',
+        text: 'Full-extension tandem drawers and S-carousel corner pull-outs make deep storage easily accessible without straining.'
+      }
+    ]
+  },
+  {
+    id: 'how-lighting-changes-the-feel-of-an-interior',
+    slug: 'how-lighting-changes-the-feel-of-an-interior',
+    title: 'How Lighting Changes the Feel of an Interior',
+    category: 'Spatial Lighting',
+    date: 'August 14, 2026',
+    readTime: '5 min read',
+    excerpt: 'Layering ambient, accent, and task illumination to transform residential room atmospheres from bright morning clarity to evening calm.',
+    coverImage: 'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?q=80&w=1600&auto=format&fit=crop',
+    author: {
+      name: 'JIVAH Studio',
+      role: 'Lighting & Atmosphere Specialist'
+    },
+    content: [
+      {
+        type: 'paragraph',
+        text: 'Light is the single most powerful tool in interior design. It determines how colors are perceived, how textures feel, and how relaxed a home feels at night.'
+      },
+      {
+        type: 'heading',
+        text: 'The 3-Layer Lighting Rule'
+      },
+      {
+        type: 'paragraph',
+        text: 'Every well-designed room relies on three distinct light layers: indirect cove lighting for general ambient glow, warm spots for artwork accents, and targeted lamps for reading or working.'
       }
     ]
   }

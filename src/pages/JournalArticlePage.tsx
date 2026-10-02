@@ -4,6 +4,8 @@ import { JOURNAL_ARTICLES } from '../data/journal';
 import { BlogCard } from '../components/BlogCard';
 import { BrandMotif } from '../components/BrandMotif';
 import { PageTransition } from '../components/PageTransition';
+import { SEO } from '../components/SEO';
+import { createBreadcrumbSchema, LOCAL_BUSINESS_SCHEMA } from '../data/schemas';
 
 export const JournalArticlePage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -16,9 +18,23 @@ export const JournalArticlePage: React.FC = () => {
 
   const otherArticles = JOURNAL_ARTICLES.filter((a) => a.id !== article.id).slice(0, 2);
 
+  const breadcrumbSchema = createBreadcrumbSchema([
+    { name: 'Home', item: 'https://jivahprojects.com/' },
+    { name: 'Journal', item: 'https://jivahprojects.com/journal' },
+    { name: article.title, item: `https://jivahprojects.com/journal/${article.slug}` },
+  ]);
+
   return (
     <PageTransition>
-      <article className="pt-36 pb-24 bg-[#F8F9F8] text-[#11181C]">
+      <SEO
+        title={`${article.title} | Interior Design Journal | JIVAH Projects`}
+        description={article.excerpt}
+        canonicalUrl={`https://jivahprojects.com/journal/${article.slug}`}
+        ogImage={article.coverImage}
+        jsonLd={[LOCAL_BUSINESS_SCHEMA, breadcrumbSchema]}
+      />
+
+      <article className="pt-36 pb-24 bg-[#F7F3EC] text-[#11181C]">
         <div className="max-w-4xl mx-auto px-6 md:px-12 space-y-10">
           {/* Back link */}
           <Link
@@ -59,10 +75,10 @@ export const JournalArticlePage: React.FC = () => {
           </div>
 
           {/* Cover Image */}
-          <div className="overflow-hidden bg-[#EEF5F6] aspect-[16/10] my-8 shadow-md">
+          <div className="overflow-hidden bg-[#EEF5F6] aspect-[16/10] my-8 shadow-md rounded-2xl border border-[#2F7B93]/15">
             <img
               src={article.coverImage}
-              alt={article.title}
+              alt={`${article.title} - JIVAH Projects interior journal Pune`}
               className="w-full h-full object-cover"
             />
           </div>
@@ -84,7 +100,7 @@ export const JournalArticlePage: React.FC = () => {
                 return (
                   <blockquote
                     key={index}
-                    className="my-8 p-6 md:p-8 bg-[#EEF5F6] border-l-4 border-[#2F7B93] font-serif text-xl md:text-2xl italic text-[#16465A]"
+                    className="my-8 p-6 md:p-8 bg-[#EDE5D9]/70 border-l-4 border-[#2F7B93] font-serif text-xl md:text-2xl italic text-[#16465A] rounded-r-2xl"
                   >
                     "{item.text}"
                   </blockquote>
@@ -96,7 +112,7 @@ export const JournalArticlePage: React.FC = () => {
                     <img
                       src={item.imageUrl}
                       alt={item.caption || article.title}
-                      className="w-full max-h-[70vh] object-cover"
+                      className="w-full max-h-[70vh] object-cover rounded-2xl border border-[#2F7B93]/15"
                     />
                     {item.caption && (
                       <p className="text-xs font-mono text-[#61747C] uppercase tracking-wider">
@@ -112,7 +128,7 @@ export const JournalArticlePage: React.FC = () => {
 
           {/* Article Footer & Related Articles */}
           <div className="pt-16 border-t border-[#2F7B93]/20 space-y-12">
-            <h3 className="font-serif text-3xl uppercase text-[#11181C]">MORE FROM THE JOURNAL</h3>
+            <h2 className="font-serif text-3xl uppercase text-[#11181C]">MORE FROM THE JOURNAL</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {otherArticles.map((other) => (

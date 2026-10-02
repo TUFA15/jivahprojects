@@ -5,6 +5,8 @@ import { ProjectCard } from '../components/ProjectCard';
 import { BrandMotif } from '../components/BrandMotif';
 import { BeforeAfterSlider } from '../components/BeforeAfterSlider';
 import { PageTransition } from '../components/PageTransition';
+import { SEO } from '../components/SEO';
+import { createBreadcrumbSchema, LOCAL_BUSINESS_SCHEMA } from '../data/schemas';
 
 export const ProjectDetailPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -17,9 +19,23 @@ export const ProjectDetailPage: React.FC = () => {
 
   const relatedProjects = PROJECTS_DATA.filter((p) => p.id !== project.id).slice(0, 2);
 
+  const breadcrumbSchema = createBreadcrumbSchema([
+    { name: 'Home', item: 'https://jivahprojects.com/' },
+    { name: 'Work', item: 'https://jivahprojects.com/work' },
+    { name: project.title, item: `https://jivahprojects.com/work/${project.slug}` },
+  ]);
+
   return (
     <PageTransition>
-      <article className="pt-32 pb-24 bg-[#F8F9F8] text-[#11181C]">
+      <SEO
+        title={`${project.title} | Interior Design Project | JIVAH Projects`}
+        description={`${project.subtitle} Designed by JIVAH Projects interior studio in ${project.location}.`}
+        canonicalUrl={`https://jivahprojects.com/work/${project.slug}`}
+        ogImage={project.heroImage}
+        jsonLd={[LOCAL_BUSINESS_SCHEMA, breadcrumbSchema]}
+      />
+
+      <article className="pt-32 pb-24 bg-[#F7F3EC] text-[#11181C]">
         {/* Header */}
         <header className="max-w-7xl mx-auto px-6 md:px-12 space-y-8 pb-12">
           <div className="flex items-center justify-between">
@@ -84,10 +100,10 @@ export const ProjectDetailPage: React.FC = () => {
 
         {/* Hero Image */}
         <section className="max-w-7xl mx-auto px-6 md:px-12 mb-20">
-          <div className="overflow-hidden aspect-[16/9] bg-[#EEF5F6] shadow-xl">
+          <div className="overflow-hidden aspect-[16/9] bg-[#EEF5F6] shadow-xl rounded-2xl border border-[#2F7B93]/15">
             <img
               src={project.heroImage}
-              alt={project.title}
+              alt={project.heroAlt || `${project.title} interior design in ${project.location}`}
               className="w-full h-full object-cover"
             />
           </div>
@@ -96,7 +112,7 @@ export const ProjectDetailPage: React.FC = () => {
         {/* Spatial Feeling & Concept Statement */}
         <section className="max-w-7xl mx-auto px-6 md:px-12 mb-24">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-            <div className="lg:col-span-5 bg-[#16465A] text-white p-8 md:p-12 space-y-6 relative border-l-4 border-[#2F7B93]">
+            <div className="lg:col-span-5 bg-[#16465A] text-white p-8 md:p-12 space-y-6 relative border-l-4 border-[#2F7B93] rounded-3xl shadow-xl">
               <div className="flex items-center gap-2 text-[10px] font-mono tracking-widest text-[#8FD3DC] uppercase">
                 <BrandMotif size={16} color="#8FD3DC" />
                 <span>SPATIAL ATMOSPHERE & FEEL</span>
@@ -123,16 +139,16 @@ export const ProjectDetailPage: React.FC = () => {
           </div>
         </section>
 
-        {/* Interactive Before & After Transformation (if present) */}
+        {/* Interactive Before & After Transformation */}
         {project.beforeAfter && (
           <section className="max-w-7xl mx-auto px-6 md:px-12 mb-24 space-y-6">
             <div className="space-y-2">
               <span className="text-[10px] font-mono tracking-[0.3em] uppercase text-[#2F7B93]">
                 [ INTERIOR TRANSFORMATION ]
               </span>
-              <h3 className="font-serif text-3xl md:text-4xl uppercase text-[#11181C]">
+              <h2 className="font-serif text-3xl md:text-4xl uppercase text-[#11181C]">
                 BEFORE & AFTER DESIGN REVEAL
-              </h3>
+              </h2>
             </div>
 
             <BeforeAfterSlider
@@ -145,7 +161,7 @@ export const ProjectDetailPage: React.FC = () => {
 
         {/* Color Palette Bar */}
         {project.colorPalette && project.colorPalette.length > 0 && (
-          <section className="bg-[#EEF5F6]/60 py-12 mb-20 border-y border-[#2F7B93]/15">
+          <section className="bg-[#EDE5D9]/60 py-12 mb-20 border-y border-[#2F7B93]/15">
             <div className="max-w-7xl mx-auto px-6 md:px-12 space-y-6">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                 <span className="text-[10px] font-mono tracking-[0.3em] uppercase text-[#2F7B93]">
@@ -158,9 +174,9 @@ export const ProjectDetailPage: React.FC = () => {
 
               <div className="grid grid-cols-2 sm:grid-cols-5 gap-4">
                 {project.colorPalette.map((color, idx) => (
-                  <div key={idx} className="bg-white p-4 border border-[#2F7B93]/15 space-y-2">
+                  <div key={idx} className="bg-white p-4 border border-[#2F7B93]/15 space-y-2 rounded-xl">
                     <div
-                      className="w-full h-12 rounded-xs border border-black/10 shadow-2xs"
+                      className="w-full h-12 rounded-lg border border-black/10 shadow-2xs"
                       style={{ backgroundColor: color.hex }}
                     />
                     <span className="text-xs font-serif text-[#11181C] block uppercase font-medium">
@@ -181,19 +197,19 @@ export const ProjectDetailPage: React.FC = () => {
               <span className="text-[10px] font-mono tracking-[0.3em] uppercase text-[#2F7B93]">
                 [ MATERIAL SPECIFICATIONS ]
               </span>
-              <h3 className="font-serif text-3xl md:text-4xl uppercase text-[#11181C]">
+              <h2 className="font-serif text-3xl md:text-4xl uppercase text-[#11181C]">
                 TACTILE SURFACES & FINISHES
-              </h3>
+              </h2>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
               {project.materials.map((mat, i) => (
                 <div
                   key={i}
-                  className="bg-white p-6 border border-[#2F7B93]/15 space-y-3 shadow-2xs"
+                  className="bg-white p-6 border border-[#2F7B93]/15 space-y-3 shadow-2xs rounded-2xl"
                 >
                   <span className="text-xs font-mono text-[#2F7B93]">0{i + 1}</span>
-                  <h4 className="font-serif text-xl text-[#11181C] uppercase">{mat.name}</h4>
+                  <h3 className="font-serif text-xl text-[#11181C] uppercase">{mat.name}</h3>
                   <p className="text-xs font-light text-[#61747C] leading-relaxed">
                     {mat.description}
                   </p>
@@ -211,9 +227,9 @@ export const ProjectDetailPage: React.FC = () => {
                 <span className="text-[10px] font-mono tracking-[0.3em] uppercase text-[#8FD3DC]">
                   [ BESPOKE CURATION ]
                 </span>
-                <h3 className="font-serif text-3xl md:text-4xl uppercase text-white">
+                <h2 className="font-serif text-3xl md:text-4xl uppercase text-white">
                   FURNITURE & STYLING OBJECTS
-                </h3>
+                </h2>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -225,9 +241,9 @@ export const ProjectDetailPage: React.FC = () => {
                     <span className="text-[10px] font-mono text-[#8FD3DC] tracking-widest block">
                       ITEM NO. 0{i + 1}
                     </span>
-                    <h4 className="font-serif text-xl uppercase text-white group-hover:text-[#8FD3DC] transition-colors">
+                    <h3 className="font-serif text-xl uppercase text-white group-hover:text-[#8FD3DC] transition-colors">
                       {item.piece}
-                    </h4>
+                    </h3>
                     <p className="text-xs font-mono text-[#8FD3DC]/70 uppercase">
                       MAKER: {item.designerOrMaker}
                     </p>
@@ -248,18 +264,18 @@ export const ProjectDetailPage: React.FC = () => {
               <span className="text-[10px] font-mono tracking-[0.3em] uppercase text-[#2F7B93]">
                 [ SPATIAL DOCUMENTATION ]
               </span>
-              <h3 className="font-serif text-3xl md:text-5xl uppercase text-[#11181C]">
+              <h2 className="font-serif text-3xl md:text-5xl uppercase text-[#11181C]">
                 PHOTOGRAPHY SPREAD
-              </h3>
+              </h2>
             </div>
 
             <div className="space-y-12">
               {project.gallery.map((imgItem, idx) => (
                 <div key={idx} className="space-y-4">
-                  <div className="overflow-hidden bg-[#EEF5F6] shadow-md">
+                  <div className="overflow-hidden bg-[#EEF5F6] shadow-md rounded-2xl border border-[#2F7B93]/15">
                     <img
                       src={imgItem.url}
-                      alt={imgItem.caption}
+                      alt={imgItem.alt || imgItem.caption}
                       loading="lazy"
                       className="w-full max-h-[85vh] object-cover"
                     />
@@ -283,9 +299,9 @@ export const ProjectDetailPage: React.FC = () => {
                 <span className="text-[10px] font-mono tracking-[0.3em] uppercase text-[#8FD3DC]">
                   [ CONTINUE EXPLORING ]
                 </span>
-                <h3 className="font-serif text-3xl md:text-4xl uppercase text-white">
+                <h2 className="font-serif text-3xl md:text-4xl uppercase text-white">
                   RELATED INTERIOR SANCTUARIES
-                </h3>
+                </h2>
               </div>
               <Link
                 to="/work"

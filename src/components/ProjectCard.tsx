@@ -49,7 +49,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
           <div className={`w-full ${getAspectClass()} overflow-hidden`}>
             <img
               src={project.thumbnail}
-              alt={`${project.title} - ${project.location}`}
+              alt={project.heroAlt || `${project.title} - ${project.location} interior design by JIVAH Projects Pune`}
               loading="lazy"
               className="w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:scale-[1.04]"
             />

@@ -23,12 +23,12 @@ export const Footer: React.FC = () => {
           <div className="lg:col-span-5 space-y-6">
             <Logo variant="dark" motifSize={36} />
             <p className="text-sm font-light leading-relaxed text-[#8FD3DC]/80 max-w-md">
-              Contemporary interior environments shaped by material integrity, quiet luxury, soft lighting, and spatial atmosphere.
+              Contemporary interior environments in Pune shaped by material integrity, quiet luxury, soft lighting, and spatial atmosphere.
             </p>
             <div className="flex items-center gap-3 pt-2">
               <span className="w-2 h-2 rounded-full bg-[#55B3C5] animate-pulse" />
               <span className="text-[11px] uppercase tracking-[0.2em] text-[#8FD3DC]/70 font-mono">
-                MUMBAI · NEW DELHI · GOA
+                HADAPSAR · PUNE · MAHARASHTRA
               </span>
             </div>
           </div>

@@ -8,18 +8,29 @@ import { BlogCard } from '../components/BlogCard';
 import { SectionHeading } from '../components/SectionHeading';
 import { BrandMotif } from '../components/BrandMotif';
 import { InteriorTransformationShowcase } from '../components/InteriorTransformationShowcase';
+import { FAQSection } from '../components/FAQSection';
 import { PageTransition } from '../components/PageTransition';
+import { SEO } from '../components/SEO';
+import { LOCAL_BUSINESS_SCHEMA, SERVICES_SCHEMA, FAQ_SCHEMA } from '../data/schemas';
 
 export const HomePage: React.FC = () => {
   return (
     <PageTransition>
-      {/* ---------------- 1. HERO BANNER SECTION (High Contrast Dark Backdrop) ---------------- */}
+      {/* ---------------- SEO & STRUCTURED DATA (JSON-LD) ---------------- */}
+      <SEO
+        title="JIVAH Projects | Interior Designer in Pune"
+        description="JIVAH Projects is a premier interior design studio in Hadapsar, Pune specializing in residential interior design, modular kitchen design, and bespoke living sanctuaries."
+        canonicalUrl="https://jivahprojects.com"
+        jsonLd={[LOCAL_BUSINESS_SCHEMA, SERVICES_SCHEMA, FAQ_SCHEMA]}
+      />
+
+      {/* ---------------- 1. HERO BANNER SECTION (Approved Visual Design) ---------------- */}
       <section className="relative min-h-[92vh] lg:min-h-[96vh] flex items-center pt-32 pb-24 bg-[#16465A] text-white overflow-hidden">
         {/* Main Background Image with Gradient Overlay */}
         <div className="absolute inset-0 z-0 overflow-hidden">
           <motion.img
             src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2400&auto=format&fit=crop"
-            alt="JIVAH Projects Interior Atmosphere & Light"
+            alt="JIVAH Projects Interior Atmosphere & Light in Pune"
             initial={{ scale: 1.06 }}
             animate={{ scale: 1.0 }}
             transition={{ duration: 2.8, ease: 'easeOut' }}
@@ -30,16 +41,19 @@ export const HomePage: React.FC = () => {
         </div>
 
         <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10 w-full">
+          {/* Accessible / Semantic H1 for SEO & Screen Readers */}
+          <h1 className="sr-only">Interior Design Studio in Pune — JIVAH Projects</h1>
+
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             {/* Left Hero Content */}
             <div className="lg:col-span-7 space-y-8 text-center lg:text-left">
               {/* GES2 Animated Status Badge */}
               <div className="inline-flex items-center space-x-2.5 bg-[#16465A]/90 border border-[#8FD3DC]/40 text-[#8FD3DC] font-mono text-[10px] uppercase tracking-[0.25em] px-4 py-2 rounded-full shadow-xs backdrop-blur-md">
                 <span className="w-2 h-2 rounded-full bg-[#55B3C5] animate-ping" />
-                <span>INTERIOR COMMISSIONS OPEN 2026–27</span>
+                <span>INTERIOR DESIGN COMMISSIONS OPEN 2026–27</span>
               </div>
 
-              <motion.h1
+              <motion.div
                 initial={{ y: 25, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
@@ -50,7 +64,7 @@ export const HomePage: React.FC = () => {
                 THAT DEFINE
                 <br />
                 <span className="italic font-normal text-[#8FD3DC]">HOW YOU LIVE.</span>
-              </motion.h1>
+              </motion.div>
 
               <motion.p
                 initial={{ y: 20, opacity: 0 }}
@@ -58,7 +72,7 @@ export const HomePage: React.FC = () => {
                 transition={{ duration: 0.8, delay: 0.4 }}
                 className="text-base sm:text-lg md:text-xl font-light text-[#8FD3DC]/90 max-w-xl mx-auto lg:mx-0 leading-relaxed"
               >
-                Interiors shaped by atmosphere, tactile materiality, soft light, and living rituals.
+                JIVAH Projects is an interior design studio serving Pune and Hadapsar, crafting homes shaped by tactile materiality, soft light, and serene living rituals.
               </motion.p>
 
               <motion.div
@@ -93,7 +107,7 @@ export const HomePage: React.FC = () => {
                 <div className="aspect-[4/5] w-[88%] ml-auto rounded-3xl overflow-hidden border-2 border-[#2F7B93]/40 shadow-2xl relative group">
                   <img
                     src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop"
-                    alt="JIVAH Living Pavilion"
+                    alt="Contemporary residential living room interior designed by JIVAH Projects in Hadapsar Pune"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#16465A]/90 via-transparent" />
@@ -101,15 +115,15 @@ export const HomePage: React.FC = () => {
                     <span className="text-[9px] font-mono uppercase tracking-wider text-[#8FD3DC]">
                       RESIDENTIAL SANCTUARY
                     </span>
-                    <h4 className="font-serif text-lg uppercase text-white">Malabar Hill Residence</h4>
+                    <h4 className="font-serif text-lg uppercase text-white">Hadapsar Residence</h4>
                   </div>
                 </div>
 
-                {/* GES2 Offset Small Overlapping Frame */}
+                {/* Offset Small Overlapping Frame */}
                 <div className="absolute bottom-[-5%] left-0 w-[55%] aspect-square rounded-3xl overflow-hidden border-2 border-[#8FD3DC]/50 shadow-2xl group/sub relative z-20 bg-[#16465A]">
                   <img
                     src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?q=80&w=800&auto=format&fit=crop"
-                    alt="JIVAH Tactile Kitchen Detail"
+                    alt="Tactile stone kitchen island interior detail by JIVAH Projects Pune"
                     className="w-full h-full object-cover group-hover/sub:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#16465A]/90 via-transparent" />
@@ -176,7 +190,7 @@ export const HomePage: React.FC = () => {
       </section>
 
       {/* ---------------- 3. STUDIO INTRODUCTION ---------------- */}
-      <section className="py-24 md:py-36 px-6 md:px-12 bg-[#F8F9F8] text-[#11181C]">
+      <section className="py-24 md:py-36 px-6 md:px-12 bg-[#F7F3EC] text-[#11181C]">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center">
             <div className="lg:col-span-7 space-y-8">
@@ -188,17 +202,15 @@ export const HomePage: React.FC = () => {
               </div>
 
               <h2 className="font-serif text-4xl sm:text-6xl lg:text-7xl uppercase text-[#11181C] leading-[1.05] tracking-tight">
-                SPACES
+                INTERIOR DESIGN STUDIO
                 <br />
-                DESIGNED WITH
-                <br />
-                <span className="italic font-normal text-[#2F7B93]">INTENTION.</span>
+                <span className="italic font-normal text-[#2F7B93]">IN PUNE.</span>
               </h2>
 
               <div className="w-16 h-[1px] bg-[#2F7B93]/30" />
 
               <p className="text-lg sm:text-xl font-light text-[#61747C] leading-relaxed max-w-xl">
-                JIVAH Projects approaches interior design from the inside out—focusing on human touchpoints, tactile textures, bespoke joinery, soft illumination, and living rituals.
+                JIVAH Projects is a contemporary interior design studio based in Hadapsar, Pune. We create thoughtful, refined, and functional residential interiors, custom modular kitchens, and tailored living environments across Pune, Maharashtra.
               </p>
 
               <div className="pt-2 flex items-center gap-6">
@@ -217,7 +229,7 @@ export const HomePage: React.FC = () => {
               <div className="relative overflow-hidden bg-[#EEF5F6] aspect-[4/5] rounded-3xl shadow-xl border border-[#2F7B93]/20">
                 <img
                   src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?q=80&w=1200&auto=format&fit=crop"
-                  alt="JIVAH Studio Interior Atmosphere"
+                  alt="Contemporary home interior designed by JIVAH Projects in Hadapsar Pune"
                   loading="lazy"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"
                 />
@@ -236,14 +248,23 @@ export const HomePage: React.FC = () => {
       </section>
 
       {/* ---------------- 4. SELECTED WORK / PROJECTS ---------------- */}
-      <section className="py-24 md:py-36 px-6 md:px-12 bg-[#EEF5F6]/40 border-y border-[#2F7B93]/10">
+      <section className="py-24 md:py-36 px-6 md:px-12 bg-[#EDE5D9]/50 border-y border-[#2F7B93]/10">
         <div className="max-w-7xl mx-auto space-y-16">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
-            <SectionHeading
-              label="SELECTED WORK"
-              title="INTERIOR SANCTUARIES"
-              subtitle="Residential, lounge, and hospitality environments shaped by atmosphere, furniture, and light."
-            />
+            <div className="space-y-4 max-w-2xl">
+              <div className="flex items-center gap-3">
+                <span className="w-8 h-[1px] bg-[#2F7B93]" />
+                <span className="text-[11px] font-mono text-[#2F7B93] tracking-[0.25em] uppercase font-semibold">
+                  PORTFOLIO SHOWCASE
+                </span>
+              </div>
+              <h2 className="font-serif text-4xl sm:text-6xl uppercase text-[#11181C] tracking-tight">
+                OUR INTERIOR DESIGN PROJECTS
+              </h2>
+              <p className="text-base sm:text-lg font-light text-[#61747C] leading-relaxed">
+                Explore a curated selection of residential interior design projects, modular kitchens, and custom living environments in Pune and Hadapsar.
+              </p>
+            </div>
 
             <Link
               to="/work"
@@ -277,21 +298,30 @@ export const HomePage: React.FC = () => {
       </section>
 
       {/* ---------------- 5. RAW SHELL TO LIVING SANCTUARY (3.5S AUTOMATIC ROTATION) ---------------- */}
-      <section className="py-24 md:py-36 px-6 md:px-12 bg-[#F8F9F8]">
+      <section className="py-24 md:py-36 px-6 md:px-12 bg-[#F7F3EC]">
         <div className="max-w-7xl mx-auto">
           <InteriorTransformationShowcase />
         </div>
       </section>
 
       {/* ---------------- 6. JOURNAL / SELECTED ARTICLES ---------------- */}
-      <section className="py-24 md:py-36 px-6 md:px-12 bg-[#EEF5F6]/30 border-t border-[#2F7B93]/10">
+      <section className="py-24 md:py-36 px-6 md:px-12 bg-[#EDE5D9]/40 border-t border-[#2F7B93]/10">
         <div className="max-w-7xl mx-auto space-y-16">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
-            <SectionHeading
-              label="EDITORIAL & THOUGHTS"
-              title="JOURNAL"
-              subtitle="Thoughts on interior spaces, materials, soft lighting, and contemporary living."
-            />
+            <div className="space-y-4 max-w-2xl">
+              <div className="flex items-center gap-3">
+                <span className="w-8 h-[1px] bg-[#2F7B93]" />
+                <span className="text-[11px] font-mono text-[#2F7B93] tracking-[0.25em] uppercase font-semibold">
+                  EDITORIAL ESSAYS
+                </span>
+              </div>
+              <h2 className="font-serif text-4xl sm:text-6xl uppercase text-[#11181C] tracking-tight">
+                INTERIOR DESIGN JOURNAL
+              </h2>
+              <p className="text-base sm:text-lg font-light text-[#61747C] leading-relaxed">
+                Practical guidance, ideas, and perspectives on home interior design, 2 BHK planning, modular kitchens, materials, and soft lighting in Pune.
+              </p>
+            </div>
 
             <Link
               to="/journal"
@@ -312,24 +342,29 @@ export const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* ---------------- 7. CONTACT CTA ---------------- */}
-      <section className="py-28 px-6 md:px-12 bg-[#EEF5F6] border-t border-[#2F7B93]/15 text-center relative">
+      {/* ---------------- 7. FAQ SECTION (AEO & LOCAL SEO) ---------------- */}
+      <FAQSection />
+
+      {/* ---------------- 8. CONTACT CTA ---------------- */}
+      <section className="py-28 px-6 md:px-12 bg-[#F7F3EC] border-t border-[#2F7B93]/15 text-center relative">
         <div className="max-w-3xl mx-auto space-y-8">
           <div className="inline-flex items-center justify-center p-3 bg-white rounded-full shadow-xs border border-[#2F7B93]/20">
             <BrandMotif size={28} color="#2F7B93" animateSpin={true} />
           </div>
 
-          <h2 className="font-serif text-4xl sm:text-6xl text-[#11181C] uppercase tracking-tight leading-tight">
-            LET'S CREATE
-            <br />
-            A SPACE THAT
-            <br />
-            <span className="italic font-normal text-[#2F7B93]">FEELS LIKE YOU.</span>
-          </h2>
-
-          <p className="text-base text-[#61747C] font-light max-w-xl mx-auto">
-            We collaborate with select clients to create extraordinary residential, lounge, and commercial interior environments.
-          </p>
+          <div className="space-y-4">
+            <span className="text-[10px] font-mono tracking-[0.3em] uppercase text-[#2F7B93] block">
+              [ START YOUR INTERIOR JOURNEY ]
+            </span>
+            <h2 className="font-serif text-4xl sm:text-6xl text-[#11181C] uppercase tracking-tight leading-tight">
+              LET'S CREATE
+              <br />
+              YOUR SPACE
+            </h2>
+            <p className="text-base sm:text-lg text-[#61747C] font-light max-w-xl mx-auto leading-relaxed">
+              Connect with JIVAH Projects to discuss your home interior, residential renovation, or modular kitchen design project in Hadapsar, Pune.
+            </p>
+          </div>
 
           <div className="pt-4">
             <Link
