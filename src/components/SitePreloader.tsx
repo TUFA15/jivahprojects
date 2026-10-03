@@ -42,11 +42,23 @@ export const SitePreloader: React.FC = () => {
             </span>
           </div>
 
-          {/* Center Brand Motif & Progress */}
+          {/* Center Brand Logo & Progress */}
           <div className="flex flex-col items-center justify-center space-y-6 text-center my-auto">
             <div className="relative flex items-center justify-center">
-              <BrandMotif size={80} color="#8FD3DC" animateSpin={true} />
-              <div className="absolute inset-0 rounded-full border border-[#2F7B93]/40 animate-ping opacity-25" />
+              <motion.div
+                initial={{ scale: 0.85, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                transition={{ duration: 0.6, ease: [0.25, 1, 0.5, 1] }}
+                className="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden bg-white p-2 shadow-2xl border-2 border-[#8FD3DC]/60 relative z-10 flex items-center justify-center"
+              >
+                <img
+                  src="/logo.jpeg"
+                  alt="JIVAH Projects Logo"
+                  className="w-full h-full object-contain"
+                />
+              </motion.div>
+              <div className="absolute -inset-2 rounded-full border border-[#2F7B93]/50 animate-ping opacity-30" />
+              <div className="absolute -inset-4 rounded-full border border-[#8FD3DC]/25 animate-pulse" />
             </div>
 
             <div className="space-y-2">
@@ -55,6 +67,9 @@ export const SitePreloader: React.FC = () => {
               </h1>
               <p className="text-xs font-mono tracking-[0.25em] text-[#8FD3DC] uppercase">
                 SPACES THAT DEFINE HOW YOU LIVE
+              </p>
+              <p className="text-[10px] font-mono tracking-[0.2em] text-[#8FD3DC]/70 uppercase">
+                Luxury lift up professional
               </p>
             </div>
           </div>

@@ -8,7 +8,6 @@ export interface TransformationSlide {
   title: string;
   subtitle: string;
   image: string;
-  caption: string;
 }
 
 const TRANSFORMATION_SLIDES: TransformationSlide[] = [
@@ -18,7 +17,6 @@ const TRANSFORMATION_SLIDES: TransformationSlide[] = [
     title: 'CONTEMPORARY LIVING LOUNGE',
     subtitle: 'Fluted architectural ceiling raft, custom sofa alcove, and backlit marble pooja sanctuary.',
     image: '/images/interiors/IMG_20250105_112813 - Copy.jpg',
-    caption: 'Phase 1 — Spatial layout planning & customized multi-zone living design.',
   },
   {
     id: 'stage-2',
@@ -26,7 +24,6 @@ const TRANSFORMATION_SLIDES: TransformationSlide[] = [
     title: 'MEDIA WALL & CURATED DISPLAY',
     subtitle: 'Full-height marble television panel, illuminated glass curio towers, and open modular kitchen transition.',
     image: '/images/interiors/IMG_20250118_125532 - Copy.jpg',
-    caption: 'Phase 2 — Architectural wall panelling, ambient cove troughs & bespoke cabinetry.',
   },
   {
     id: 'stage-3',
@@ -34,7 +31,6 @@ const TRANSFORMATION_SLIDES: TransformationSlide[] = [
     title: 'CHEVRON WOOD ARCHITECTURE',
     subtitle: 'Full-height chevron oak feature wall with vertical light channels, bar credenza, and tinted glass cabinetry.',
     image: '/images/interiors/IMG_20250313_133637.jpg',
-    caption: 'Phase 3 — Finished living sanctuary with bespoke timber joinery & ambient mood lighting.',
   },
   {
     id: 'stage-4',
@@ -42,7 +38,6 @@ const TRANSFORMATION_SLIDES: TransformationSlide[] = [
     title: 'MASTER BEDROOM SANCTUARY',
     subtitle: 'Textured marble-finish sliding wardrobes with warm vertical profile illumination and cove ceiling lighting.',
     image: '/images/interiors/IMG_20250313_131743.jpg',
-    caption: 'Phase 4 — Private sanctuary bedroom styling & integrated architectural lighting.',
   },
 ];
 
@@ -192,10 +187,6 @@ export const InteriorTransformationShowcase: React.FC = () => {
               {currentSlide.subtitle}
             </p>
           </div>
-
-          <p className="text-[10px] font-mono text-[#8FD3DC]/70 tracking-wider uppercase">
-            {currentSlide.caption}
-          </p>
         </div>
       </div>
 

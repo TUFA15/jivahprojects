@@ -21,7 +21,24 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 pb-16 border-b border-[#2F7B93]/30">
           {/* Column 1: Brand & Statement */}
           <div className="lg:col-span-5 space-y-6">
-            <Logo variant="dark" motifSize={36} />
+            <Link to="/" className="inline-flex items-center gap-4 group focus:outline-none">
+              <img
+                src="/logo.jpeg"
+                alt="JIVAH Projects - Luxury lift up professional"
+                className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl object-contain bg-white p-1.5 border border-[#8FD3DC]/30 shadow-lg group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="flex flex-col leading-none">
+                <span className="font-serif text-2xl sm:text-3xl tracking-[0.2em] font-medium uppercase text-white">
+                  JIVAH
+                </span>
+                <span className="text-[10px] sm:text-[11px] tracking-[0.32em] font-sans font-semibold uppercase mt-1 text-[#8FD3DC]">
+                  PROJECTS
+                </span>
+                <span className="text-[9px] tracking-widest font-mono text-white/60 mt-1 uppercase">
+                  Luxury lift up professional
+                </span>
+              </div>
+            </Link>
             <p className="text-sm font-light leading-relaxed text-[#8FD3DC]/80 max-w-md">
               Contemporary interior environments in Pune shaped by material integrity, quiet luxury, soft lighting, and spatial atmosphere.
             </p>

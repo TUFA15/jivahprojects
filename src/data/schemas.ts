@@ -7,7 +7,7 @@ export const LOCAL_BUSINESS_SCHEMA = {
   name: 'JIVAH Projects',
   legalName: 'JIVAH Projects',
   url: 'https://jivahprojects.com',
-  logo: 'https://jivahprojects.com/favicon.svg',
+  logo: 'https://jivahprojects.com/logo.jpeg',
   image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop',
   telephone: '+91 89797 19955',
   email: 'jivahprojects@gmail.com',
