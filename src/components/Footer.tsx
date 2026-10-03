@@ -84,9 +84,9 @@ export const Footer: React.FC = () => {
               </p>
             </div>
 
-            <div className="pt-4 flex gap-6 text-[11px] tracking-[0.2em] uppercase text-[#8FD3DC]">
+            <div className="pt-4 flex flex-wrap gap-5 text-[11px] tracking-[0.2em] uppercase text-[#8FD3DC]">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/jivahprojects"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white transition-colors flex items-center gap-1.5"
@@ -95,7 +95,16 @@ export const Footer: React.FC = () => {
                 <span className="text-[9px]">↗</span>
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://youtube.com/@jivahprojects"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors flex items-center gap-1.5"
+              >
+                <span>YOUTUBE</span>
+                <span className="text-[9px]">↗</span>
+              </a>
+              <a
+                href="https://www.linkedin.com/company/jivah-projects"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white transition-colors flex items-center gap-1.5"

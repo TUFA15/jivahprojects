@@ -231,8 +231,8 @@ export const HomePage: React.FC = () => {
             <div className="lg:col-span-5 relative">
               <div className="relative overflow-hidden bg-[#EEF5F6] aspect-[4/5] rounded-3xl shadow-xl border border-[#2F7B93]/20">
                 <OptimizedImage
-                  src="/images/interiors/HERO.jpg"
-                  alt="Contemporary home interior designed by JIVAH Projects in Hadapsar Pune"
+                  src="/images/interiors/IMG_20250118_125129.jpg"
+                  alt="Contemporary living room interior designed by JIVAH Projects in Hadapsar Pune"
                   sizes="(max-width: 1024px) 100vw, 500px"
                   containerClassName="w-full h-full"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"

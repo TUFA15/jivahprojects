@@ -49,7 +49,11 @@ export const LOCAL_BUSINESS_SCHEMA = {
       closes: '18:30',
     },
   ],
-  sameAs: ['https://instagram.com/jivahprojects', 'https://linkedin.com/company/jivahprojects'],
+  sameAs: [
+    'https://www.instagram.com/jivahprojects',
+    'https://youtube.com/@jivahprojects',
+    'https://www.linkedin.com/company/jivah-projects',
+  ],
 };
 
 export const SERVICES_SCHEMA = {

@@ -210,23 +210,39 @@ export const Navbar: React.FC = () => {
               <div>
                 <p className="font-serif text-base text-white">JIVAH PROJECTS</p>
                 <p className="text-[11px] text-[#8FD3DC]/80 font-light mt-0.5">
-                  Malabar Hill, Mumbai · Golf Links, New Delhi · Assagao, Goa
+                  Hadapsar · Pune · Maharashtra
                 </p>
               </div>
-              <div className="flex gap-6 tracking-widest uppercase text-[10px]">
+              <div className="flex flex-wrap gap-4 tracking-widest uppercase text-[10px]">
                 <a
-                  href="mailto:enquiries@jivahprojects.com"
+                  href="mailto:jivahprojects@gmail.com"
                   className="hover:text-white transition-colors"
                 >
-                  ENQUIRIES@JIVAHPROJECTS.COM
+                  JIVAHPROJECTS@GMAIL.COM
                 </a>
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/jivahprojects"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
                 >
                   INSTAGRAM
+                </a>
+                <a
+                  href="https://youtube.com/@jivahprojects"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors"
+                >
+                  YOUTUBE
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/jivah-projects"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors"
+                >
+                  LINKEDIN
                 </a>
               </div>
             </motion.div>

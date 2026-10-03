@@ -11,6 +11,11 @@ export const CONTACT_CONFIG = {
   phone: '+91 89797 19955',
   phoneRaw: '+918979719955',
   locationUrl: 'https://maps.google.com/?q=Hadapsar,+Pune,+Maharashtra',
+  social: {
+    instagram: 'https://www.instagram.com/jivahprojects',
+    youtube: 'https://youtube.com/@jivahprojects',
+    linkedin: 'https://www.linkedin.com/company/jivah-projects',
+  },
   primaryLocation: {
     city: 'PUNE',
     hub: 'HADAPSAR',
@@ -109,20 +114,40 @@ export const ContactPage: React.FC = () => {
                 </div>
               </div>
 
-              {/* Social Archive */}
-              <div className="space-y-3">
+              {/* Digital Channels & Social */}
+              <div className="space-y-4">
                 <span className="text-[10px] font-mono tracking-[0.25em] text-[#2F7B93] uppercase block font-semibold">
-                  INSTAGRAM ARCHIVE
+                  DIGITAL CHANNELS & ARCHIVES
                 </span>
-                <a
-                  href="https://instagram.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-xs font-mono tracking-widest text-[#11181C] hover:text-[#2F7B93] uppercase transition-colors"
-                >
-                  <span>@JIVAHPROJECTS</span>
-                  <span>↗</span>
-                </a>
+                <div className="flex flex-wrap gap-x-6 gap-y-3 text-xs font-mono tracking-widest uppercase">
+                  <a
+                    href={CONTACT_CONFIG.social.instagram}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 text-[#11181C] hover:text-[#2F7B93] transition-colors"
+                  >
+                    <span>INSTAGRAM</span>
+                    <span className="text-[10px]">↗</span>
+                  </a>
+                  <a
+                    href={CONTACT_CONFIG.social.youtube}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 text-[#11181C] hover:text-[#2F7B93] transition-colors"
+                  >
+                    <span>YOUTUBE</span>
+                    <span className="text-[10px]">↗</span>
+                  </a>
+                  <a
+                    href={CONTACT_CONFIG.social.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 text-[#11181C] hover:text-[#2F7B93] transition-colors"
+                  >
+                    <span>LINKEDIN</span>
+                    <span className="text-[10px]">↗</span>
+                  </a>
+                </div>
               </div>
             </div>
 
