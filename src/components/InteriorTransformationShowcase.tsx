@@ -14,35 +14,35 @@ export interface TransformationSlide {
 const TRANSFORMATION_SLIDES: TransformationSlide[] = [
   {
     id: 'stage-1',
-    stage: '01 / RAW SHELL',
-    title: 'THE INITIAL VOLUME',
-    subtitle: 'Raw spatial concrete shell prior to interior spatial layout planning.',
-    image: '/images/interiors/IMG_20250105_113619.jpg',
-    caption: 'Phase 1 — Initial spatial audit & natural light orientation mapping.',
+    stage: '01 / SPATIAL VOLUME',
+    title: 'CONTEMPORARY LIVING LOUNGE',
+    subtitle: 'Fluted architectural ceiling raft, custom sofa alcove, and backlit marble pooja sanctuary.',
+    image: '/images/interiors/IMG_20250105_112813 - Copy.jpg',
+    caption: 'Phase 1 — Spatial layout planning & customized multi-zone living design.',
   },
   {
     id: 'stage-2',
     stage: '02 / MATERIAL DEVELOPMENT',
-    title: 'TACTILE FRAMEWORK',
-    subtitle: 'Honed travertine floor installation & bespoke smoked oak millwork framing.',
-    image: '/images/interiors/IMG_20250118_125501 - Copy.jpg',
-    caption: 'Phase 2 — Materiality pairing, acoustic wall paneling & cove lighting troughs.',
+    title: 'MEDIA WALL & CURATED DISPLAY',
+    subtitle: 'Full-height marble television panel, illuminated glass curio towers, and open modular kitchen transition.',
+    image: '/images/interiors/IMG_20250118_125532 - Copy.jpg',
+    caption: 'Phase 2 — Architectural wall panelling, ambient cove troughs & bespoke cabinetry.',
   },
   {
     id: 'stage-3',
     stage: '03 / LIVING SANCTUARY',
-    title: 'FINISHED INTERIOR',
-    subtitle: 'Complete residence featuring low bouclé seating, warm linen drapes, and indirect evening glow.',
-    image: '/images/interiors/IMG_20250118_125129.jpg',
-    caption: 'Phase 3 — Finished living pavilion facing the Hadapsar Pune garden balcony.',
+    title: 'CHEVRON WOOD ARCHITECTURE',
+    subtitle: 'Full-height chevron oak feature wall with vertical light channels, bar credenza, and tinted glass cabinetry.',
+    image: '/images/interiors/IMG_20250313_133637.jpg',
+    caption: 'Phase 3 — Finished living sanctuary with bespoke timber joinery & ambient mood lighting.',
   },
   {
     id: 'stage-4',
     stage: '04 / DETAILED ATMOSPHERE',
-    title: 'TACTILE CRAFT DETAILS',
-    subtitle: 'Bespoke marble island, hand-patinated bronze fixtures, and soft mood lighting.',
-    image: '/images/interiors/IMG_20250313_131420.jpg',
-    caption: 'Phase 4 — Bespoke furniture curation & interior styling details.',
+    title: 'MASTER BEDROOM SANCTUARY',
+    subtitle: 'Textured marble-finish sliding wardrobes with warm vertical profile illumination and cove ceiling lighting.',
+    image: '/images/interiors/IMG_20250313_131743.jpg',
+    caption: 'Phase 4 — Private sanctuary bedroom styling & integrated architectural lighting.',
   },
 ];
 
@@ -139,14 +139,14 @@ export const InteriorTransformationShowcase: React.FC = () => {
 
       {/* Main Showcase Viewer */}
       <div
-        className="relative overflow-hidden bg-[#16465A] aspect-[16/9] md:aspect-[21/9] border border-[#2F7B93]/20 shadow-xl group cursor-pointer"
+        className="relative overflow-hidden bg-[#16465A] aspect-[16/10] sm:aspect-[16/9] border border-[#2F7B93]/20 shadow-xl group cursor-pointer"
         onMouseEnter={() => setIsPaused(true)}
         onMouseLeave={() => setIsPaused(false)}
       >
         <AnimatePresence mode="wait">
           <motion.div
             key={currentSlide.id}
-            initial={prefersReducedMotion ? { opacity: 0 } : { opacity: 0, scale: 1.02 }}
+            initial={prefersReducedMotion ? { opacity: 0 } : { opacity: 0, scale: 1.01 }}
             animate={{ opacity: 1, scale: 1.0 }}
             exit={{ opacity: 0 }}
             transition={{ duration: prefersReducedMotion ? 0.2 : 0.8, ease: [0.25, 1, 0.5, 1] }}
@@ -156,7 +156,8 @@ export const InteriorTransformationShowcase: React.FC = () => {
               src={currentSlide.image}
               alt={`${currentSlide.title} - ${currentSlide.subtitle}`}
               priority={currentIndex === 0}
-              sizes="(max-width: 1200px) 100vw, 1200px"
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 100vw, 1600px"
+              containerClassName="w-full h-full"
               className="w-full h-full object-cover"
             />
           </motion.div>

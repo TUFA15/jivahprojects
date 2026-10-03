@@ -52,6 +52,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
               src={project.thumbnail}
               alt={project.heroAlt || `${project.title} - ${project.location} interior design by JIVAH Projects Pune`}
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 40vw"
+              containerClassName="w-full h-full"
               className="w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:scale-[1.04]"
             />
           </div>

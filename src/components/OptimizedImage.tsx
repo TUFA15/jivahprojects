@@ -30,7 +30,7 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
   priority = false,
   sizes = '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw',
   aspectRatio,
-  containerClassName = '',
+  containerClassName = 'w-full h-full',
   className = '',
   objectFit = 'cover',
   onLoad,
@@ -49,12 +49,11 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
   const imageSrc = meta ? meta.fallbackWebp : src;
   const imageSrcSet = meta ? meta.srcset : undefined;
   const placeholderUrl = meta ? meta.placeholder : undefined;
-  const computedAspect = aspectRatio || (meta ? `${meta.aspectRatio}` : undefined);
 
   return (
     <div
       className={`relative overflow-hidden bg-[#EEF5F6] ${containerClassName}`}
-      style={computedAspect ? { aspectRatio: computedAspect } : undefined}
+      style={aspectRatio ? { aspectRatio } : undefined}
     >
       {/* 1. Low-Quality Blur-Up Placeholder */}
       {placeholderUrl && (
