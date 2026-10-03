@@ -3,7 +3,7 @@ import sys
 import json
 import base64
 from io import BytesIO
-from PIL import Image
+from PIL import Image, ImageOps
 
 # Disable PIL max pixel limit for large high-res panoramic shots
 Image.MAX_IMAGE_PIXELS = None
@@ -16,7 +16,7 @@ OUTPUT_OPTIMIZED_DIR = os.path.join(PROJECT_ROOT, "public", "images", "optimized
 MANIFEST_FILE = os.path.join(PROJECT_ROOT, "src", "data", "imageManifest.json")
 
 # Target widths to generate
-SIZES = [480, 768, 1200, 1600]
+SIZES = [480, 768, 1200, 1600, 2048]
 
 def get_relative_web_path(full_path):
     rel = os.path.relpath(full_path, os.path.join(PROJECT_ROOT, "public"))
@@ -24,9 +24,9 @@ def get_relative_web_path(full_path):
 
 def generate_blur_placeholder(img):
     small = img.copy()
-    small.thumbnail((20, 20), Image.Resampling.LANCZOS)
+    small.thumbnail((24, 24), Image.Resampling.LANCZOS)
     buffer = BytesIO()
-    small.save(buffer, format="WEBP", quality=20)
+    small.save(buffer, format="WEBP", quality=25)
     b64 = base64.b64encode(buffer.getvalue()).decode("utf-8")
     return f"data:image/webp;base64,{b64}"
 
@@ -58,29 +58,32 @@ def process_images():
             base_name, _ = os.path.splitext(file)
 
             try:
-                with Image.open(orig_path) as img:
+                with Image.open(orig_path) as raw_img:
+                    # Automatically apply EXIF camera rotation orientation (e.g. Staircase)
+                    img = ImageOps.exif_transpose(raw_img)
                     if img.mode in ("RGBA", "P"):
                         img_rgb = img.convert("RGBA")
                     else:
                         img_rgb = img.convert("RGB")
 
-                    orig_w, orig_h = img.size
+                    orig_w, orig_h = img_rgb.size
                     aspect_ratio = round(orig_w / orig_h, 4)
 
                     placeholder_b64 = generate_blur_placeholder(img_rgb)
                     generated_sources = {}
 
-                    # 1. Full-size WebP capped at 2000px max dimension
-                    max_dim = 2000
+                    # 1. Full-size WebP capped at 2560px max dimension
+                    max_dim = 2560
                     if orig_w > max_dim or orig_h > max_dim:
                         full_img = img_rgb.copy()
                         full_img.thumbnail((max_dim, max_dim), Image.Resampling.LANCZOS)
                     else:
                         full_img = img_rgb
 
+                    full_w, full_h = full_img.size
                     full_out_filename = f"{base_name}-full.webp"
                     full_out_path = os.path.join(out_folder, full_out_filename)
-                    full_img.save(full_out_path, format="WEBP", quality=88, optimize=True)
+                    full_img.save(full_out_path, format="WEBP", quality=92, optimize=True)
                     
                     full_bytes = os.path.getsize(full_out_path)
                     total_optimized_bytes += full_bytes
@@ -100,7 +103,7 @@ def process_images():
                         out_filename = f"{base_name}-{width}w.webp"
                         out_path = os.path.join(out_folder, out_filename)
 
-                        quality = 82 if width <= 480 else (84 if width <= 768 else 86)
+                        quality = 88 if width <= 480 else (90 if width <= 768 else (92 if width <= 1200 else 94))
                         resized.save(out_path, format="WEBP", quality=quality, optimize=True)
 
                         bytes_size = os.path.getsize(out_path)
@@ -110,7 +113,7 @@ def process_images():
                         generated_sources[f"{width}w"] = web_src
                         srcset_parts.append(f"{web_src} {width}w")
 
-                    srcset_parts.append(f"{generated_sources['full']} {orig_w}w")
+                    srcset_parts.append(f"{generated_sources['full']} {full_w}w")
                     srcset_str = ", ".join(srcset_parts)
 
                     manifest[web_orig_path] = {
@@ -124,7 +127,7 @@ def process_images():
                         "placeholder": placeholder_b64,
                     }
 
-                    print(f"[OK] Processed [{file}]: {orig_size / (1024*1024):.2f}MB -> Full WebP {full_bytes / (1024*1024):.2f}MB")
+                    print(f"[OK] Processed [{file}]: {orig_size / (1024*1024):.2f}MB -> Full WebP {full_bytes / (1024*1024):.2f}MB ({orig_w}x{orig_h})")
 
             except Exception as e:
                 print(f"[ERROR] Error processing {file}: {e}")

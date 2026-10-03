@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import imageManifest from '../data/imageManifest.json';
 
 interface ImageManifestEntry {
@@ -36,10 +36,18 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
   onLoad,
   ...props
 }) => {
+  const imgRef = useRef<HTMLImageElement>(null);
   const [isLoaded, setIsLoaded] = useState(false);
 
   // Match manifest metadata
   const meta = manifest[src];
+
+  // Immediately check if already complete in browser cache
+  useEffect(() => {
+    if (imgRef.current && imgRef.current.complete) {
+      setIsLoaded(true);
+    }
+  }, [src]);
 
   const handleLoad = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
     setIsLoaded(true);
@@ -55,21 +63,22 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
       className={`relative overflow-hidden bg-[#EEF5F6] ${containerClassName}`}
       style={aspectRatio ? { aspectRatio } : undefined}
     >
-      {/* 1. Low-Quality Blur-Up Placeholder */}
+      {/* 1. Low-Quality Blur-Up Placeholder (placed behind real image) */}
       {placeholderUrl && (
         <img
           src={placeholderUrl}
           alt=""
           aria-hidden="true"
           decoding="async"
-          className={`absolute inset-0 w-full h-full object-${objectFit} blur-lg scale-105 transition-opacity duration-700 pointer-events-none ${
+          className={`absolute inset-0 w-full h-full object-${objectFit} blur-xs scale-102 transition-opacity duration-300 pointer-events-none z-0 ${
             isLoaded ? 'opacity-0' : 'opacity-100'
           }`}
         />
       )}
 
-      {/* 2. Responsive WebP Image */}
+      {/* 2. Responsive WebP Image (front layer z-[1]) */}
       <img
+        ref={imgRef}
         src={imageSrc}
         srcSet={imageSrcSet}
         sizes={imageSrcSet ? sizes : undefined}
@@ -79,8 +88,8 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
         // @ts-ignore fetchpriority is supported in modern browsers
         fetchpriority={priority ? 'high' : 'auto'}
         onLoad={handleLoad}
-        className={`w-full h-full object-${objectFit} transition-all duration-700 ease-out ${
-          placeholderUrl ? (isLoaded ? 'opacity-100 scale-100' : 'opacity-0 scale-102') : 'opacity-100'
+        className={`relative z-[1] w-full h-full object-${objectFit} transition-opacity duration-300 ease-out ${
+          placeholderUrl ? (isLoaded ? 'opacity-100' : 'opacity-95') : 'opacity-100'
         } ${className}`}
         {...props}
       />

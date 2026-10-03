@@ -518,10 +518,10 @@ export const ALL_PORTFOLIO_IMAGES: PortfolioImageItem[] = [
     id: 'banquet-02',
     url: '/images/banqueat/DSC08576.JPG',
     category: 'Hospitality',
-    title: 'Grand Entrance Foyer',
+    title: 'Grand Architectural Staircase',
     location: 'Hadapsar · Pune',
-    caption: 'Architectural entrance foyer with illuminated arches and ambient warm illumination.',
-    alt: 'Grand banquet entrance archways in Hadapsar Pune',
+    caption: 'Illuminated timber staircase with custom brass wall sconces and integrated step lighting.',
+    alt: 'Grand banquet architectural timber staircase in Hadapsar Pune',
     folder: 'banqueat'
   },
   {

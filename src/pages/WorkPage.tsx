@@ -182,25 +182,30 @@ export const WorkPage: React.FC = () => {
             {/* Interactive Image Grid */}
             <motion.div layout className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
               <AnimatePresence>
-                {filteredImages.map((item, index) => (
-                  <motion.div
-                    key={item.id}
-                    layout
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, scale: 0.9 }}
-                    transition={{ duration: 0.4, delay: (index % 12) * 0.04 }}
-                    onClick={() => setSelectedImage(item)}
-                    className="group relative cursor-pointer overflow-hidden rounded-2xl bg-[#EEF5F6] border border-[#2F7B93]/15 shadow-sm hover:shadow-xl transition-all duration-500"
-                  >
-                    <div className="aspect-[4/3] w-full overflow-hidden">
-                      <OptimizedImage
-                        src={item.url}
-                        alt={item.alt}
-                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                        className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
-                      />
-                    </div>
+                {filteredImages.map((item, index) => {
+                  const isPanoramic = item.url.includes('DSC08871');
+                  return (
+                    <motion.div
+                      key={item.id}
+                      layout
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, scale: 0.9 }}
+                      transition={{ duration: 0.4, delay: (index % 12) * 0.04 }}
+                      onClick={() => setSelectedImage(item)}
+                      className={`group relative cursor-pointer overflow-hidden rounded-2xl bg-[#EEF5F6] border border-[#2F7B93]/15 shadow-sm hover:shadow-xl transition-all duration-500 ${
+                        isPanoramic ? 'sm:col-span-2 lg:col-span-3' : ''
+                      }`}
+                    >
+                      <div className={`${isPanoramic ? 'aspect-[16/7] sm:aspect-[21/9] lg:aspect-[24/8]' : 'aspect-[4/3]'} w-full overflow-hidden`}>
+                        <OptimizedImage
+                          src={item.url}
+                          alt={item.alt}
+                          sizes={isPanoramic ? '100vw' : '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 600px'}
+                          containerClassName="w-full h-full"
+                          className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                        />
+                      </div>
 
                     {/* Gradient Overlay & Hover Details */}
                     <div className="absolute inset-0 bg-gradient-to-t from-[#16465A]/90 via-[#16465A]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
@@ -224,7 +229,8 @@ export const WorkPage: React.FC = () => {
                       {item.category}
                     </div>
                   </motion.div>
-                ))}
+                );
+              })}
               </AnimatePresence>
             </motion.div>
           </div>
