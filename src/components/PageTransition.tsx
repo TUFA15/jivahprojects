@@ -18,8 +18,13 @@ export const PageTransition: React.FC<PageTransitionProps> = ({ children }) => {
         style={{ originY: 0 }}
         className="fixed inset-0 z-[9990] bg-[#16465A] pointer-events-none flex items-center justify-center"
       >
-        <div className="flex items-center gap-3 text-[#8FD3DC] opacity-70">
-          <BrandMotif size={36} color="#8FD3DC" animateSpin={true} />
+        <div className="flex flex-col items-center gap-3">
+          <div className="w-16 h-16 rounded-2xl overflow-hidden bg-white p-1.5 shadow-2xl border border-[#8FD3DC]/40 flex items-center justify-center">
+            <img src="/logo.jpeg" alt="JIVAH" className="w-full h-full object-contain" />
+          </div>
+          <span className="text-[10px] font-mono tracking-[0.25em] text-[#8FD3DC] uppercase">
+            JIVAH PROJECTS
+          </span>
         </div>
       </motion.div>
 
