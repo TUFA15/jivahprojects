@@ -6,7 +6,6 @@ import { JOURNAL_ARTICLES } from '../data/journal';
 import { ProjectCard } from '../components/ProjectCard';
 import { OptimizedImage } from '../components/OptimizedImage';
 import { BlogCard } from '../components/BlogCard';
-import { SectionHeading } from '../components/SectionHeading';
 import { BrandMotif } from '../components/BrandMotif';
 import { InteriorTransformationShowcase } from '../components/InteriorTransformationShowcase';
 import { PageTransition } from '../components/PageTransition';

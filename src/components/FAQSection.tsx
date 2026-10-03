@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FAQ_ITEMS } from '../data/schemas';
-import { SectionHeading } from './SectionHeading';
 import { BrandMotif } from './BrandMotif';
 
 export const FAQSection: React.FC = () => {

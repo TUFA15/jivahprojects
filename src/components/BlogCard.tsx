@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { JournalArticle } from '../data/journal';
+import { OptimizedImage } from './OptimizedImage';
 
 interface BlogCardProps {
   article: JournalArticle;
@@ -23,10 +24,10 @@ export const BlogCard: React.FC<BlogCardProps> = ({ article, featured = false })
           className="group grid grid-cols-1 lg:grid-cols-12 gap-8 items-center bg-[#EEF5F6]/60 border border-[#2F7B93]/15 p-6 md:p-8 hover:border-[#2F7B93]/40 transition-all duration-500 ease-[cubic-bezier(0.25,1,0.5,1)]"
         >
           <div className="lg:col-span-7 overflow-hidden aspect-[16/10] bg-[#EEF5F6]">
-            <img
+            <OptimizedImage
               src={article.coverImage}
               alt={article.title}
-              loading="lazy"
+              sizes="(max-width: 1024px) 100vw, 60vw"
               className="w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:scale-[1.05]"
             />
           </div>
@@ -74,10 +75,10 @@ export const BlogCard: React.FC<BlogCardProps> = ({ article, featured = false })
       >
         <div className="space-y-4">
           <div className="overflow-hidden aspect-[4/3] bg-[#EEF5F6]">
-            <img
+            <OptimizedImage
               src={article.coverImage}
               alt={article.title}
-              loading="lazy"
+              sizes="(max-width: 768px) 100vw, 33vw"
               className="w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:scale-[1.05]"
             />
           </div>

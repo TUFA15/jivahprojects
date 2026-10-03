@@ -1,5 +1,4 @@
 import React from 'react';
-import { SectionHeading } from '../components/SectionHeading';
 import { BrandMotif } from '../components/BrandMotif';
 import { PageTransition } from '../components/PageTransition';
 import { FAQSection } from '../components/FAQSection';

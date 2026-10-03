@@ -3,7 +3,6 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
-import { ScrollToTop } from './components/ScrollToTop';
 import { ScrollProgressBar } from './components/ScrollProgressBar';
 import { BackToTop } from './components/BackToTop';
 import { SitePreloader } from './components/SitePreloader';
@@ -27,9 +26,8 @@ export const App: React.FC = () => {
         {/* 1. Initial Site Preloader Animation */}
         <SitePreloader />
 
-        {/* 2. Scroll Progress Bar & Scroll Controls */}
+        {/* 2. Scroll Progress Bar & Controls */}
         <ScrollProgressBar />
-        <ScrollToTop />
         
         {/* 3. Global Navbar */}
         <Navbar />

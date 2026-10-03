@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { JOURNAL_ARTICLES } from '../data/journal';
 import { BlogCard } from '../components/BlogCard';
+import { OptimizedImage } from '../components/OptimizedImage';
 import { BrandMotif } from '../components/BrandMotif';
 import { PageTransition } from '../components/PageTransition';
 import { SEO } from '../components/SEO';
@@ -76,9 +77,12 @@ export const JournalArticlePage: React.FC = () => {
 
           {/* Cover Image */}
           <div className="overflow-hidden bg-[#EEF5F6] aspect-[16/10] my-8 shadow-md rounded-2xl border border-[#2F7B93]/15">
-            <img
+            <OptimizedImage
               src={article.coverImage}
               alt={`${article.title} - JIVAH Projects interior journal Pune`}
+              priority={true}
+              sizes="(max-width: 1024px) 100vw, 800px"
+              aspectRatio="16/10"
               className="w-full h-full object-cover"
             />
           </div>
