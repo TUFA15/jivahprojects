@@ -101,6 +101,23 @@
     "aspectRatio": 4.5481,
     "placeholder": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoYAAUAPyV+tFGuKCUisAgBwCSJZQCdMoADDItyKsH70AD9FBtfucZJhYSbVEsSJYU17atumOsm79pB40VFpQgefGoR0AAA"
   },
+  "/images/interiors/HERO.jpg": {
+    "originalPath": "/images/interiors/HERO.jpg",
+    "fallbackWebp": "/images/optimized/interiors/HERO-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/HERO-full.webp",
+      "480w": "/images/optimized/interiors/HERO-480w.webp",
+      "768w": "/images/optimized/interiors/HERO-768w.webp",
+      "1200w": "/images/optimized/interiors/HERO-1200w.webp",
+      "1600w": "/images/optimized/interiors/HERO-1600w.webp",
+      "2048w": "/images/optimized/interiors/HERO-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/HERO-480w.webp 480w, /images/optimized/interiors/HERO-768w.webp 768w, /images/optimized/interiors/HERO-1200w.webp 1200w, /images/optimized/interiors/HERO-1600w.webp 1600w, /images/optimized/interiors/HERO-2048w.webp 2048w, /images/optimized/interiors/HERO-full.webp 2560w",
+    "width": 4080,
+    "height": 2296,
+    "aspectRatio": 1.777,
+    "placeholder": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAABwBACdASoYAA4APyV6tFGuJ6UisAgBwCSJbACdMoRwACflk99eknf/0wy4iAD90P8R7c+7hX7o0z2QIF5m1vgBRWv5c0nRSizKg50/cpvd29pCHPNE2b2vXyEyAtXc7CEulcVI1N5ELDKsq37PgK54UQOsGYvjmeha8LN/xbwYKduUCXIQRbi4SN5JBTbLcqgUhDgkUWYAAA=="
+  },
   "/images/interiors/IMG_20250105_112813 - Copy.jpg": {
     "originalPath": "/images/interiors/IMG_20250105_112813 - Copy.jpg",
     "fallbackWebp": "/images/optimized/interiors/IMG_20250105_112813 - Copy-full.webp",

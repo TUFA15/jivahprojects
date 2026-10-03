@@ -28,7 +28,7 @@ export const HomePage: React.FC = () => {
         {/* Main Background Image with Gradient Overlay */}
         <div className="absolute inset-0 z-0 overflow-hidden">
           <OptimizedImage
-            src="/images/interiors/IMG_20250118_125129.jpg"
+            src="/images/interiors/HERO.jpg"
             alt="JIVAH Projects Interior Atmosphere & Light in Pune"
             priority={true}
             sizes="100vw"
@@ -105,10 +105,11 @@ export const HomePage: React.FC = () => {
                 {/* Large Main Frame */}
                 <div className="aspect-[4/5] w-[88%] ml-auto rounded-3xl overflow-hidden border-2 border-[#2F7B93]/40 shadow-2xl relative group">
                   <OptimizedImage
-                    src="/images/interiors/IMG_20250118_125129.jpg"
-                    alt="Contemporary residential living room interior designed by JIVAH Projects in Hadapsar Pune"
+                    src="/images/interiors/HERO.jpg"
+                    alt="Contemporary residential interior architectural joinery designed by JIVAH Projects in Hadapsar Pune"
                     priority={true}
                     sizes="(max-width: 640px) 100vw, 400px"
+                    containerClassName="w-full h-full"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#16465A]/90 via-transparent pointer-events-none" />
