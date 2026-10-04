@@ -45,7 +45,7 @@ export const Footer: React.FC = () => {
             <div className="flex items-center gap-3 pt-2">
               <span className="w-2 h-2 rounded-full bg-[#55B3C5] animate-pulse" />
               <span className="text-[11px] uppercase tracking-[0.2em] text-[#8FD3DC]/70 font-mono">
-                HADAPSAR · PUNE · MAHARASHTRA
+                MUNDHWA · PUNE · MAHARASHTRA
               </span>
             </div>
           </div>

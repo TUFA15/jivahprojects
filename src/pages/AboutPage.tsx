@@ -43,7 +43,7 @@ export const AboutPage: React.FC = () => {
     <PageTransition>
       <SEO
         title="About JIVAH Projects | Interior Design Studio in Pune"
-        description="Learn about JIVAH Projects. An interior design studio based in Hadapsar, Pune dedicated to thoughtful spatial flow, authentic materials, and home interior sanctuaries."
+        description="Learn about JIVAH Projects. An interior design studio based in Mundhwa (near Hermosa Casa), Pune dedicated to thoughtful spatial flow, authentic materials, and home interior sanctuaries."
         canonicalUrl="https://jivahprojects.com/about"
         jsonLd={[LOCAL_BUSINESS_SCHEMA, SERVICES_SCHEMA]}
       />
@@ -65,7 +65,7 @@ export const AboutPage: React.FC = () => {
           </h1>
 
           <p className="text-xl sm:text-2xl font-light text-[#61747C] max-w-3xl leading-relaxed">
-            An interior design studio based in Hadapsar, Pune, focused on how spaces feel, how light moves, and how authentic materials enrich residential living.
+            An interior design studio based in Mundhwa (near Hermosa Casa), Pune, focused on how spaces feel, how light moves, and how authentic materials enrich residential living.
           </p>
         </section>
 
@@ -102,13 +102,13 @@ export const AboutPage: React.FC = () => {
                 We avoid artificial trends, superficial decorations, or sterile minimalist setups. Instead, our interior design language emerges from natural stone, warm timber, soft textiles, and custom lighting.
               </p>
               <p>
-                Serving Hadapsar and greater Pune, we craft home interiors, 2 BHK & 3 BHK layouts, modular kitchens, and residential sanctuaries that feel personal, timeless, and deeply lived-in.
+                Serving Mundhwa, Pune, and greater Maharashtra, we craft home interiors, 2 BHK & 3 BHK layouts, modular kitchens, and residential sanctuaries that feel personal, timeless, and deeply lived-in.
               </p>
               <div className="pt-4 grid grid-cols-2 gap-6 border-t border-[#2F7B93]/20 text-xs font-mono">
                 <div>
                   <span className="text-[#2F7B93] block">STUDIO LOCATION</span>
                   <span className="text-[#11181C] block font-sans font-medium mt-1">
-                    Hadapsar, Pune, Maharashtra
+                    Near Hermosa Casa, Mundhwa, Pune
                   </span>
                 </div>
                 <div>
@@ -179,7 +179,7 @@ export const AboutPage: React.FC = () => {
                     Jitesh established JIVAH Projects with a singular objective: to liberate home interior design from superficial, synthetic trends and restore tactile intimacy, living comfort, and spatial flow to contemporary residences.
                   </p>
                   <p>
-                    Based in Hadapsar, Pune, his approach combines rigorous material selection—such as honed natural stone, warm timber joinery, and concealed lighting schematics—with a deep, intuitive understanding of daily human family rituals.
+                    Based in Mundhwa, Pune (near Hermosa Casa), his approach combines rigorous material selection—such as honed natural stone, warm timber joinery, and concealed lighting schematics—with a deep, intuitive understanding of daily human family rituals.
                   </p>
                 </div>
 
@@ -196,7 +196,7 @@ export const AboutPage: React.FC = () => {
                   </div>
                   <div className="bg-white/70 p-4 rounded-xl border border-[#2F7B93]/15">
                     <span className="text-[#2F7B93] uppercase text-[10px] tracking-wider block font-semibold">STUDIO HUB</span>
-                    <span className="text-[#11181C] font-sans font-medium text-sm block mt-1">Hadapsar, Pune</span>
+                    <span className="text-[#11181C] font-sans font-medium text-sm block mt-1">Mundhwa (near Hermosa Casa), Pune</span>
                     <span className="text-[#61747C] text-[10px]">Maharashtra, India</span>
                   </div>
                 </div>

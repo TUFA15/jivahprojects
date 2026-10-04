@@ -28,7 +28,7 @@ export const FAQSection: React.FC = () => {
           </h2>
 
           <p className="text-base sm:text-lg font-light text-[#61747C] leading-relaxed">
-            Essential answers about JIVAH Projects' interior design services, modular kitchens, scope, and local presence in Hadapsar, Pune.
+            Essential answers about JIVAH Projects' interior design services, modular kitchens, scope, and studio hub in Mundhwa, Pune.
           </p>
         </div>
 
@@ -91,7 +91,7 @@ export const FAQSection: React.FC = () => {
             </div>
 
             <p className="text-xs sm:text-sm text-[#8FD3DC]/80 font-light leading-relaxed">
-              We collaborate with homeowners and business clients across Hadapsar and Pune for bespoke residential interiors and modular kitchens.
+              We collaborate with homeowners and business clients across Pune and Maharashtra for bespoke residential interiors and modular kitchens.
             </p>
 
             <div className="pt-2">

@@ -18,7 +18,7 @@ export const HomePage: React.FC = () => {
       {/* ---------------- SEO & STRUCTURED DATA (JSON-LD) ---------------- */}
       <SEO
         title="JIVAH Projects | Interior Designer in Pune"
-        description="JIVAH Projects is a premier interior design studio in Hadapsar, Pune specializing in residential interior design, modular kitchen design, and bespoke living sanctuaries."
+        description="JIVAH Projects is a premier interior design studio based in Mundhwa (near Hermosa Casa), Pune specializing in residential interior design, modular kitchen design, and bespoke living sanctuaries."
         canonicalUrl="https://jivahprojects.com"
         jsonLd={[LOCAL_BUSINESS_SCHEMA, SERVICES_SCHEMA]}
       />
@@ -71,7 +71,7 @@ export const HomePage: React.FC = () => {
                 transition={{ duration: 0.8, delay: 0.4 }}
                 className="text-base sm:text-lg md:text-xl font-light text-[#8FD3DC]/90 max-w-xl mx-auto lg:mx-0 leading-relaxed"
               >
-                JIVAH Projects is an interior design studio serving Pune and Hadapsar, crafting homes shaped by tactile materiality, soft light, and serene living rituals.
+                JIVAH Projects is an interior design studio based in Mundhwa, Pune, crafting homes shaped by tactile materiality, soft light, and serene living rituals.
               </motion.p>
 
               <motion.div
@@ -106,7 +106,7 @@ export const HomePage: React.FC = () => {
                 <div className="aspect-[4/5] w-[88%] ml-auto rounded-3xl overflow-hidden border-2 border-[#2F7B93]/40 shadow-2xl relative group">
                   <OptimizedImage
                     src="/images/interiors/IMG_20250105_112832 - Copy.jpg"
-                    alt="Contemporary residential interior designed by JIVAH Projects in Hadapsar Pune"
+                    alt="Contemporary residential interior designed by JIVAH Projects in Pune"
                     priority={true}
                     sizes="(max-width: 640px) 100vw, 400px"
                     containerClassName="w-full h-full"
@@ -117,7 +117,7 @@ export const HomePage: React.FC = () => {
                     <span className="text-[9px] font-mono uppercase tracking-wider text-[#8FD3DC]">
                       RESIDENTIAL SANCTUARY
                     </span>
-                    <h4 className="font-serif text-lg uppercase text-white">Hadapsar Residence</h4>
+                    <h4 className="font-serif text-lg uppercase text-white">Pune Residence</h4>
                   </div>
                 </div>
 
@@ -213,7 +213,7 @@ export const HomePage: React.FC = () => {
               <div className="w-16 h-[1px] bg-[#2F7B93]/30" />
 
               <p className="text-lg sm:text-xl font-light text-[#61747C] leading-relaxed max-w-xl">
-                JIVAH Projects is a contemporary interior design studio founded by Jitesh, based in Hadapsar, Pune. We create thoughtful, refined, and functional residential interiors, custom modular kitchens, and tailored living environments across Pune, Maharashtra.
+                JIVAH Projects is a contemporary interior design studio founded by Jitesh, based in Mundhwa (near Hermosa Casa), Pune. We create thoughtful, refined, and functional residential interiors, custom modular kitchens, and tailored living environments across Pune, Maharashtra.
               </p>
 
               <div className="pt-2 flex flex-wrap items-center gap-6">
@@ -232,7 +232,7 @@ export const HomePage: React.FC = () => {
               <div className="relative overflow-hidden bg-[#EEF5F6] aspect-[4/5] rounded-3xl shadow-xl border border-[#2F7B93]/20">
                 <OptimizedImage
                   src="/images/interiors/IMG_20250118_125129.jpg"
-                  alt="Contemporary living room interior designed by JIVAH Projects in Hadapsar Pune"
+                  alt="Contemporary living room interior designed by JIVAH Projects in Pune"
                   sizes="(max-width: 1024px) 100vw, 500px"
                   containerClassName="w-full h-full"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"
@@ -266,7 +266,7 @@ export const HomePage: React.FC = () => {
                 OUR INTERIOR DESIGN PROJECTS
               </h2>
               <p className="text-base sm:text-lg font-light text-[#61747C] leading-relaxed">
-                Explore a curated selection of residential interior design projects, modular kitchens, and custom living environments in Pune and Hadapsar.
+                Explore a curated selection of residential interior design projects, modular kitchens, and custom living environments in Pune, Maharashtra.
               </p>
             </div>
 
@@ -363,7 +363,7 @@ export const HomePage: React.FC = () => {
               YOUR SPACE
             </h2>
             <p className="text-base sm:text-lg text-[#61747C] font-light max-w-xl mx-auto leading-relaxed">
-              Connect with JIVAH Projects to discuss your home interior, residential renovation, or modular kitchen design project in Hadapsar, Pune.
+              Connect with JIVAH Projects to discuss your home interior, residential renovation, or modular kitchen design project in Mundhwa, Pune.
             </p>
           </div>
 

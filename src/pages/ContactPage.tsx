@@ -10,7 +10,7 @@ export const CONTACT_CONFIG = {
   email: 'jivahprojects@gmail.com',
   phone: '+91 89797 19955',
   phoneRaw: '+918979719955',
-  locationUrl: 'https://maps.google.com/?q=Hadapsar,+Pune,+Maharashtra',
+  locationUrl: 'https://maps.google.com/?q=Hermosa+Casa,+Mundhwa,+Pune,+Maharashtra',
   social: {
     instagram: 'https://www.instagram.com/jivahprojects',
     youtube: 'https://youtube.com/@jivahprojects',
@@ -18,10 +18,10 @@ export const CONTACT_CONFIG = {
   },
   primaryLocation: {
     city: 'PUNE',
-    hub: 'HADAPSAR',
-    address: 'Hadapsar, Pune',
-    state: 'Maharashtra 411028',
-    mapsUrl: 'https://maps.google.com/?q=Hadapsar,+Pune,+Maharashtra',
+    hub: 'MUNDHWA',
+    address: 'Near Hermosa Casa, Mundhwa',
+    state: 'Pune, Maharashtra 411036',
+    mapsUrl: 'https://maps.google.com/?q=Hermosa+Casa,+Mundhwa,+Pune,+Maharashtra',
   },
   additionalLocations: [
     {
@@ -38,7 +38,7 @@ export const ContactPage: React.FC = () => {
     <PageTransition>
       <SEO
         title="Contact JIVAH Projects | Interior Designer in Pune"
-        description="Get in touch with JIVAH Projects, interior design studio in Hadapsar, Pune. Contact us via email or phone for residential interior and modular kitchen inquiries."
+        description="Get in touch with JIVAH Projects, interior design studio based in Mundhwa (near Hermosa Casa), Pune. Contact us via email or phone for residential interior and modular kitchen inquiries."
         canonicalUrl="https://jivahprojects.com/contact"
         jsonLd={[LOCAL_BUSINESS_SCHEMA, SERVICES_SCHEMA, FAQ_SCHEMA]}
       />
@@ -57,7 +57,7 @@ export const ContactPage: React.FC = () => {
             </h1>
 
             <p className="text-lg sm:text-xl font-light text-[#61747C] leading-relaxed max-w-2xl pt-2">
-              Connect with JIVAH Projects to discuss your home interior, 2 BHK or 3 BHK layout, or modular kitchen design project in Hadapsar, Pune, and surrounding areas.
+              Connect with JIVAH Projects to discuss your home interior, 2 BHK or 3 BHK layout, or modular kitchen design project in Mundhwa, Pune, and surrounding areas.
             </p>
           </div>
 
@@ -98,7 +98,7 @@ export const ContactPage: React.FC = () => {
                 </span>
                 <div className="space-y-1">
                   <p className="font-serif text-2xl sm:text-3xl text-[#11181C]">
-                    Hadapsar, Pune, Maharashtra
+                    Near Hermosa Casa, Mundhwa, Pune, Maharashtra
                   </p>
                   <div className="pt-2">
                     <a
@@ -162,7 +162,7 @@ export const ContactPage: React.FC = () => {
                 </h2>
               </div>
 
-              {/* Primary Location (Hadapsar, Pune) */}
+              {/* Primary Location (Mundhwa, Pune) */}
               <div className="space-y-3 pb-6 border-b border-[#2F7B93]/20">
                 <div className="flex items-center justify-between">
                   <h3 className="font-serif text-2xl uppercase text-[#11181C]">

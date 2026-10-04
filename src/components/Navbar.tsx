@@ -210,7 +210,7 @@ export const Navbar: React.FC = () => {
               <div>
                 <p className="font-serif text-base text-white">JIVAH PROJECTS</p>
                 <p className="text-[11px] text-[#8FD3DC]/80 font-light mt-0.5">
-                  Hadapsar · Pune · Maharashtra
+                  Mundhwa · Pune · Maharashtra
                 </p>
               </div>
               <div className="flex flex-wrap gap-4 tracking-widest uppercase text-[10px]">

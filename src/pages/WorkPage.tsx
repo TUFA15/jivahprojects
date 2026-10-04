@@ -46,7 +46,7 @@ export const WorkPage: React.FC = () => {
     <PageTransition>
       <SEO
         title="Interior Design Projects & Gallery in Pune | JIVAH Projects"
-        description="Explore JIVAH Projects' portfolio of residential interiors, commercial office spaces, and luxury hospitality venues in Hadapsar, Pune. Featuring all 33 curated interior photos."
+        description="Explore JIVAH Projects' portfolio of residential interiors, commercial office spaces, and luxury hospitality venues in Pune, Maharashtra. Featuring all 33 curated interior photos."
         canonicalUrl="https://jivahprojects.com/work"
         jsonLd={[LOCAL_BUSINESS_SCHEMA, SERVICES_SCHEMA]}
       />
@@ -66,7 +66,7 @@ export const WorkPage: React.FC = () => {
             </h1>
 
             <p className="text-lg sm:text-xl font-light text-[#61747C] leading-relaxed max-w-2xl pt-2">
-              Discover JIVAH Projects' complete interior portfolio spanning bespoke residential homes, corporate workspaces, and luxury hospitality venues in Pune and Hadapsar.
+              Discover JIVAH Projects' complete interior portfolio spanning bespoke residential homes, corporate workspaces, and luxury hospitality venues across Pune, Maharashtra.
             </p>
 
             {/* Category Filter Tabs */}
@@ -172,9 +172,9 @@ export const WorkPage: React.FC = () => {
                   : `${activeFilter.toUpperCase()} PHOTOGRAPHY GALLERY (${filteredImages.length} IMAGES)`}
               </h2>
               <p className="text-sm font-light text-[#61747C] max-w-2xl">
-                {activeFilter === 'Hospitality' && 'Displaying all 6 high-resolution banquet hall photography images from Hadapsar, Pune.'}
-                {activeFilter === 'Commercial' && 'Displaying all 3 high-resolution corporate office workspace images from Hadapsar, Pune.'}
-                {activeFilter === 'Residential' && 'Displaying all 24 high-resolution residential home interior photos from Pune.'}
+                {activeFilter === 'Hospitality' && 'Displaying all 6 high-resolution banquet hall photography images from Pune, Maharashtra.'}
+                {activeFilter === 'Commercial' && 'Displaying all 3 high-resolution corporate office workspace images from Pune, Maharashtra.'}
+                {activeFilter === 'Residential' && 'Displaying all 24 high-resolution residential home interior photos from Pune, Maharashtra.'}
                 {activeFilter === 'ALL' && 'Browse all 33 client interior photographs across Hospitality (6), Commercial (3), and Residential (24). Click any image to view in high-definition lightbox.'}
               </p>
             </div>

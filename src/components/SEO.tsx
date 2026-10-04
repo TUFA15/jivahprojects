@@ -13,7 +13,7 @@ export interface SEOProps {
 export const SEO: React.FC<SEOProps> = ({
   title,
   description,
-  keywords = 'Interior Designer in Pune, Interior Designer in Hadapsar, Home Interior Designer in Hadapsar, Residential Interior Designer in Pune, Home Interior Design Services Pune, Modular Kitchen Design Pune, JIVAH Projects',
+  keywords = 'Interior Designer in Pune, Interior Designer in Mundhwa, Interior Designer near Hermosa Casa, Residential Interior Designer in Pune, Home Interior Design Services Pune, Modular Kitchen Design Pune, JIVAH Projects',
   canonicalUrl = 'https://jivahprojects.com',
   ogType = 'website',
   ogImage = 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop',

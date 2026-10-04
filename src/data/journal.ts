@@ -80,7 +80,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     category: 'Design Guidance',
     date: 'September 24, 2026',
     readTime: '5 min read',
-    excerpt: 'Essential advice for evaluating design studio portfolios, material transparency, local Hadapsar experience, and spatial planning standards.',
+    excerpt: 'Essential advice for evaluating design studio portfolios, material transparency, local Pune experience, and spatial planning standards.',
     coverImage: '/images/interiors/IMG_20250105_112832 - Copy.jpg',
     author: {
       name: 'JIVAH Studio',

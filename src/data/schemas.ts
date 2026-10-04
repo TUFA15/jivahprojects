@@ -17,19 +17,19 @@ export const LOCAL_BUSINESS_SCHEMA = {
   telephone: '+91 89797 19955',
   email: 'jivahprojects@gmail.com',
   description:
-    'JIVAH Projects is a premier interior design studio in Hadapsar, Pune, specializing in residential interior design, modular kitchen design, and bespoke living spaces across Pune, Maharashtra.',
+    'JIVAH Projects is a premier interior design studio based in Mundhwa (near Hermosa Casa), Pune, specializing in residential interior design, modular kitchen design, and bespoke living spaces across Pune, Maharashtra.',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: 'Hadapsar',
+    streetAddress: 'Near Hermosa Casa, Mundhwa',
     addressLocality: 'Pune',
     addressRegion: 'Maharashtra',
-    postalCode: '411028',
+    postalCode: '411036',
     addressCountry: 'IN',
   },
   geo: {
     '@type': 'GeoCoordinates',
-    latitude: 18.5089,
-    longitude: 73.926,
+    latitude: 18.5362,
+    longitude: 73.9298,
   },
   areaServed: [
     {
@@ -38,7 +38,7 @@ export const LOCAL_BUSINESS_SCHEMA = {
     },
     {
       '@type': 'AdministrativeArea',
-      name: 'Hadapsar, Pune',
+      name: 'Mundhwa, Pune',
     },
     {
       '@type': 'State',
@@ -83,7 +83,7 @@ export const SERVICES_SCHEMA = {
         itemOffered: {
           '@type': 'Service',
           name: 'Home Interior Design Services Pune',
-          description: 'Full-home residential interior design for 2 BHK, 3 BHK, and luxury residences in Pune and Hadapsar.',
+          description: 'Full-home residential interior design for 2 BHK, 3 BHK, and luxury residences across Pune, Maharashtra.',
         },
       },
       {
@@ -118,17 +118,17 @@ export const FAQ_ITEMS = [
   {
     question: 'What services does JIVAH Projects offer?',
     answer:
-      'JIVAH Projects is an interior design studio specializing in home interior design, residential interior design, modular kitchen design, living room and bedroom interiors, as well as select commercial interior design in Pune and Hadapsar.',
+      'JIVAH Projects is an interior design studio specializing in home interior design, residential interior design, modular kitchen design, living room and bedroom interiors, as well as select commercial interior design across Pune, Maharashtra.',
   },
   {
     question: 'Where is JIVAH Projects based?',
     answer:
-      'JIVAH Projects is located in Hadapsar, Pune, Maharashtra, serving residential and commercial clients across Pune and surrounding areas.',
+      'JIVAH Projects studio hub is located near Hermosa Casa, Mundhwa, Pune, Maharashtra, serving residential and commercial clients across Pune and surrounding areas.',
   },
   {
     question: 'Does JIVAH Projects provide home interior design services in Pune?',
     answer:
-      'Yes. JIVAH Projects offers complete home interior design services tailored for 2 BHK, 3 BHK, villas, and luxury apartments in Pune and Hadapsar.',
+      'Yes. JIVAH Projects offers complete home interior design services tailored for 2 BHK, 3 BHK, villas, and luxury apartments across Pune, Maharashtra.',
   },
   {
     question: 'Does JIVAH Projects design modular kitchens?',
@@ -136,9 +136,9 @@ export const FAQ_ITEMS = [
       'Yes. We design custom modular kitchens that combine ergonomic spatial layouts, durable material surfaces, concealed hardware, and ambient illumination for homes in Pune.',
   },
   {
-    question: 'Does JIVAH Projects work in Hadapsar, Pune?',
+    question: 'Where is the JIVAH Projects studio hub located?',
     answer:
-      'Yes. Hadapsar, Pune is our primary service hub and local relevance area for residential and commercial interior projects.',
+      'Our primary studio hub is located in Mundhwa near Hermosa Casa, Pune, Maharashtra.',
   },
   {
     question: 'How can I contact JIVAH Projects for an interior project?',
