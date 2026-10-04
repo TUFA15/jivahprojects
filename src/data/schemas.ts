@@ -9,6 +9,11 @@ export const LOCAL_BUSINESS_SCHEMA = {
   url: 'https://jivahprojects.com',
   logo: 'https://jivahprojects.com/logo.jpeg',
   image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop',
+  founder: {
+    '@type': 'Person',
+    name: 'Jitesh',
+    jobTitle: 'Founder & Principal Designer',
+  },
   telephone: '+91 89797 19955',
   email: 'jivahprojects@gmail.com',
   description:

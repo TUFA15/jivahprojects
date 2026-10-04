@@ -131,15 +131,15 @@ export const AboutPage: React.FC = () => {
                 <div className="overflow-hidden bg-[#16465A] aspect-[3/4] shadow-2xl rounded-3xl border border-[#2F7B93]/30 relative group">
                   <img
                     src="/Founder.png"
-                    alt="Founder of JIVAH Projects Interior Design Studio Pune"
+                    alt="Jitesh - Founder and Principal Designer of JIVAH Projects Interior Design Studio Pune"
                     className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"
                   />
-                  <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-[#16465A]/90 via-[#16465A]/40 to-transparent p-6 text-white space-y-1">
+                  <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-[#16465A]/95 via-[#16465A]/50 to-transparent p-6 text-white space-y-1">
                     <span className="text-[10px] font-mono tracking-[0.25em] text-[#8FD3DC] uppercase block font-semibold">
-                      FOUNDER & CREATIVE DIRECTOR
+                      FOUNDER & PRINCIPAL DESIGNER
                     </span>
-                    <h3 className="font-serif text-2xl uppercase tracking-wide text-white">
-                      JIVAH PROJECTS
+                    <h3 className="font-serif text-3xl uppercase tracking-wide text-white">
+                      JITESH
                     </h3>
                   </div>
                 </div>
@@ -162,27 +162,32 @@ export const AboutPage: React.FC = () => {
 
                   <h2 className="font-serif text-4xl sm:text-5xl lg:text-6xl uppercase text-[#11181C] tracking-tight leading-[1.05]">
                     ABOUT THE FOUNDER
+                    <br />
+                    <span className="italic font-normal text-[#2F7B93]">JITESH</span>
                   </h2>
                 </div>
 
                 <blockquote className="font-serif text-2xl sm:text-3xl italic text-[#16465A] leading-snug border-l-3 border-[#2F7B93] pl-6 py-2">
                   "An interior is not a static backdrop; it is an intimate physical sanctuary where material authenticity, soft light, and quiet acoustics elevate the rhythm of daily living."
+                  <span className="text-xs font-mono tracking-widest text-[#2F7B93] block not-italic mt-3 uppercase font-semibold">
+                    — JITESH, FOUNDER & PRINCIPAL DESIGNER
+                  </span>
                 </blockquote>
 
                 <div className="space-y-4 text-base sm:text-lg text-[#61747C] font-light leading-relaxed">
                   <p>
-                    JIVAH Projects was established with a singular objective: to liberate home interior design from superficial, synthetic trends and restore tactile intimacy, living comfort, and spatial flow to contemporary residences.
+                    Jitesh established JIVAH Projects with a singular objective: to liberate home interior design from superficial, synthetic trends and restore tactile intimacy, living comfort, and spatial flow to contemporary residences.
                   </p>
                   <p>
-                    Based in Hadapsar, Pune, our approach combines rigorous material selection—such as honed natural stone, warm timber joinery, and concealed lighting schematics—with a deep, intuitive understanding of daily human family rituals.
+                    Based in Hadapsar, Pune, his approach combines rigorous material selection—such as honed natural stone, warm timber joinery, and concealed lighting schematics—with a deep, intuitive understanding of daily human family rituals.
                   </p>
                 </div>
 
                 <div className="pt-4 grid grid-cols-1 sm:grid-cols-3 gap-6 border-t border-[#2F7B93]/20 text-xs font-mono">
                   <div className="bg-white/70 p-4 rounded-xl border border-[#2F7B93]/15">
                     <span className="text-[#2F7B93] uppercase text-[10px] tracking-wider block font-semibold">FOUNDER</span>
-                    <span className="text-[#11181C] font-sans font-medium text-sm block mt-1">Founder & Principal</span>
-                    <span className="text-[#61747C] text-[10px]">Creative Director</span>
+                    <span className="text-[#11181C] font-sans font-medium text-sm block mt-1">Jitesh</span>
+                    <span className="text-[#61747C] text-[10px]">Principal Designer & Founder</span>
                   </div>
                   <div className="bg-white/70 p-4 rounded-xl border border-[#2F7B93]/15">
                     <span className="text-[#2F7B93] uppercase text-[10px] tracking-wider block font-semibold">DISCIPLINE</span>

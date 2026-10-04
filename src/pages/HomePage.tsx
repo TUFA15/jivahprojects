@@ -213,15 +213,15 @@ export const HomePage: React.FC = () => {
               <div className="w-16 h-[1px] bg-[#2F7B93]/30" />
 
               <p className="text-lg sm:text-xl font-light text-[#61747C] leading-relaxed max-w-xl">
-                JIVAH Projects is a contemporary interior design studio based in Hadapsar, Pune. We create thoughtful, refined, and functional residential interiors, custom modular kitchens, and tailored living environments across Pune, Maharashtra.
+                JIVAH Projects is a contemporary interior design studio founded by Jitesh, based in Hadapsar, Pune. We create thoughtful, refined, and functional residential interiors, custom modular kitchens, and tailored living environments across Pune, Maharashtra.
               </p>
 
-              <div className="pt-2 flex items-center gap-6">
+              <div className="pt-2 flex flex-wrap items-center gap-6">
                 <Link
                   to="/about"
                   className="group inline-flex items-center gap-3 text-xs tracking-[0.25em] font-medium uppercase text-[#2F7B93] hover:text-[#16465A] transition-colors"
                 >
-                  <span>DISCOVER THE STUDIO</span>
+                  <span>MEET FOUNDER JITESH & THE STUDIO</span>
                   <span className="w-8 h-[1px] bg-[#2F7B93] group-hover:w-12 transition-all duration-300" />
                   <span>→</span>
                 </Link>
