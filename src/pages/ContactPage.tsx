@@ -23,14 +23,6 @@ export const CONTACT_CONFIG = {
     state: 'Pune, Maharashtra 411036',
     mapsUrl: 'https://maps.google.com/?q=Hermosa+Casa,+Mundhwa,+Pune,+Maharashtra',
   },
-  additionalLocations: [
-    {
-      city: 'MUMBAI',
-      address: 'Malabar Hill',
-      state: 'Mumbai, Maharashtra 400006',
-      mapsUrl: 'https://maps.google.com/?q=Malabar+Hill,+Mumbai',
-    },
-  ],
 };
 
 export const ContactPage: React.FC = () => {
@@ -185,32 +177,32 @@ export const ContactPage: React.FC = () => {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-xs font-mono tracking-[0.2em] text-[#2F7B93] hover:text-[#16465A] uppercase transition-colors font-medium"
                   >
-                    <span>VIEW LOCATION</span>
+                    <span>OPEN IN GOOGLE MAPS</span>
                     <span>→</span>
                   </a>
                 </div>
               </div>
 
-              {/* Additional Locations */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 pt-2">
-                {CONTACT_CONFIG.additionalLocations.map((loc) => (
-                  <div key={loc.city} className="space-y-2">
-                    <h3 className="font-serif text-xl uppercase text-[#11181C]">{loc.city}</h3>
-                    <p className="text-xs font-light text-[#61747C]">{loc.address}</p>
-                    <p className="text-xs font-light text-[#61747C]">{loc.state}</p>
-                    <div className="pt-1">
-                      <a
-                        href={loc.mapsUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1 text-[11px] font-mono tracking-wider text-[#2F7B93] hover:text-[#16465A] uppercase transition-colors"
-                      >
-                        <span>VIEW LOCATION</span>
-                        <span>→</span>
-                      </a>
-                    </div>
+              {/* Studio Consultations & Timings */}
+              <div className="space-y-4 pt-1">
+                <div className="space-y-1">
+                  <span className="text-[10px] font-mono tracking-[0.25em] text-[#2F7B93] uppercase block font-semibold">
+                    STUDIO VISITS & INQUIRIES
+                  </span>
+                  <p className="text-sm font-light text-[#61747C] leading-relaxed">
+                    Client consultations, material sample evaluations, and project layout discussions are hosted by appointment at our Mundhwa studio hub.
+                  </p>
+                </div>
+                <div className="grid grid-cols-2 gap-4 border-t border-[#2F7B93]/15 pt-4 text-xs font-mono">
+                  <div>
+                    <span className="text-[#2F7B93] block text-[10px] uppercase font-semibold tracking-wider">WORKING DAYS</span>
+                    <span className="text-[#11181C] block font-sans font-medium mt-1">Mon – Sat</span>
                   </div>
-                ))}
+                  <div>
+                    <span className="text-[#2F7B93] block text-[10px] uppercase font-semibold tracking-wider">STUDIO HOURS</span>
+                    <span className="text-[#11181C] block font-sans font-medium mt-1">9:30 AM – 6:30 PM</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
