@@ -49,7 +49,7 @@ export const ContactPage: React.FC = () => {
             </h1>
 
             <p className="text-lg sm:text-xl font-light text-[#61747C] leading-relaxed max-w-2xl pt-2">
-              Connect with JIVAH Projects to discuss your home interior, 2 BHK or 3 BHK layout, or modular kitchen design project in Mundhwa, Pune, and surrounding areas.
+              Connect with JIVAH Projects to discuss your residential or commercial interior project in Mundhwa, Pune, and surrounding areas. Whether you’re looking for interiors for a 2 BHK, 3 BHK, or 4 BHK home, or planning a modular kitchen or commercial interior project, our team can help bring your vision to life.
             </p>
           </div>
 
@@ -196,7 +196,7 @@ export const ContactPage: React.FC = () => {
                 <div className="grid grid-cols-2 gap-4 border-t border-[#2F7B93]/15 pt-4 text-xs font-mono">
                   <div>
                     <span className="text-[#2F7B93] block text-[10px] uppercase font-semibold tracking-wider">WORKING DAYS</span>
-                    <span className="text-[#11181C] block font-sans font-medium mt-1">Mon – Sat</span>
+                    <span className="text-[#11181C] block font-sans font-medium mt-1">Mon – Sun (Wed Closed)</span>
                   </div>
                   <div>
                     <span className="text-[#2F7B93] block text-[10px] uppercase font-semibold tracking-wider">STUDIO HOURS</span>
