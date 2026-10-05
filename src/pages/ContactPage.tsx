@@ -8,8 +8,8 @@ import { LOCAL_BUSINESS_SCHEMA, SERVICES_SCHEMA, FAQ_SCHEMA } from '../data/sche
 // Easily editable configuration object for client/developer updates
 export const CONTACT_CONFIG = {
   email: 'jivahprojects@gmail.com',
-  phone: '+91 89797 19955',
-  phoneRaw: '+918979719955',
+  phone: '+91 74992 16241',
+  phoneRaw: '+917499216241',
   locationUrl: 'https://maps.google.com/?q=Hermosa+Casa,+Mundhwa,+Pune,+Maharashtra',
   social: {
     instagram: 'https://www.instagram.com/jivahprojects',
