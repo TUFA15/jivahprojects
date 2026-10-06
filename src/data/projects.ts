@@ -149,7 +149,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     alt: 'JIVAH Projects residential foyer and open living interior'
   },
 
-  // --- Bedroom (6) ---
+  // --- Bedroom (8) ---
   {
     id: 'res-bed-01',
     url: '/images/interiors/bedroom.jpg',
@@ -209,6 +209,26 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     title: 'Contemporary Bedroom Retreat',
     caption: 'Quiet residential bedroom design tuned for relaxation and acoustic calm.',
     alt: 'JIVAH Projects residential bedroom interior'
+  },
+  {
+    id: 'res-bed-07',
+    url: '/images/interiors/bedroom (1).jpg',
+    category: 'Residential',
+    roomType: 'Bedroom',
+    orientation: 'portrait',
+    title: 'Custom Headboard & Display Niche',
+    caption: 'Modern bedroom suite featuring geometric upholstered headboard, illuminated display column, and fluted ceiling accents.',
+    alt: 'JIVAH Projects residential bedroom headboard and ambient display'
+  },
+  {
+    id: 'res-bed-08',
+    url: '/images/interiors/bedroom (5).jpg',
+    category: 'Residential',
+    roomType: 'Bedroom',
+    orientation: 'landscape',
+    title: 'Contemporary Bedroom & Wardrobe Suite',
+    caption: 'Spacious bedroom suite combining high-gloss wardrobe cabinetry, wood accents, and floor-to-ceiling drapery.',
+    alt: 'JIVAH Projects residential bedroom and wardrobe suite'
   },
 
   // --- Dining Room (1) ---
@@ -441,7 +461,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     alt: 'JIVAH Projects residential TV unit'
   },
 
-  // --- Study (3) ---
+  // --- Study (2) ---
   {
     id: 'res-study-01',
     url: '/images/interiors/Study desks.jpg',
@@ -462,30 +482,10 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     caption: 'Quiet home work nook with vertical open bookshelf joinery and task lighting.',
     alt: 'JIVAH Projects residential study area'
   },
-  {
-    id: 'res-study-03',
-    url: '/images/interiors/bedroom (5).jpg',
-    category: 'Residential',
-    roomType: 'Study',
-    orientation: 'landscape',
-    title: 'Bedroom Study Alcove',
-    caption: 'Integrated bedroom study alcove with custom timber shelving and floating desk joinery.',
-    alt: 'JIVAH Projects residential study area'
-  },
 
-  // --- Cupboards (6) ---
+  // --- Cupboards (5) ---
   {
     id: 'res-cupboard-01',
-    url: '/images/interiors/bedroom (1).jpg',
-    category: 'Residential',
-    roomType: 'Cupboards',
-    orientation: 'portrait',
-    title: 'Full-Height Bedroom Wardrobe Joinery',
-    caption: 'Full-height bedroom wardrobes with integrated internal illumination and soft-close hardware.',
-    alt: 'JIVAH Projects residential cupboard interior'
-  },
-  {
-    id: 'res-cupboard-02',
     url: '/images/interiors/bedroom (4).jpg',
     category: 'Residential',
     roomType: 'Cupboards',
@@ -495,7 +495,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     alt: 'JIVAH Projects residential cupboard interior'
   },
   {
-    id: 'res-cupboard-03',
+    id: 'res-cupboard-02',
     url: '/images/interiors/cupboard.jpg',
     category: 'Residential',
     roomType: 'Cupboards',
@@ -505,7 +505,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     alt: 'JIVAH Projects residential cupboard interior'
   },
   {
-    id: 'res-cupboard-04',
+    id: 'res-cupboard-03',
     url: '/images/interiors/cupboard (2).jpg',
     category: 'Residential',
     roomType: 'Cupboards',
@@ -515,7 +515,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     alt: 'JIVAH Projects residential cupboard interior'
   },
   {
-    id: 'res-cupboard-05',
+    id: 'res-cupboard-04',
     url: '/images/interiors/cupboards.jpg',
     category: 'Residential',
     roomType: 'Cupboards',
@@ -525,7 +525,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     alt: 'JIVAH Projects residential cupboard interior'
   },
   {
-    id: 'res-cupboard-06',
+    id: 'res-cupboard-05',
     url: '/images/interiors/cupboards (2).jpg',
     category: 'Residential',
     roomType: 'Cupboards',
