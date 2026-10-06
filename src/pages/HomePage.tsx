@@ -1,13 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { PROJECTS_DATA } from '../data/projects';
+import { CURATED_HOME_IMAGES } from '../data/projects';
 import { JOURNAL_ARTICLES } from '../data/journal';
-import { ProjectCard } from '../components/ProjectCard';
 import { OptimizedImage } from '../components/OptimizedImage';
 import { BlogCard } from '../components/BlogCard';
 import { BrandMotif } from '../components/BrandMotif';
-import { InteriorTransformationShowcase } from '../components/InteriorTransformationShowcase';
 import { PageTransition } from '../components/PageTransition';
 import { SEO } from '../components/SEO';
 import { LOCAL_BUSINESS_SCHEMA, SERVICES_SCHEMA } from '../data/schemas';
@@ -105,7 +103,7 @@ export const HomePage: React.FC = () => {
                 {/* Large Main Frame */}
                 <div className="aspect-[4/5] w-[88%] ml-auto rounded-3xl overflow-hidden border-2 border-[#2F7B93]/40 shadow-2xl relative group">
                   <OptimizedImage
-                    src="/images/interiors/IMG_20250105_112832 - Copy.jpg"
+                    src="/images/interiors/living (1).jpg"
                     alt="Contemporary residential interior designed by JIVAH Projects in Pune"
                     priority={true}
                     sizes="(max-width: 640px) 100vw, 400px"
@@ -124,7 +122,7 @@ export const HomePage: React.FC = () => {
                 {/* Offset Small Overlapping Frame */}
                 <div className="absolute bottom-[-5%] left-0 w-[55%] aspect-square rounded-3xl overflow-hidden border-2 border-[#8FD3DC]/50 shadow-2xl group/sub relative z-20 bg-[#16465A]">
                   <OptimizedImage
-                    src="/images/interiors/IMG_20250105_112813 - Copy.jpg"
+                    src="/images/interiors/living (2).jpg"
                     alt="Tactile stone kitchen island interior detail by JIVAH Projects Pune"
                     sizes="250px"
                     className="w-full h-full object-cover group-hover/sub:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"
@@ -231,7 +229,7 @@ export const HomePage: React.FC = () => {
             <div className="lg:col-span-5 relative">
               <div className="relative overflow-hidden bg-[#EEF5F6] aspect-[4/5] rounded-3xl shadow-xl border border-[#2F7B93]/20">
                 <OptimizedImage
-                  src="/images/interiors/IMG_20250118_125129.jpg"
+                  src="/images/interiors/living (5).jpg"
                   alt="Contemporary living room interior designed by JIVAH Projects in Pune"
                   sizes="(max-width: 1024px) 100vw, 500px"
                   containerClassName="w-full h-full"
@@ -282,29 +280,154 @@ export const HomePage: React.FC = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12">
+            {/* 1. Living Lounge */}
             <div className="md:col-span-8">
-              <ProjectCard project={PROJECTS_DATA[0]} aspectRatio="landscape" />
+              <Link to="/work" className="group block overflow-hidden focus:outline-none">
+                <div className="relative overflow-hidden bg-[#EEF5F6] rounded-3xl border border-[#2F7B93]/20 shadow-sm group-hover:shadow-xl transition-all duration-500">
+                  <div className="w-full aspect-[4/3] overflow-hidden">
+                    <OptimizedImage
+                      src={CURATED_HOME_IMAGES[0].url}
+                      alt={CURATED_HOME_IMAGES[0].alt}
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 1200px"
+                      containerClassName="w-full h-full"
+                      className="w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:scale-[1.04]"
+                    />
+                  </div>
+                  <div className="absolute top-4 left-4 z-10">
+                    <span className="text-[9px] tracking-[0.25em] font-mono font-medium uppercase px-3 py-1 bg-[#16465A]/85 text-[#8FD3DC] backdrop-blur-md border border-[#2F7B93]/30 rounded-full">
+                      {CURATED_HOME_IMAGES[0].roomType || CURATED_HOME_IMAGES[0].category}
+                    </span>
+                  </div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#16465A]/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+                </div>
+                <div className="pt-4 pb-2 space-y-1">
+                  <div className="flex items-center justify-between">
+                    <h3 className="font-serif text-xl md:text-2xl text-[#11181C] group-hover:text-[#2F7B93] transition-colors duration-300 tracking-tight uppercase flex items-center gap-2">
+                      <span>{CURATED_HOME_IMAGES[0].title}</span>
+                      <span className="text-xs font-mono text-[#2F7B93] opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300">
+                        →
+                      </span>
+                    </h3>
+                    <span className="text-xs font-mono text-[#2F7B93] font-medium">VIEW</span>
+                  </div>
+                  <p className="text-xs text-[#61747C] font-light tracking-wider uppercase">
+                    {CURATED_HOME_IMAGES[0].category} · {CURATED_HOME_IMAGES[0].roomType}
+                  </p>
+                </div>
+              </Link>
             </div>
 
+            {/* 2. Modular Kitchen Island (Portrait) */}
             <div className="md:col-span-4 md:mt-12">
-              <ProjectCard project={PROJECTS_DATA[1]} aspectRatio="tall" />
+              <Link to="/work" className="group block overflow-hidden focus:outline-none">
+                <div className="relative overflow-hidden bg-[#EEF5F6] rounded-3xl border border-[#2F7B93]/20 shadow-sm group-hover:shadow-xl transition-all duration-500">
+                  <div className="w-full aspect-[3/4] overflow-hidden">
+                    <OptimizedImage
+                      src={CURATED_HOME_IMAGES[1].url}
+                      alt={CURATED_HOME_IMAGES[1].alt}
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 600px"
+                      containerClassName="w-full h-full"
+                      className="w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:scale-[1.04]"
+                    />
+                  </div>
+                  <div className="absolute top-4 left-4 z-10">
+                    <span className="text-[9px] tracking-[0.25em] font-mono font-medium uppercase px-3 py-1 bg-[#16465A]/85 text-[#8FD3DC] backdrop-blur-md border border-[#2F7B93]/30 rounded-full">
+                      {CURATED_HOME_IMAGES[1].roomType || CURATED_HOME_IMAGES[1].category}
+                    </span>
+                  </div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#16465A]/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+                </div>
+                <div className="pt-4 pb-2 space-y-1">
+                  <div className="flex items-center justify-between">
+                    <h3 className="font-serif text-xl md:text-2xl text-[#11181C] group-hover:text-[#2F7B93] transition-colors duration-300 tracking-tight uppercase flex items-center gap-2">
+                      <span>{CURATED_HOME_IMAGES[1].title}</span>
+                      <span className="text-xs font-mono text-[#2F7B93] opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300">
+                        →
+                      </span>
+                    </h3>
+                    <span className="text-xs font-mono text-[#2F7B93] font-medium">VIEW</span>
+                  </div>
+                  <p className="text-xs text-[#61747C] font-light tracking-wider uppercase">
+                    {CURATED_HOME_IMAGES[1].category} · {CURATED_HOME_IMAGES[1].roomType}
+                  </p>
+                </div>
+              </Link>
             </div>
 
+            {/* 3. Master Bedroom Suite */}
             <div className="md:col-span-5">
-              <ProjectCard project={PROJECTS_DATA[2]} aspectRatio="portrait" />
+              <Link to="/work" className="group block overflow-hidden focus:outline-none">
+                <div className="relative overflow-hidden bg-[#EEF5F6] rounded-3xl border border-[#2F7B93]/20 shadow-sm group-hover:shadow-xl transition-all duration-500">
+                  <div className="w-full aspect-[4/3] overflow-hidden">
+                    <OptimizedImage
+                      src={CURATED_HOME_IMAGES[2].url}
+                      alt={CURATED_HOME_IMAGES[2].alt}
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 700px"
+                      containerClassName="w-full h-full"
+                      className="w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:scale-[1.04]"
+                    />
+                  </div>
+                  <div className="absolute top-4 left-4 z-10">
+                    <span className="text-[9px] tracking-[0.25em] font-mono font-medium uppercase px-3 py-1 bg-[#16465A]/85 text-[#8FD3DC] backdrop-blur-md border border-[#2F7B93]/30 rounded-full">
+                      {CURATED_HOME_IMAGES[2].roomType || CURATED_HOME_IMAGES[2].category}
+                    </span>
+                  </div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#16465A]/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+                </div>
+                <div className="pt-4 pb-2 space-y-1">
+                  <div className="flex items-center justify-between">
+                    <h3 className="font-serif text-xl md:text-2xl text-[#11181C] group-hover:text-[#2F7B93] transition-colors duration-300 tracking-tight uppercase flex items-center gap-2">
+                      <span>{CURATED_HOME_IMAGES[2].title}</span>
+                      <span className="text-xs font-mono text-[#2F7B93] opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300">
+                        →
+                      </span>
+                    </h3>
+                    <span className="text-xs font-mono text-[#2F7B93] font-medium">VIEW</span>
+                  </div>
+                  <p className="text-xs text-[#61747C] font-light tracking-wider uppercase">
+                    {CURATED_HOME_IMAGES[2].category} · {CURATED_HOME_IMAGES[2].roomType}
+                  </p>
+                </div>
+              </Link>
             </div>
 
+            {/* 4. Grand Banquet Hall */}
             <div className="md:col-span-7">
-              <ProjectCard project={PROJECTS_DATA[3]} aspectRatio="landscape" />
+              <Link to="/work" className="group block overflow-hidden focus:outline-none">
+                <div className="relative overflow-hidden bg-[#EEF5F6] rounded-3xl border border-[#2F7B93]/20 shadow-sm group-hover:shadow-xl transition-all duration-500">
+                  <div className="w-full aspect-[4/3] overflow-hidden">
+                    <OptimizedImage
+                      src={CURATED_HOME_IMAGES[3].url}
+                      alt={CURATED_HOME_IMAGES[3].alt}
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 1000px"
+                      containerClassName="w-full h-full"
+                      className="w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:scale-[1.04]"
+                    />
+                  </div>
+                  <div className="absolute top-4 left-4 z-10">
+                    <span className="text-[9px] tracking-[0.25em] font-mono font-medium uppercase px-3 py-1 bg-[#16465A]/85 text-[#8FD3DC] backdrop-blur-md border border-[#2F7B93]/30 rounded-full">
+                      {CURATED_HOME_IMAGES[3].category}
+                    </span>
+                  </div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#16465A]/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+                </div>
+                <div className="pt-4 pb-2 space-y-1">
+                  <div className="flex items-center justify-between">
+                    <h3 className="font-serif text-xl md:text-2xl text-[#11181C] group-hover:text-[#2F7B93] transition-colors duration-300 tracking-tight uppercase flex items-center gap-2">
+                      <span>{CURATED_HOME_IMAGES[3].title}</span>
+                      <span className="text-xs font-mono text-[#2F7B93] opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300">
+                        →
+                      </span>
+                    </h3>
+                    <span className="text-xs font-mono text-[#2F7B93] font-medium">VIEW</span>
+                  </div>
+                  <p className="text-xs text-[#61747C] font-light tracking-wider uppercase">
+                    {CURATED_HOME_IMAGES[3].category}
+                  </p>
+                </div>
+              </Link>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* ---------------- 5. RAW SHELL TO LIVING SANCTUARY (3.5S AUTOMATIC ROTATION) ---------------- */}
-      <section className="py-24 md:py-36 px-6 md:px-12 bg-[#F7F3EC]">
-        <div className="max-w-7xl mx-auto">
-          <InteriorTransformationShowcase />
         </div>
       </section>
 

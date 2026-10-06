@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
@@ -10,7 +10,6 @@ import { SmoothScrollProvider } from './components/SmoothScrollProvider';
 
 import { HomePage } from './pages/HomePage';
 import { WorkPage } from './pages/WorkPage';
-import { ProjectDetailPage } from './pages/ProjectDetailPage';
 import { AboutPage } from './pages/AboutPage';
 import { JournalPage } from './pages/JournalPage';
 import { JournalArticlePage } from './pages/JournalArticlePage';
@@ -38,7 +37,7 @@ export const App: React.FC = () => {
             <Routes location={location} key={location.pathname}>
               <Route path="/" element={<HomePage />} />
               <Route path="/work" element={<WorkPage />} />
-              <Route path="/work/:slug" element={<ProjectDetailPage />} />
+              <Route path="/work/:slug" element={<Navigate to="/work" replace />} />
               <Route path="/about" element={<AboutPage />} />
               <Route path="/journal" element={<JournalPage />} />
               <Route path="/journal/:slug" element={<JournalArticlePage />} />

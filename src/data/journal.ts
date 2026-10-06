@@ -28,7 +28,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     date: 'October 01, 2026',
     readTime: '6 min read',
     excerpt: 'Key considerations for optimizing floor space, natural light, concealed storage, and material durability in contemporary 2 BHK homes across Pune.',
-    coverImage: '/images/interiors/IMG_20250118_125129.jpg',
+    coverImage: '/images/interiors/living (5).jpg',
     author: {
       name: 'JIVAH Studio',
       role: 'Interior Design Team'
@@ -36,7 +36,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     content: [
       {
         type: 'paragraph',
-        text: 'Planning a 2 BHK interior in Pune requires a thoughtful balance between spatial fluidity and practical daily storage. Whether your home is located in Hadapsar, Baner, or Kharadi, modern apartment layouts benefit significantly from tailored joinery and cohesive color schemes.'
+        text: 'Planning a 2 BHK interior in Pune requires a thoughtful balance between spatial fluidity and practical daily storage. Across contemporary urban apartments, layouts benefit significantly from tailored joinery and cohesive color schemes.'
       },
       {
         type: 'heading',
@@ -81,7 +81,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     date: 'September 24, 2026',
     readTime: '5 min read',
     excerpt: 'Essential advice for evaluating design studio portfolios, material transparency, local Pune experience, and spatial planning standards.',
-    coverImage: '/images/interiors/IMG_20250105_112832 - Copy.jpg',
+    coverImage: '/images/interiors/living (1).jpg',
     author: {
       name: 'JIVAH Studio',
       role: 'Interior Design Team'

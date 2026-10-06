@@ -73,7 +73,7 @@ export const AboutPage: React.FC = () => {
         <section className="max-w-7xl mx-auto px-6 md:px-12 mb-24">
           <div className="overflow-hidden aspect-[21/9] bg-[#EEF5F6] shadow-lg rounded-2xl border border-[#2F7B93]/15">
             <img
-              src="/images/interiors/IMG_20250118_125129.jpg"
+              src="/images/interiors/living (5).jpg"
               alt="Contemporary living room interior design by JIVAH Projects in Pune"
               className="w-full h-full object-cover"
             />
@@ -261,7 +261,7 @@ export const AboutPage: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-6 overflow-hidden bg-[#EEF5F6] aspect-[4/5] shadow-lg rounded-2xl border border-[#2F7B93]/15">
               <img
-                src="/images/interiors/IMG_20250313_132914.jpg"
+                src="/images/interiors/1.jpg"
                 alt="Custom furniture curation and interior styling by JIVAH Projects Pune"
                 className="w-full h-full object-cover"
               />
