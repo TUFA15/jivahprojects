@@ -138,59 +138,7 @@ export const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* ---------------- 2. HIGH CONTRAST FLOATING PILLAR CARDS OVERLAPPING HERO ---------------- */}
-      <section className="relative z-30 -mt-14 sm:-mt-16 max-w-7xl mx-auto px-6 md:px-12 mb-24">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {[
-            {
-              num: '01',
-              title: 'MATERIAL INTEGRITY',
-              desc: 'Honed travertine, bouclé textiles, & smoked oak that age gracefully.',
-            },
-            {
-              num: '02',
-              title: 'SPATIAL CLARITY',
-              desc: 'Uncluttered interior volumes framed by floating joinery & shadow gaps.',
-            },
-            {
-              num: '03',
-              title: 'DIURNAL LIGHTING',
-              desc: 'Natural sunlight mapping paired with 2700K indirect cove warmth.',
-            },
-            {
-              num: '04',
-              title: 'ACOUSTIC CALM',
-              desc: 'Timber wall slats & sheer linen drapes tuned to absorb urban noise.',
-            },
-          ].map((pillar) => (
-            <motion.div
-              key={pillar.num}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, ease: [0.25, 1, 0.5, 1] }}
-              className="bg-white border border-[#2F7B93]/20 rounded-3xl p-6 sm:p-8 shadow-xl flex flex-col justify-between space-y-4 hover:-translate-y-1.5 transition-transform duration-350 ease-[cubic-bezier(0.25,1,0.5,1)] group"
-            >
-              <div className="w-12 h-12 rounded-2xl bg-[#EEF5F6] border border-[#2F7B93]/15 flex items-center justify-center">
-                <BrandMotif size={22} color="#2F7B93" />
-              </div>
-              <div>
-                <span className="text-[10px] font-mono text-[#2F7B93] tracking-widest font-semibold block">
-                  [ {pillar.num} ]
-                </span>
-                <h3 className="font-serif text-xl sm:text-2xl text-[#11181C] group-hover:text-[#2F7B93] transition-colors uppercase font-semibold leading-tight mt-1">
-                  {pillar.title}
-                </h3>
-                <p className="text-xs text-[#61747C] font-light mt-2 leading-relaxed">
-                  {pillar.desc}
-                </p>
-              </div>
-            </motion.div>
-          ))}
-        </div>
-      </section>
-
-      {/* ---------------- 3. STUDIO INTRODUCTION ---------------- */}
+      {/* ---------------- 2. STUDIO INTRODUCTION ---------------- */}
       <section className="py-24 md:py-36 px-6 md:px-12 bg-[#F7F3EC] text-[#11181C]">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center">
@@ -249,7 +197,7 @@ export const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* ---------------- 4. SELECTED WORK / PROJECTS ---------------- */}
+      {/* ---------------- 3. SELECTED WORK / PROJECTS ---------------- */}
       <section className="py-24 md:py-36 px-6 md:px-12 bg-[#EDE5D9]/50 border-y border-[#2F7B93]/10">
         <div className="max-w-7xl mx-auto space-y-16">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
@@ -431,7 +379,61 @@ export const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* ---------------- 6. JOURNAL / SELECTED ARTICLES ---------------- */}
+      {/* ---------------- 4. DESIGN PILLARS ---------------- */}
+      <section className="py-20 md:py-28 px-6 md:px-12 bg-[#F7F3EC]">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              {
+                num: '01',
+                title: 'MATERIAL INTEGRITY',
+                desc: 'Honed travertine, bouclé textiles, & smoked oak that age gracefully.',
+              },
+              {
+                num: '02',
+                title: 'SPATIAL CLARITY',
+                desc: 'Uncluttered interior volumes framed by floating joinery & shadow gaps.',
+              },
+              {
+                num: '03',
+                title: 'DIURNAL LIGHTING',
+                desc: 'Natural sunlight mapping paired with 2700K indirect cove warmth.',
+              },
+              {
+                num: '04',
+                title: 'ACOUSTIC CALM',
+                desc: 'Timber wall slats & sheer linen drapes tuned to absorb urban noise.',
+              },
+            ].map((pillar) => (
+              <motion.div
+                key={pillar.num}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, ease: [0.25, 1, 0.5, 1] }}
+                className="bg-white border border-[#2F7B93]/20 rounded-3xl p-6 sm:p-8 shadow-xl flex flex-col justify-between space-y-4 hover:-translate-y-1.5 transition-transform duration-350 ease-[cubic-bezier(0.25,1,0.5,1)] group"
+              >
+                <div className="w-12 h-12 rounded-2xl bg-[#EEF5F6] border border-[#2F7B93]/15 flex items-center justify-center">
+                  <BrandMotif size={22} color="#2F7B93" />
+                </div>
+                <div>
+                  <span className="text-[10px] font-mono text-[#2F7B93] tracking-widest font-semibold block">
+                    [ {pillar.num} ]
+                  </span>
+                  <h3 className="font-serif text-xl sm:text-2xl text-[#11181C] group-hover:text-[#2F7B93] transition-colors uppercase font-semibold leading-tight mt-1">
+                    {pillar.title}
+                  </h3>
+                  <p className="text-xs text-[#61747C] font-light mt-2 leading-relaxed">
+                    {pillar.desc}
+                  </p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ---------------- 5. JOURNAL / SELECTED ARTICLES ---------------- */}
       <section className="py-24 md:py-36 px-6 md:px-12 bg-[#EDE5D9]/40 border-t border-[#2F7B93]/10">
         <div className="max-w-7xl mx-auto space-y-16">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
@@ -469,7 +471,7 @@ export const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* ---------------- 7. CONTACT CTA ---------------- */}
+      {/* ---------------- 6. CONTACT CTA ---------------- */}
       <section className="py-28 px-6 md:px-12 bg-[#F7F3EC] border-t border-[#2F7B93]/15 text-center relative">
         <div className="max-w-3xl mx-auto space-y-8">
           <div className="inline-flex items-center justify-center p-3 bg-white rounded-full shadow-xs border border-[#2F7B93]/20">
