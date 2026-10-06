@@ -1,4 +1,35 @@
 {
+  "/images/Founder.png": {
+    "originalPath": "/images/Founder.png",
+    "fallbackWebp": "/images/optimized/Founder-full.webp",
+    "sources": {
+      "full": "/images/optimized/Founder-full.webp",
+      "480w": "/images/optimized/Founder-480w.webp",
+      "768w": "/images/optimized/Founder-768w.webp",
+      "1086w": "/images/optimized/Founder-1086w.webp"
+    },
+    "srcset": "/images/optimized/Founder-480w.webp 480w, /images/optimized/Founder-768w.webp 768w, /images/optimized/Founder-1086w.webp 1086w, /images/optimized/Founder-1086w.webp 1086w, /images/optimized/Founder-1086w.webp 1086w, /images/optimized/Founder-full.webp 1086w",
+    "width": 1086,
+    "height": 1448,
+    "aspectRatio": 0.75,
+    "placeholder": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAADwBACdASoSABgAPyWCuFWuKCUjKAqpwCSJZQC2+0xA7mi3mJmrRyTOoTDml0WaE8AAzW3qkDu9/Zazr7mdk5HTrXOrDPfVsnWMvoj0c7Nrmd5L6q4Oqv+5Q90lHPs7PXT5y2BQITyS0jTlKO4K837rQ0jYmynuZJtxyvoj8WUIowi+KtIUbSLd+hHXsh+FSTHN6GINrmfYnGr425WXRHx6V0CXFN3mvFbjFfDSBcMAAA=="
+  },
+  "/images/logo.jpeg": {
+    "originalPath": "/images/logo.jpeg",
+    "fallbackWebp": "/images/optimized/logo-full.webp",
+    "sources": {
+      "full": "/images/optimized/logo-full.webp",
+      "480w": "/images/optimized/logo-480w.webp",
+      "768w": "/images/optimized/logo-768w.webp",
+      "1200w": "/images/optimized/logo-1200w.webp",
+      "1600w": "/images/optimized/logo-1600w.webp"
+    },
+    "srcset": "/images/optimized/logo-480w.webp 480w, /images/optimized/logo-768w.webp 768w, /images/optimized/logo-1200w.webp 1200w, /images/optimized/logo-1600w.webp 1600w, /images/optimized/logo-1600w.webp 1600w, /images/optimized/logo-full.webp 1600w",
+    "width": 1600,
+    "height": 1600,
+    "aspectRatio": 1.0,
+    "placeholder": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAADQBACdASoYABgAPyWIu1euKKWjqAgBwCSJYwDLpBEd39iDt6r39ohc1gbmHSWWAAD+6o/O5geK2+Q8E0yUVWA5V8XJKW8r81brj/Cl61QDzRxixc+QQjZIWRpMMpgDyfJlk1AUxVj/umKlkO6cgeGL4VAQCSMejni/tMTmgAA="
+  },
   "/images/banqueat/DSC08576.JPG": {
     "originalPath": "/images/banqueat/DSC08576.JPG",
     "fallbackWebp": "/images/optimized/banqueat/DSC08576-full.webp",
@@ -100,6 +131,278 @@
     "height": 1080,
     "aspectRatio": 4.5481,
     "placeholder": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoYAAUAPyV+tFGuKCUisAgBwCSJZQCdMoADDItyKsH70AD9FBtfucZJhYSbVEsSJYU17atumOsm79pB40VFpQgefGoR0AAA"
+  },
+  "/images/interiors/1.jpg": {
+    "originalPath": "/images/interiors/1.jpg",
+    "fallbackWebp": "/images/optimized/interiors/1-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/1-full.webp",
+      "480w": "/images/optimized/interiors/1-480w.webp",
+      "768w": "/images/optimized/interiors/1-768w.webp",
+      "1200w": "/images/optimized/interiors/1-1200w.webp",
+      "1600w": "/images/optimized/interiors/1-1600w.webp",
+      "2048w": "/images/optimized/interiors/1-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/1-480w.webp 480w, /images/optimized/interiors/1-768w.webp 768w, /images/optimized/interiors/1-1200w.webp 1200w, /images/optimized/interiors/1-1600w.webp 1600w, /images/optimized/interiors/1-2048w.webp 2048w, /images/optimized/interiors/1-full.webp 1441w",
+    "width": 2296,
+    "height": 4080,
+    "aspectRatio": 0.5627,
+    "placeholder": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAACwAwCdASoOABgAPyV6tFGuJ6UisAgBwCSJZACw7A+O35YfjXIfwAD8WqMa/2i1xkeqaRu4mkKzuhS78+5bmmKkhsOg4pGsR/9sY5KQLdvcpCqhzW1v+Lo4Vm0OAmKvNhMNE/U/uMv0CZOLqNyr+q7hQ5XveT8Nu3JZeljdWnQ/4u01RAA="
+  },
+  "/images/interiors/2.jpg": {
+    "originalPath": "/images/interiors/2.jpg",
+    "fallbackWebp": "/images/optimized/interiors/2-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/2-full.webp",
+      "480w": "/images/optimized/interiors/2-480w.webp",
+      "768w": "/images/optimized/interiors/2-768w.webp",
+      "1200w": "/images/optimized/interiors/2-1200w.webp",
+      "1600w": "/images/optimized/interiors/2-1600w.webp",
+      "2048w": "/images/optimized/interiors/2-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/2-480w.webp 480w, /images/optimized/interiors/2-768w.webp 768w, /images/optimized/interiors/2-1200w.webp 1200w, /images/optimized/interiors/2-1600w.webp 1600w, /images/optimized/interiors/2-2048w.webp 2048w, /images/optimized/interiors/2-full.webp 2560w",
+    "width": 4080,
+    "height": 3060,
+    "aspectRatio": 1.3333,
+    "placeholder": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAAAQBQCdASoYABIAPyWEvFSuKKajKAqpwCSJQBadAfcWuoQjrJb18YjlBmwD7lMmOwRgAP6vgXUSBGhnJW/kfcLbKvV6RSHUTvHPYiaYSxeKxX/5pqEYaNKhy1o3cPDbV42C6+xE4mL5NyBa7HWiOh02YgI5THA+sQaOlGazjI4iSsO8Wr1PYILFHtmZsn/wgAA="
+  },
+  "/images/interiors/bedroom (1).jpg": {
+    "originalPath": "/images/interiors/bedroom (1).jpg",
+    "fallbackWebp": "/images/optimized/interiors/bedroom (1)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/bedroom (1)-full.webp",
+      "480w": "/images/optimized/interiors/bedroom (1)-480w.webp",
+      "768w": "/images/optimized/interiors/bedroom (1)-768w.webp",
+      "1200w": "/images/optimized/interiors/bedroom (1)-1200w.webp",
+      "1600w": "/images/optimized/interiors/bedroom (1)-1600w.webp",
+      "2048w": "/images/optimized/interiors/bedroom (1)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/bedroom (1)-480w.webp 480w, /images/optimized/interiors/bedroom (1)-768w.webp 768w, /images/optimized/interiors/bedroom (1)-1200w.webp 1200w, /images/optimized/interiors/bedroom (1)-1600w.webp 1600w, /images/optimized/interiors/bedroom (1)-2048w.webp 2048w, /images/optimized/interiors/bedroom (1)-full.webp 1441w",
+    "width": 2296,
+    "height": 4080,
+    "aspectRatio": 0.5627,
+    "placeholder": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAwBACdASoOABgAPyV6tFGuJ6UisAgBwCSJbACdMoRwN0AAC2t217A7WXwA+UVUeatbSBu8NpsUtXeYEXOlwtU4sH48zPK82bJHjtBEmTGrZfN7tcM/UlQOi2eDE/IIS7Y8xhCw4rOKtk/NP7CgMP/K1d7AAA=="
+  },
+  "/images/interiors/bedroom (2).jpg": {
+    "originalPath": "/images/interiors/bedroom (2).jpg",
+    "fallbackWebp": "/images/optimized/interiors/bedroom (2)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/bedroom (2)-full.webp",
+      "480w": "/images/optimized/interiors/bedroom (2)-480w.webp",
+      "768w": "/images/optimized/interiors/bedroom (2)-768w.webp",
+      "1200w": "/images/optimized/interiors/bedroom (2)-1200w.webp",
+      "1600w": "/images/optimized/interiors/bedroom (2)-1600w.webp",
+      "2048w": "/images/optimized/interiors/bedroom (2)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/bedroom (2)-480w.webp 480w, /images/optimized/interiors/bedroom (2)-768w.webp 768w, /images/optimized/interiors/bedroom (2)-1200w.webp 1200w, /images/optimized/interiors/bedroom (2)-1600w.webp 1600w, /images/optimized/interiors/bedroom (2)-2048w.webp 2048w, /images/optimized/interiors/bedroom (2)-full.webp 2560w",
+    "width": 4080,
+    "height": 2296,
+    "aspectRatio": 1.777,
+    "placeholder": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAABQBACdASoYAA4APyV6tFGuJ6UisAgBwCSJYgCdMoRwABl/UOt1b31gx3zAAPzQH7TSyyXADvSCP5+7GSPF1E3EmHLALy2Gs2fWWwFiUx86NYtLWSd+ZJZ87Wf5i0r+i35FNTLigGS+B1vInux9QlZuqA88kvI0qQAAAA=="
+  },
+  "/images/interiors/bedroom (3).jpg": {
+    "originalPath": "/images/interiors/bedroom (3).jpg",
+    "fallbackWebp": "/images/optimized/interiors/bedroom (3)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/bedroom (3)-full.webp",
+      "480w": "/images/optimized/interiors/bedroom (3)-480w.webp",
+      "768w": "/images/optimized/interiors/bedroom (3)-768w.webp",
+      "1200w": "/images/optimized/interiors/bedroom (3)-1200w.webp",
+      "1600w": "/images/optimized/interiors/bedroom (3)-1600w.webp",
+      "2048w": "/images/optimized/interiors/bedroom (3)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/bedroom (3)-480w.webp 480w, /images/optimized/interiors/bedroom (3)-768w.webp 768w, /images/optimized/interiors/bedroom (3)-1200w.webp 1200w, /images/optimized/interiors/bedroom (3)-1600w.webp 1600w, /images/optimized/interiors/bedroom (3)-2048w.webp 2048w, /images/optimized/interiors/bedroom (3)-full.webp 2560w",
+    "width": 4080,
+    "height": 2296,
+    "aspectRatio": 1.777,
+    "placeholder": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAABwBACdASoYAA4APyV8tVIuJ6UisAgBwCSJaACdMoRwACxDjll/yBAJuPgXwAD8ppE3NuB4OFd9+MKIKv8Pvk/2T+K8pxoYEOiPt8iPpnZSkNYbRaggGOrpJQULQ0j/RD+7gAHMzQbdtPLAAAA="
+  },
+  "/images/interiors/bedroom (4).jpg": {
+    "originalPath": "/images/interiors/bedroom (4).jpg",
+    "fallbackWebp": "/images/optimized/interiors/bedroom (4)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/bedroom (4)-full.webp",
+      "480w": "/images/optimized/interiors/bedroom (4)-480w.webp",
+      "768w": "/images/optimized/interiors/bedroom (4)-768w.webp",
+      "1200w": "/images/optimized/interiors/bedroom (4)-1200w.webp",
+      "1600w": "/images/optimized/interiors/bedroom (4)-1600w.webp",
+      "2048w": "/images/optimized/interiors/bedroom (4)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/bedroom (4)-480w.webp 480w, /images/optimized/interiors/bedroom (4)-768w.webp 768w, /images/optimized/interiors/bedroom (4)-1200w.webp 1200w, /images/optimized/interiors/bedroom (4)-1600w.webp 1600w, /images/optimized/interiors/bedroom (4)-2048w.webp 2048w, /images/optimized/interiors/bedroom (4)-full.webp 2560w",
+    "width": 4080,
+    "height": 3060,
+    "aspectRatio": 1.3333,
+    "placeholder": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAADQBACdASoYABIAPyWIu1euKKWjqAgBwCSJZQDDNAvzks9m7+/Vsm/oF/KOFQnAAAD4RVNmawfdmJ2Y9RlGuQuDL3kSYxBJG1IgXReFqOKTy4hGQcvg3L+nS5NO1WBT45dkjgsogXgHJSOh5JLNC8wYY6r1SJx3YasAuyrfi8MJkKNteMi3vgPDaGWgoDvAAAA="
+  },
+  "/images/interiors/bedroom (5).jpg": {
+    "originalPath": "/images/interiors/bedroom (5).jpg",
+    "fallbackWebp": "/images/optimized/interiors/bedroom (5)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/bedroom (5)-full.webp",
+      "480w": "/images/optimized/interiors/bedroom (5)-480w.webp",
+      "768w": "/images/optimized/interiors/bedroom (5)-768w.webp",
+      "1200w": "/images/optimized/interiors/bedroom (5)-1200w.webp",
+      "1600w": "/images/optimized/interiors/bedroom (5)-1600w.webp",
+      "2048w": "/images/optimized/interiors/bedroom (5)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/bedroom (5)-480w.webp 480w, /images/optimized/interiors/bedroom (5)-768w.webp 768w, /images/optimized/interiors/bedroom (5)-1200w.webp 1200w, /images/optimized/interiors/bedroom (5)-1600w.webp 1600w, /images/optimized/interiors/bedroom (5)-2048w.webp 2048w, /images/optimized/interiors/bedroom (5)-full.webp 2560w",
+    "width": 4080,
+    "height": 3060,
+    "aspectRatio": 1.3333,
+    "placeholder": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAAAQBQCdASoYABIAPyWKvFeuKSYjqAgBwCSJQBOmYwAlrS+upS8q7msSkrT0X//R9+EwAM1WJ9efVI4Xl/+JcI3qHqCYK+D2bAoODrcKjNPg0yLviZzIZ5+Rq2q4a/bPHP0pnD41KCZhMbuEkXnoJU8pk0vaYWxnE0wjxSno8zmiE5uK46AAAA=="
+  },
+  "/images/interiors/bedroom (6).jpg": {
+    "originalPath": "/images/interiors/bedroom (6).jpg",
+    "fallbackWebp": "/images/optimized/interiors/bedroom (6)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/bedroom (6)-full.webp",
+      "480w": "/images/optimized/interiors/bedroom (6)-480w.webp",
+      "768w": "/images/optimized/interiors/bedroom (6)-768w.webp",
+      "1200w": "/images/optimized/interiors/bedroom (6)-1200w.webp",
+      "1600w": "/images/optimized/interiors/bedroom (6)-1600w.webp",
+      "2048w": "/images/optimized/interiors/bedroom (6)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/bedroom (6)-480w.webp 480w, /images/optimized/interiors/bedroom (6)-768w.webp 768w, /images/optimized/interiors/bedroom (6)-1200w.webp 1200w, /images/optimized/interiors/bedroom (6)-1600w.webp 1600w, /images/optimized/interiors/bedroom (6)-2048w.webp 2048w, /images/optimized/interiors/bedroom (6)-full.webp 2560w",
+    "width": 4032,
+    "height": 2268,
+    "aspectRatio": 1.7778,
+    "placeholder": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQBACdASoYAA4APyV8tVIuJ6UisAgBwCSJZwDCgBeZxAAMT3lp7jk/EAD+tLH+J9gtWUUQSeswgphbm+dNwTgug2B5mohJdCkzC9UtpWURXa6M27xFwuLbtXD7cimWmmoPHsGAAAA="
+  },
+  "/images/interiors/bedroom (7).jpg": {
+    "originalPath": "/images/interiors/bedroom (7).jpg",
+    "fallbackWebp": "/images/optimized/interiors/bedroom (7)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/bedroom (7)-full.webp",
+      "480w": "/images/optimized/interiors/bedroom (7)-480w.webp",
+      "768w": "/images/optimized/interiors/bedroom (7)-768w.webp",
+      "1200w": "/images/optimized/interiors/bedroom (7)-1200w.webp",
+      "1600w": "/images/optimized/interiors/bedroom (7)-1600w.webp",
+      "2048w": "/images/optimized/interiors/bedroom (7)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/bedroom (7)-480w.webp 480w, /images/optimized/interiors/bedroom (7)-768w.webp 768w, /images/optimized/interiors/bedroom (7)-1200w.webp 1200w, /images/optimized/interiors/bedroom (7)-1600w.webp 1600w, /images/optimized/interiors/bedroom (7)-2048w.webp 2048w, /images/optimized/interiors/bedroom (7)-full.webp 1920w",
+    "width": 3024,
+    "height": 4032,
+    "aspectRatio": 0.75,
+    "placeholder": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADQBACdASoSABgAPyV4s1KuJqSisBgMAcAkiWUAwoAITzlQD9GMF12uregh9D8GgADTtpa1B9QrlbxhKlQEFt5r1Zbbv1t/ZL8Bvwj/xBhkvdrlZV54vjouCr3IPZHGXWH6W3/7X7613EO90uhv9CS7YAA="
+  },
+  "/images/interiors/bedroom (8).jpg": {
+    "originalPath": "/images/interiors/bedroom (8).jpg",
+    "fallbackWebp": "/images/optimized/interiors/bedroom (8)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/bedroom (8)-full.webp",
+      "480w": "/images/optimized/interiors/bedroom (8)-480w.webp",
+      "768w": "/images/optimized/interiors/bedroom (8)-768w.webp",
+      "1200w": "/images/optimized/interiors/bedroom (8)-1200w.webp",
+      "1600w": "/images/optimized/interiors/bedroom (8)-1600w.webp",
+      "2048w": "/images/optimized/interiors/bedroom (8)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/bedroom (8)-480w.webp 480w, /images/optimized/interiors/bedroom (8)-768w.webp 768w, /images/optimized/interiors/bedroom (8)-1200w.webp 1200w, /images/optimized/interiors/bedroom (8)-1600w.webp 1600w, /images/optimized/interiors/bedroom (8)-2048w.webp 2048w, /images/optimized/interiors/bedroom (8)-full.webp 1920w",
+    "width": 3024,
+    "height": 4032,
+    "aspectRatio": 0.75,
+    "placeholder": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAwBACdASoSABgAPyWCuVWuKCWjKAqpwCSJZQAAIRLYfnvQFeEAbElZ8EAAzhXAtNjW7MYyQ3lexnnCezyWchlZoiq5qiEZCc89+29XX2DjajAQPZkfnRiVY6RmBkbWJ0Efj+cqtHfNj982IGGMF3iAAAA="
+  },
+  "/images/interiors/bedroom.jpg": {
+    "originalPath": "/images/interiors/bedroom.jpg",
+    "fallbackWebp": "/images/optimized/interiors/bedroom-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/bedroom-full.webp",
+      "480w": "/images/optimized/interiors/bedroom-480w.webp",
+      "768w": "/images/optimized/interiors/bedroom-768w.webp",
+      "1200w": "/images/optimized/interiors/bedroom-1200w.webp",
+      "1600w": "/images/optimized/interiors/bedroom-1600w.webp",
+      "2048w": "/images/optimized/interiors/bedroom-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/bedroom-480w.webp 480w, /images/optimized/interiors/bedroom-768w.webp 768w, /images/optimized/interiors/bedroom-1200w.webp 1200w, /images/optimized/interiors/bedroom-1600w.webp 1600w, /images/optimized/interiors/bedroom-2048w.webp 2048w, /images/optimized/interiors/bedroom-full.webp 2560w",
+    "width": 4080,
+    "height": 3060,
+    "aspectRatio": 1.3333,
+    "placeholder": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAACQBACdASoYABIAPyWEvFUuKCYjKAqpwCSJQBWAATbbazmhXQWmXac7E9rWpwAA/lSohFudY3Il02FpSEalO25wPeZwQh03ZOjNtuPw2zmwcNX9HnJlKYu/GfVoI+h8jKw9PBR9tKDd8awZebwprm7hJS2p/CcXMl3P7mEIE90vD/1YHzZHMLgUhyBxPog5psGsI6O7BMAAAA=="
+  },
+  "/images/interiors/cupboard (2).jpg": {
+    "originalPath": "/images/interiors/cupboard (2).jpg",
+    "fallbackWebp": "/images/optimized/interiors/cupboard (2)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/cupboard (2)-full.webp",
+      "480w": "/images/optimized/interiors/cupboard (2)-480w.webp",
+      "768w": "/images/optimized/interiors/cupboard (2)-768w.webp",
+      "1200w": "/images/optimized/interiors/cupboard (2)-1200w.webp",
+      "1600w": "/images/optimized/interiors/cupboard (2)-1600w.webp",
+      "2048w": "/images/optimized/interiors/cupboard (2)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/cupboard (2)-480w.webp 480w, /images/optimized/interiors/cupboard (2)-768w.webp 768w, /images/optimized/interiors/cupboard (2)-1200w.webp 1200w, /images/optimized/interiors/cupboard (2)-1600w.webp 1600w, /images/optimized/interiors/cupboard (2)-2048w.webp 2048w, /images/optimized/interiors/cupboard (2)-full.webp 1440w",
+    "width": 2268,
+    "height": 4032,
+    "aspectRatio": 0.5625,
+    "placeholder": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAQBACdASoNABgAPyV8tVGuJ6UisAgBwCSJZQC/OCHZB5FKwxdeMUlF8AD9zQYdtPo2JXkcLbCz/0hk5NC1WDqY51CGk4uChIQMv/M5uyTMM4E1uwP4FtptqDemRUfRYPuAYIA3VHi6PxBueUAAAA=="
+  },
+  "/images/interiors/cupboard.jpg": {
+    "originalPath": "/images/interiors/cupboard.jpg",
+    "fallbackWebp": "/images/optimized/interiors/cupboard-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/cupboard-full.webp",
+      "480w": "/images/optimized/interiors/cupboard-480w.webp",
+      "768w": "/images/optimized/interiors/cupboard-768w.webp",
+      "1200w": "/images/optimized/interiors/cupboard-1200w.webp",
+      "1600w": "/images/optimized/interiors/cupboard-1600w.webp",
+      "2048w": "/images/optimized/interiors/cupboard-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/cupboard-480w.webp 480w, /images/optimized/interiors/cupboard-768w.webp 768w, /images/optimized/interiors/cupboard-1200w.webp 1200w, /images/optimized/interiors/cupboard-1600w.webp 1600w, /images/optimized/interiors/cupboard-2048w.webp 2048w, /images/optimized/interiors/cupboard-full.webp 1440w",
+    "width": 2268,
+    "height": 4032,
+    "aspectRatio": 0.5625,
+    "placeholder": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAACQAwCdASoNABgAPyV6tVGuJ6UisAgBwCSJYwAAHEY4thK+O/GAANoYbVysFhXaAK8iNW1GLIQ17ARWtuvT+64Z0AM7hlABLXMG5BKGPpsuZQDrrDCPEHg4phA5BWAA"
+  },
+  "/images/interiors/cupboards (2).jpg": {
+    "originalPath": "/images/interiors/cupboards (2).jpg",
+    "fallbackWebp": "/images/optimized/interiors/cupboards (2)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/cupboards (2)-full.webp",
+      "480w": "/images/optimized/interiors/cupboards (2)-480w.webp",
+      "768w": "/images/optimized/interiors/cupboards (2)-768w.webp",
+      "1200w": "/images/optimized/interiors/cupboards (2)-1200w.webp",
+      "1600w": "/images/optimized/interiors/cupboards (2)-1600w.webp",
+      "2048w": "/images/optimized/interiors/cupboards (2)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/cupboards (2)-480w.webp 480w, /images/optimized/interiors/cupboards (2)-768w.webp 768w, /images/optimized/interiors/cupboards (2)-1200w.webp 1200w, /images/optimized/interiors/cupboards (2)-1600w.webp 1600w, /images/optimized/interiors/cupboards (2)-2048w.webp 2048w, /images/optimized/interiors/cupboards (2)-full.webp 1440w",
+    "width": 2268,
+    "height": 4032,
+    "aspectRatio": 0.5625,
+    "placeholder": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAABwAwCdASoNABgAPyV+tVIuKCUisAgBwCSJQAAFn8acxaay1YAA/KFHsaB+g+TofsCzdi/cWMiVeN1FyOzQT6j59Lca9mgh1T9gF7H21ZFtqTaz2CILui23kAA="
+  },
+  "/images/interiors/cupboards.jpg": {
+    "originalPath": "/images/interiors/cupboards.jpg",
+    "fallbackWebp": "/images/optimized/interiors/cupboards-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/cupboards-full.webp",
+      "480w": "/images/optimized/interiors/cupboards-480w.webp",
+      "768w": "/images/optimized/interiors/cupboards-768w.webp",
+      "1200w": "/images/optimized/interiors/cupboards-1200w.webp",
+      "1600w": "/images/optimized/interiors/cupboards-1600w.webp",
+      "2048w": "/images/optimized/interiors/cupboards-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/cupboards-480w.webp 480w, /images/optimized/interiors/cupboards-768w.webp 768w, /images/optimized/interiors/cupboards-1200w.webp 1200w, /images/optimized/interiors/cupboards-1600w.webp 1600w, /images/optimized/interiors/cupboards-2048w.webp 2048w, /images/optimized/interiors/cupboards-full.webp 1440w",
+    "width": 2268,
+    "height": 4032,
+    "aspectRatio": 0.5625,
+    "placeholder": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAACwAwCdASoNABgAPyV+uVGuKCYisAgBwCSJZQAAW+sYwrsJTISgAAD+UHIwXtSr9wbWL7pqGHXO2QOnWJQfD4MYDtHtdrhs4oRD2LDzehlGtcK9fqeqAu2EAAA="
+  },
+  "/images/interiors/dining.jpg": {
+    "originalPath": "/images/interiors/dining.jpg",
+    "fallbackWebp": "/images/optimized/interiors/dining-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/dining-full.webp",
+      "480w": "/images/optimized/interiors/dining-480w.webp",
+      "768w": "/images/optimized/interiors/dining-768w.webp",
+      "1200w": "/images/optimized/interiors/dining-1200w.webp",
+      "1600w": "/images/optimized/interiors/dining-1600w.webp",
+      "2048w": "/images/optimized/interiors/dining-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/dining-480w.webp 480w, /images/optimized/interiors/dining-768w.webp 768w, /images/optimized/interiors/dining-1200w.webp 1200w, /images/optimized/interiors/dining-1600w.webp 1600w, /images/optimized/interiors/dining-2048w.webp 2048w, /images/optimized/interiors/dining-full.webp 1441w",
+    "width": 2296,
+    "height": 4080,
+    "aspectRatio": 0.5627,
+    "placeholder": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAwBACdASoOABgAPyV6tFGuJ6UisAgBwCSJQBOgBD3tlgmIPr4VdrdHeUAA/dXFtc4MEtA8NIoy43VtyzUh0ktMKbNXtptOIBs3nHXvYFCZdy9QfFyhMygHEBBpmHduRyVsY/hsYE5qQrVNqK0GgoyaXgRwaZB9U2RrvCbzgAA="
   },
   "/images/interiors/HERO.jpg": {
     "originalPath": "/images/interiors/HERO.jpg",
@@ -526,222 +829,154 @@
     "aspectRatio": 0.5627,
     "placeholder": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAwBACdASoOABgAPyV6tFGuJ6UisAgBwCSJQBOgBD3tlgmIPr4VdrdHeUAA/dXFtc4MEtA8NIoy43VtyzUh0ktMKbNXtptOIBs3nHXvYFCZdy9QfFyhMygHEBBpmHduRyVsY/hsYE5qQrVNqK0GgoyaXgRwaZB9U2RrvCbzgAA="
   },
-  "/images/offices/IMG_20260218_155838.jpg": {
-    "originalPath": "/images/offices/IMG_20260218_155838.jpg",
-    "fallbackWebp": "/images/optimized/offices/IMG_20260218_155838-full.webp",
+  "/images/interiors/kitchen (1).jpg": {
+    "originalPath": "/images/interiors/kitchen (1).jpg",
+    "fallbackWebp": "/images/optimized/interiors/kitchen (1)-full.webp",
     "sources": {
-      "full": "/images/optimized/offices/IMG_20260218_155838-full.webp",
-      "480w": "/images/optimized/offices/IMG_20260218_155838-480w.webp",
-      "768w": "/images/optimized/offices/IMG_20260218_155838-768w.webp",
-      "1200w": "/images/optimized/offices/IMG_20260218_155838-1200w.webp",
-      "1600w": "/images/optimized/offices/IMG_20260218_155838-1600w.webp",
-      "2048w": "/images/optimized/offices/IMG_20260218_155838-2048w.webp"
+      "full": "/images/optimized/interiors/kitchen (1)-full.webp",
+      "480w": "/images/optimized/interiors/kitchen (1)-480w.webp",
+      "768w": "/images/optimized/interiors/kitchen (1)-768w.webp",
+      "1200w": "/images/optimized/interiors/kitchen (1)-1200w.webp",
+      "1600w": "/images/optimized/interiors/kitchen (1)-1600w.webp",
+      "2048w": "/images/optimized/interiors/kitchen (1)-2048w.webp"
     },
-    "srcset": "/images/optimized/offices/IMG_20260218_155838-480w.webp 480w, /images/optimized/offices/IMG_20260218_155838-768w.webp 768w, /images/optimized/offices/IMG_20260218_155838-1200w.webp 1200w, /images/optimized/offices/IMG_20260218_155838-1600w.webp 1600w, /images/optimized/offices/IMG_20260218_155838-2048w.webp 2048w, /images/optimized/offices/IMG_20260218_155838-full.webp 2560w",
-    "width": 4080,
-    "height": 2296,
-    "aspectRatio": 1.777,
-    "placeholder": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAQBACdASoYAA4APyV6tVIuJ6UisAgBwCSJbACdLwABCw4dP78OIKXTwAD+Wm2dHc78Igeb0BXqqStc9Bf0hVqLhslUnubyFOvyhazLJkAQiwWJbPvpbfhREdY2w5Ct5cW368WYjXcYtSGV6t3g00ZUpvAoZi25GyPW5uetGyAAAA=="
+    "srcset": "/images/optimized/interiors/kitchen (1)-480w.webp 480w, /images/optimized/interiors/kitchen (1)-768w.webp 768w, /images/optimized/interiors/kitchen (1)-1200w.webp 1200w, /images/optimized/interiors/kitchen (1)-1600w.webp 1600w, /images/optimized/interiors/kitchen (1)-2048w.webp 2048w, /images/optimized/interiors/kitchen (1)-full.webp 1920w",
+    "width": 3024,
+    "height": 4032,
+    "aspectRatio": 0.75,
+    "placeholder": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAwBQCdASoSABgAPyWEulUuKCWjKAqpwCSJYwDE2AuZKQaVgKjE8lkpMijRMaHjt4IAAAD7f5nDemOjneLE3wMe1rZ7/ehpCvELuSLxg6dJBDe/VavYNfAAhqirRcjmMH1MIyWs5sb6IJ+gKiVx4gAA"
   },
-  "/images/offices/IMG_20260218_161037.jpg": {
-    "originalPath": "/images/offices/IMG_20260218_161037.jpg",
-    "fallbackWebp": "/images/optimized/offices/IMG_20260218_161037-full.webp",
+  "/images/interiors/kitchen (2).jpg": {
+    "originalPath": "/images/interiors/kitchen (2).jpg",
+    "fallbackWebp": "/images/optimized/interiors/kitchen (2)-full.webp",
     "sources": {
-      "full": "/images/optimized/offices/IMG_20260218_161037-full.webp",
-      "480w": "/images/optimized/offices/IMG_20260218_161037-480w.webp",
-      "768w": "/images/optimized/offices/IMG_20260218_161037-768w.webp",
-      "1200w": "/images/optimized/offices/IMG_20260218_161037-1200w.webp",
-      "1600w": "/images/optimized/offices/IMG_20260218_161037-1600w.webp",
-      "2048w": "/images/optimized/offices/IMG_20260218_161037-2048w.webp"
+      "full": "/images/optimized/interiors/kitchen (2)-full.webp",
+      "480w": "/images/optimized/interiors/kitchen (2)-480w.webp",
+      "768w": "/images/optimized/interiors/kitchen (2)-768w.webp",
+      "1200w": "/images/optimized/interiors/kitchen (2)-1200w.webp",
+      "1600w": "/images/optimized/interiors/kitchen (2)-1600w.webp",
+      "2048w": "/images/optimized/interiors/kitchen (2)-2048w.webp"
     },
-    "srcset": "/images/optimized/offices/IMG_20260218_161037-480w.webp 480w, /images/optimized/offices/IMG_20260218_161037-768w.webp 768w, /images/optimized/offices/IMG_20260218_161037-1200w.webp 1200w, /images/optimized/offices/IMG_20260218_161037-1600w.webp 1600w, /images/optimized/offices/IMG_20260218_161037-2048w.webp 2048w, /images/optimized/offices/IMG_20260218_161037-full.webp 2560w",
-    "width": 4080,
-    "height": 2296,
-    "aspectRatio": 1.777,
-    "placeholder": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAADwAwCdASoYAA4APyV8tFGuJ6UisAgBwCSJZgCw7CK0el8ONzdJlB9AAPjGYnfvwJmQipkDRppLgRAkzuor+wpTA2pKHHodSadvyra6hKa3aHaBZYdbuOIrEi8rRuorC3KAdro2zosgM+q/180XsUOgsk/FDUUpdq3V26x+kX96Uw4Zr/S8gAAA"
+    "srcset": "/images/optimized/interiors/kitchen (2)-480w.webp 480w, /images/optimized/interiors/kitchen (2)-768w.webp 768w, /images/optimized/interiors/kitchen (2)-1200w.webp 1200w, /images/optimized/interiors/kitchen (2)-1600w.webp 1600w, /images/optimized/interiors/kitchen (2)-2048w.webp 2048w, /images/optimized/interiors/kitchen (2)-full.webp 2560w",
+    "width": 4032,
+    "height": 2268,
+    "aspectRatio": 1.7778,
+    "placeholder": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAQBACdASoYAA4APyV6tFGuJ6UisAgBwCSJZwC7AywBR5ahowrxU8u8AAD+xs6c6vauYGUrK+7yhsPD+EWUROFwksr362A7rgLAT2bWBGOVhLedWm8Bq90iPz1j12yPR9hdMJngyyjMKgd9Y+uqJUxwAAA="
   },
-  "/images/offices/IMG_20260318_121652.jpg": {
-    "originalPath": "/images/offices/IMG_20260318_121652.jpg",
-    "fallbackWebp": "/images/optimized/offices/IMG_20260318_121652-full.webp",
+  "/images/interiors/kitchen (3).jpg": {
+    "originalPath": "/images/interiors/kitchen (3).jpg",
+    "fallbackWebp": "/images/optimized/interiors/kitchen (3)-full.webp",
     "sources": {
-      "full": "/images/optimized/offices/IMG_20260318_121652-full.webp",
-      "480w": "/images/optimized/offices/IMG_20260318_121652-480w.webp",
-      "768w": "/images/optimized/offices/IMG_20260318_121652-768w.webp",
-      "1200w": "/images/optimized/offices/IMG_20260318_121652-1200w.webp",
-      "1600w": "/images/optimized/offices/IMG_20260318_121652-1600w.webp",
-      "2048w": "/images/optimized/offices/IMG_20260318_121652-2048w.webp"
+      "full": "/images/optimized/interiors/kitchen (3)-full.webp",
+      "480w": "/images/optimized/interiors/kitchen (3)-480w.webp",
+      "768w": "/images/optimized/interiors/kitchen (3)-768w.webp",
+      "1200w": "/images/optimized/interiors/kitchen (3)-1200w.webp",
+      "1600w": "/images/optimized/interiors/kitchen (3)-1600w.webp",
+      "2048w": "/images/optimized/interiors/kitchen (3)-2048w.webp"
     },
-    "srcset": "/images/optimized/offices/IMG_20260318_121652-480w.webp 480w, /images/optimized/offices/IMG_20260318_121652-768w.webp 768w, /images/optimized/offices/IMG_20260318_121652-1200w.webp 1200w, /images/optimized/offices/IMG_20260318_121652-1600w.webp 1600w, /images/optimized/offices/IMG_20260318_121652-2048w.webp 2048w, /images/optimized/offices/IMG_20260318_121652-full.webp 2560w",
-    "width": 8192,
-    "height": 6144,
-    "aspectRatio": 1.3333,
-    "placeholder": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAAAQBQCdASoYABIAPyWCtVQuKKSjKA1RwCSJZQCo9A+zqzzY2eYFHMJl3BIp0KjGQ7mgAP3SRAnbAZBCfpVUoyiDmgfQ0iCuXO21C5oxp02njgithbman6jEm/Tox9hE1mOVTB330uq5KelSxDXoqTZnKPFHnzUepMmrgvco4f9vXslDyOxmJ7quABSZIAAA"
+    "srcset": "/images/optimized/interiors/kitchen (3)-480w.webp 480w, /images/optimized/interiors/kitchen (3)-768w.webp 768w, /images/optimized/interiors/kitchen (3)-1200w.webp 1200w, /images/optimized/interiors/kitchen (3)-1600w.webp 1600w, /images/optimized/interiors/kitchen (3)-2048w.webp 2048w, /images/optimized/interiors/kitchen (3)-full.webp 1920w",
+    "width": 3024,
+    "height": 4032,
+    "aspectRatio": 0.75,
+    "placeholder": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADwBACdASoSABgAPyV6t1SuJyUjMBgIAcAkiWMAxNgMmk5sM2d2DQ6ZZqBMtWNJQAAA+3+Ztl1Kl1isINjttF7evEJRq8URo0aH4TpUUwrdUJ044o2RDwk5VP3sTrv5/oVaB7doy1/1N8eZ/LUrgAAA"
   },
-  "/images/interiors/1.jpg": {
-    "originalPath": "/images/interiors/1.jpg",
-    "fallbackWebp": "/images/optimized/interiors/IMG_20250313_132914-full.webp",
+  "/images/interiors/kitchen (4).jpg": {
+    "originalPath": "/images/interiors/kitchen (4).jpg",
+    "fallbackWebp": "/images/optimized/interiors/kitchen (4)-full.webp",
     "sources": {
-      "full": "/images/optimized/interiors/IMG_20250313_132914-full.webp",
-      "480w": "/images/optimized/interiors/IMG_20250313_132914-480w.webp",
-      "768w": "/images/optimized/interiors/IMG_20250313_132914-768w.webp",
-      "1200w": "/images/optimized/interiors/IMG_20250313_132914-1200w.webp",
-      "1600w": "/images/optimized/interiors/IMG_20250313_132914-1600w.webp",
-      "2048w": "/images/optimized/interiors/IMG_20250313_132914-2048w.webp"
+      "full": "/images/optimized/interiors/kitchen (4)-full.webp",
+      "480w": "/images/optimized/interiors/kitchen (4)-480w.webp",
+      "768w": "/images/optimized/interiors/kitchen (4)-768w.webp",
+      "1200w": "/images/optimized/interiors/kitchen (4)-1200w.webp",
+      "1600w": "/images/optimized/interiors/kitchen (4)-1600w.webp",
+      "2048w": "/images/optimized/interiors/kitchen (4)-2048w.webp"
     },
-    "srcset": "/images/optimized/interiors/IMG_20250313_132914-480w.webp 480w, /images/optimized/interiors/IMG_20250313_132914-768w.webp 768w, /images/optimized/interiors/IMG_20250313_132914-1200w.webp 1200w, /images/optimized/interiors/IMG_20250313_132914-1600w.webp 1600w, /images/optimized/interiors/IMG_20250313_132914-2048w.webp 2048w, /images/optimized/interiors/IMG_20250313_132914-full.webp 1441w",
-    "width": 2296,
-    "height": 4080,
-    "aspectRatio": 0.5627,
-    "placeholder": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAACwAwCdASoOABgAPyV6tFGuJ6UisAgBwCSJZACw7A+O35YfjXIfwAD8WqMa/2i1xkeqaRu4mkKzuhS78+5bmmKkhsOg4pGsR/9sY5KQLdvcpCqhzW1v+Lo4Vm0OAmKvNhMNE/U/uMv0CZOLqNyr+q7hQ5XveT8Nu3JZeljdWnQ/4u01RAA="
+    "srcset": "/images/optimized/interiors/kitchen (4)-480w.webp 480w, /images/optimized/interiors/kitchen (4)-768w.webp 768w, /images/optimized/interiors/kitchen (4)-1200w.webp 1200w, /images/optimized/interiors/kitchen (4)-1600w.webp 1600w, /images/optimized/interiors/kitchen (4)-2048w.webp 2048w, /images/optimized/interiors/kitchen (4)-full.webp 1920w",
+    "width": 3024,
+    "height": 4032,
+    "aspectRatio": 0.75,
+    "placeholder": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAADQBACdASoSABgAPyWGtlYuKKSjqAqpwCSJZQDOOAbHJuNYJZ/IfIwon4AZwlUAAADn393F2O4jSlN1H0ciahv7uIBqhZMMZOtVqKhMy0mz7jWjHp55EoZcT9c9Ztm9YVtZ29JGsNwy5NBTMNnxRdnQOjz7UfegAAAAAA=="
   },
-  "/images/interiors/2.jpg": {
-    "originalPath": "/images/interiors/2.jpg",
-    "fallbackWebp": "/images/optimized/interiors/IMG_20250105_113240 - Copy-full.webp",
+  "/images/interiors/kitchen (5).jpg": {
+    "originalPath": "/images/interiors/kitchen (5).jpg",
+    "fallbackWebp": "/images/optimized/interiors/kitchen (5)-full.webp",
     "sources": {
-      "full": "/images/optimized/interiors/IMG_20250105_113240 - Copy-full.webp",
-      "480w": "/images/optimized/interiors/IMG_20250105_113240 - Copy-480w.webp",
-      "768w": "/images/optimized/interiors/IMG_20250105_113240 - Copy-768w.webp",
-      "1200w": "/images/optimized/interiors/IMG_20250105_113240 - Copy-1200w.webp",
-      "1600w": "/images/optimized/interiors/IMG_20250105_113240 - Copy-1600w.webp",
-      "2048w": "/images/optimized/interiors/IMG_20250105_113240 - Copy-2048w.webp"
+      "full": "/images/optimized/interiors/kitchen (5)-full.webp",
+      "480w": "/images/optimized/interiors/kitchen (5)-480w.webp",
+      "768w": "/images/optimized/interiors/kitchen (5)-768w.webp",
+      "1200w": "/images/optimized/interiors/kitchen (5)-1200w.webp",
+      "1600w": "/images/optimized/interiors/kitchen (5)-1600w.webp",
+      "2048w": "/images/optimized/interiors/kitchen (5)-2048w.webp"
     },
-    "srcset": "/images/optimized/interiors/IMG_20250105_113240 - Copy-480w.webp 480w, /images/optimized/interiors/IMG_20250105_113240 - Copy-768w.webp 768w, /images/optimized/interiors/IMG_20250105_113240 - Copy-1200w.webp 1200w, /images/optimized/interiors/IMG_20250105_113240 - Copy-1600w.webp 1600w, /images/optimized/interiors/IMG_20250105_113240 - Copy-2048w.webp 2048w, /images/optimized/interiors/IMG_20250105_113240 - Copy-full.webp 2560w",
-    "width": 4080,
-    "height": 3060,
-    "aspectRatio": 1.3333,
-    "placeholder": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAAAQBQCdASoYABIAPyWEvFSuKKajKAqpwCSJQBadAfcWuoQjrJb18YjlBmwD7lMmOwRgAP6vgXUSBGhnJW/kfcLbKvV6RSHUTvHPYiaYSxeKxX/5pqEYaNKhy1o3cPDbV42C6+xE4mL5NyBa7HWiOh02YgI5THA+sQaOlGazjI4iSsO8Wr1PYILFHtmZsn/wgAA="
+    "srcset": "/images/optimized/interiors/kitchen (5)-480w.webp 480w, /images/optimized/interiors/kitchen (5)-768w.webp 768w, /images/optimized/interiors/kitchen (5)-1200w.webp 1200w, /images/optimized/interiors/kitchen (5)-1600w.webp 1600w, /images/optimized/interiors/kitchen (5)-2048w.webp 2048w, /images/optimized/interiors/kitchen (5)-full.webp 1920w",
+    "width": 3024,
+    "height": 4032,
+    "aspectRatio": 0.75,
+    "placeholder": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAACwBACdASoSABgAPyWIuleuKKWjqAgBwCSJZQDA3AufoGkJ/ff/orakIwuMEVAAAOENk2z2xfDpzRVbRZuFbE1UT6An0dnCeQ+gt/1o2Ujr1hYf59CGrfzuiA0H6gKVKqbBAWpax+xl0eUz2iugpVFPvliuVjJjJAmqEKFwgMVAFCodIXPtbNjm3F3KrEkYbcxv/QAA"
   },
-  "/images/interiors/bedroom (1).jpg": {
-    "originalPath": "/images/interiors/bedroom (1).jpg",
-    "fallbackWebp": "/images/optimized/interiors/IMG_20250313_131420-full.webp",
+  "/images/interiors/kitchen (6).jpg": {
+    "originalPath": "/images/interiors/kitchen (6).jpg",
+    "fallbackWebp": "/images/optimized/interiors/kitchen (6)-full.webp",
     "sources": {
-      "full": "/images/optimized/interiors/IMG_20250313_131420-full.webp",
-      "480w": "/images/optimized/interiors/IMG_20250313_131420-480w.webp",
-      "768w": "/images/optimized/interiors/IMG_20250313_131420-768w.webp",
-      "1200w": "/images/optimized/interiors/IMG_20250313_131420-1200w.webp",
-      "1600w": "/images/optimized/interiors/IMG_20250313_131420-1600w.webp",
-      "2048w": "/images/optimized/interiors/IMG_20250313_131420-2048w.webp"
+      "full": "/images/optimized/interiors/kitchen (6)-full.webp",
+      "480w": "/images/optimized/interiors/kitchen (6)-480w.webp",
+      "768w": "/images/optimized/interiors/kitchen (6)-768w.webp",
+      "1200w": "/images/optimized/interiors/kitchen (6)-1200w.webp",
+      "1600w": "/images/optimized/interiors/kitchen (6)-1600w.webp",
+      "2048w": "/images/optimized/interiors/kitchen (6)-2048w.webp"
     },
-    "srcset": "/images/optimized/interiors/IMG_20250313_131420-480w.webp 480w, /images/optimized/interiors/IMG_20250313_131420-768w.webp 768w, /images/optimized/interiors/IMG_20250313_131420-1200w.webp 1200w, /images/optimized/interiors/IMG_20250313_131420-1600w.webp 1600w, /images/optimized/interiors/IMG_20250313_131420-2048w.webp 2048w, /images/optimized/interiors/IMG_20250313_131420-full.webp 1441w",
-    "width": 2296,
-    "height": 4080,
-    "aspectRatio": 0.5627,
-    "placeholder": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAwBACdASoOABgAPyV6tFGuJ6UisAgBwCSJbACdMoRwN0AAC2t217A7WXwA+UVUeatbSBu8NpsUtXeYEXOlwtU4sH48zPK82bJHjtBEmTGrZfN7tcM/UlQOi2eDE/IIS7Y8xhCw4rOKtk/NP7CgMP/K1d7AAA=="
+    "srcset": "/images/optimized/interiors/kitchen (6)-480w.webp 480w, /images/optimized/interiors/kitchen (6)-768w.webp 768w, /images/optimized/interiors/kitchen (6)-1200w.webp 1200w, /images/optimized/interiors/kitchen (6)-1600w.webp 1600w, /images/optimized/interiors/kitchen (6)-2048w.webp 2048w, /images/optimized/interiors/kitchen (6)-full.webp 1920w",
+    "width": 3024,
+    "height": 4032,
+    "aspectRatio": 0.75,
+    "placeholder": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAAAQBACdASoSABgAPyV6slKuJyQisBgMAcAkiWcAyFwBSyorNgvT+GmwAADWUtn1FDdPn9S9H+p84+cb0gIsaYd2WXXaBtxFxSsWJqnIy7ePyIFOh9vk8mxU9IQNOo9s3bBhYl8h88sNJQAA"
   },
-  "/images/interiors/bedroom (2).jpg": {
-    "originalPath": "/images/interiors/bedroom (2).jpg",
-    "fallbackWebp": "/images/optimized/interiors/IMG_20250313_131752-full.webp",
+  "/images/interiors/kitchen (7).jpg": {
+    "originalPath": "/images/interiors/kitchen (7).jpg",
+    "fallbackWebp": "/images/optimized/interiors/kitchen (7)-full.webp",
     "sources": {
-      "full": "/images/optimized/interiors/IMG_20250313_131752-full.webp",
-      "480w": "/images/optimized/interiors/IMG_20250313_131752-480w.webp",
-      "768w": "/images/optimized/interiors/IMG_20250313_131752-768w.webp",
-      "1200w": "/images/optimized/interiors/IMG_20250313_131752-1200w.webp",
-      "1600w": "/images/optimized/interiors/IMG_20250313_131752-1600w.webp",
-      "2048w": "/images/optimized/interiors/IMG_20250313_131752-2048w.webp"
+      "full": "/images/optimized/interiors/kitchen (7)-full.webp",
+      "480w": "/images/optimized/interiors/kitchen (7)-480w.webp",
+      "768w": "/images/optimized/interiors/kitchen (7)-768w.webp",
+      "1200w": "/images/optimized/interiors/kitchen (7)-1200w.webp",
+      "1600w": "/images/optimized/interiors/kitchen (7)-1600w.webp",
+      "2048w": "/images/optimized/interiors/kitchen (7)-2048w.webp"
     },
-    "srcset": "/images/optimized/interiors/IMG_20250313_131752-480w.webp 480w, /images/optimized/interiors/IMG_20250313_131752-768w.webp 768w, /images/optimized/interiors/IMG_20250313_131752-1200w.webp 1200w, /images/optimized/interiors/IMG_20250313_131752-1600w.webp 1600w, /images/optimized/interiors/IMG_20250313_131752-2048w.webp 2048w, /images/optimized/interiors/IMG_20250313_131752-full.webp 2560w",
-    "width": 4080,
-    "height": 2296,
-    "aspectRatio": 1.777,
-    "placeholder": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAABQBACdASoYAA4APyV6tFGuJ6UisAgBwCSJYgCdMoRwABl/UOt1b31gx3zAAPzQH7TSyyXADvSCP5+7GSPF1E3EmHLALy2Gs2fWWwFiUx86NYtLWSd+ZJZ87Wf5i0r+i35FNTLigGS+B1vInux9QlZuqA88kvI0qQAAAA=="
+    "srcset": "/images/optimized/interiors/kitchen (7)-480w.webp 480w, /images/optimized/interiors/kitchen (7)-768w.webp 768w, /images/optimized/interiors/kitchen (7)-1200w.webp 1200w, /images/optimized/interiors/kitchen (7)-1600w.webp 1600w, /images/optimized/interiors/kitchen (7)-2048w.webp 2048w, /images/optimized/interiors/kitchen (7)-full.webp 1920w",
+    "width": 3024,
+    "height": 4032,
+    "aspectRatio": 0.75,
+    "placeholder": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAACwBACdASoSABgAPyWKvFeuKSYjqAgBwCSJZQDE2AibtXXMGbMiKWmQHgL55clAAKlNh6siq4f/COjG6iaWSp0Gzj7uV9hi2sS+7e0NGr6KCQXw6bDuZzFgkKORWCusuHjr24tWGS9xsAuO7/1qZsPxE+P8OdpyUyiAOBLdOXbthPz7fznd8QAA"
   },
-  "/images/interiors/bedroom (3).jpg": {
-    "originalPath": "/images/interiors/bedroom (3).jpg",
-    "fallbackWebp": "/images/optimized/interiors/IMG_20250313_131743-full.webp",
+  "/images/interiors/kitchen (8).jpg": {
+    "originalPath": "/images/interiors/kitchen (8).jpg",
+    "fallbackWebp": "/images/optimized/interiors/kitchen (8)-full.webp",
     "sources": {
-      "full": "/images/optimized/interiors/IMG_20250313_131743-full.webp",
-      "480w": "/images/optimized/interiors/IMG_20250313_131743-480w.webp",
-      "768w": "/images/optimized/interiors/IMG_20250313_131743-768w.webp",
-      "1200w": "/images/optimized/interiors/IMG_20250313_131743-1200w.webp",
-      "1600w": "/images/optimized/interiors/IMG_20250313_131743-1600w.webp",
-      "2048w": "/images/optimized/interiors/IMG_20250313_131743-2048w.webp"
+      "full": "/images/optimized/interiors/kitchen (8)-full.webp",
+      "480w": "/images/optimized/interiors/kitchen (8)-480w.webp",
+      "768w": "/images/optimized/interiors/kitchen (8)-768w.webp",
+      "1200w": "/images/optimized/interiors/kitchen (8)-1200w.webp",
+      "1600w": "/images/optimized/interiors/kitchen (8)-1600w.webp",
+      "2048w": "/images/optimized/interiors/kitchen (8)-2048w.webp"
     },
-    "srcset": "/images/optimized/interiors/IMG_20250313_131743-480w.webp 480w, /images/optimized/interiors/IMG_20250313_131743-768w.webp 768w, /images/optimized/interiors/IMG_20250313_131743-1200w.webp 1200w, /images/optimized/interiors/IMG_20250313_131743-1600w.webp 1600w, /images/optimized/interiors/IMG_20250313_131743-2048w.webp 2048w, /images/optimized/interiors/IMG_20250313_131743-full.webp 2560w",
-    "width": 4080,
-    "height": 2296,
-    "aspectRatio": 1.777,
-    "placeholder": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAABwBACdASoYAA4APyV8tVIuJ6UisAgBwCSJaACdMoRwACxDjll/yBAJuPgXwAD8ppE3NuB4OFd9+MKIKv8Pvk/2T+K8pxoYEOiPt8iPpnZSkNYbRaggGOrpJQULQ0j/RD+7gAHMzQbdtPLAAAA="
-  },
-  "/images/interiors/bedroom (4).jpg": {
-    "originalPath": "/images/interiors/bedroom (4).jpg",
-    "fallbackWebp": "/images/optimized/interiors/IMG_20250105_113619-full.webp",
-    "sources": {
-      "full": "/images/optimized/interiors/IMG_20250105_113619-full.webp",
-      "480w": "/images/optimized/interiors/IMG_20250105_113619-480w.webp",
-      "768w": "/images/optimized/interiors/IMG_20250105_113619-768w.webp",
-      "1200w": "/images/optimized/interiors/IMG_20250105_113619-1200w.webp",
-      "1600w": "/images/optimized/interiors/IMG_20250105_113619-1600w.webp",
-      "2048w": "/images/optimized/interiors/IMG_20250105_113619-2048w.webp"
-    },
-    "srcset": "/images/optimized/interiors/IMG_20250105_113619-480w.webp 480w, /images/optimized/interiors/IMG_20250105_113619-768w.webp 768w, /images/optimized/interiors/IMG_20250105_113619-1200w.webp 1200w, /images/optimized/interiors/IMG_20250105_113619-1600w.webp 1600w, /images/optimized/interiors/IMG_20250105_113619-2048w.webp 2048w, /images/optimized/interiors/IMG_20250105_113619-full.webp 2560w",
-    "width": 4080,
-    "height": 3060,
-    "aspectRatio": 1.3333,
-    "placeholder": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAADQBACdASoYABIAPyWIu1euKKWjqAgBwCSJZQDDNAvzks9m7+/Vsm/oF/KOFQnAAAD4RVNmawfdmJ2Y9RlGuQuDL3kSYxBJG1IgXReFqOKTy4hGQcvg3L+nS5NO1WBT45dkjgsogXgHJSOh5JLNC8wYY6r1SJx3YasAuyrfi8MJkKNteMi3vgPDaGWgoDvAAAA="
-  },
-  "/images/interiors/bedroom (5).jpg": {
-    "originalPath": "/images/interiors/bedroom (5).jpg",
-    "fallbackWebp": "/images/optimized/interiors/IMG_20250105_113101 - Copy-full.webp",
-    "sources": {
-      "full": "/images/optimized/interiors/IMG_20250105_113101 - Copy-full.webp",
-      "480w": "/images/optimized/interiors/IMG_20250105_113101 - Copy-480w.webp",
-      "768w": "/images/optimized/interiors/IMG_20250105_113101 - Copy-768w.webp",
-      "1200w": "/images/optimized/interiors/IMG_20250105_113101 - Copy-1200w.webp",
-      "1600w": "/images/optimized/interiors/IMG_20250105_113101 - Copy-1600w.webp",
-      "2048w": "/images/optimized/interiors/IMG_20250105_113101 - Copy-2048w.webp"
-    },
-    "srcset": "/images/optimized/interiors/IMG_20250105_113101 - Copy-480w.webp 480w, /images/optimized/interiors/IMG_20250105_113101 - Copy-768w.webp 768w, /images/optimized/interiors/IMG_20250105_113101 - Copy-1200w.webp 1200w, /images/optimized/interiors/IMG_20250105_113101 - Copy-1600w.webp 1600w, /images/optimized/interiors/IMG_20250105_113101 - Copy-2048w.webp 2048w, /images/optimized/interiors/IMG_20250105_113101 - Copy-full.webp 2560w",
-    "width": 4080,
-    "height": 3060,
-    "aspectRatio": 1.3333,
-    "placeholder": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAAAQBQCdASoYABIAPyWKvFeuKSYjqAgBwCSJQBOmYwAlrS+upS8q7msSkrT0X//R9+EwAM1WJ9efVI4Xl/+JcI3qHqCYK+D2bAoODrcKjNPg0yLviZzIZ5+Rq2q4a/bPHP0pnD41KCZhMbuEkXnoJU8pk0vaYWxnE0wjxSno8zmiE5uK46AAAA=="
-  },
-  "/images/interiors/bedroom.jpg": {
-    "originalPath": "/images/interiors/bedroom.jpg",
-    "fallbackWebp": "/images/optimized/interiors/IMG_20250105_113541 - Copy-full.webp",
-    "sources": {
-      "full": "/images/optimized/interiors/IMG_20250105_113541 - Copy-full.webp",
-      "480w": "/images/optimized/interiors/IMG_20250105_113541 - Copy-480w.webp",
-      "768w": "/images/optimized/interiors/IMG_20250105_113541 - Copy-768w.webp",
-      "1200w": "/images/optimized/interiors/IMG_20250105_113541 - Copy-1200w.webp",
-      "1600w": "/images/optimized/interiors/IMG_20250105_113541 - Copy-1600w.webp",
-      "2048w": "/images/optimized/interiors/IMG_20250105_113541 - Copy-2048w.webp"
-    },
-    "srcset": "/images/optimized/interiors/IMG_20250105_113541 - Copy-480w.webp 480w, /images/optimized/interiors/IMG_20250105_113541 - Copy-768w.webp 768w, /images/optimized/interiors/IMG_20250105_113541 - Copy-1200w.webp 1200w, /images/optimized/interiors/IMG_20250105_113541 - Copy-1600w.webp 1600w, /images/optimized/interiors/IMG_20250105_113541 - Copy-2048w.webp 2048w, /images/optimized/interiors/IMG_20250105_113541 - Copy-full.webp 2560w",
-    "width": 4080,
-    "height": 3060,
-    "aspectRatio": 1.3333,
-    "placeholder": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAACQBACdASoYABIAPyWEvFUuKCYjKAqpwCSJQBWAATbbazmhXQWmXac7E9rWpwAA/lSohFudY3Il02FpSEalO25wPeZwQh03ZOjNtuPw2zmwcNX9HnJlKYu/GfVoI+h8jKw9PBR9tKDd8awZebwprm7hJS2p/CcXMl3P7mEIE90vD/1YHzZHMLgUhyBxPog5psGsI6O7BMAAAA=="
-  },
-  "/images/interiors/dining.jpg": {
-    "originalPath": "/images/interiors/dining.jpg",
-    "fallbackWebp": "/images/optimized/interiors/IMG_20260913_172536 (1)-full.webp",
-    "sources": {
-      "full": "/images/optimized/interiors/IMG_20260913_172536 (1)-full.webp",
-      "480w": "/images/optimized/interiors/IMG_20260913_172536 (1)-480w.webp",
-      "768w": "/images/optimized/interiors/IMG_20260913_172536 (1)-768w.webp",
-      "1200w": "/images/optimized/interiors/IMG_20260913_172536 (1)-1200w.webp",
-      "1600w": "/images/optimized/interiors/IMG_20260913_172536 (1)-1600w.webp",
-      "2048w": "/images/optimized/interiors/IMG_20260913_172536 (1)-2048w.webp"
-    },
-    "srcset": "/images/optimized/interiors/IMG_20260913_172536 (1)-480w.webp 480w, /images/optimized/interiors/IMG_20260913_172536 (1)-768w.webp 768w, /images/optimized/interiors/IMG_20260913_172536 (1)-1200w.webp 1200w, /images/optimized/interiors/IMG_20260913_172536 (1)-1600w.webp 1600w, /images/optimized/interiors/IMG_20260913_172536 (1)-2048w.webp 2048w, /images/optimized/interiors/IMG_20260913_172536 (1)-full.webp 1441w",
-    "width": 2296,
-    "height": 4080,
-    "aspectRatio": 0.5627,
-    "placeholder": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAwBACdASoOABgAPyV6tFGuJ6UisAgBwCSJQBOgBD3tlgmIPr4VdrdHeUAA/dXFtc4MEtA8NIoy43VtyzUh0ktMKbNXtptOIBs3nHXvYFCZdy9QfFyhMygHEBBpmHduRyVsY/hsYE5qQrVNqK0GgoyaXgRwaZB9U2RrvCbzgAA="
+    "srcset": "/images/optimized/interiors/kitchen (8)-480w.webp 480w, /images/optimized/interiors/kitchen (8)-768w.webp 768w, /images/optimized/interiors/kitchen (8)-1200w.webp 1200w, /images/optimized/interiors/kitchen (8)-1600w.webp 1600w, /images/optimized/interiors/kitchen (8)-2048w.webp 2048w, /images/optimized/interiors/kitchen (8)-full.webp 2560w",
+    "width": 4032,
+    "height": 2268,
+    "aspectRatio": 1.7778,
+    "placeholder": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACwAwCdASoYAA4APyV6tFGuJ6UisAgBwCSJZQAAXostB5gcntFQwAD8cnQngNtdtg/7Ztzxb/zqGMPfe5gexeev8vE3CXsexjKOA9G7ll/1NerlavPygGT97PemDGCAAAA="
   },
   "/images/interiors/kitchen.jpg": {
     "originalPath": "/images/interiors/kitchen.jpg",
-    "fallbackWebp": "/images/optimized/interiors/IMG_20250118_125548-full.webp",
+    "fallbackWebp": "/images/optimized/interiors/kitchen-full.webp",
     "sources": {
-      "full": "/images/optimized/interiors/IMG_20250118_125548-full.webp",
-      "480w": "/images/optimized/interiors/IMG_20250118_125548-480w.webp",
-      "768w": "/images/optimized/interiors/IMG_20250118_125548-768w.webp",
-      "1200w": "/images/optimized/interiors/IMG_20250118_125548-1200w.webp",
-      "1600w": "/images/optimized/interiors/IMG_20250118_125548-1600w.webp",
-      "2048w": "/images/optimized/interiors/IMG_20250118_125548-2048w.webp"
+      "full": "/images/optimized/interiors/kitchen-full.webp",
+      "480w": "/images/optimized/interiors/kitchen-480w.webp",
+      "768w": "/images/optimized/interiors/kitchen-768w.webp",
+      "1200w": "/images/optimized/interiors/kitchen-1200w.webp",
+      "1600w": "/images/optimized/interiors/kitchen-1600w.webp",
+      "2048w": "/images/optimized/interiors/kitchen-2048w.webp"
     },
-    "srcset": "/images/optimized/interiors/IMG_20250118_125548-480w.webp 480w, /images/optimized/interiors/IMG_20250118_125548-768w.webp 768w, /images/optimized/interiors/IMG_20250118_125548-1200w.webp 1200w, /images/optimized/interiors/IMG_20250118_125548-1600w.webp 1600w, /images/optimized/interiors/IMG_20250118_125548-2048w.webp 2048w, /images/optimized/interiors/IMG_20250118_125548-full.webp 2560w",
+    "srcset": "/images/optimized/interiors/kitchen-480w.webp 480w, /images/optimized/interiors/kitchen-768w.webp 768w, /images/optimized/interiors/kitchen-1200w.webp 1200w, /images/optimized/interiors/kitchen-1600w.webp 1600w, /images/optimized/interiors/kitchen-2048w.webp 2048w, /images/optimized/interiors/kitchen-full.webp 2560w",
     "width": 4080,
     "height": 3060,
     "aspectRatio": 1.3333,
@@ -749,16 +984,16 @@
   },
   "/images/interiors/living (1).jpg": {
     "originalPath": "/images/interiors/living (1).jpg",
-    "fallbackWebp": "/images/optimized/interiors/IMG_20250105_112832 - Copy-full.webp",
+    "fallbackWebp": "/images/optimized/interiors/living (1)-full.webp",
     "sources": {
-      "full": "/images/optimized/interiors/IMG_20250105_112832 - Copy-full.webp",
-      "480w": "/images/optimized/interiors/IMG_20250105_112832 - Copy-480w.webp",
-      "768w": "/images/optimized/interiors/IMG_20250105_112832 - Copy-768w.webp",
-      "1200w": "/images/optimized/interiors/IMG_20250105_112832 - Copy-1200w.webp",
-      "1600w": "/images/optimized/interiors/IMG_20250105_112832 - Copy-1600w.webp",
-      "2048w": "/images/optimized/interiors/IMG_20250105_112832 - Copy-2048w.webp"
+      "full": "/images/optimized/interiors/living (1)-full.webp",
+      "480w": "/images/optimized/interiors/living (1)-480w.webp",
+      "768w": "/images/optimized/interiors/living (1)-768w.webp",
+      "1200w": "/images/optimized/interiors/living (1)-1200w.webp",
+      "1600w": "/images/optimized/interiors/living (1)-1600w.webp",
+      "2048w": "/images/optimized/interiors/living (1)-2048w.webp"
     },
-    "srcset": "/images/optimized/interiors/IMG_20250105_112832 - Copy-480w.webp 480w, /images/optimized/interiors/IMG_20250105_112832 - Copy-768w.webp 768w, /images/optimized/interiors/IMG_20250105_112832 - Copy-1200w.webp 1200w, /images/optimized/interiors/IMG_20250105_112832 - Copy-1600w.webp 1600w, /images/optimized/interiors/IMG_20250105_112832 - Copy-2048w.webp 2048w, /images/optimized/interiors/IMG_20250105_112832 - Copy-full.webp 1920w",
+    "srcset": "/images/optimized/interiors/living (1)-480w.webp 480w, /images/optimized/interiors/living (1)-768w.webp 768w, /images/optimized/interiors/living (1)-1200w.webp 1200w, /images/optimized/interiors/living (1)-1600w.webp 1600w, /images/optimized/interiors/living (1)-2048w.webp 2048w, /images/optimized/interiors/living (1)-full.webp 1920w",
     "width": 3060,
     "height": 4080,
     "aspectRatio": 0.75,
@@ -766,16 +1001,16 @@
   },
   "/images/interiors/living (2).jpg": {
     "originalPath": "/images/interiors/living (2).jpg",
-    "fallbackWebp": "/images/optimized/interiors/IMG_20250105_112813 - Copy-full.webp",
+    "fallbackWebp": "/images/optimized/interiors/living (2)-full.webp",
     "sources": {
-      "full": "/images/optimized/interiors/IMG_20250105_112813 - Copy-full.webp",
-      "480w": "/images/optimized/interiors/IMG_20250105_112813 - Copy-480w.webp",
-      "768w": "/images/optimized/interiors/IMG_20250105_112813 - Copy-768w.webp",
-      "1200w": "/images/optimized/interiors/IMG_20250105_112813 - Copy-1200w.webp",
-      "1600w": "/images/optimized/interiors/IMG_20250105_112813 - Copy-1600w.webp",
-      "2048w": "/images/optimized/interiors/IMG_20250105_112813 - Copy-2048w.webp"
+      "full": "/images/optimized/interiors/living (2)-full.webp",
+      "480w": "/images/optimized/interiors/living (2)-480w.webp",
+      "768w": "/images/optimized/interiors/living (2)-768w.webp",
+      "1200w": "/images/optimized/interiors/living (2)-1200w.webp",
+      "1600w": "/images/optimized/interiors/living (2)-1600w.webp",
+      "2048w": "/images/optimized/interiors/living (2)-2048w.webp"
     },
-    "srcset": "/images/optimized/interiors/IMG_20250105_112813 - Copy-480w.webp 480w, /images/optimized/interiors/IMG_20250105_112813 - Copy-768w.webp 768w, /images/optimized/interiors/IMG_20250105_112813 - Copy-1200w.webp 1200w, /images/optimized/interiors/IMG_20250105_112813 - Copy-1600w.webp 1600w, /images/optimized/interiors/IMG_20250105_112813 - Copy-2048w.webp 2048w, /images/optimized/interiors/IMG_20250105_112813 - Copy-full.webp 2560w",
+    "srcset": "/images/optimized/interiors/living (2)-480w.webp 480w, /images/optimized/interiors/living (2)-768w.webp 768w, /images/optimized/interiors/living (2)-1200w.webp 1200w, /images/optimized/interiors/living (2)-1600w.webp 1600w, /images/optimized/interiors/living (2)-2048w.webp 2048w, /images/optimized/interiors/living (2)-full.webp 2560w",
     "width": 4080,
     "height": 3060,
     "aspectRatio": 1.3333,
@@ -783,16 +1018,16 @@
   },
   "/images/interiors/living (3).jpg": {
     "originalPath": "/images/interiors/living (3).jpg",
-    "fallbackWebp": "/images/optimized/interiors/IMG_20250118_125532 - Copy-full.webp",
+    "fallbackWebp": "/images/optimized/interiors/living (3)-full.webp",
     "sources": {
-      "full": "/images/optimized/interiors/IMG_20250118_125532 - Copy-full.webp",
-      "480w": "/images/optimized/interiors/IMG_20250118_125532 - Copy-480w.webp",
-      "768w": "/images/optimized/interiors/IMG_20250118_125532 - Copy-768w.webp",
-      "1200w": "/images/optimized/interiors/IMG_20250118_125532 - Copy-1200w.webp",
-      "1600w": "/images/optimized/interiors/IMG_20250118_125532 - Copy-1600w.webp",
-      "2048w": "/images/optimized/interiors/IMG_20250118_125532 - Copy-2048w.webp"
+      "full": "/images/optimized/interiors/living (3)-full.webp",
+      "480w": "/images/optimized/interiors/living (3)-480w.webp",
+      "768w": "/images/optimized/interiors/living (3)-768w.webp",
+      "1200w": "/images/optimized/interiors/living (3)-1200w.webp",
+      "1600w": "/images/optimized/interiors/living (3)-1600w.webp",
+      "2048w": "/images/optimized/interiors/living (3)-2048w.webp"
     },
-    "srcset": "/images/optimized/interiors/IMG_20250118_125532 - Copy-480w.webp 480w, /images/optimized/interiors/IMG_20250118_125532 - Copy-768w.webp 768w, /images/optimized/interiors/IMG_20250118_125532 - Copy-1200w.webp 1200w, /images/optimized/interiors/IMG_20250118_125532 - Copy-1600w.webp 1600w, /images/optimized/interiors/IMG_20250118_125532 - Copy-2048w.webp 2048w, /images/optimized/interiors/IMG_20250118_125532 - Copy-full.webp 2560w",
+    "srcset": "/images/optimized/interiors/living (3)-480w.webp 480w, /images/optimized/interiors/living (3)-768w.webp 768w, /images/optimized/interiors/living (3)-1200w.webp 1200w, /images/optimized/interiors/living (3)-1600w.webp 1600w, /images/optimized/interiors/living (3)-2048w.webp 2048w, /images/optimized/interiors/living (3)-full.webp 2560w",
     "width": 4080,
     "height": 3060,
     "aspectRatio": 1.3333,
@@ -800,16 +1035,16 @@
   },
   "/images/interiors/living (4).jpg": {
     "originalPath": "/images/interiors/living (4).jpg",
-    "fallbackWebp": "/images/optimized/interiors/IMG_20250118_125501 - Copy-full.webp",
+    "fallbackWebp": "/images/optimized/interiors/living (4)-full.webp",
     "sources": {
-      "full": "/images/optimized/interiors/IMG_20250118_125501 - Copy-full.webp",
-      "480w": "/images/optimized/interiors/IMG_20250118_125501 - Copy-480w.webp",
-      "768w": "/images/optimized/interiors/IMG_20250118_125501 - Copy-768w.webp",
-      "1200w": "/images/optimized/interiors/IMG_20250118_125501 - Copy-1200w.webp",
-      "1600w": "/images/optimized/interiors/IMG_20250118_125501 - Copy-1600w.webp",
-      "2048w": "/images/optimized/interiors/IMG_20250118_125501 - Copy-2048w.webp"
+      "full": "/images/optimized/interiors/living (4)-full.webp",
+      "480w": "/images/optimized/interiors/living (4)-480w.webp",
+      "768w": "/images/optimized/interiors/living (4)-768w.webp",
+      "1200w": "/images/optimized/interiors/living (4)-1200w.webp",
+      "1600w": "/images/optimized/interiors/living (4)-1600w.webp",
+      "2048w": "/images/optimized/interiors/living (4)-2048w.webp"
     },
-    "srcset": "/images/optimized/interiors/IMG_20250118_125501 - Copy-480w.webp 480w, /images/optimized/interiors/IMG_20250118_125501 - Copy-768w.webp 768w, /images/optimized/interiors/IMG_20250118_125501 - Copy-1200w.webp 1200w, /images/optimized/interiors/IMG_20250118_125501 - Copy-1600w.webp 1600w, /images/optimized/interiors/IMG_20250118_125501 - Copy-2048w.webp 2048w, /images/optimized/interiors/IMG_20250118_125501 - Copy-full.webp 2560w",
+    "srcset": "/images/optimized/interiors/living (4)-480w.webp 480w, /images/optimized/interiors/living (4)-768w.webp 768w, /images/optimized/interiors/living (4)-1200w.webp 1200w, /images/optimized/interiors/living (4)-1600w.webp 1600w, /images/optimized/interiors/living (4)-2048w.webp 2048w, /images/optimized/interiors/living (4)-full.webp 2560w",
     "width": 4080,
     "height": 3060,
     "aspectRatio": 1.3333,
@@ -817,16 +1052,16 @@
   },
   "/images/interiors/living (5).jpg": {
     "originalPath": "/images/interiors/living (5).jpg",
-    "fallbackWebp": "/images/optimized/interiors/IMG_20250118_125129-full.webp",
+    "fallbackWebp": "/images/optimized/interiors/living (5)-full.webp",
     "sources": {
-      "full": "/images/optimized/interiors/IMG_20250118_125129-full.webp",
-      "480w": "/images/optimized/interiors/IMG_20250118_125129-480w.webp",
-      "768w": "/images/optimized/interiors/IMG_20250118_125129-768w.webp",
-      "1200w": "/images/optimized/interiors/IMG_20250118_125129-1200w.webp",
-      "1600w": "/images/optimized/interiors/IMG_20250118_125129-1600w.webp",
-      "2048w": "/images/optimized/interiors/IMG_20250118_125129-2048w.webp"
+      "full": "/images/optimized/interiors/living (5)-full.webp",
+      "480w": "/images/optimized/interiors/living (5)-480w.webp",
+      "768w": "/images/optimized/interiors/living (5)-768w.webp",
+      "1200w": "/images/optimized/interiors/living (5)-1200w.webp",
+      "1600w": "/images/optimized/interiors/living (5)-1600w.webp",
+      "2048w": "/images/optimized/interiors/living (5)-2048w.webp"
     },
-    "srcset": "/images/optimized/interiors/IMG_20250118_125129-480w.webp 480w, /images/optimized/interiors/IMG_20250118_125129-768w.webp 768w, /images/optimized/interiors/IMG_20250118_125129-1200w.webp 1200w, /images/optimized/interiors/IMG_20250118_125129-1600w.webp 1600w, /images/optimized/interiors/IMG_20250118_125129-2048w.webp 2048w, /images/optimized/interiors/IMG_20250118_125129-full.webp 2560w",
+    "srcset": "/images/optimized/interiors/living (5)-480w.webp 480w, /images/optimized/interiors/living (5)-768w.webp 768w, /images/optimized/interiors/living (5)-1200w.webp 1200w, /images/optimized/interiors/living (5)-1600w.webp 1600w, /images/optimized/interiors/living (5)-2048w.webp 2048w, /images/optimized/interiors/living (5)-full.webp 2560w",
     "width": 8192,
     "height": 6144,
     "aspectRatio": 1.3333,
@@ -834,67 +1069,186 @@
   },
   "/images/interiors/living (6).jpg": {
     "originalPath": "/images/interiors/living (6).jpg",
-    "fallbackWebp": "/images/optimized/interiors/IMG_20250313_131134-full.webp",
+    "fallbackWebp": "/images/optimized/interiors/living (6)-full.webp",
     "sources": {
-      "full": "/images/optimized/interiors/IMG_20250313_131134-full.webp",
-      "480w": "/images/optimized/interiors/IMG_20250313_131134-480w.webp",
-      "768w": "/images/optimized/interiors/IMG_20250313_131134-768w.webp",
-      "1200w": "/images/optimized/interiors/IMG_20250313_131134-1200w.webp",
-      "1600w": "/images/optimized/interiors/IMG_20250313_131134-1600w.webp",
-      "2048w": "/images/optimized/interiors/IMG_20250313_131134-2048w.webp"
+      "full": "/images/optimized/interiors/living (6)-full.webp",
+      "480w": "/images/optimized/interiors/living (6)-480w.webp",
+      "768w": "/images/optimized/interiors/living (6)-768w.webp",
+      "1200w": "/images/optimized/interiors/living (6)-1200w.webp",
+      "1600w": "/images/optimized/interiors/living (6)-1600w.webp",
+      "2048w": "/images/optimized/interiors/living (6)-2048w.webp"
     },
-    "srcset": "/images/optimized/interiors/IMG_20250313_131134-480w.webp 480w, /images/optimized/interiors/IMG_20250313_131134-768w.webp 768w, /images/optimized/interiors/IMG_20250313_131134-1200w.webp 1200w, /images/optimized/interiors/IMG_20250313_131134-1600w.webp 1600w, /images/optimized/interiors/IMG_20250313_131134-2048w.webp 2048w, /images/optimized/interiors/IMG_20250313_131134-full.webp 1441w",
+    "srcset": "/images/optimized/interiors/living (6)-480w.webp 480w, /images/optimized/interiors/living (6)-768w.webp 768w, /images/optimized/interiors/living (6)-1200w.webp 1200w, /images/optimized/interiors/living (6)-1600w.webp 1600w, /images/optimized/interiors/living (6)-2048w.webp 2048w, /images/optimized/interiors/living (6)-full.webp 1441w",
     "width": 2296,
     "height": 4080,
     "aspectRatio": 0.5627,
     "placeholder": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAABwBACdASoOABgAPyV6tFGuJ6UisAgBwCSJbACdMoADSGrZKd1P+aP7RyDQAAD9zJZdk9eLC8THY1QXf3FrDPWBUCwrn42jytcacgJ9cEavVGrBS9gDvQL2z1rEY31SnPqFTdxDHTts59K1rLuViuO9sB9B1miKhcJQZdIZmMGQReXWk1IGaDaUAAA="
   },
+  "/images/interiors/living (7).jpg": {
+    "originalPath": "/images/interiors/living (7).jpg",
+    "fallbackWebp": "/images/optimized/interiors/living (7)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/living (7)-full.webp",
+      "480w": "/images/optimized/interiors/living (7)-480w.webp",
+      "768w": "/images/optimized/interiors/living (7)-768w.webp",
+      "1200w": "/images/optimized/interiors/living (7)-1200w.webp",
+      "1600w": "/images/optimized/interiors/living (7)-1600w.webp",
+      "2048w": "/images/optimized/interiors/living (7)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/living (7)-480w.webp 480w, /images/optimized/interiors/living (7)-768w.webp 768w, /images/optimized/interiors/living (7)-1200w.webp 1200w, /images/optimized/interiors/living (7)-1600w.webp 1600w, /images/optimized/interiors/living (7)-2048w.webp 2048w, /images/optimized/interiors/living (7)-full.webp 1441w",
+    "width": 2296,
+    "height": 4080,
+    "aspectRatio": 0.5627,
+    "placeholder": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAACwAwCdASoOABgAPyV6tFGuJ6UisAgBwCSJZACw7A+O35YfjXIfwAD8WqMa/2i1xkeqaRu4mkKzuhS78+5bmmKkhsOg4pGsR/9sY5KQLdvcpCqhzW1v+Lo4Vm0OAmKvNhMNE/U/uMv0CZOLqNyr+q7hQ5XveT8Nu3JZeljdWnQ/4u01RAA="
+  },
+  "/images/interiors/living (8).jpg": {
+    "originalPath": "/images/interiors/living (8).jpg",
+    "fallbackWebp": "/images/optimized/interiors/living (8)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/living (8)-full.webp",
+      "480w": "/images/optimized/interiors/living (8)-480w.webp",
+      "768w": "/images/optimized/interiors/living (8)-768w.webp",
+      "1200w": "/images/optimized/interiors/living (8)-1200w.webp",
+      "1600w": "/images/optimized/interiors/living (8)-1600w.webp",
+      "2048w": "/images/optimized/interiors/living (8)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/living (8)-480w.webp 480w, /images/optimized/interiors/living (8)-768w.webp 768w, /images/optimized/interiors/living (8)-1200w.webp 1200w, /images/optimized/interiors/living (8)-1600w.webp 1600w, /images/optimized/interiors/living (8)-2048w.webp 2048w, /images/optimized/interiors/living (8)-full.webp 2560w",
+    "width": 16320,
+    "height": 12288,
+    "aspectRatio": 1.3281,
+    "placeholder": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAADQBACdASoYABIAPyWKu1euKSWjqAgBwCSJQBhm5YARza3eMuAcg20Rtt6+4c/QAAD+e65BqBLsnFdWA/J7wp2PwqWOS0mvKfLai7tv+9wxcPKBnNVpxiA2bk6cRpDdIZAY2p64EJJx/U0uqFSQYHEP1M0ffJ16DWBrEVAAZJOUZxqy5OA3hlDQ5pT+PYeLCN8W7rxN2TkKDAAA"
+  },
+  "/images/interiors/living (9).jpg": {
+    "originalPath": "/images/interiors/living (9).jpg",
+    "fallbackWebp": "/images/optimized/interiors/living (9)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/living (9)-full.webp",
+      "480w": "/images/optimized/interiors/living (9)-480w.webp",
+      "768w": "/images/optimized/interiors/living (9)-768w.webp",
+      "1200w": "/images/optimized/interiors/living (9)-1200w.webp",
+      "1600w": "/images/optimized/interiors/living (9)-1600w.webp",
+      "2048w": "/images/optimized/interiors/living (9)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/living (9)-480w.webp 480w, /images/optimized/interiors/living (9)-768w.webp 768w, /images/optimized/interiors/living (9)-1200w.webp 1200w, /images/optimized/interiors/living (9)-1600w.webp 1600w, /images/optimized/interiors/living (9)-2048w.webp 2048w, /images/optimized/interiors/living (9)-full.webp 1440w",
+    "width": 2268,
+    "height": 4032,
+    "aspectRatio": 0.5625,
+    "placeholder": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABwAwCdASoNABgAPyV6tFGuJ6UisAgBwCSJYwAAV9989XDLCGAArMSxTHrXfSn7to8qZKIagbNh7pDj0qOgqwD9NRZ2kLo1dPkCM1hlZwxifx4QOkFwGeKsprIWhZycQSZngAAA"
+  },
   "/images/interiors/living.jpg": {
     "originalPath": "/images/interiors/living.jpg",
-    "fallbackWebp": "/images/optimized/interiors/IMG_20250313_131230-full.webp",
+    "fallbackWebp": "/images/optimized/interiors/living-full.webp",
     "sources": {
-      "full": "/images/optimized/interiors/IMG_20250313_131230-full.webp",
-      "480w": "/images/optimized/interiors/IMG_20250313_131230-480w.webp",
-      "768w": "/images/optimized/interiors/IMG_20250313_131230-768w.webp",
-      "1200w": "/images/optimized/interiors/IMG_20250313_131230-1200w.webp",
-      "1600w": "/images/optimized/interiors/IMG_20250313_131230-1600w.webp",
-      "2048w": "/images/optimized/interiors/IMG_20250313_131230-2048w.webp"
+      "full": "/images/optimized/interiors/living-full.webp",
+      "480w": "/images/optimized/interiors/living-480w.webp",
+      "768w": "/images/optimized/interiors/living-768w.webp",
+      "1200w": "/images/optimized/interiors/living-1200w.webp",
+      "1600w": "/images/optimized/interiors/living-1600w.webp",
+      "2048w": "/images/optimized/interiors/living-2048w.webp"
     },
-    "srcset": "/images/optimized/interiors/IMG_20250313_131230-480w.webp 480w, /images/optimized/interiors/IMG_20250313_131230-768w.webp 768w, /images/optimized/interiors/IMG_20250313_131230-1200w.webp 1200w, /images/optimized/interiors/IMG_20250313_131230-1600w.webp 1600w, /images/optimized/interiors/IMG_20250313_131230-2048w.webp 2048w, /images/optimized/interiors/IMG_20250313_131230-full.webp 1441w",
+    "srcset": "/images/optimized/interiors/living-480w.webp 480w, /images/optimized/interiors/living-768w.webp 768w, /images/optimized/interiors/living-1200w.webp 1200w, /images/optimized/interiors/living-1600w.webp 1600w, /images/optimized/interiors/living-2048w.webp 2048w, /images/optimized/interiors/living-full.webp 1441w",
     "width": 2296,
     "height": 4080,
     "aspectRatio": 0.5627,
     "placeholder": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAABQBACdASoOABgAPyV6tFGuJ6UisAgBwCSJbACdMoR4GClUUwkCVXvepWMAAP6vDlq/gwl1SWPg9DfZ2b3vOQdzAojRWdgcnssZBzIagLoNHeCJOZPQvVr6WwvxQi862k/VVGAL1Zrqe2ntIoaOkw6ohalglvq9mYgVsgbchgD4+GVDRyrkLTj/wgEfkN423AM+Oc7zI3sMgxVCiYkKZ6jyV2YlIAAA"
   },
+  "/images/interiors/mandir (1).jpg": {
+    "originalPath": "/images/interiors/mandir (1).jpg",
+    "fallbackWebp": "/images/optimized/interiors/mandir (1)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/mandir (1)-full.webp",
+      "480w": "/images/optimized/interiors/mandir (1)-480w.webp",
+      "768w": "/images/optimized/interiors/mandir (1)-768w.webp",
+      "1200w": "/images/optimized/interiors/mandir (1)-1200w.webp",
+      "1600w": "/images/optimized/interiors/mandir (1)-1600w.webp",
+      "2048w": "/images/optimized/interiors/mandir (1)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/mandir (1)-480w.webp 480w, /images/optimized/interiors/mandir (1)-768w.webp 768w, /images/optimized/interiors/mandir (1)-1200w.webp 1200w, /images/optimized/interiors/mandir (1)-1600w.webp 1600w, /images/optimized/interiors/mandir (1)-2048w.webp 2048w, /images/optimized/interiors/mandir (1)-full.webp 1440w",
+    "width": 2268,
+    "height": 4032,
+    "aspectRatio": 0.5625,
+    "placeholder": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADQAwCdASoNABgAPyV8tlIuJ6UisAgBwCSJYwDE2CP3l8CYp7e2ffAA3hL6o4+V3mkvrhwPAnSJh8K8zPu1R3LXfAtS3LegihPHbddexAG+afkanKhdO2Dj6r4RV5tc54AAAA=="
+  },
+  "/images/interiors/mandir (2).jpg": {
+    "originalPath": "/images/interiors/mandir (2).jpg",
+    "fallbackWebp": "/images/optimized/interiors/mandir (2)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/mandir (2)-full.webp",
+      "480w": "/images/optimized/interiors/mandir (2)-480w.webp",
+      "768w": "/images/optimized/interiors/mandir (2)-768w.webp",
+      "1200w": "/images/optimized/interiors/mandir (2)-1200w.webp",
+      "1600w": "/images/optimized/interiors/mandir (2)-1600w.webp",
+      "2048w": "/images/optimized/interiors/mandir (2)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/mandir (2)-480w.webp 480w, /images/optimized/interiors/mandir (2)-768w.webp 768w, /images/optimized/interiors/mandir (2)-1200w.webp 1200w, /images/optimized/interiors/mandir (2)-1600w.webp 1600w, /images/optimized/interiors/mandir (2)-2048w.webp 2048w, /images/optimized/interiors/mandir (2)-full.webp 1920w",
+    "width": 3024,
+    "height": 4032,
+    "aspectRatio": 0.75,
+    "placeholder": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAwBACdASoSABgAPyWEulUuKKWjKAqpwCSJZQDGfASQIOq3vyCTMJ94wAAA74DXgJaVvn8X2HBd1KwrLdUSkJ3HC55cqLclok5pBhox/C5gAwTvtXz2RF9GdiuTwvs6lI25GyDtmAZjfyiVVYdk3sepanOioAAA"
+  },
   "/images/interiors/mandir.jpg": {
     "originalPath": "/images/interiors/mandir.jpg",
-    "fallbackWebp": "/images/optimized/interiors/IMG_20250118_132208 - Copy-full.webp",
+    "fallbackWebp": "/images/optimized/interiors/mandir-full.webp",
     "sources": {
-      "full": "/images/optimized/interiors/IMG_20250118_132208 - Copy-full.webp",
-      "480w": "/images/optimized/interiors/IMG_20250118_132208 - Copy-480w.webp",
-      "768w": "/images/optimized/interiors/IMG_20250118_132208 - Copy-768w.webp",
-      "1200w": "/images/optimized/interiors/IMG_20250118_132208 - Copy-1200w.webp",
-      "1600w": "/images/optimized/interiors/IMG_20250118_132208 - Copy-1600w.webp",
-      "2048w": "/images/optimized/interiors/IMG_20250118_132208 - Copy-2048w.webp"
+      "full": "/images/optimized/interiors/mandir-full.webp",
+      "480w": "/images/optimized/interiors/mandir-480w.webp",
+      "768w": "/images/optimized/interiors/mandir-768w.webp",
+      "1200w": "/images/optimized/interiors/mandir-1200w.webp",
+      "1600w": "/images/optimized/interiors/mandir-1600w.webp",
+      "2048w": "/images/optimized/interiors/mandir-2048w.webp"
     },
-    "srcset": "/images/optimized/interiors/IMG_20250118_132208 - Copy-480w.webp 480w, /images/optimized/interiors/IMG_20250118_132208 - Copy-768w.webp 768w, /images/optimized/interiors/IMG_20250118_132208 - Copy-1200w.webp 1200w, /images/optimized/interiors/IMG_20250118_132208 - Copy-1600w.webp 1600w, /images/optimized/interiors/IMG_20250118_132208 - Copy-2048w.webp 2048w, /images/optimized/interiors/IMG_20250118_132208 - Copy-full.webp 1928w",
+    "srcset": "/images/optimized/interiors/mandir-480w.webp 480w, /images/optimized/interiors/mandir-768w.webp 768w, /images/optimized/interiors/mandir-1200w.webp 1200w, /images/optimized/interiors/mandir-1600w.webp 1600w, /images/optimized/interiors/mandir-2048w.webp 2048w, /images/optimized/interiors/mandir-full.webp 1928w",
     "width": 12288,
     "height": 16320,
     "aspectRatio": 0.7529,
     "placeholder": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAABwBACdASoSABgAPyWGtVYuKKSjqAqpwCSJQBdgAQGJm22Cxo3IGfnlwoS0gADN7Ip0CnAS/h7MPgQVgEY3enUluZ8JyHqPVAN74mO2Q7I1m5oVuU2gb/vmMoooyjShLNGZJ29euFRGbaaL2lmKUBGQ5sUeEFGS95fb9yEBSFkdrXAGNtLdkhiKQAA="
   },
+  "/images/interiors/Study desks (2).jpg": {
+    "originalPath": "/images/interiors/Study desks (2).jpg",
+    "fallbackWebp": "/images/optimized/interiors/Study desks (2)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/Study desks (2)-full.webp",
+      "480w": "/images/optimized/interiors/Study desks (2)-480w.webp",
+      "768w": "/images/optimized/interiors/Study desks (2)-768w.webp",
+      "1200w": "/images/optimized/interiors/Study desks (2)-1200w.webp",
+      "1600w": "/images/optimized/interiors/Study desks (2)-1600w.webp",
+      "2048w": "/images/optimized/interiors/Study desks (2)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/Study desks (2)-480w.webp 480w, /images/optimized/interiors/Study desks (2)-768w.webp 768w, /images/optimized/interiors/Study desks (2)-1200w.webp 1200w, /images/optimized/interiors/Study desks (2)-1600w.webp 1600w, /images/optimized/interiors/Study desks (2)-2048w.webp 2048w, /images/optimized/interiors/Study desks (2)-full.webp 1440w",
+    "width": 2268,
+    "height": 4032,
+    "aspectRatio": 0.5625,
+    "placeholder": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAACQAwCdASoNABgAPyV+tVIuKCUisAgBwCSJZwAAP1yNjK3f+TRoAPe+wCa2TXAExOSCYYOtzdOKaAGv5G5xo8d1osujObrhbhGNFa7BsNrFXdKz/Xpz7GKFgo0RgUAA"
+  },
+  "/images/interiors/Study desks.jpg": {
+    "originalPath": "/images/interiors/Study desks.jpg",
+    "fallbackWebp": "/images/optimized/interiors/Study desks-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/Study desks-full.webp",
+      "480w": "/images/optimized/interiors/Study desks-480w.webp",
+      "768w": "/images/optimized/interiors/Study desks-768w.webp",
+      "1200w": "/images/optimized/interiors/Study desks-1200w.webp",
+      "1600w": "/images/optimized/interiors/Study desks-1600w.webp",
+      "2048w": "/images/optimized/interiors/Study desks-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/Study desks-480w.webp 480w, /images/optimized/interiors/Study desks-768w.webp 768w, /images/optimized/interiors/Study desks-1200w.webp 1200w, /images/optimized/interiors/Study desks-1600w.webp 1600w, /images/optimized/interiors/Study desks-2048w.webp 2048w, /images/optimized/interiors/Study desks-full.webp 2560w",
+    "width": 4080,
+    "height": 3060,
+    "aspectRatio": 1.3333,
+    "placeholder": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAAAQBQCdASoYABIAPyWEvFSuKKajKAqpwCSJQBadAfcWuoQjrJb18YjlBmwD7lMmOwRgAP6vgXUSBGhnJW/kfcLbKvV6RSHUTvHPYiaYSxeKxX/5pqEYaNKhy1o3cPDbV42C6+xE4mL5NyBa7HWiOh02YgI5THA+sQaOlGazjI4iSsO8Wr1PYILFHtmZsn/wgAA="
+  },
   "/images/interiors/TV cupboard.jpg": {
     "originalPath": "/images/interiors/TV cupboard.jpg",
-    "fallbackWebp": "/images/optimized/interiors/IMG_20250118_132127 - Copy-full.webp",
+    "fallbackWebp": "/images/optimized/interiors/TV cupboard-full.webp",
     "sources": {
-      "full": "/images/optimized/interiors/IMG_20250118_132127 - Copy-full.webp",
-      "480w": "/images/optimized/interiors/IMG_20250118_132127 - Copy-480w.webp",
-      "768w": "/images/optimized/interiors/IMG_20250118_132127 - Copy-768w.webp",
-      "1200w": "/images/optimized/interiors/IMG_20250118_132127 - Copy-1200w.webp",
-      "1600w": "/images/optimized/interiors/IMG_20250118_132127 - Copy-1600w.webp",
-      "2048w": "/images/optimized/interiors/IMG_20250118_132127 - Copy-2048w.webp"
+      "full": "/images/optimized/interiors/TV cupboard-full.webp",
+      "480w": "/images/optimized/interiors/TV cupboard-480w.webp",
+      "768w": "/images/optimized/interiors/TV cupboard-768w.webp",
+      "1200w": "/images/optimized/interiors/TV cupboard-1200w.webp",
+      "1600w": "/images/optimized/interiors/TV cupboard-1600w.webp",
+      "2048w": "/images/optimized/interiors/TV cupboard-2048w.webp"
     },
-    "srcset": "/images/optimized/interiors/IMG_20250118_132127 - Copy-480w.webp 480w, /images/optimized/interiors/IMG_20250118_132127 - Copy-768w.webp 768w, /images/optimized/interiors/IMG_20250118_132127 - Copy-1200w.webp 1200w, /images/optimized/interiors/IMG_20250118_132127 - Copy-1600w.webp 1600w, /images/optimized/interiors/IMG_20250118_132127 - Copy-2048w.webp 2048w, /images/optimized/interiors/IMG_20250118_132127 - Copy-full.webp 1928w",
+    "srcset": "/images/optimized/interiors/TV cupboard-480w.webp 480w, /images/optimized/interiors/TV cupboard-768w.webp 768w, /images/optimized/interiors/TV cupboard-1200w.webp 1200w, /images/optimized/interiors/TV cupboard-1600w.webp 1600w, /images/optimized/interiors/TV cupboard-2048w.webp 2048w, /images/optimized/interiors/TV cupboard-full.webp 1928w",
     "width": 12288,
     "height": 16320,
     "aspectRatio": 0.7529,
@@ -902,20 +1256,139 @@
   },
   "/images/interiors/TV section.jpg": {
     "originalPath": "/images/interiors/TV section.jpg",
-    "fallbackWebp": "/images/optimized/interiors/IMG_20260913_171649 (1)-full.webp",
+    "fallbackWebp": "/images/optimized/interiors/TV section-full.webp",
     "sources": {
-      "full": "/images/optimized/interiors/IMG_20260913_171649 (1)-full.webp",
-      "480w": "/images/optimized/interiors/IMG_20260913_171649 (1)-480w.webp",
-      "768w": "/images/optimized/interiors/IMG_20260913_171649 (1)-768w.webp",
-      "1200w": "/images/optimized/interiors/IMG_20260913_171649 (1)-1200w.webp",
-      "1600w": "/images/optimized/interiors/IMG_20260913_171649 (1)-1600w.webp",
-      "2048w": "/images/optimized/interiors/IMG_20260913_171649 (1)-2048w.webp"
+      "full": "/images/optimized/interiors/TV section-full.webp",
+      "480w": "/images/optimized/interiors/TV section-480w.webp",
+      "768w": "/images/optimized/interiors/TV section-768w.webp",
+      "1200w": "/images/optimized/interiors/TV section-1200w.webp",
+      "1600w": "/images/optimized/interiors/TV section-1600w.webp",
+      "2048w": "/images/optimized/interiors/TV section-2048w.webp"
     },
-    "srcset": "/images/optimized/interiors/IMG_20260913_171649 (1)-480w.webp 480w, /images/optimized/interiors/IMG_20260913_171649 (1)-768w.webp 768w, /images/optimized/interiors/IMG_20260913_171649 (1)-1200w.webp 1200w, /images/optimized/interiors/IMG_20260913_171649 (1)-1600w.webp 1600w, /images/optimized/interiors/IMG_20260913_171649 (1)-2048w.webp 2048w, /images/optimized/interiors/IMG_20260913_171649 (1)-full.webp 2560w",
+    "srcset": "/images/optimized/interiors/TV section-480w.webp 480w, /images/optimized/interiors/TV section-768w.webp 768w, /images/optimized/interiors/TV section-1200w.webp 1200w, /images/optimized/interiors/TV section-1600w.webp 1600w, /images/optimized/interiors/TV section-2048w.webp 2048w, /images/optimized/interiors/TV section-full.webp 2560w",
     "width": 8167,
     "height": 6117,
     "aspectRatio": 1.3351,
     "placeholder": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAAAwBQCdASoYABIAPyV8slIuJ6SisAgBwCSJYwAAXAZWGkNScX/7wet2kRvaVEgOGLZpAAD+w0bx/zh3iYGEhn5JrnxxSjngTA17Ib1diN+LMXtRDRcC02k1L3JUqe5zqlQ0Ka6WK2RDXP+MKDBY/W8QoBvb3+I+bDHkdXuv2hcf0OWolwVr7xLKSzbxPZuQAAAAAA=="
+  },
+  "/images/interiors/TV unit.jpg": {
+    "originalPath": "/images/interiors/TV unit.jpg",
+    "fallbackWebp": "/images/optimized/interiors/TV unit-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/TV unit-full.webp",
+      "480w": "/images/optimized/interiors/TV unit-480w.webp",
+      "768w": "/images/optimized/interiors/TV unit-768w.webp",
+      "1200w": "/images/optimized/interiors/TV unit-1200w.webp",
+      "1600w": "/images/optimized/interiors/TV unit-1600w.webp",
+      "2048w": "/images/optimized/interiors/TV unit-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/TV unit-480w.webp 480w, /images/optimized/interiors/TV unit-768w.webp 768w, /images/optimized/interiors/TV unit-1200w.webp 1200w, /images/optimized/interiors/TV unit-1600w.webp 1600w, /images/optimized/interiors/TV unit-2048w.webp 2048w, /images/optimized/interiors/TV unit-full.webp 2560w",
+    "width": 4032,
+    "height": 2268,
+    "aspectRatio": 1.7778,
+    "placeholder": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADwAwCdASoYAA4APyV6tFGuJ6UisAgBwCSJZQAAUQPrGxt+T/yjwrdoAPEOvJWXSosUeDMyuwpC070BXJfvqWnphZ+lCE/4qsmOnaxiLQTCTRlRZjfwmGv/C0WPGlqOd3+6vtLgcxHGed2LsAA="
+  },
+  "/images/interiors/wall finishes (1).jpg": {
+    "originalPath": "/images/interiors/wall finishes (1).jpg",
+    "fallbackWebp": "/images/optimized/interiors/wall finishes (1)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/wall finishes (1)-full.webp",
+      "480w": "/images/optimized/interiors/wall finishes (1)-480w.webp",
+      "768w": "/images/optimized/interiors/wall finishes (1)-768w.webp",
+      "1200w": "/images/optimized/interiors/wall finishes (1)-1200w.webp",
+      "1600w": "/images/optimized/interiors/wall finishes (1)-1600w.webp",
+      "2048w": "/images/optimized/interiors/wall finishes (1)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/wall finishes (1)-480w.webp 480w, /images/optimized/interiors/wall finishes (1)-768w.webp 768w, /images/optimized/interiors/wall finishes (1)-1200w.webp 1200w, /images/optimized/interiors/wall finishes (1)-1600w.webp 1600w, /images/optimized/interiors/wall finishes (1)-2048w.webp 2048w, /images/optimized/interiors/wall finishes (1)-full.webp 1440w",
+    "width": 2268,
+    "height": 4032,
+    "aspectRatio": 0.5625,
+    "placeholder": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACQAwCdASoNABgAPyV8tVGuJ6UisAgBwCSJYwAAN351BDK5StIAAPybYUrWi8rpoeZXi7kK0wCaDyzOYBKeaX1+k/I5kfY7iDGMLfpzl4AAAA=="
+  },
+  "/images/interiors/wall finishes (2).jpg": {
+    "originalPath": "/images/interiors/wall finishes (2).jpg",
+    "fallbackWebp": "/images/optimized/interiors/wall finishes (2)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/wall finishes (2)-full.webp",
+      "480w": "/images/optimized/interiors/wall finishes (2)-480w.webp",
+      "768w": "/images/optimized/interiors/wall finishes (2)-768w.webp",
+      "1200w": "/images/optimized/interiors/wall finishes (2)-1200w.webp",
+      "1600w": "/images/optimized/interiors/wall finishes (2)-1600w.webp",
+      "2048w": "/images/optimized/interiors/wall finishes (2)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/wall finishes (2)-480w.webp 480w, /images/optimized/interiors/wall finishes (2)-768w.webp 768w, /images/optimized/interiors/wall finishes (2)-1200w.webp 1200w, /images/optimized/interiors/wall finishes (2)-1600w.webp 1600w, /images/optimized/interiors/wall finishes (2)-2048w.webp 2048w, /images/optimized/interiors/wall finishes (2)-full.webp 1440w",
+    "width": 2268,
+    "height": 4032,
+    "aspectRatio": 0.5625,
+    "placeholder": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAABwAwCdASoNABgALuWSyWSkri4uDgDkSygF8kFe9w6pryiAcOAA/nkd1D01QgSUZQ9vFvi5cVEiA/0AzQfu1gFG+I1FT4scAAA="
+  },
+  "/images/interiors/wall finishes (3).jpg": {
+    "originalPath": "/images/interiors/wall finishes (3).jpg",
+    "fallbackWebp": "/images/optimized/interiors/wall finishes (3)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/wall finishes (3)-full.webp",
+      "480w": "/images/optimized/interiors/wall finishes (3)-480w.webp",
+      "768w": "/images/optimized/interiors/wall finishes (3)-768w.webp",
+      "1200w": "/images/optimized/interiors/wall finishes (3)-1200w.webp",
+      "1600w": "/images/optimized/interiors/wall finishes (3)-1600w.webp",
+      "2048w": "/images/optimized/interiors/wall finishes (3)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/wall finishes (3)-480w.webp 480w, /images/optimized/interiors/wall finishes (3)-768w.webp 768w, /images/optimized/interiors/wall finishes (3)-1200w.webp 1200w, /images/optimized/interiors/wall finishes (3)-1600w.webp 1600w, /images/optimized/interiors/wall finishes (3)-2048w.webp 2048w, /images/optimized/interiors/wall finishes (3)-full.webp 1440w",
+    "width": 2268,
+    "height": 4032,
+    "aspectRatio": 0.5625,
+    "placeholder": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAABwAwCdASoNABgAPyV8tlIuJ6UisAgBwCSJYwDE2AMKs3vt4AAA52tCItxbUbojef4ENefPr8Mwp3oEzaosMTQp43FvK2iPo2TZTm7z3l7B4jdczbpGsKmdqsdvSUMzBHHxMynz/RRGKGIAAAA="
+  },
+  "/images/interiors/wall finishes (4).jpg": {
+    "originalPath": "/images/interiors/wall finishes (4).jpg",
+    "fallbackWebp": "/images/optimized/interiors/wall finishes (4)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/wall finishes (4)-full.webp",
+      "480w": "/images/optimized/interiors/wall finishes (4)-480w.webp",
+      "768w": "/images/optimized/interiors/wall finishes (4)-768w.webp",
+      "1200w": "/images/optimized/interiors/wall finishes (4)-1200w.webp",
+      "1600w": "/images/optimized/interiors/wall finishes (4)-1600w.webp",
+      "2048w": "/images/optimized/interiors/wall finishes (4)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/wall finishes (4)-480w.webp 480w, /images/optimized/interiors/wall finishes (4)-768w.webp 768w, /images/optimized/interiors/wall finishes (4)-1200w.webp 1200w, /images/optimized/interiors/wall finishes (4)-1600w.webp 1600w, /images/optimized/interiors/wall finishes (4)-2048w.webp 2048w, /images/optimized/interiors/wall finishes (4)-full.webp 1440w",
+    "width": 2268,
+    "height": 4032,
+    "aspectRatio": 0.5625,
+    "placeholder": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADQAwCdASoNABgAPyV+tVIuKCUisAgBwCSJZQAAWd5joQYcueDnMoAA/KZMTV0cE8ICCerYQTaqRzM5ATuR2WQBiWHPaUEZSkZZ99SnX8IzHxpdl03cAewStP6RYX4xOjUUDgAA"
+  },
+  "/images/interiors/wall finishes (5).jpg": {
+    "originalPath": "/images/interiors/wall finishes (5).jpg",
+    "fallbackWebp": "/images/optimized/interiors/wall finishes (5)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/wall finishes (5)-full.webp",
+      "480w": "/images/optimized/interiors/wall finishes (5)-480w.webp",
+      "768w": "/images/optimized/interiors/wall finishes (5)-768w.webp",
+      "1200w": "/images/optimized/interiors/wall finishes (5)-1200w.webp",
+      "1600w": "/images/optimized/interiors/wall finishes (5)-1600w.webp",
+      "2048w": "/images/optimized/interiors/wall finishes (5)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/wall finishes (5)-480w.webp 480w, /images/optimized/interiors/wall finishes (5)-768w.webp 768w, /images/optimized/interiors/wall finishes (5)-1200w.webp 1200w, /images/optimized/interiors/wall finishes (5)-1600w.webp 1600w, /images/optimized/interiors/wall finishes (5)-2048w.webp 2048w, /images/optimized/interiors/wall finishes (5)-full.webp 1440w",
+    "width": 2268,
+    "height": 4032,
+    "aspectRatio": 0.5625,
+    "placeholder": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAQBACdASoNABgAPyV+tVGuKCUisAgBwCSJZACsACHSzuQrLy7gREiSAAD+Y4JLtyRqrn3pHR5mYwpAiTGg1lOqs/TYeqJCH8CQHZVlFp6hwK8mWkKIPwjw2WvczOi15PBrrx5npvtFhQi63zJthvk/tDsiVMC3KzqnAAAA"
+  },
+  "/images/interiors/wall finishes.jpg": {
+    "originalPath": "/images/interiors/wall finishes.jpg",
+    "fallbackWebp": "/images/optimized/interiors/wall finishes-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/wall finishes-full.webp",
+      "480w": "/images/optimized/interiors/wall finishes-480w.webp",
+      "768w": "/images/optimized/interiors/wall finishes-768w.webp",
+      "1200w": "/images/optimized/interiors/wall finishes-1200w.webp",
+      "1600w": "/images/optimized/interiors/wall finishes-1600w.webp",
+      "2048w": "/images/optimized/interiors/wall finishes-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/wall finishes-480w.webp 480w, /images/optimized/interiors/wall finishes-768w.webp 768w, /images/optimized/interiors/wall finishes-1200w.webp 1200w, /images/optimized/interiors/wall finishes-1600w.webp 1600w, /images/optimized/interiors/wall finishes-2048w.webp 2048w, /images/optimized/interiors/wall finishes-full.webp 2125w",
+    "width": 5075,
+    "height": 6115,
+    "aspectRatio": 0.8299,
+    "placeholder": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAACwBACdASoUABgAPyWItlYuKKSjqAqpwCSJZQAALeK6u7sWap49PjOmSLvErQKAAP5SJrhivzjBzeHO4GUjFX0Si4/0HxctirplTFJlr5Gu0NNE0dXVUUExzT079zegf06eXx69WEu6owSo61AAAA=="
   },
   "/images/offices/commercial (1).jpeg": {
     "originalPath": "/images/offices/commercial (1).jpeg",
@@ -1256,5 +1729,56 @@
     "height": 12288,
     "aspectRatio": 1.3281,
     "placeholder": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACwAwCdASoYABIAPyWCtFQuKKSjKA1RwCSJaQAAL4u+xis0mlb5EAD8ZZnUuNhWleoJq0bOoy/ZqQwOh8HBE5mcQiMEmDw/EieQOUd0k1F5TVU9/rXMU/UWnQ6JnGvAAAA="
+  },
+  "/images/offices/IMG_20260218_155838.jpg": {
+    "originalPath": "/images/offices/IMG_20260218_155838.jpg",
+    "fallbackWebp": "/images/optimized/offices/IMG_20260218_155838-full.webp",
+    "sources": {
+      "full": "/images/optimized/offices/IMG_20260218_155838-full.webp",
+      "480w": "/images/optimized/offices/IMG_20260218_155838-480w.webp",
+      "768w": "/images/optimized/offices/IMG_20260218_155838-768w.webp",
+      "1200w": "/images/optimized/offices/IMG_20260218_155838-1200w.webp",
+      "1600w": "/images/optimized/offices/IMG_20260218_155838-1600w.webp",
+      "2048w": "/images/optimized/offices/IMG_20260218_155838-2048w.webp"
+    },
+    "srcset": "/images/optimized/offices/IMG_20260218_155838-480w.webp 480w, /images/optimized/offices/IMG_20260218_155838-768w.webp 768w, /images/optimized/offices/IMG_20260218_155838-1200w.webp 1200w, /images/optimized/offices/IMG_20260218_155838-1600w.webp 1600w, /images/optimized/offices/IMG_20260218_155838-2048w.webp 2048w, /images/optimized/offices/IMG_20260218_155838-full.webp 2560w",
+    "width": 4080,
+    "height": 2296,
+    "aspectRatio": 1.777,
+    "placeholder": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAQBACdASoYAA4APyV6tVIuJ6UisAgBwCSJbACdLwABCw4dP78OIKXTwAD+Wm2dHc78Igeb0BXqqStc9Bf0hVqLhslUnubyFOvyhazLJkAQiwWJbPvpbfhREdY2w5Ct5cW368WYjXcYtSGV6t3g00ZUpvAoZi25GyPW5uetGyAAAA=="
+  },
+  "/images/offices/IMG_20260218_161037.jpg": {
+    "originalPath": "/images/offices/IMG_20260218_161037.jpg",
+    "fallbackWebp": "/images/optimized/offices/IMG_20260218_161037-full.webp",
+    "sources": {
+      "full": "/images/optimized/offices/IMG_20260218_161037-full.webp",
+      "480w": "/images/optimized/offices/IMG_20260218_161037-480w.webp",
+      "768w": "/images/optimized/offices/IMG_20260218_161037-768w.webp",
+      "1200w": "/images/optimized/offices/IMG_20260218_161037-1200w.webp",
+      "1600w": "/images/optimized/offices/IMG_20260218_161037-1600w.webp",
+      "2048w": "/images/optimized/offices/IMG_20260218_161037-2048w.webp"
+    },
+    "srcset": "/images/optimized/offices/IMG_20260218_161037-480w.webp 480w, /images/optimized/offices/IMG_20260218_161037-768w.webp 768w, /images/optimized/offices/IMG_20260218_161037-1200w.webp 1200w, /images/optimized/offices/IMG_20260218_161037-1600w.webp 1600w, /images/optimized/offices/IMG_20260218_161037-2048w.webp 2048w, /images/optimized/offices/IMG_20260218_161037-full.webp 2560w",
+    "width": 4080,
+    "height": 2296,
+    "aspectRatio": 1.777,
+    "placeholder": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAADwAwCdASoYAA4APyV8tFGuJ6UisAgBwCSJZgCw7CK0el8ONzdJlB9AAPjGYnfvwJmQipkDRppLgRAkzuor+wpTA2pKHHodSadvyra6hKa3aHaBZYdbuOIrEi8rRuorC3KAdro2zosgM+q/180XsUOgsk/FDUUpdq3V26x+kX96Uw4Zr/S8gAAA"
+  },
+  "/images/offices/IMG_20260318_121652.jpg": {
+    "originalPath": "/images/offices/IMG_20260318_121652.jpg",
+    "fallbackWebp": "/images/optimized/offices/IMG_20260318_121652-full.webp",
+    "sources": {
+      "full": "/images/optimized/offices/IMG_20260318_121652-full.webp",
+      "480w": "/images/optimized/offices/IMG_20260318_121652-480w.webp",
+      "768w": "/images/optimized/offices/IMG_20260318_121652-768w.webp",
+      "1200w": "/images/optimized/offices/IMG_20260318_121652-1200w.webp",
+      "1600w": "/images/optimized/offices/IMG_20260318_121652-1600w.webp",
+      "2048w": "/images/optimized/offices/IMG_20260318_121652-2048w.webp"
+    },
+    "srcset": "/images/optimized/offices/IMG_20260318_121652-480w.webp 480w, /images/optimized/offices/IMG_20260318_121652-768w.webp 768w, /images/optimized/offices/IMG_20260318_121652-1200w.webp 1200w, /images/optimized/offices/IMG_20260318_121652-1600w.webp 1600w, /images/optimized/offices/IMG_20260318_121652-2048w.webp 2048w, /images/optimized/offices/IMG_20260318_121652-full.webp 2560w",
+    "width": 8192,
+    "height": 6144,
+    "aspectRatio": 1.3333,
+    "placeholder": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAAAQBQCdASoYABIAPyWCtVQuKKSjKA1RwCSJZQCo9A+zqzzY2eYFHMJl3BIp0KjGQ7mgAP3SRAnbAZBCfpVUoyiDmgfQ0iCuXO21C5oxp02njgithbman6jEm/Tox9hE1mOVTB330uq5KelSxDXoqTZnKPFHnzUepMmrgvco4f9vXslDyOxmJ7quABSZIAAA"
   }
 }

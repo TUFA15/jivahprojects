@@ -26,6 +26,11 @@ const parseRoomParam = (param: string | null): ResidentialSubFilter => {
   if (lower === 'bedroom') return 'Bedroom';
   if (lower === 'dining room') return 'Dining Room';
   if (lower === 'kitchen') return 'Kitchen';
+  if (lower === 'mandir') return 'Mandir';
+  if (lower === 'wall finishes' || lower === 'wall finish') return 'Wall Finishes';
+  if (lower === 'tv') return 'TV';
+  if (lower === 'study') return 'Study';
+  if (lower === 'cupboards' || lower === 'cupboard') return 'Cupboards';
   return 'ALL';
 };
 
@@ -97,6 +102,11 @@ export const WorkPage: React.FC = () => {
     'Bedroom',
     'Dining Room',
     'Kitchen',
+    'Mandir',
+    'Wall Finishes',
+    'TV',
+    'Study',
+    'Cupboards',
   ];
 
   // Helper counts
