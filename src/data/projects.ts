@@ -114,9 +114,9 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     category: 'Residential',
     roomType: 'Living Room',
     orientation: 'portrait',
-    title: 'Courtyard Villa Lounge',
-    caption: 'Multi-level villa lounge with exposed timber ceiling beams facing green garden courtyard.',
-    alt: 'JIVAH Projects residential living room lounge'
+    title: 'Living Credenza & Bar Console',
+    caption: 'Bespoke living display credenza with tinted mirror backsplash, backlit glassware storage, and fluted acoustic ceiling detailing.',
+    alt: 'JIVAH Projects residential living room credenza and bar console'
   },
   {
     id: 'res-living-10',
@@ -139,7 +139,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     alt: 'JIVAH Projects residential living room interior'
   },
 
-  // --- Bedroom (8) ---
+  // --- Bedroom (7) ---
   {
     id: 'res-bed-01',
     url: '/images/interiors/bedroom.jpg',
@@ -172,16 +172,6 @@ export const GALLERY_IMAGES: GalleryImage[] = [
   },
   {
     id: 'res-bed-04',
-    url: '/images/interiors/1.jpg',
-    category: 'Residential',
-    roomType: 'Bedroom',
-    orientation: 'portrait',
-    title: 'Guest Bedroom Sanctuary',
-    caption: 'Serene guest bedroom with organic linen bedding and soft neutral palette.',
-    alt: 'JIVAH Projects residential guest bedroom interior'
-  },
-  {
-    id: 'res-bed-05',
     url: '/images/interiors/IMG_20250313_133637.jpg',
     category: 'Residential',
     roomType: 'Bedroom',
@@ -191,7 +181,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     alt: 'JIVAH Projects residential suite bathroom interior'
   },
   {
-    id: 'res-bed-06',
+    id: 'res-bed-05',
     url: '/images/interiors/bedroom (6).jpg',
     category: 'Residential',
     roomType: 'Bedroom',
@@ -201,7 +191,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     alt: 'JIVAH Projects residential bedroom interior'
   },
   {
-    id: 'res-bed-07',
+    id: 'res-bed-06',
     url: '/images/interiors/bedroom (7).jpg',
     category: 'Residential',
     roomType: 'Bedroom',
@@ -211,7 +201,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     alt: 'JIVAH Projects residential bedroom interior'
   },
   {
-    id: 'res-bed-08',
+    id: 'res-bed-07',
     url: '/images/interiors/bedroom (8).jpg',
     category: 'Residential',
     roomType: 'Bedroom',
