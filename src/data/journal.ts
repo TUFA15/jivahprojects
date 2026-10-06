@@ -121,7 +121,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     date: 'September 12, 2026',
     readTime: '4 min read',
     excerpt: 'Exploring ergonomic work triangles, quartz countertops, ambient cove illumination, and durable cabinetry finishes for Indian cooking environments.',
-    coverImage: '/images/interiors/IMG_20250313_131005.jpg',
+    coverImage: '/images/interiors/kitchen.jpg',
     author: {
       name: 'JIVAH Studio',
       role: 'Kitchen Design Specialist'
@@ -138,6 +138,11 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
       {
         type: 'paragraph',
         text: 'High-density quartz and matte black granite offer stain resistance against spices while providing a smooth, hygienic surface for daily meal preparation.'
+      },
+      {
+        type: 'image',
+        imageUrl: '/images/interiors/kitchen (2).jpg',
+        caption: 'Ergonomic kitchen island with durable quartz worktop and seamless cabinetry in a Pune home.'
       },
       {
         type: 'heading',
@@ -157,7 +162,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     date: 'August 28, 2026',
     readTime: '5 min read',
     excerpt: 'A practical roadmap covering ergonomic heights, soft-close hardware, chimney ventilation, and moisture-resistant carcass materials.',
-    coverImage: '/images/offices/IMG_20260318_121652.jpg',
+    coverImage: '/images/interiors/kitchen (8).jpg',
     author: {
       name: 'JIVAH Studio',
       role: 'Modular Kitchen Team'
