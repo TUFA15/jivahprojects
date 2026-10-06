@@ -97,43 +97,8 @@ export const HomePage: React.FC = () => {
               </motion.div>
             </div>
 
-            {/* Right Hero Image Showcase */}
-            <div className="lg:col-span-5 relative w-full flex justify-center items-center min-h-[380px] sm:min-h-[460px]">
-              <div className="relative w-full max-w-[400px]">
-                {/* Large Main Frame */}
-                <div className="aspect-[4/5] w-[88%] ml-auto rounded-3xl overflow-hidden border-2 border-[#2F7B93]/40 shadow-2xl relative group">
-                  <OptimizedImage
-                    src="/images/interiors/living (7).jpg"
-                    alt="Contemporary residential interior designed by JIVAH Projects in Pune"
-                    priority={true}
-                    sizes="(max-width: 640px) 100vw, 400px"
-                    containerClassName="w-full h-full"
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#16465A]/90 via-transparent pointer-events-none" />
-                  <div className="absolute bottom-6 left-6 right-6 text-white space-y-1 z-10">
-                    <span className="text-[9px] font-mono uppercase tracking-wider text-[#8FD3DC]">
-                      RESIDENTIAL SANCTUARY
-                    </span>
-                    <h4 className="font-serif text-lg uppercase text-white">Pune Residence</h4>
-                  </div>
-                </div>
-
-                {/* Offset Small Overlapping Frame */}
-                <div className="absolute bottom-[-5%] left-0 w-[55%] aspect-square rounded-3xl overflow-hidden border-2 border-[#8FD3DC]/50 shadow-2xl group/sub relative z-20 bg-[#16465A]">
-                  <OptimizedImage
-                    src="/images/interiors/living (5).jpg"
-                    alt="Tactile residential living interior detail by JIVAH Projects Pune"
-                    sizes="250px"
-                    className="w-full h-full object-cover group-hover/sub:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#16465A]/90 via-transparent pointer-events-none" />
-                  <div className="absolute bottom-4 left-4 right-4 text-white z-10">
-                    <h4 className="font-serif text-sm uppercase text-[#8FD3DC]">Tactile Detail</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
+            {/* Right Hero Space (Intentionally left empty) */}
+            <div className="hidden lg:block lg:col-span-5" />
           </div>
         </div>
       </section>
