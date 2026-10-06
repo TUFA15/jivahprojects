@@ -27,7 +27,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
   // 1. RESIDENTIAL — Sourced directly from interior folder
   // =========================================================================
 
-  // --- Living Room (11) ---
+  // --- Living Room (12) ---
   {
     id: 'res-living-01',
     url: '/images/interiors/living (5).jpg',
@@ -138,8 +138,18 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     caption: 'Vertical architectural living room space welcoming soft daylight.',
     alt: 'JIVAH Projects residential living room interior'
   },
+  {
+    id: 'res-living-12',
+    url: '/images/interiors/HERO.jpg',
+    category: 'Residential',
+    roomType: 'Living Room',
+    orientation: 'landscape',
+    title: 'Architectural Foyer & Open Living',
+    caption: 'Sophisticated open-plan living entrance featuring chevron timber cabinetry, custom display shelving, and linear vertical illumination.',
+    alt: 'JIVAH Projects residential foyer and open living interior'
+  },
 
-  // --- Bedroom (7) ---
+  // --- Bedroom (6) ---
   {
     id: 'res-bed-01',
     url: '/images/interiors/bedroom.jpg',
@@ -172,16 +182,6 @@ export const GALLERY_IMAGES: GalleryImage[] = [
   },
   {
     id: 'res-bed-04',
-    url: '/images/interiors/IMG_20250313_133637.jpg',
-    category: 'Residential',
-    roomType: 'Bedroom',
-    orientation: 'landscape',
-    title: 'Suite Bathroom & Dresser',
-    caption: 'Minimalist suite bathroom with micro-cement walls and matte black fixtures.',
-    alt: 'JIVAH Projects residential suite bathroom interior'
-  },
-  {
-    id: 'res-bed-05',
     url: '/images/interiors/bedroom (6).jpg',
     category: 'Residential',
     roomType: 'Bedroom',
@@ -191,7 +191,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     alt: 'JIVAH Projects residential bedroom interior'
   },
   {
-    id: 'res-bed-06',
+    id: 'res-bed-05',
     url: '/images/interiors/bedroom (7).jpg',
     category: 'Residential',
     roomType: 'Bedroom',
@@ -201,7 +201,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     alt: 'JIVAH Projects residential bedroom interior'
   },
   {
-    id: 'res-bed-07',
+    id: 'res-bed-06',
     url: '/images/interiors/bedroom (8).jpg',
     category: 'Residential',
     roomType: 'Bedroom',
