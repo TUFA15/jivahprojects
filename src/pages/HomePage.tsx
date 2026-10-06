@@ -230,7 +230,7 @@ export const HomePage: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12">
             {/* 1. Living Lounge */}
             <div className="md:col-span-8">
-              <Link to="/work" className="group block overflow-hidden focus:outline-none">
+              <Link to={CURATED_HOME_IMAGES[0].link} className="group block overflow-hidden focus:outline-none">
                 <div className="relative overflow-hidden bg-[#EEF5F6] rounded-3xl border border-[#2F7B93]/20 shadow-sm group-hover:shadow-xl transition-all duration-500">
                   <div className="w-full aspect-[4/3] overflow-hidden">
                     <OptimizedImage
@@ -265,11 +265,11 @@ export const HomePage: React.FC = () => {
               </Link>
             </div>
 
-            {/* 2. Modular Kitchen Island (Portrait) */}
+            {/* 2. Master Bedroom Suite */}
             <div className="md:col-span-4 md:mt-12">
-              <Link to="/work" className="group block overflow-hidden focus:outline-none">
+              <Link to={CURATED_HOME_IMAGES[1].link} className="group block overflow-hidden focus:outline-none">
                 <div className="relative overflow-hidden bg-[#EEF5F6] rounded-3xl border border-[#2F7B93]/20 shadow-sm group-hover:shadow-xl transition-all duration-500">
-                  <div className="w-full aspect-[3/4] overflow-hidden">
+                  <div className="w-full aspect-[4/3] overflow-hidden">
                     <OptimizedImage
                       src={CURATED_HOME_IMAGES[1].url}
                       alt={CURATED_HOME_IMAGES[1].alt}
@@ -302,9 +302,9 @@ export const HomePage: React.FC = () => {
               </Link>
             </div>
 
-            {/* 3. Master Bedroom Suite */}
+            {/* 3. Commercial Executive */}
             <div className="md:col-span-5">
-              <Link to="/work" className="group block overflow-hidden focus:outline-none">
+              <Link to={CURATED_HOME_IMAGES[2].link} className="group block overflow-hidden focus:outline-none">
                 <div className="relative overflow-hidden bg-[#EEF5F6] rounded-3xl border border-[#2F7B93]/20 shadow-sm group-hover:shadow-xl transition-all duration-500">
                   <div className="w-full aspect-[4/3] overflow-hidden">
                     <OptimizedImage
@@ -317,7 +317,7 @@ export const HomePage: React.FC = () => {
                   </div>
                   <div className="absolute top-4 left-4 z-10">
                     <span className="text-[9px] tracking-[0.25em] font-mono font-medium uppercase px-3 py-1 bg-[#16465A]/85 text-[#8FD3DC] backdrop-blur-md border border-[#2F7B93]/30 rounded-full">
-                      {CURATED_HOME_IMAGES[2].roomType || CURATED_HOME_IMAGES[2].category}
+                      {CURATED_HOME_IMAGES[2].category}
                     </span>
                   </div>
                   <div className="absolute inset-0 bg-gradient-to-t from-[#16465A]/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
@@ -333,15 +333,15 @@ export const HomePage: React.FC = () => {
                     <span className="text-xs font-mono text-[#2F7B93] font-medium">VIEW</span>
                   </div>
                   <p className="text-xs text-[#61747C] font-light tracking-wider uppercase">
-                    {CURATED_HOME_IMAGES[2].category} · {CURATED_HOME_IMAGES[2].roomType}
+                    {CURATED_HOME_IMAGES[2].category}
                   </p>
                 </div>
               </Link>
             </div>
 
-            {/* 4. Grand Banquet Hall */}
+            {/* 4. Hospitality Showcase */}
             <div className="md:col-span-7">
-              <Link to="/work" className="group block overflow-hidden focus:outline-none">
+              <Link to={CURATED_HOME_IMAGES[3].link} className="group block overflow-hidden focus:outline-none">
                 <div className="relative overflow-hidden bg-[#EEF5F6] rounded-3xl border border-[#2F7B93]/20 shadow-sm group-hover:shadow-xl transition-all duration-500">
                   <div className="w-full aspect-[4/3] overflow-hidden">
                     <OptimizedImage

@@ -536,10 +536,30 @@ export const GALLERY_IMAGES: GalleryImage[] = [
   }
 ];
 
+export interface CuratedShowcaseItem extends GalleryImage {
+  link: string;
+}
+
 // Curated 4-image selection for Home Page Portfolio Showcase
-export const CURATED_HOME_IMAGES: GalleryImage[] = [
-  GALLERY_IMAGES[0],  // Living Lounge (Landscape)
-  GALLERY_IMAGES[2],  // Living Island & Joinery (Portrait)
-  GALLERY_IMAGES[13], // Master Bedroom Suite (Landscape)
-  GALLERY_IMAGES[27], // Grand Banquet Hall (Landscape)
+export const CURATED_HOME_IMAGES: CuratedShowcaseItem[] = [
+  {
+    ...GALLERY_IMAGES.find((img) => img.id === 'res-living-01')!,
+    title: 'Living Lounge',
+    link: '/work?category=Residential&room=Living%20Room',
+  },
+  {
+    ...GALLERY_IMAGES.find((img) => img.id === 'res-bed-01')!,
+    title: 'Master Bedroom Suite',
+    link: '/work?category=Residential&room=Bedroom',
+  },
+  {
+    ...GALLERY_IMAGES.find((img) => img.id === 'comm-01')!,
+    title: 'Commercial Executive',
+    link: '/work?category=Commercial',
+  },
+  {
+    ...GALLERY_IMAGES.find((img) => img.id === 'banquet-01')!,
+    title: 'Hospitality Showcase',
+    link: '/work?category=Hospitality',
+  },
 ];

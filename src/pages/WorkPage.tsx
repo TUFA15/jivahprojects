@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { GALLERY_IMAGES, GalleryImage, MainCategory, RoomType } from '../data/projects';
 import { OptimizedImage } from '../components/OptimizedImage';
@@ -9,15 +10,65 @@ import { LOCAL_BUSINESS_SCHEMA, SERVICES_SCHEMA } from '../data/schemas';
 type PrimaryFilter = 'ALL' | MainCategory;
 type ResidentialSubFilter = 'ALL' | RoomType;
 
+const parseCategoryParam = (param: string | null): PrimaryFilter => {
+  if (!param) return 'ALL';
+  const lower = param.toLowerCase();
+  if (lower === 'residential') return 'Residential';
+  if (lower === 'commercial') return 'Commercial';
+  if (lower === 'hospitality') return 'Hospitality';
+  return 'ALL';
+};
+
+const parseRoomParam = (param: string | null): ResidentialSubFilter => {
+  if (!param) return 'ALL';
+  const lower = param.toLowerCase().replace(/[-_]/g, ' ').trim();
+  if (lower === 'living room') return 'Living Room';
+  if (lower === 'bedroom') return 'Bedroom';
+  if (lower === 'dining room') return 'Dining Room';
+  if (lower === 'kitchen') return 'Kitchen';
+  return 'ALL';
+};
+
 export const WorkPage: React.FC = () => {
-  const [activeCategory, setActiveCategory] = useState<PrimaryFilter>('ALL');
-  const [activeRoom, setActiveRoom] = useState<ResidentialSubFilter>('ALL');
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  const [activeCategory, setActiveCategory] = useState<PrimaryFilter>(() =>
+    parseCategoryParam(searchParams.get('category'))
+  );
+  const [activeRoom, setActiveRoom] = useState<ResidentialSubFilter>(() => {
+    const cat = parseCategoryParam(searchParams.get('category'));
+    return cat === 'Residential' ? parseRoomParam(searchParams.get('room')) : 'ALL';
+  });
+
   const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
 
-  // Switch primary category & reset room sub-filter
+  // Sync state if URL search parameters change
+  useEffect(() => {
+    const cat = parseCategoryParam(searchParams.get('category'));
+    const room = parseRoomParam(searchParams.get('room'));
+    setActiveCategory(cat);
+    setActiveRoom(cat === 'Residential' ? room : 'ALL');
+  }, [searchParams]);
+
+  // Switch primary category & update URL
   const handleCategorySelect = (category: PrimaryFilter) => {
     setActiveCategory(category);
     setActiveRoom('ALL');
+    if (category === 'ALL') {
+      setSearchParams({}, { replace: true });
+    } else {
+      setSearchParams({ category }, { replace: true });
+    }
+  };
+
+  // Switch room sub-filter & update URL
+  const handleRoomSelect = (room: ResidentialSubFilter) => {
+    setActiveRoom(room);
+    if (room === 'ALL') {
+      setSearchParams({ category: 'Residential' }, { replace: true });
+    } else {
+      setSearchParams({ category: 'Residential', room }, { replace: true });
+    }
   };
 
   // Filtered gallery images
@@ -171,7 +222,7 @@ export const WorkPage: React.FC = () => {
                         return (
                           <button
                             key={room}
-                            onClick={() => setActiveRoom(room)}
+                            onClick={() => handleRoomSelect(room)}
                             className={`text-[11px] tracking-[0.18em] font-medium uppercase px-4 py-2 transition-all duration-200 focus:outline-none rounded-lg flex items-center gap-2 cursor-pointer ${
                               isRoomActive
                                 ? 'bg-[#2F7B93] text-white shadow-xs'
