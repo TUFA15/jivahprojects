@@ -103,7 +103,7 @@ export const HomePage: React.FC = () => {
                 {/* Large Main Frame */}
                 <div className="aspect-[4/5] w-[88%] ml-auto rounded-3xl overflow-hidden border-2 border-[#2F7B93]/40 shadow-2xl relative group">
                   <OptimizedImage
-                    src="/images/interiors/living (1).jpg"
+                    src="/images/interiors/living (7).jpg"
                     alt="Contemporary residential interior designed by JIVAH Projects in Pune"
                     priority={true}
                     sizes="(max-width: 640px) 100vw, 400px"
@@ -122,8 +122,8 @@ export const HomePage: React.FC = () => {
                 {/* Offset Small Overlapping Frame */}
                 <div className="absolute bottom-[-5%] left-0 w-[55%] aspect-square rounded-3xl overflow-hidden border-2 border-[#8FD3DC]/50 shadow-2xl group/sub relative z-20 bg-[#16465A]">
                   <OptimizedImage
-                    src="/images/interiors/living (2).jpg"
-                    alt="Tactile stone kitchen island interior detail by JIVAH Projects Pune"
+                    src="/images/interiors/living (5).jpg"
+                    alt="Tactile residential living interior detail by JIVAH Projects Pune"
                     sizes="250px"
                     className="w-full h-full object-cover group-hover/sub:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.25,1,0.5,1)]"
                   />

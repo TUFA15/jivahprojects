@@ -6,9 +6,7 @@ export type RoomType =
   | 'Kitchen'
   | 'Mandir'
   | 'Wall Finishes'
-  | 'TV'
-  | 'Study'
-  | 'Cupboards';
+  | 'Entrance';
 export type ImageOrientation = 'landscape' | 'portrait' | 'panoramic';
 
 export interface GalleryImage {
@@ -27,7 +25,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
   // 1. RESIDENTIAL — Sourced directly from interior folder
   // =========================================================================
 
-  // --- Living Room (12) ---
+  // --- Living Room (15) ---
   {
     id: 'res-living-01',
     url: '/images/interiors/living (5).jpg',
@@ -148,8 +146,38 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     caption: 'Sophisticated open-plan living entrance featuring chevron timber cabinetry, custom display shelving, and linear vertical illumination.',
     alt: 'JIVAH Projects residential foyer and open living interior'
   },
+  {
+    id: 'res-living-13',
+    url: '/images/interiors/TV cupboard.jpg',
+    category: 'Residential',
+    roomType: 'Living Room',
+    orientation: 'portrait',
+    title: 'TV Cupboard & Credenza',
+    caption: 'Custom architectural media cupboard with vertical timber acoustic slats.',
+    alt: 'JIVAH Projects residential living room TV unit'
+  },
+  {
+    id: 'res-living-14',
+    url: '/images/interiors/TV section.jpg',
+    category: 'Residential',
+    roomType: 'Living Room',
+    orientation: 'landscape',
+    title: 'TV Section & Lounge Joinery',
+    caption: 'Living room TV section and adjacent lounge joinery with architectural illumination.',
+    alt: 'JIVAH Projects residential living room TV section'
+  },
+  {
+    id: 'res-living-15',
+    url: '/images/interiors/TV unit.jpg',
+    category: 'Residential',
+    roomType: 'Living Room',
+    orientation: 'landscape',
+    title: 'Contemporary TV Entertainment Unit',
+    caption: 'Wide-format floating entertainment console with integrated cable management and concealed drawers.',
+    alt: 'JIVAH Projects residential living room entertainment console'
+  },
 
-  // --- Bedroom (8) ---
+  // --- Bedroom (15) ---
   {
     id: 'res-bed-01',
     url: '/images/interiors/bedroom.jpg',
@@ -229,6 +257,76 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     title: 'Contemporary Bedroom & Wardrobe Suite',
     caption: 'Spacious bedroom suite combining high-gloss wardrobe cabinetry, wood accents, and floor-to-ceiling drapery.',
     alt: 'JIVAH Projects residential bedroom and wardrobe suite'
+  },
+  {
+    id: 'res-bed-09',
+    url: '/images/interiors/bedroom (4).jpg',
+    category: 'Residential',
+    roomType: 'Bedroom',
+    orientation: 'landscape',
+    title: 'Dressing Room Glass Wardrobe',
+    caption: 'Dressing room featuring tinted glass wardrobe doors and warm interior lighting.',
+    alt: 'JIVAH Projects residential bedroom wardrobe interior'
+  },
+  {
+    id: 'res-bed-10',
+    url: '/images/interiors/cupboard.jpg',
+    category: 'Residential',
+    roomType: 'Bedroom',
+    orientation: 'portrait',
+    title: 'Bespoke Built-In Wardrobe Unit',
+    caption: 'Full-height custom storage cupboards designed with seamless panels and minimal shadow gaps.',
+    alt: 'JIVAH Projects residential bedroom cupboard interior'
+  },
+  {
+    id: 'res-bed-11',
+    url: '/images/interiors/cupboard (2).jpg',
+    category: 'Residential',
+    roomType: 'Bedroom',
+    orientation: 'portrait',
+    title: 'Minimalist Storage Cupboard',
+    caption: 'Floor-to-ceiling bedroom storage joinery with satin tactile finish.',
+    alt: 'JIVAH Projects residential bedroom storage joinery'
+  },
+  {
+    id: 'res-bed-12',
+    url: '/images/interiors/cupboards.jpg',
+    category: 'Residential',
+    roomType: 'Bedroom',
+    orientation: 'portrait',
+    title: 'Architectural Master Wardrobe',
+    caption: 'Tailored master bedroom cupboards with recessed finger-pull channels.',
+    alt: 'JIVAH Projects residential master wardrobe interior'
+  },
+  {
+    id: 'res-bed-13',
+    url: '/images/interiors/cupboards (2).jpg',
+    category: 'Residential',
+    roomType: 'Bedroom',
+    orientation: 'portrait',
+    title: 'Custom Fluted Bedroom Cupboard',
+    caption: 'Modern bedroom cupboards accented with subtle vertical texture and concealed hinges.',
+    alt: 'JIVAH Projects residential bedroom cupboard detail'
+  },
+  {
+    id: 'res-bed-14',
+    url: '/images/interiors/Study desks.jpg',
+    category: 'Residential',
+    roomType: 'Bedroom',
+    orientation: 'landscape',
+    title: 'Bespoke Study Desk & Storage',
+    caption: 'Integrated bedroom study workspace with floating timber desk, task illumination, and storage drawers.',
+    alt: 'JIVAH Projects residential bedroom study desk'
+  },
+  {
+    id: 'res-bed-15',
+    url: '/images/interiors/Study desks (2).jpg',
+    category: 'Residential',
+    roomType: 'Bedroom',
+    orientation: 'portrait',
+    title: 'Integrated Study Corner & Shelving',
+    caption: 'Quiet bedroom study nook with vertical open bookshelf joinery and task lighting.',
+    alt: 'JIVAH Projects residential bedroom study nook'
   },
 
   // --- Dining Room (1) ---
@@ -335,7 +433,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     alt: 'JIVAH Projects residential modular kitchen interior'
   },
 
-  // --- Mandir (3) ---
+  // --- Mandir (5) ---
   {
     id: 'res-mandir-01',
     url: '/images/interiors/mandir.jpg',
@@ -366,8 +464,28 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     caption: 'Dedicated pooja room joinery with carved architectural motifs and sacred niche lighting.',
     alt: 'JIVAH Projects residential mandir interior'
   },
+  {
+    id: 'res-mandir-04',
+    url: '/images/interiors/mandir (3).jpg',
+    category: 'Residential',
+    roomType: 'Mandir',
+    orientation: 'portrait',
+    title: 'Sacred Marble Mandir Shrine',
+    caption: 'Architectural home mandir shrine featuring intricate marble carving and warm accent illumination.',
+    alt: 'JIVAH Projects residential mandir interior'
+  },
+  {
+    id: 'res-mandir-05',
+    url: '/images/interiors/mandir (4).jpg',
+    category: 'Residential',
+    roomType: 'Mandir',
+    orientation: 'portrait',
+    title: 'Illuminated Pooja Niche & Cabinetry',
+    caption: 'Serene prayer niche designed with warm backlit lattice panels and concealed storage.',
+    alt: 'JIVAH Projects residential mandir interior'
+  },
 
-  // --- Wall Finishes (6) ---
+  // --- Wall Finishes (7) ---
   {
     id: 'res-wall-01',
     url: '/images/interiors/wall finishes.jpg',
@@ -428,111 +546,47 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     caption: 'Custom arched fluted wall partition with marble feature inlay and illuminated glass display shelves.',
     alt: 'JIVAH Projects residential wall finish'
   },
-
-  // --- TV (3) ---
   {
-    id: 'res-tv-01',
-    url: '/images/interiors/TV cupboard.jpg',
+    id: 'res-wall-07',
+    url: '/images/interiors/wall finishes (6).jpg',
     category: 'Residential',
-    roomType: 'TV',
+    roomType: 'Wall Finishes',
     orientation: 'portrait',
-    title: 'TV Cupboard & Credenza',
-    caption: 'Custom architectural media cupboard with vertical timber acoustic slats.',
-    alt: 'JIVAH Projects residential TV unit'
-  },
-  {
-    id: 'res-tv-02',
-    url: '/images/interiors/TV section.jpg',
-    category: 'Residential',
-    roomType: 'TV',
-    orientation: 'landscape',
-    title: 'TV Section & Staircase Lobby',
-    caption: 'Living room TV section and adjacent staircase lobby with architectural wall sconces.',
-    alt: 'JIVAH Projects residential TV unit'
-  },
-  {
-    id: 'res-tv-03',
-    url: '/images/interiors/TV unit.jpg',
-    category: 'Residential',
-    roomType: 'TV',
-    orientation: 'landscape',
-    title: 'Contemporary TV Entertainment Unit',
-    caption: 'Wide-format floating entertainment console with integrated cable management and concealed drawers.',
-    alt: 'JIVAH Projects residential TV unit'
+    title: 'Vertical Fluted Feature Wall Detail',
+    caption: 'Textured architectural wall paneling with soft grazing ambient light.',
+    alt: 'JIVAH Projects residential wall finish'
   },
 
-  // --- Study (2) ---
+  // --- Entrance (3) ---
   {
-    id: 'res-study-01',
-    url: '/images/interiors/Study desks.jpg',
+    id: 'res-entrance-01',
+    url: '/images/interiors/entrance.jpg',
     category: 'Residential',
-    roomType: 'Study',
-    orientation: 'landscape',
-    title: 'Bespoke Study Desk & Storage',
-    caption: 'Dedicated study space with floating timber desk, task illumination, and integrated file drawers.',
-    alt: 'JIVAH Projects residential study area'
-  },
-  {
-    id: 'res-study-02',
-    url: '/images/interiors/Study desks (2).jpg',
-    category: 'Residential',
-    roomType: 'Study',
+    roomType: 'Entrance',
     orientation: 'portrait',
-    title: 'Integrated Study Corner & Shelving',
-    caption: 'Quiet home work nook with vertical open bookshelf joinery and task lighting.',
-    alt: 'JIVAH Projects residential study area'
-  },
-
-  // --- Cupboards (5) ---
-  {
-    id: 'res-cupboard-01',
-    url: '/images/interiors/bedroom (4).jpg',
-    category: 'Residential',
-    roomType: 'Cupboards',
-    orientation: 'landscape',
-    title: 'Dressing Room Glass Wardrobe',
-    caption: 'Dressing room featuring tinted glass wardrobe doors and warm interior lighting.',
-    alt: 'JIVAH Projects residential cupboard interior'
+    title: 'Bespoke Foyer Entryway',
+    caption: 'Welcoming residential entrance foyer featuring architectural timber accents and ambient lighting.',
+    alt: 'JIVAH Projects residential entrance interior'
   },
   {
-    id: 'res-cupboard-02',
-    url: '/images/interiors/cupboard.jpg',
+    id: 'res-entrance-02',
+    url: '/images/interiors/entrance (2).jpg',
     category: 'Residential',
-    roomType: 'Cupboards',
+    roomType: 'Entrance',
     orientation: 'portrait',
-    title: 'Bespoke Built-In Wardrobe Unit',
-    caption: 'Full-height custom storage cupboards designed with seamless panels and minimal shadow gaps.',
-    alt: 'JIVAH Projects residential cupboard interior'
+    title: 'Architectural Entrance Gallery',
+    caption: 'Refined entrance corridor with textured wall treatment and directional illumination.',
+    alt: 'JIVAH Projects residential entrance interior'
   },
   {
-    id: 'res-cupboard-03',
-    url: '/images/interiors/cupboard (2).jpg',
+    id: 'res-entrance-03',
+    url: '/images/interiors/entrance (3).jpg',
     category: 'Residential',
-    roomType: 'Cupboards',
+    roomType: 'Entrance',
     orientation: 'portrait',
-    title: 'Minimalist Storage Cupboard',
-    caption: 'Floor-to-ceiling bedroom storage joinery with satin tactile finish.',
-    alt: 'JIVAH Projects residential cupboard interior'
-  },
-  {
-    id: 'res-cupboard-04',
-    url: '/images/interiors/cupboards.jpg',
-    category: 'Residential',
-    roomType: 'Cupboards',
-    orientation: 'portrait',
-    title: 'Architectural Master Wardrobe',
-    caption: 'Tailored master bedroom cupboards with recessed finger-pull channels.',
-    alt: 'JIVAH Projects residential cupboard interior'
-  },
-  {
-    id: 'res-cupboard-05',
-    url: '/images/interiors/cupboards (2).jpg',
-    category: 'Residential',
-    roomType: 'Cupboards',
-    orientation: 'portrait',
-    title: 'Custom Fluted Bedroom Cupboard',
-    caption: 'Modern bedroom cupboards accented with subtle vertical texture and concealed hinges.',
-    alt: 'JIVAH Projects residential cupboard interior'
+    title: 'Contemporary Main Entrance Design',
+    caption: 'Minimalist foyer entrance with bespoke console joinery and warm ceiling cove light.',
+    alt: 'JIVAH Projects residential entrance interior'
   },
 
   // =========================================================================
@@ -802,6 +856,33 @@ export const GALLERY_IMAGES: GalleryImage[] = [
     title: 'Stage & Lighting Columns',
     caption: 'Central event stage framed by custom warm lighting columns.',
     alt: 'JIVAH Projects hospitality event stage interior'
+  },
+  {
+    id: 'banquet-07',
+    url: '/images/banqueat/new.jpeg',
+    category: 'Hospitality',
+    orientation: 'landscape',
+    title: 'Grand Banquet Reception Space',
+    caption: 'Expansive banquet venue interior featuring custom ceiling chandeliers and ambient lighting.',
+    alt: 'JIVAH Projects hospitality interior'
+  },
+  {
+    id: 'banquet-08',
+    url: '/images/banqueat/new (1).jpeg',
+    category: 'Hospitality',
+    orientation: 'landscape',
+    title: 'Celebration Dining Hall',
+    caption: 'Luxury event dining hall illuminated by statement pendant luminaires.',
+    alt: 'JIVAH Projects hospitality interior'
+  },
+  {
+    id: 'banquet-09',
+    url: '/images/banqueat/new (2).jpeg',
+    category: 'Hospitality',
+    orientation: 'landscape',
+    title: 'Hospitality Event Pavilion',
+    caption: 'Versatile hospitality and banquet hall designed with refined acoustics and lighting.',
+    alt: 'JIVAH Projects hospitality interior'
   }
 ];
 

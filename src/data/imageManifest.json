@@ -1780,5 +1780,158 @@
     "height": 6144,
     "aspectRatio": 1.3333,
     "placeholder": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAAAQBQCdASoYABIAPyWCtVQuKKSjKA1RwCSJZQCo9A+zqzzY2eYFHMJl3BIp0KjGQ7mgAP3SRAnbAZBCfpVUoyiDmgfQ0iCuXO21C5oxp02njgithbman6jEm/Tox9hE1mOVTB330uq5KelSxDXoqTZnKPFHnzUepMmrgvco4f9vXslDyOxmJ7quABSZIAAA"
+  },
+  "/images/banqueat/new.jpeg": {
+    "originalPath": "/images/banqueat/new.jpeg",
+    "fallbackWebp": "/images/optimized/banqueat/new-full.webp",
+    "sources": {
+      "full": "/images/optimized/banqueat/new-full.webp",
+      "480w": "/images/optimized/banqueat/new-480w.webp",
+      "768w": "/images/optimized/banqueat/new-768w.webp",
+      "1200w": "/images/optimized/banqueat/new-1200w.webp",
+      "1600w": "/images/optimized/banqueat/new-1600w.webp",
+      "2048w": "/images/optimized/banqueat/new-2048w.webp"
+    },
+    "srcset": "/images/optimized/banqueat/new-480w.webp 480w, /images/optimized/banqueat/new-768w.webp 768w, /images/optimized/banqueat/new-1200w.webp 1200w, /images/optimized/banqueat/new-1600w.webp 1600w, /images/optimized/banqueat/new-2048w.webp 2048w, /images/optimized/banqueat/new-full.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "aspectRatio": 1.3333,
+    "placeholder": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAACwBACdASoYABIAPyWGuFWuKKUjKAqpwCSJQBibO4APRCZhhf3hbA2E7hJbu0gAAP7ouaEvoiIo8flcLZgfXcls+y6VUkG5GcIMv2hyGxdUjXX43VDvv835bIFqaWeut9K08kDW3HCE+MAMoP8s7/30hhw4hFMqfhRtQAAA"
+  },
+  "/images/banqueat/new (1).jpeg": {
+    "originalPath": "/images/banqueat/new (1).jpeg",
+    "fallbackWebp": "/images/optimized/banqueat/new (1)-full.webp",
+    "sources": {
+      "full": "/images/optimized/banqueat/new (1)-full.webp",
+      "480w": "/images/optimized/banqueat/new (1)-480w.webp",
+      "768w": "/images/optimized/banqueat/new (1)-768w.webp",
+      "1200w": "/images/optimized/banqueat/new (1)-1200w.webp",
+      "1600w": "/images/optimized/banqueat/new (1)-1600w.webp",
+      "2048w": "/images/optimized/banqueat/new (1)-2048w.webp"
+    },
+    "srcset": "/images/optimized/banqueat/new (1)-480w.webp 480w, /images/optimized/banqueat/new (1)-768w.webp 768w, /images/optimized/banqueat/new (1)-1200w.webp 1200w, /images/optimized/banqueat/new (1)-1600w.webp 1600w, /images/optimized/banqueat/new (1)-2048w.webp 2048w, /images/optimized/banqueat/new (1)-full.webp 1600w",
+    "width": 1600,
+    "height": 1200,
+    "aspectRatio": 1.3333,
+    "placeholder": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAACwBACdASoYABIAPyWEuFWuKCUjKAqpwCSJQBdgAbpIQc39LnR+Wssh3pWOdWaAAMbznhvoCfjmsCBEi8KcGqKK3vdXX7cZSMp4QkMoHV5mqMjHeHASvaCspXpQVpgsQizpAJHQXfPyIoCoSI1QPoumPPcHMVxEX/lAChPadSn2pKNew477n5W1kgwAAA=="
+  },
+  "/images/banqueat/new (2).jpeg": {
+    "originalPath": "/images/banqueat/new (2).jpeg",
+    "fallbackWebp": "/images/optimized/banqueat/new (2)-full.webp",
+    "sources": {
+      "full": "/images/optimized/banqueat/new (2)-full.webp",
+      "480w": "/images/optimized/banqueat/new (2)-480w.webp",
+      "768w": "/images/optimized/banqueat/new (2)-768w.webp",
+      "1200w": "/images/optimized/banqueat/new (2)-1200w.webp",
+      "1600w": "/images/optimized/banqueat/new (2)-1600w.webp",
+      "2048w": "/images/optimized/banqueat/new (2)-2048w.webp"
+    },
+    "srcset": "/images/optimized/banqueat/new (2)-480w.webp 480w, /images/optimized/banqueat/new (2)-768w.webp 768w, /images/optimized/banqueat/new (2)-1200w.webp 1200w, /images/optimized/banqueat/new (2)-1600w.webp 1600w, /images/optimized/banqueat/new (2)-2048w.webp 2048w, /images/optimized/banqueat/new (2)-full.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "aspectRatio": 1.3333,
+    "placeholder": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAABwBACdASoYABIAPyWIu1euKKWjqAgBwCSJQAAEBf+t4E120Khtqq2tDUwwgADJAHJE47k4ffKAgzSvtMQ6I11CDvSAHccLDLgIWFQrQlp7MKEEW+x7qSu2ZbYCuvD6cI+YfuKCshEhvxUV5Wk95DGAYtg+D6bFqZEBBfJtDJf0prU/e3bG6Ax3BtSt8rC6GTcG7YgWCQswI7UAAAA="
+  },
+  "/images/interiors/mandir (3).jpg": {
+    "originalPath": "/images/interiors/mandir (3).jpg",
+    "fallbackWebp": "/images/optimized/interiors/mandir (3)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/mandir (3)-full.webp",
+      "480w": "/images/optimized/interiors/mandir (3)-480w.webp",
+      "768w": "/images/optimized/interiors/mandir (3)-768w.webp",
+      "1200w": "/images/optimized/interiors/mandir (3)-1200w.webp",
+      "1600w": "/images/optimized/interiors/mandir (3)-1600w.webp",
+      "2048w": "/images/optimized/interiors/mandir (3)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/mandir (3)-480w.webp 480w, /images/optimized/interiors/mandir (3)-768w.webp 768w, /images/optimized/interiors/mandir (3)-1200w.webp 1200w, /images/optimized/interiors/mandir (3)-1600w.webp 1600w, /images/optimized/interiors/mandir (3)-2048w.webp 2048w, /images/optimized/interiors/mandir (3)-full.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "placeholder": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAAAwBQCdASoSABgAPyWCtVQuKKSjKA1RwCSJZQDA3BEcf7hR6mg4p8Dyaik0jogefYLvAAD+w0ZA6P7kPQ2rA/aHe8+Zj6lh45KgUc6oKT++GtoxfEZ9ccW9mIiWZFsXye+u8+njAvRggAAA"
+  },
+  "/images/interiors/mandir (4).jpg": {
+    "originalPath": "/images/interiors/mandir (4).jpg",
+    "fallbackWebp": "/images/optimized/interiors/mandir (4)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/mandir (4)-full.webp",
+      "480w": "/images/optimized/interiors/mandir (4)-480w.webp",
+      "768w": "/images/optimized/interiors/mandir (4)-768w.webp",
+      "1200w": "/images/optimized/interiors/mandir (4)-1200w.webp",
+      "1600w": "/images/optimized/interiors/mandir (4)-1600w.webp",
+      "2048w": "/images/optimized/interiors/mandir (4)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/mandir (4)-480w.webp 480w, /images/optimized/interiors/mandir (4)-768w.webp 768w, /images/optimized/interiors/mandir (4)-1200w.webp 1200w, /images/optimized/interiors/mandir (4)-1600w.webp 1600w, /images/optimized/interiors/mandir (4)-2048w.webp 2048w, /images/optimized/interiors/mandir (4)-full.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "placeholder": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABwBACdASoSABgAPyV4uFUuJqUjMBgIAcAkiUAYmwIpE4smKO6tcQnGFhunaAD+WBKKpKiDhKS3RHArbEeynyytlqSX9YHPHTRMhckj0lzym5oBairdWydzfUNA1SmvR8mmKXwCxoN/i/SCj6534yyKXCYAAA=="
+  },
+  "/images/interiors/entrance.jpg": {
+    "originalPath": "/images/interiors/entrance.jpg",
+    "fallbackWebp": "/images/optimized/interiors/entrance-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/entrance-full.webp",
+      "480w": "/images/optimized/interiors/entrance-480w.webp",
+      "768w": "/images/optimized/interiors/entrance-768w.webp",
+      "1200w": "/images/optimized/interiors/entrance-1200w.webp",
+      "1600w": "/images/optimized/interiors/entrance-1600w.webp",
+      "2048w": "/images/optimized/interiors/entrance-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/entrance-480w.webp 480w, /images/optimized/interiors/entrance-768w.webp 768w, /images/optimized/interiors/entrance-1200w.webp 1200w, /images/optimized/interiors/entrance-1600w.webp 1600w, /images/optimized/interiors/entrance-2048w.webp 2048w, /images/optimized/interiors/entrance-full.webp 720w",
+    "width": 720,
+    "height": 1279,
+    "aspectRatio": 0.5629,
+    "placeholder": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAwBACdASoOABgAPyV6tFGuJ6UisAgBwCSJYgCdABxtGVGcLc38cOd8VAAA8hyLKlEhihsu1sPykJ+eyLqLXA2sEU6uKx18fulNEwvMDHoqaYKs2oOddP/mceHvRAd+tsPfUO9owIgF4uNJ5m8cG/6DhwAAAA=="
+  },
+  "/images/interiors/entrance (2).jpg": {
+    "originalPath": "/images/interiors/entrance (2).jpg",
+    "fallbackWebp": "/images/optimized/interiors/entrance (2)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/entrance (2)-full.webp",
+      "480w": "/images/optimized/interiors/entrance (2)-480w.webp",
+      "768w": "/images/optimized/interiors/entrance (2)-768w.webp",
+      "1200w": "/images/optimized/interiors/entrance (2)-1200w.webp",
+      "1600w": "/images/optimized/interiors/entrance (2)-1600w.webp",
+      "2048w": "/images/optimized/interiors/entrance (2)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/entrance (2)-480w.webp 480w, /images/optimized/interiors/entrance (2)-768w.webp 768w, /images/optimized/interiors/entrance (2)-1200w.webp 1200w, /images/optimized/interiors/entrance (2)-1600w.webp 1600w, /images/optimized/interiors/entrance (2)-2048w.webp 2048w, /images/optimized/interiors/entrance (2)-full.webp 666w",
+    "width": 666,
+    "height": 1177,
+    "aspectRatio": 0.5658,
+    "placeholder": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAACQBACdASoOABgAPyV6tFGuJ6UisAgBwCSJbACdMoR4GClotsqboL17tDKnBIAA90CkxfVgInTljPFD2E2NATw25Yx8TgDcOn74Q+cXIoNZORYeID+m5siLTalYQO2bRYs4mX1cFH6lYeA8rG0wEKfZvhAAAA=="
+  },
+  "/images/interiors/entrance (3).jpg": {
+    "originalPath": "/images/interiors/entrance (3).jpg",
+    "fallbackWebp": "/images/optimized/interiors/entrance (3)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/entrance (3)-full.webp",
+      "480w": "/images/optimized/interiors/entrance (3)-480w.webp",
+      "768w": "/images/optimized/interiors/entrance (3)-768w.webp",
+      "1200w": "/images/optimized/interiors/entrance (3)-1200w.webp",
+      "1600w": "/images/optimized/interiors/entrance (3)-1600w.webp",
+      "2048w": "/images/optimized/interiors/entrance (3)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/entrance (3)-480w.webp 480w, /images/optimized/interiors/entrance (3)-768w.webp 768w, /images/optimized/interiors/entrance (3)-1200w.webp 1200w, /images/optimized/interiors/entrance (3)-1600w.webp 1600w, /images/optimized/interiors/entrance (3)-2048w.webp 2048w, /images/optimized/interiors/entrance (3)-full.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "aspectRatio": 0.75,
+    "placeholder": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAADwBACdASoSABgAPyV6uFSuJqUjMBgIAcAkiUAXYAHrEbTR/vWW1ecFMBhtNXYpmgAA/Fp6ukZvmib0G27sj61IhT2e7mX8PO3y8w2iJBiMNGwVbkRYlfCp488xoWfoNzTXbi96Auwk+JMUO+Rw2PCsIFO8c8EPU/nXnNa3Nx/gAA=="
+  },
+  "/images/interiors/wall finishes (6).jpg": {
+    "originalPath": "/images/interiors/wall finishes (6).jpg",
+    "fallbackWebp": "/images/optimized/interiors/wall finishes (6)-full.webp",
+    "sources": {
+      "full": "/images/optimized/interiors/wall finishes (6)-full.webp",
+      "480w": "/images/optimized/interiors/wall finishes (6)-480w.webp",
+      "768w": "/images/optimized/interiors/wall finishes (6)-768w.webp",
+      "1200w": "/images/optimized/interiors/wall finishes (6)-1200w.webp",
+      "1600w": "/images/optimized/interiors/wall finishes (6)-1600w.webp",
+      "2048w": "/images/optimized/interiors/wall finishes (6)-2048w.webp"
+    },
+    "srcset": "/images/optimized/interiors/wall finishes (6)-480w.webp 480w, /images/optimized/interiors/wall finishes (6)-768w.webp 768w, /images/optimized/interiors/wall finishes (6)-1200w.webp 1200w, /images/optimized/interiors/wall finishes (6)-1600w.webp 1600w, /images/optimized/interiors/wall finishes (6)-2048w.webp 2048w, /images/optimized/interiors/wall finishes (6)-full.webp 666w",
+    "width": 666,
+    "height": 1181,
+    "aspectRatio": 0.5639,
+    "placeholder": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAACQAwCdASoOABgAPyV8tFIuJ6UisAgBwCSJSYAIwAJyI48P6sQAAP7SeH+5m326yLdxftZ9Trwh7ULVdU2V+7jzE36NoyLq3IVkZZ5AjTnG3BmUaD8fEkquxpYy9OcXq/i0zCAA"
   }
 }

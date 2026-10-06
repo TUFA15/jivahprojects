@@ -22,15 +22,13 @@ const parseCategoryParam = (param: string | null): PrimaryFilter => {
 const parseRoomParam = (param: string | null): ResidentialSubFilter => {
   if (!param) return 'ALL';
   const lower = param.toLowerCase().replace(/[-_]/g, ' ').trim();
-  if (lower === 'living room') return 'Living Room';
+  if (lower === 'living room' || lower === 'living') return 'Living Room';
   if (lower === 'bedroom') return 'Bedroom';
-  if (lower === 'dining room') return 'Dining Room';
+  if (lower === 'dining room' || lower === 'dining') return 'Dining Room';
   if (lower === 'kitchen') return 'Kitchen';
   if (lower === 'mandir') return 'Mandir';
   if (lower === 'wall finishes' || lower === 'wall finish') return 'Wall Finishes';
-  if (lower === 'tv') return 'TV';
-  if (lower === 'study') return 'Study';
-  if (lower === 'cupboards' || lower === 'cupboard') return 'Cupboards';
+  if (lower === 'entrance' || lower === 'entry' || lower === 'foyer') return 'Entrance';
   return 'ALL';
 };
 
@@ -104,9 +102,7 @@ export const WorkPage: React.FC = () => {
     'Kitchen',
     'Mandir',
     'Wall Finishes',
-    'TV',
-    'Study',
-    'Cupboards',
+    'Entrance',
   ];
 
   // Helper counts
