@@ -916,5 +916,345 @@
     "height": 6117,
     "aspectRatio": 1.3351,
     "placeholder": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAAAwBQCdASoYABIAPyV8slIuJ6SisAgBwCSJYwAAXAZWGkNScX/7wet2kRvaVEgOGLZpAAD+w0bx/zh3iYGEhn5JrnxxSjngTA17Ib1diN+LMXtRDRcC02k1L3JUqe5zqlQ0Ka6WK2RDXP+MKDBY/W8QoBvb3+I+bDHkdXuv2hcf0OWolwVr7xLKSzbxPZuQAAAAAA=="
+  },
+  "/images/offices/commercial (1).jpeg": {
+    "originalPath": "/images/offices/commercial (1).jpeg",
+    "fallbackWebp": "/images/optimized/offices/commercial (1)-full.webp",
+    "sources": {
+      "full": "/images/optimized/offices/commercial (1)-full.webp",
+      "480w": "/images/optimized/offices/commercial (1)-480w.webp",
+      "768w": "/images/optimized/offices/commercial (1)-768w.webp",
+      "1200w": "/images/optimized/offices/commercial (1)-1200w.webp",
+      "1600w": "/images/optimized/offices/commercial (1)-1600w.webp",
+      "1848w": "/images/optimized/offices/commercial (1)-1848w.webp"
+    },
+    "srcset": "/images/optimized/offices/commercial (1)-480w.webp 480w, /images/optimized/offices/commercial (1)-768w.webp 768w, /images/optimized/offices/commercial (1)-1200w.webp 1200w, /images/optimized/offices/commercial (1)-1600w.webp 1600w, /images/optimized/offices/commercial (1)-1848w.webp 1848w, /images/optimized/offices/commercial (1)-full.webp 1155w",
+    "width": 1848,
+    "height": 4096,
+    "aspectRatio": 0.4512,
+    "placeholder": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAwCdASoLABgAPyV6tFGuJ6UisAgBwCSJZwDE2CHTBM6YlyjNyIAA91aYisc+WOnxdEn089r69NXSJ3IXo1UcBYry4/Xk7eWq4uolLyqPAkpeheiAAA=="
+  },
+  "/images/offices/commercial (10).jpeg": {
+    "originalPath": "/images/offices/commercial (10).jpeg",
+    "fallbackWebp": "/images/optimized/offices/commercial (10)-full.webp",
+    "sources": {
+      "full": "/images/optimized/offices/commercial (10)-full.webp",
+      "480w": "/images/optimized/offices/commercial (10)-480w.webp",
+      "768w": "/images/optimized/offices/commercial (10)-768w.webp",
+      "1200w": "/images/optimized/offices/commercial (10)-1200w.webp",
+      "1600w": "/images/optimized/offices/commercial (10)-1600w.webp",
+      "2048w": "/images/optimized/offices/commercial (10)-2048w.webp"
+    },
+    "srcset": "/images/optimized/offices/commercial (10)-480w.webp 480w, /images/optimized/offices/commercial (10)-768w.webp 768w, /images/optimized/offices/commercial (10)-1200w.webp 1200w, /images/optimized/offices/commercial (10)-1600w.webp 1600w, /images/optimized/offices/commercial (10)-2048w.webp 2048w, /images/optimized/offices/commercial (10)-full.webp 1928w",
+    "width": 12288,
+    "height": 16320,
+    "aspectRatio": 0.7529,
+    "placeholder": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQBACdASoSABgAPyWKu1cuKSWjqAgBwCSJZwDHMAiIrLfLsP6x4b8tAAD3BCUyN2QszkcJheN27m3HCrUOZ5Oku7GN80vYIUEAAA=="
+  },
+  "/images/offices/commercial (11).jpeg": {
+    "originalPath": "/images/offices/commercial (11).jpeg",
+    "fallbackWebp": "/images/optimized/offices/commercial (11)-full.webp",
+    "sources": {
+      "full": "/images/optimized/offices/commercial (11)-full.webp",
+      "480w": "/images/optimized/offices/commercial (11)-480w.webp",
+      "768w": "/images/optimized/offices/commercial (11)-768w.webp",
+      "1200w": "/images/optimized/offices/commercial (11)-1200w.webp",
+      "1600w": "/images/optimized/offices/commercial (11)-1600w.webp",
+      "2048w": "/images/optimized/offices/commercial (11)-2048w.webp"
+    },
+    "srcset": "/images/optimized/offices/commercial (11)-480w.webp 480w, /images/optimized/offices/commercial (11)-768w.webp 768w, /images/optimized/offices/commercial (11)-1200w.webp 1200w, /images/optimized/offices/commercial (11)-1600w.webp 1600w, /images/optimized/offices/commercial (11)-2048w.webp 2048w, /images/optimized/offices/commercial (11)-full.webp 1928w",
+    "width": 12288,
+    "height": 16320,
+    "aspectRatio": 0.7529,
+    "placeholder": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAABQBACdASoSABgAPyWGt1YuKSUjqAqpwCSJZQDBzA6tIxxAOJOeBRe8vnUAAPhDw8mP7CaqzRlqiwenhJeQOUb99L51o94Ajv6YqDeZrtQ/H5hNkudMGTxdI/6nRBsFr/oTan3To4NibctglLeAN86+9zYHqXvj3ZbXnDE7mtofEb2UgVfqsAAA"
+  },
+  "/images/offices/commercial (12).jpeg": {
+    "originalPath": "/images/offices/commercial (12).jpeg",
+    "fallbackWebp": "/images/optimized/offices/commercial (12)-full.webp",
+    "sources": {
+      "full": "/images/optimized/offices/commercial (12)-full.webp",
+      "480w": "/images/optimized/offices/commercial (12)-480w.webp",
+      "768w": "/images/optimized/offices/commercial (12)-768w.webp",
+      "1200w": "/images/optimized/offices/commercial (12)-1200w.webp",
+      "1600w": "/images/optimized/offices/commercial (12)-1600w.webp",
+      "2048w": "/images/optimized/offices/commercial (12)-2048w.webp"
+    },
+    "srcset": "/images/optimized/offices/commercial (12)-480w.webp 480w, /images/optimized/offices/commercial (12)-768w.webp 768w, /images/optimized/offices/commercial (12)-1200w.webp 1200w, /images/optimized/offices/commercial (12)-1600w.webp 1600w, /images/optimized/offices/commercial (12)-2048w.webp 2048w, /images/optimized/offices/commercial (12)-full.webp 2560w",
+    "width": 4080,
+    "height": 1836,
+    "aspectRatio": 2.2222,
+    "placeholder": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACwAwCdASoYAAsAPyWAtlKuKCUisAgBwCSJZwDA3CKSIa06iXUNgADKMl7c5MD2u67i21GNXYTnBGi2CN8rArjlgUlG61Poe6P1M8A5Nj+RMrlLnlDc0lMjp7f8kPYWgAA="
+  },
+  "/images/offices/commercial (13).jpeg": {
+    "originalPath": "/images/offices/commercial (13).jpeg",
+    "fallbackWebp": "/images/optimized/offices/commercial (13)-full.webp",
+    "sources": {
+      "full": "/images/optimized/offices/commercial (13)-full.webp",
+      "480w": "/images/optimized/offices/commercial (13)-480w.webp",
+      "768w": "/images/optimized/offices/commercial (13)-768w.webp",
+      "1200w": "/images/optimized/offices/commercial (13)-1200w.webp",
+      "1600w": "/images/optimized/offices/commercial (13)-1600w.webp",
+      "2048w": "/images/optimized/offices/commercial (13)-2048w.webp"
+    },
+    "srcset": "/images/optimized/offices/commercial (13)-480w.webp 480w, /images/optimized/offices/commercial (13)-768w.webp 768w, /images/optimized/offices/commercial (13)-1200w.webp 1200w, /images/optimized/offices/commercial (13)-1600w.webp 1600w, /images/optimized/offices/commercial (13)-2048w.webp 2048w, /images/optimized/offices/commercial (13)-full.webp 2560w",
+    "width": 4080,
+    "height": 1836,
+    "aspectRatio": 2.2222,
+    "placeholder": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAABQBACdASoYAAsAPyV8tVIuJ6UisAgBwCSJZQCw7CFawVyUjCYyYP4bgCbQAPcsktOeQFETrW2HZNsO0U7d0D8jTdVfgQwTc7R+SqUP1gIV/DeJlk/uf+oJEEqVgAAA"
+  },
+  "/images/offices/commercial (14).jpeg": {
+    "originalPath": "/images/offices/commercial (14).jpeg",
+    "fallbackWebp": "/images/optimized/offices/commercial (14)-full.webp",
+    "sources": {
+      "full": "/images/optimized/offices/commercial (14)-full.webp",
+      "480w": "/images/optimized/offices/commercial (14)-480w.webp",
+      "768w": "/images/optimized/offices/commercial (14)-768w.webp",
+      "1200w": "/images/optimized/offices/commercial (14)-1200w.webp",
+      "1600w": "/images/optimized/offices/commercial (14)-1600w.webp",
+      "2048w": "/images/optimized/offices/commercial (14)-2048w.webp"
+    },
+    "srcset": "/images/optimized/offices/commercial (14)-480w.webp 480w, /images/optimized/offices/commercial (14)-768w.webp 768w, /images/optimized/offices/commercial (14)-1200w.webp 1200w, /images/optimized/offices/commercial (14)-1600w.webp 1600w, /images/optimized/offices/commercial (14)-2048w.webp 2048w, /images/optimized/offices/commercial (14)-full.webp 2560w",
+    "width": 4080,
+    "height": 1836,
+    "aspectRatio": 2.2222,
+    "placeholder": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQBACdASoYAAsAPyV8tVIuJ6UisAgBwCSJZwC90ywBIuvobOuFWDjiAADhq40S1uHe3sBPTFrZLSmosIeOvOnrtpCExWufDAJ+FkJDbTDYa/lg8ugDSvQfd2YNphcsQtOZbiLsIAA="
+  },
+  "/images/offices/commercial (15).jpeg": {
+    "originalPath": "/images/offices/commercial (15).jpeg",
+    "fallbackWebp": "/images/optimized/offices/commercial (15)-full.webp",
+    "sources": {
+      "full": "/images/optimized/offices/commercial (15)-full.webp",
+      "480w": "/images/optimized/offices/commercial (15)-480w.webp",
+      "768w": "/images/optimized/offices/commercial (15)-768w.webp",
+      "1200w": "/images/optimized/offices/commercial (15)-1200w.webp",
+      "1600w": "/images/optimized/offices/commercial (15)-1600w.webp",
+      "2048w": "/images/optimized/offices/commercial (15)-2048w.webp"
+    },
+    "srcset": "/images/optimized/offices/commercial (15)-480w.webp 480w, /images/optimized/offices/commercial (15)-768w.webp 768w, /images/optimized/offices/commercial (15)-1200w.webp 1200w, /images/optimized/offices/commercial (15)-1600w.webp 1600w, /images/optimized/offices/commercial (15)-2048w.webp 2048w, /images/optimized/offices/commercial (15)-full.webp 2560w",
+    "width": 4080,
+    "height": 1836,
+    "aspectRatio": 2.2222,
+    "placeholder": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABwAwCdASoYAAsAPyV+tlKuKCUisAgBwCSJZQDG9AvSnnOnucAA/FCAi1WT5fKgtD+g/quvUKFn9d6vUrfii5VZS+Gp81tfRmj06Zdsye0DWZMMbDEAAA=="
+  },
+  "/images/offices/commercial (16).jpeg": {
+    "originalPath": "/images/offices/commercial (16).jpeg",
+    "fallbackWebp": "/images/optimized/offices/commercial (16)-full.webp",
+    "sources": {
+      "full": "/images/optimized/offices/commercial (16)-full.webp",
+      "480w": "/images/optimized/offices/commercial (16)-480w.webp",
+      "768w": "/images/optimized/offices/commercial (16)-768w.webp",
+      "1200w": "/images/optimized/offices/commercial (16)-1200w.webp",
+      "1600w": "/images/optimized/offices/commercial (16)-1600w.webp",
+      "2048w": "/images/optimized/offices/commercial (16)-2048w.webp"
+    },
+    "srcset": "/images/optimized/offices/commercial (16)-480w.webp 480w, /images/optimized/offices/commercial (16)-768w.webp 768w, /images/optimized/offices/commercial (16)-1200w.webp 1200w, /images/optimized/offices/commercial (16)-1600w.webp 1600w, /images/optimized/offices/commercial (16)-2048w.webp 2048w, /images/optimized/offices/commercial (16)-full.webp 2560w",
+    "width": 4080,
+    "height": 1836,
+    "aspectRatio": 2.2222,
+    "placeholder": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAACQAwCdASoYAAsAPyV8tFGuJ6UisAgBwCSJZwC7ABidIr/Ib+AQAOG9HsN9i6pul5MhRKkyIAsVqbVXg16MoDdidTs78+spi3/0FzqeV23/58subF5uQJ9NTyeUNwFG5bAERoAA"
+  },
+  "/images/offices/commercial (17).jpeg": {
+    "originalPath": "/images/offices/commercial (17).jpeg",
+    "fallbackWebp": "/images/optimized/offices/commercial (17)-full.webp",
+    "sources": {
+      "full": "/images/optimized/offices/commercial (17)-full.webp",
+      "480w": "/images/optimized/offices/commercial (17)-480w.webp",
+      "768w": "/images/optimized/offices/commercial (17)-768w.webp",
+      "1200w": "/images/optimized/offices/commercial (17)-1200w.webp",
+      "1600w": "/images/optimized/offices/commercial (17)-1600w.webp",
+      "2048w": "/images/optimized/offices/commercial (17)-2048w.webp"
+    },
+    "srcset": "/images/optimized/offices/commercial (17)-480w.webp 480w, /images/optimized/offices/commercial (17)-768w.webp 768w, /images/optimized/offices/commercial (17)-1200w.webp 1200w, /images/optimized/offices/commercial (17)-1600w.webp 1600w, /images/optimized/offices/commercial (17)-2048w.webp 2048w, /images/optimized/offices/commercial (17)-full.webp 2560w",
+    "width": 4096,
+    "height": 1848,
+    "aspectRatio": 2.2165,
+    "placeholder": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAABwAwCdASoYAAsALuWSyWSkri4uDgDkSygFYAGRqdR2KSagsKAA/lpSnF+E1WQsqIRt7as6QFQyk3BbOPJVEU5AOWd8gUMqjt43IhqvB0zTtAAA"
+  },
+  "/images/offices/commercial (18).jpeg": {
+    "originalPath": "/images/offices/commercial (18).jpeg",
+    "fallbackWebp": "/images/optimized/offices/commercial (18)-full.webp",
+    "sources": {
+      "full": "/images/optimized/offices/commercial (18)-full.webp",
+      "480w": "/images/optimized/offices/commercial (18)-480w.webp",
+      "768w": "/images/optimized/offices/commercial (18)-768w.webp",
+      "1200w": "/images/optimized/offices/commercial (18)-1200w.webp",
+      "1600w": "/images/optimized/offices/commercial (18)-1600w.webp",
+      "2048w": "/images/optimized/offices/commercial (18)-2048w.webp"
+    },
+    "srcset": "/images/optimized/offices/commercial (18)-480w.webp 480w, /images/optimized/offices/commercial (18)-768w.webp 768w, /images/optimized/offices/commercial (18)-1200w.webp 1200w, /images/optimized/offices/commercial (18)-1600w.webp 1600w, /images/optimized/offices/commercial (18)-2048w.webp 2048w, /images/optimized/offices/commercial (18)-full.webp 2560w",
+    "width": 4080,
+    "height": 1836,
+    "aspectRatio": 2.2222,
+    "placeholder": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABQAwCdASoYAAsAPyV8tVIuJ6UisAgBwCSJZQC/OAqJnoi70ADW2AFpNnL0XtmehMOws/QCiCiE7XC2dH6gYoTsHSdC+x29SavWVB1pKOi75OKvhXTsiIGilD6OrGUphOwXAAAA"
+  },
+  "/images/offices/commercial (19).jpeg": {
+    "originalPath": "/images/offices/commercial (19).jpeg",
+    "fallbackWebp": "/images/optimized/offices/commercial (19)-full.webp",
+    "sources": {
+      "full": "/images/optimized/offices/commercial (19)-full.webp",
+      "480w": "/images/optimized/offices/commercial (19)-480w.webp",
+      "768w": "/images/optimized/offices/commercial (19)-768w.webp",
+      "1200w": "/images/optimized/offices/commercial (19)-1200w.webp",
+      "1600w": "/images/optimized/offices/commercial (19)-1600w.webp",
+      "2048w": "/images/optimized/offices/commercial (19)-2048w.webp"
+    },
+    "srcset": "/images/optimized/offices/commercial (19)-480w.webp 480w, /images/optimized/offices/commercial (19)-768w.webp 768w, /images/optimized/offices/commercial (19)-1200w.webp 1200w, /images/optimized/offices/commercial (19)-1600w.webp 1600w, /images/optimized/offices/commercial (19)-2048w.webp 2048w, /images/optimized/offices/commercial (19)-full.webp 2560w",
+    "width": 4080,
+    "height": 1836,
+    "aspectRatio": 2.2222,
+    "placeholder": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQAwCdASoYAAsAPyV8tVIuJ6UisAgBwCSJZwC+SCKiK+0QsP1/w8AAye6xrXdx/g4Z5Ld3PkJ8XA43sXbDXoH9IvzbyKPkoFA0gT5nS8MM5V4OjAvHWx3zv6BB3AAA"
+  },
+  "/images/offices/commercial (2).jpeg": {
+    "originalPath": "/images/offices/commercial (2).jpeg",
+    "fallbackWebp": "/images/optimized/offices/commercial (2)-full.webp",
+    "sources": {
+      "full": "/images/optimized/offices/commercial (2)-full.webp",
+      "480w": "/images/optimized/offices/commercial (2)-480w.webp",
+      "768w": "/images/optimized/offices/commercial (2)-768w.webp",
+      "1200w": "/images/optimized/offices/commercial (2)-1200w.webp",
+      "1600w": "/images/optimized/offices/commercial (2)-1600w.webp",
+      "2048w": "/images/optimized/offices/commercial (2)-2048w.webp"
+    },
+    "srcset": "/images/optimized/offices/commercial (2)-480w.webp 480w, /images/optimized/offices/commercial (2)-768w.webp 768w, /images/optimized/offices/commercial (2)-1200w.webp 1200w, /images/optimized/offices/commercial (2)-1600w.webp 1600w, /images/optimized/offices/commercial (2)-2048w.webp 2048w, /images/optimized/offices/commercial (2)-full.webp 2560w",
+    "width": 16320,
+    "height": 12288,
+    "aspectRatio": 1.3281,
+    "placeholder": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAQBQCdASoYABIAPyWCuVWuKCWjKAqpwCSJZQC3QA8tQHeNbo0fBBapQm48Vuoa0AoAAN9We9NTVs9L+UtRhfx+8HN/tCprwTXII6MG7RNGFFOqqbBLrVhlsaCl2YjGLYXKJ//DJaNbjabkhLFj1ZoUpAAAAA=="
+  },
+  "/images/offices/commercial (20).jpeg": {
+    "originalPath": "/images/offices/commercial (20).jpeg",
+    "fallbackWebp": "/images/optimized/offices/commercial (20)-full.webp",
+    "sources": {
+      "full": "/images/optimized/offices/commercial (20)-full.webp",
+      "480w": "/images/optimized/offices/commercial (20)-480w.webp",
+      "768w": "/images/optimized/offices/commercial (20)-768w.webp",
+      "1200w": "/images/optimized/offices/commercial (20)-1200w.webp",
+      "1600w": "/images/optimized/offices/commercial (20)-1600w.webp",
+      "1848w": "/images/optimized/offices/commercial (20)-1848w.webp"
+    },
+    "srcset": "/images/optimized/offices/commercial (20)-480w.webp 480w, /images/optimized/offices/commercial (20)-768w.webp 768w, /images/optimized/offices/commercial (20)-1200w.webp 1200w, /images/optimized/offices/commercial (20)-1600w.webp 1600w, /images/optimized/offices/commercial (20)-1848w.webp 1848w, /images/optimized/offices/commercial (20)-full.webp 1155w",
+    "width": 1848,
+    "height": 4096,
+    "aspectRatio": 0.4512,
+    "placeholder": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAwCdASoLABgAPyV6tVGuJ6UisAgBwCSJZwC+SB6R7h7E6jTGC3UAAOI+5uCbs+rrfPZkiSgvAZopB+XNzb/93L52U5uD2aOq4Xbyx6DsqGnR3eyXd5qWQy0/BAAA"
+  },
+  "/images/offices/commercial (3).jpeg": {
+    "originalPath": "/images/offices/commercial (3).jpeg",
+    "fallbackWebp": "/images/optimized/offices/commercial (3)-full.webp",
+    "sources": {
+      "full": "/images/optimized/offices/commercial (3)-full.webp",
+      "480w": "/images/optimized/offices/commercial (3)-480w.webp",
+      "768w": "/images/optimized/offices/commercial (3)-768w.webp",
+      "1200w": "/images/optimized/offices/commercial (3)-1200w.webp",
+      "1600w": "/images/optimized/offices/commercial (3)-1600w.webp",
+      "2048w": "/images/optimized/offices/commercial (3)-2048w.webp"
+    },
+    "srcset": "/images/optimized/offices/commercial (3)-480w.webp 480w, /images/optimized/offices/commercial (3)-768w.webp 768w, /images/optimized/offices/commercial (3)-1200w.webp 1200w, /images/optimized/offices/commercial (3)-1600w.webp 1600w, /images/optimized/offices/commercial (3)-2048w.webp 2048w, /images/optimized/offices/commercial (3)-full.webp 2560w",
+    "width": 16320,
+    "height": 12288,
+    "aspectRatio": 1.3281,
+    "placeholder": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABQBACdASoYABIAPx18r1GtKCQisAwBoCOJZwDAKB6PMWwN8+6CRHWrGAAAAPyi8fjmIrKgWjf03ihT5g1ZLd+TB3+lJ2oaHMbKFqNsRMMrzgbZd2inoNJ0V5pQGw/xQw7V8eAA"
+  },
+  "/images/offices/commercial (4).jpeg": {
+    "originalPath": "/images/offices/commercial (4).jpeg",
+    "fallbackWebp": "/images/optimized/offices/commercial (4)-full.webp",
+    "sources": {
+      "full": "/images/optimized/offices/commercial (4)-full.webp",
+      "480w": "/images/optimized/offices/commercial (4)-480w.webp",
+      "768w": "/images/optimized/offices/commercial (4)-768w.webp",
+      "1200w": "/images/optimized/offices/commercial (4)-1200w.webp",
+      "1600w": "/images/optimized/offices/commercial (4)-1600w.webp",
+      "2048w": "/images/optimized/offices/commercial (4)-2048w.webp"
+    },
+    "srcset": "/images/optimized/offices/commercial (4)-480w.webp 480w, /images/optimized/offices/commercial (4)-768w.webp 768w, /images/optimized/offices/commercial (4)-1200w.webp 1200w, /images/optimized/offices/commercial (4)-1600w.webp 1600w, /images/optimized/offices/commercial (4)-2048w.webp 2048w, /images/optimized/offices/commercial (4)-full.webp 1928w",
+    "width": 12288,
+    "height": 16320,
+    "aspectRatio": 0.7529,
+    "placeholder": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADwBACdASoSABgAPyF6t1GtJ6WisBgMAaAkCWcAuDAQ92jd/McuhC7jdJfe2EztPygA/e0/g4Fs/9rMISNxeICZIS5w60D7duHExJhTKSE+JgEQ8fxehLnBbkzp6NsXhN62aggwayQAAA=="
+  },
+  "/images/offices/commercial (5).jpeg": {
+    "originalPath": "/images/offices/commercial (5).jpeg",
+    "fallbackWebp": "/images/optimized/offices/commercial (5)-full.webp",
+    "sources": {
+      "full": "/images/optimized/offices/commercial (5)-full.webp",
+      "480w": "/images/optimized/offices/commercial (5)-480w.webp",
+      "768w": "/images/optimized/offices/commercial (5)-768w.webp",
+      "1200w": "/images/optimized/offices/commercial (5)-1200w.webp",
+      "1600w": "/images/optimized/offices/commercial (5)-1600w.webp",
+      "2048w": "/images/optimized/offices/commercial (5)-2048w.webp"
+    },
+    "srcset": "/images/optimized/offices/commercial (5)-480w.webp 480w, /images/optimized/offices/commercial (5)-768w.webp 768w, /images/optimized/offices/commercial (5)-1200w.webp 1200w, /images/optimized/offices/commercial (5)-1600w.webp 1600w, /images/optimized/offices/commercial (5)-2048w.webp 2048w, /images/optimized/offices/commercial (5)-full.webp 1928w",
+    "width": 12288,
+    "height": 16320,
+    "aspectRatio": 0.7529,
+    "placeholder": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADQBACdASoSABgAPyWGt1YuKKUjqAqpwCSJYgC7M2QFHfuC3217jx9ENqNT7nziwAD+jscoOz8XeYepPjeij9jsqdE8Bw2GdX1wCS87gMLz85Dc69lXKew8HsgG3r7Xp6N2hBja7OTnwxapTKttcN24sYQAAAAA"
+  },
+  "/images/offices/commercial (6).jpeg": {
+    "originalPath": "/images/offices/commercial (6).jpeg",
+    "fallbackWebp": "/images/optimized/offices/commercial (6)-full.webp",
+    "sources": {
+      "full": "/images/optimized/offices/commercial (6)-full.webp",
+      "480w": "/images/optimized/offices/commercial (6)-480w.webp",
+      "768w": "/images/optimized/offices/commercial (6)-768w.webp",
+      "1200w": "/images/optimized/offices/commercial (6)-1200w.webp",
+      "1600w": "/images/optimized/offices/commercial (6)-1600w.webp",
+      "2048w": "/images/optimized/offices/commercial (6)-2048w.webp"
+    },
+    "srcset": "/images/optimized/offices/commercial (6)-480w.webp 480w, /images/optimized/offices/commercial (6)-768w.webp 768w, /images/optimized/offices/commercial (6)-1200w.webp 1200w, /images/optimized/offices/commercial (6)-1600w.webp 1600w, /images/optimized/offices/commercial (6)-2048w.webp 2048w, /images/optimized/offices/commercial (6)-full.webp 2560w",
+    "width": 16320,
+    "height": 12288,
+    "aspectRatio": 1.3281,
+    "placeholder": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADQBACdASoYABIAPyV6tFIuJ6UisBgMAcAkiWUAuwAN02u/9YniZNVchZM1oiZ8sADhjTtbTpqVcV1IdwIRHd3LBlYKD/kgGsYCQCMeAfyJC6b6n3Lw00kQDZj0mN/itnNmWAgS/5oAAA=="
+  },
+  "/images/offices/commercial (7).jpeg": {
+    "originalPath": "/images/offices/commercial (7).jpeg",
+    "fallbackWebp": "/images/optimized/offices/commercial (7)-full.webp",
+    "sources": {
+      "full": "/images/optimized/offices/commercial (7)-full.webp",
+      "480w": "/images/optimized/offices/commercial (7)-480w.webp",
+      "768w": "/images/optimized/offices/commercial (7)-768w.webp",
+      "1200w": "/images/optimized/offices/commercial (7)-1200w.webp",
+      "1600w": "/images/optimized/offices/commercial (7)-1600w.webp",
+      "1836w": "/images/optimized/offices/commercial (7)-1836w.webp"
+    },
+    "srcset": "/images/optimized/offices/commercial (7)-480w.webp 480w, /images/optimized/offices/commercial (7)-768w.webp 768w, /images/optimized/offices/commercial (7)-1200w.webp 1200w, /images/optimized/offices/commercial (7)-1600w.webp 1600w, /images/optimized/offices/commercial (7)-1836w.webp 1836w, /images/optimized/offices/commercial (7)-full.webp 1152w",
+    "width": 1836,
+    "height": 4080,
+    "aspectRatio": 0.45,
+    "placeholder": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACwAwCdASoLABgAPyV8tFGuJ6UisAgBwCSJaQC90Bm0+68EdCdlwAD9zVM6lx5UtD9Xh+QFYrwBSI6FKZbXRNN2bQrcz8L6xjHGj8KKSLbgAA=="
+  },
+  "/images/offices/commercial (8).jpeg": {
+    "originalPath": "/images/offices/commercial (8).jpeg",
+    "fallbackWebp": "/images/optimized/offices/commercial (8)-full.webp",
+    "sources": {
+      "full": "/images/optimized/offices/commercial (8)-full.webp",
+      "480w": "/images/optimized/offices/commercial (8)-480w.webp",
+      "768w": "/images/optimized/offices/commercial (8)-768w.webp",
+      "1200w": "/images/optimized/offices/commercial (8)-1200w.webp",
+      "1600w": "/images/optimized/offices/commercial (8)-1600w.webp",
+      "2048w": "/images/optimized/offices/commercial (8)-2048w.webp"
+    },
+    "srcset": "/images/optimized/offices/commercial (8)-480w.webp 480w, /images/optimized/offices/commercial (8)-768w.webp 768w, /images/optimized/offices/commercial (8)-1200w.webp 1200w, /images/optimized/offices/commercial (8)-1600w.webp 1600w, /images/optimized/offices/commercial (8)-2048w.webp 2048w, /images/optimized/offices/commercial (8)-full.webp 2560w",
+    "width": 4080,
+    "height": 1836,
+    "aspectRatio": 2.2222,
+    "placeholder": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAACwAwCdASoYAAsAPyV6tVIuJ6UisAgBwCSJZwAAXsgqD5n/HUqbgADJXq2rUnXFKfB8Kb2gMnQKxavHiIOXTAi7RLWMIg2fmdJv19OS1Et5Ab7qHkRoMRKXTxGOAAAA"
+  },
+  "/images/offices/commercial (9).jpeg": {
+    "originalPath": "/images/offices/commercial (9).jpeg",
+    "fallbackWebp": "/images/optimized/offices/commercial (9)-full.webp",
+    "sources": {
+      "full": "/images/optimized/offices/commercial (9)-full.webp",
+      "480w": "/images/optimized/offices/commercial (9)-480w.webp",
+      "768w": "/images/optimized/offices/commercial (9)-768w.webp",
+      "1200w": "/images/optimized/offices/commercial (9)-1200w.webp",
+      "1600w": "/images/optimized/offices/commercial (9)-1600w.webp",
+      "2048w": "/images/optimized/offices/commercial (9)-2048w.webp"
+    },
+    "srcset": "/images/optimized/offices/commercial (9)-480w.webp 480w, /images/optimized/offices/commercial (9)-768w.webp 768w, /images/optimized/offices/commercial (9)-1200w.webp 1200w, /images/optimized/offices/commercial (9)-1600w.webp 1600w, /images/optimized/offices/commercial (9)-2048w.webp 2048w, /images/optimized/offices/commercial (9)-full.webp 2560w",
+    "width": 16320,
+    "height": 12288,
+    "aspectRatio": 1.3281,
+    "placeholder": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACwAwCdASoYABIAPyWCtFQuKKSjKA1RwCSJaQAAL4u+xis0mlb5EAD8ZZnUuNhWleoJq0bOoy/ZqQwOh8HBE5mcQiMEmDw/EieQOUd0k1F5TVU9/rXMU/UWnQ6JnGvAAAA="
   }
 }
