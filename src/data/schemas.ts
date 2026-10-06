@@ -14,7 +14,7 @@ export const LOCAL_BUSINESS_SCHEMA = {
     name: 'Jitesh',
     jobTitle: 'Founder & Principal Designer',
   },
-  telephone: '+91 74992 16241',
+  telephone: ['+91 74992 16241', '+91 89797 19955'],
   email: 'jivahprojects@gmail.com',
   description:
     'JIVAH Projects is a premier interior design studio based in Mundhwa (near Hermosa Casa), Pune, specializing in residential interior design, modular kitchen design, and bespoke living spaces across Pune, Maharashtra.',
@@ -143,7 +143,7 @@ export const FAQ_ITEMS = [
   {
     question: 'How can I contact JIVAH Projects for an interior project?',
     answer:
-      'You can reach our interior design studio directly via email at jivahprojects@gmail.com or phone at +91 74992 16241.',
+      'You can reach our interior design studio directly via email at jivahprojects@gmail.com or phone at +91 74992 16241 / +91 89797 19955.',
   },
 ];
 

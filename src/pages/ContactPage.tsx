@@ -10,6 +10,12 @@ export const CONTACT_CONFIG = {
   email: 'jivahprojects@gmail.com',
   phone: '+91 74992 16241',
   phoneRaw: '+917499216241',
+  phoneSecondary: '+91 89797 19955',
+  phoneSecondaryRaw: '+918979719955',
+  phones: [
+    { display: '+91 74992 16241', raw: '+917499216241' },
+    { display: '+91 89797 19955', raw: '+918979719955' },
+  ],
   locationUrl: 'https://maps.google.com/?q=Hermosa+Casa,+Mundhwa,+Pune,+Maharashtra',
   social: {
     instagram: 'https://www.instagram.com/jivahprojects',
@@ -75,12 +81,17 @@ export const ContactPage: React.FC = () => {
                 <span className="text-[10px] font-mono tracking-[0.25em] text-[#2F7B93] uppercase block font-semibold">
                   TELEPHONE INQUIRIES
                 </span>
-                <a
-                  href={`tel:${CONTACT_CONFIG.phoneRaw}`}
-                  className="font-mono text-2xl sm:text-3xl text-[#11181C] hover:text-[#2F7B93] transition-colors duration-300 block"
-                >
-                  {CONTACT_CONFIG.phone}
-                </a>
+                <div className="space-y-2">
+                  {CONTACT_CONFIG.phones.map((p) => (
+                    <a
+                      key={p.raw}
+                      href={`tel:${p.raw}`}
+                      className="font-mono text-2xl sm:text-3xl text-[#11181C] hover:text-[#2F7B93] transition-colors duration-300 block"
+                    >
+                      {p.display}
+                    </a>
+                  ))}
+                </div>
               </div>
 
               {/* Location Direct Access */}
