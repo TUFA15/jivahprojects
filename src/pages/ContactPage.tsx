@@ -207,7 +207,7 @@ export const ContactPage: React.FC = () => {
                 <div className="grid grid-cols-2 gap-4 border-t border-[#2F7B93]/15 pt-4 text-xs font-mono">
                   <div>
                     <span className="text-[#2F7B93] block text-[10px] uppercase font-semibold tracking-wider">WORKING DAYS</span>
-                    <span className="text-[#11181C] block font-sans font-medium mt-1">Mon – Sun (Wed Closed)</span>
+                    <span className="text-[#11181C] block font-sans font-medium mt-1">Mon – Sun</span>
                   </div>
                   <div>
                     <span className="text-[#2F7B93] block text-[10px] uppercase font-semibold tracking-wider">STUDIO HOURS</span>
